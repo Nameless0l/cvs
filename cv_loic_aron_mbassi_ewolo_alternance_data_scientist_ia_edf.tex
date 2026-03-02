@@ -1,0 +1,132 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs EDF ---
+\definecolor{primary}{RGB}{0, 85, 164}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Data Scientist IA} \\
+    \textit{\small Disponible dès septembre 2026 pour 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Conception et déploiement d'un système multi-agents (RAG, LangChain, Google ADK) orchestrant des LLM pour des recommandations contextuelles via APIs. Formation double diplôme ENSEA/Polytechnique Yaoundé en IA et mathématiques appliquées. Expérience en recherche IA (MILA, Québec) et en NLP (Transformers, BERT, GPT-2). Compétences Python solides, appétence pour l'IA agentique et les architectures LLM.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Deep Learning, Traitement du Signal, IA, Systèmes Embarqués.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA \& LLM :} Python, PyTorch, TensorFlow, LangChain, RAG, Google ADK, Transformers (BERT, GPT-2), Prompt Engineering.}
+    \item \small{\textbf{Data Science :} Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Streamlit, analyse de séries temporelles.}
+    \item \small{\textbf{Architecture \& Outils :} FastAPI, Flask, Docker, Git, API REST, RabbitMQ, MongoDB, MySQL.}
+    \item \small{\textbf{Mathématiques :} Algèbre linéaire (SVD), Probabilités/Statistiques, Calcul différentiel, Analyse numérique.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets IA}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Système Multi-Agents Agricole (Recherche)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet académique -- IA agentique} \hfill \textit{Google ADK, RAG, LangChain, Gemini, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un système de 4 agents IA collaboratifs utilisant Gemini comme moteur LLM et RAG pour l'enrichissement contextuel.}
+        \item \small{Orchestration via Google ADK : raisonnement, planification, résolution de conflits entre agents spécialisés.}
+        \item \small{Intégration d'APIs externes (OpenWeather, marchés) pour recommandations agricoles multi-critères.}
+        \item \small{Déploiement Python (Poetry, FastAPI), containerisation Docker.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Montréal, Canada} \hfill \textit{Python, PyTorch, TensorFlow}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène ``Grokking'' (généralisation tardive des réseaux de neurones) sur des MLP.}
+        \item \small{Reproduction d'expériences état de l'art, analyse mathématique de la convergence.}
+        \item \small{Pipelines de tests statistiques, visualisation et documentation rigoureuse des résultats.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche -- Labo ICS, Florence (Italie)} \hfill \textit{Avr 2026 -- Août 2026} \\
+\textit{Analyse de Signaux \& Neurosciences Computationnelles} \hfill \textit{Python, MATLAB, Traitement du signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse de signaux et développement d'outils en Python pour la recherche en neurosciences computationnelles.}
+        \item \small{Lecture et exploitation de publications scientifiques en anglais, proposition d'axes de recherche.}
+        \item \small{Maintenance et évolution de bibliothèques MATLAB pour le laboratoire.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{1\textsuperscript{er} Prix IndabaX Africa 2025 -- IA Santé} \hfill \textit{2025} \\
+\textit{Hackathon Pan-Africain} \hfill \textit{Python, Pandas, Flask, Streamlit}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Nettoyage et structuration de données médicales, déploiement d'API Flask.}
+        \item \small{Dashboard Streamlit interactif pour visualisation des KPIs santé.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Détection de contenus sexistes -- Women Safe (NLP)} \hfill \textit{2023} \\
+\textit{Compétition MLPC} \hfill \textit{BERT, GPT-2, Transformers, Python}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle NLP de détection de misogynie dans les textes (réseaux sociaux, offres d'emploi).}
+        \item \small{Fine-tuning de modèles Transformers (BERT, GPT-2), analyse des biais éthiques.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} CITS National Hackathon 2024 (75 équipes) -- Optimisation collecte déchets (ML, algorithme du voyageur de commerce).}
+    \item \small{\textbf{Lead AI Cell} (ENSPY) : +50\% membres, collaboration avec mentors Google DeepMind.}
+    \item \small{\textbf{Workshops animés :} ML, Fine-tuning LLM, React, Laravel. Articles techniques sur Medium.}
+    \item \small{\textbf{Certif.} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

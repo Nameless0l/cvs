@@ -1,0 +1,160 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Wavestone ---
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage : GenAI Product Engineer (Python, Streamlit \& Tooling)} \\
+    \textit{\small Disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Télétravail possible) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech/#portfolio}{Portfolio : mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme(ENSEA/Polytech Yaoundé) et développeur Full Stack freelance. J'ai remporté le Hackathon IndabaX en développant un dashboard Streamlit complet communiquant avec une Api faite préalablement avec flask. J'ai de solides expériences en \textbf{Python}, pipelines \textbf{GenAI} (Multi-Agents/RAG) et  en mise en production (Docker/CI/CD), je suis opérationnel immédiatement pour contribuer et apprendre même de façon autonomes.}
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (Cergy, France)} \hfill \textit{2025 -- Présent} \\
+    \small{Ingénieur 2A - IA, Signal et Systèmes Embarqués.}
+    \item \textbf{École Polytechnique Yaoundé} \hfill \textit{2021 -- present} \\
+    \small{Ingénieur de Conception (Master 2) : Génie Logiciel \& Systèmes.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{GenAI \& Python :} \textbf{Python} (Avancé), \textbf{Streamlit}, FastAPI, PyTorch, Pipelines RAG, Computer Vision.}
+    \item \small{\textbf{Product \& Web :} React.js, Architecture Full Stack, Docker, Git, CI/CD, Déploiement API.}
+    \item \small{\textbf{Outils :} Gestion de Datasets, Scripting d'automatisation, Parsing (XML/UML).}
+\end{itemize}
+
+% --- EXPÉRIENCE (Focus : Streamlit & Shipping) ---
+\section{Expériences Significatives}
+\begin{itemize}[leftmargin=*, label={}]
+    \resumeSubheading
+      {Assistant de Recherche (Deep Learning)}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA)}{Remote}
+      \resumeItem{Travaux sur la généralisation des réseaux de neurones (PyTorch).}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Rigueur scientifique : reproduction d'expériences SOTA et analyse de métriques.}
+      \end{itemize}
+          \vspace{2pt}
+    \resumeSubheading
+      {Vainqueur Hackathon IndabaX (IA Santé) - Dashboard Streamlit}{2025}
+      {Projet "Shipping" Intensif (48h)}{Yaoundé, Cameroun}
+      \resumeItem{Conception et déploiement d'un outil de diagnostic médical basé sur l'IA.}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement de l'interface utilisateur interactive avec \textbf{Streamlit} (Dashboarding).}
+        \item \small{Nettoyage de données médicales et déploiement d'API (Flask) pour l'inférence.}
+        \item \small{\textbf{Résultat :} 1ère place sur 50+ équipes pour la qualité du produit fini.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Ingénieur Full-Stack \& Architecture (Freelance)}{Oct. 2024 -- Août 2025}
+      {CSC Fintech}{Douala, Cameroun}
+      \resumeItem{Développement d'une plateforme critique en production (Fintech).}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture robuste et sécurisée (Laravel/Docker/Redis) pour gérer des transactions.}
+        \item \small{Mise en place de tests et workflows CI/CD. Mentalité "Ship & Iterate".}
+      \end{itemize}
+\end{itemize}
+
+% --- PROJETS (Focus : Pipelines & Tooling) ---
+\section{Projets R\&D \& Outillage}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Système Multi-Agents & Pipelines GenAI} \hfill \textit{Projet Open Source}
+\vspace{-2pt}
+\item \small{Conception d'un pipeline orchestrant 5 agents IA autonomes (Google ADK).}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Mise en place d'une architecture \textbf{RAG} et gestion de contexte pour la cohérence des réponses.}
+        \item \small{Intégration API (Gemini), vectorisation et conteneurisation Docker.}
+    \end{itemize}
+    \vspace{1pt}
+
+\item \textbf{Laravel API Generator (Tooling for Devs)} \hfill \textit{Projet Perso}
+\vspace{-2pt}
+\item \small{Outil d'automatisation parsant des diagrammes UML pour générer du code structuré.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Focus sur l'expérience développeur (DX) et l'automatisation des tâches répétitives.}
+    \end{itemize}
+    \vspace{1pt}
+
+\item \textbf{Harmony Projects (Computer Vision)} \hfill \textit{Projet R\&D}
+\vspace{-2pt}
+\item \small{Traitement d'images et IA appliquée (Reconnaissance gestes).}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Utilisation de PyTorch et création de datasets customisés.}
+    \end{itemize}
+    \item \textbf{Violence Detection (2ème place compétition)} \hfill \textit{TensorFlow, OpenCV}
+    \vspace{-2pt}
+    \item \small{Modèle de classification vidéo temps réel pour détection de violence. Pipeline bout-en-bout.}
+    \vspace{1pt}
+
+    \item \textbf{ClassSync - Reconnaissance Faciale} \hfill \textit{Face Recognition, OpenCV}
+    \vspace{-2pt}
+    \item \small{Système d'appel automatique temps réel. Présenté au salon national GETEC.}
+    \vspace{1pt}
+        \resumeSubheading
+      {Projet UROP - Analyse ECG par Deep Learning}{2024}
+      {Collaboration Google DeepMind}{Remote}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle de détection d'anomalies cardiaques avec \textbf{TensorFlow/Keras} et extraction de features.}
+        \item \small{Mentorat par chercheurs DeepMind, méthodologie recherche appliquée.}
+      \end{itemize}
+    \vspace{2pt}
+
+\end{itemize}
+
+% --- ENGAGEMENT ---
+\section{Engagement & Distinctions}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Hackathons :} \textbf{2\textsuperscript{ème} Place} IndabaX (Streamlit/IA), \textbf{1\textsuperscript{ère} Place} Mountain Hub.
+    \item \textbf{Leadership :} Lead AI Cell ENSPY (Gestion de communauté technique, Workshops Python/ML).
+    \item \textbf{Certifications :} DeepLearning.AI (Supervised ML), Python for Data Science (IBM).
+    \item \textbf{Langues :} Anglais (Technique), Français (Natif).
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,164 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs CEA ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Élève-Ingénieur : Systèmes Multi-Agents \& Développement IA} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme ENSEA/Polytechnique, spécialisé en \textbf{systèmes multi-agents} et \textbf{intelligence artificielle}. Expérience en orchestration d'agents IA avec \textbf{Google ADK}, développement d'outils de \textbf{génération de code}, et recherche sur les réseaux de neurones (Mila). Je souhaite contribuer au déploiement du \textbf{MCP} sur réseau privé au \textbf{CEA/CESTA}.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - Traitement du Signal, Systèmes Embarqués et Intelligence Artificielle.}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique de Yaoundé} \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Logiciel, \textbf{Modélisation UML/AUML}, Systèmes Multi-Agents.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Cameroun | 2020 -- 2022} \\
+    \small{Licence Informatique \& Mathématiques : Algorithmique, Analyse, Algèbre Linéaire.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Agents IA \& LLM :} \textbf{Google ADK}, LangChain, RAG, Gemini, Fine-tuning, Hugging Face, Transformers.}
+    \item \small{\textbf{Programmation :} \textbf{Python} (Avancé), C/C++, Java (JADE), TypeScript, SQL.}
+    \item \small{\textbf{Formats \& Protocoles :} JSON, XML, APIs REST, GraphQL, WebSockets.}
+    \item \small{\textbf{DevOps \& Déploiement :} \textbf{Docker}, Git, CI/CD, Linux, Poetry, FastAPI.}
+    \item \small{\textbf{IA \& Data :} PyTorch, TensorFlow, Scikit-learn, NLP, Computer Vision.}
+\end{itemize}
+
+% --- EXPÉRIENCES ---
+\section{Expériences Significatives}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Assistant de Recherche - Généralisation des Réseaux de Neurones}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Collaboration à distance}{\textbf{Québec, Canada}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur le phénomène de « Grokking » dans les réseaux de neurones sous \textbf{PyTorch}.}
+        \item \small{Reproduction d'expériences SOTA et analyse mathématique de la convergence.}
+        \item \small{Travail sur des modèles de langage et leur comportement de généralisation.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Backend \& Architecture (Mission Freelance)}{Oct. 2024 -- Janv. 2025}
+      {CSC Fintech - Plateforme Bancaire Sécurisée}{Yaoundé, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une API sécurisée avec \textbf{Docker}, Redis et gestion des accès concurrents.}
+        \item \small{Mise en place de tests automatisés et documentation technique.}
+      \end{itemize}
+\end{itemize}
+
+% --- PROJETS ---
+\section{Projets Techniques (Agents IA \& Génération de Code)}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Système Multi-Agents pour l'Agriculture (Google ADK)} \hfill \textit{Projet Personnel}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Orchestration de 5 agents IA} spécialisés (météo, cultures, santé des plantes, économie, ressources).}
+        \item \small{Architecture avec \textbf{Google ADK} (Agent Development Kit), \textbf{Gemini 2.0 Flash}, RAG.}
+        \item \small{Gestion du \textbf{contexte partagé} entre agents et résolution de conflits inter-agents.}
+        \item \small{Déploiement avec \textbf{Poetry, FastAPI, Docker}.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Laravel API Generator - Génération de Code depuis Prompts/UML} \hfill \textit{Open Source (+30 \faGithubAlt)}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Outil générant automatiquement du \textbf{code backend} à partir de diagrammes UML/XML.}
+        \item \small{Parsing avancé de fichiers \textbf{XML/JSON} et calculs géométriques sur les relations.}
+        \item \small{Intégration de \textbf{LLM} pour assistance intelligente à la génération de code.}
+        \item \small{Architecture modulaire, déployé sur Packagist.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{GoFind - Architecture Microservices} \hfill \textit{Projet Académique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture microservices avec \textbf{RabbitMQ} pour communication asynchrone entre services.}
+        \item \small{API Gateway, orchestration des workflows, déploiement \textbf{Docker}.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Women Safe - Détection de Contenus par NLP} \hfill \textit{Compétition MLPC}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle NLP avec \textbf{BERT, GPT-2, Transformers} pour classification de textes.}
+        \item \small{Fine-tuning de modèles pré-entraînés sur dataset custom.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{YembaAudio - NLP sur Langues Low-Resource} \hfill \textit{Projet Personnel}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Application d'apprentissage de langue locale avec modèle pré-entraîné \textbf{Hugging Face}.}
+        \item \small{Reconnaissance vocale et NLP sur langue peu dotée.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions, Certifications \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Hackathons :} \textbf{1\textsuperscript{ère} Place} IndabaX Africa (IA Santé), \textbf{1\textsuperscript{ère} Place} CITS National, \textbf{1\textsuperscript{ère} Place} Mountain Hub.
+    \item \textbf{Leadership :} Chef Cellule IA (Polytechnique) - Animation workshops ML, Fine-tuning LLM.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM), AI Agents (IBM - En cours).
+    \item \textbf{Langues :} Français (Natif), Anglais (Professionnel/Technique).
+\end{itemize}
+
+\end{document}

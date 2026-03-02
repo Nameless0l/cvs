@@ -1,0 +1,150 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Ingénieur IA - Analyse de Défauts} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme \textbf{ENSEA/Polytechnique Yaoundé}, spécialisé en traitement du signal et apprentissage automatique. Expérience en détection d'anomalies sur signaux (ECG) et en classification d'images. Je recherche un stage au \textbf{CEA Gramat} pour appliquer mes compétences en Python et Machine Learning à l'analyse de défauts.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - \textbf{Traitement du Signal} et Intelligence Artificielle.} \\
+    \textit{\small{Cours : Traitement numérique du signal, Filtrage, Statistiques, Apprentissage automatique.}}
+    \vspace{2pt}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Cameroun | 2020 -- 2022} \\
+    \small{Licence Informatique \& Mathématiques : Analyse, Algèbre Linéaire, Probabilités.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA \& Data Science :} \textbf{Python} (NumPy, Pandas, Scikit-learn), PyTorch, TensorFlow/Keras, Computer Vision.}
+    \item \small{\textbf{Traitement du Signal :} Filtrage numérique, Analyse spectrale, Séries temporelles, Extraction de features.}
+    \item \small{\textbf{Mathématiques :} Algèbre Linéaire (SVD), Probabilités/Statistiques, Analyse Numérique, Optimisation.}
+    \item \small{\textbf{Outils :} Git, Linux, Docker, Jupyter, Matplotlib/Seaborn.}
+\end{itemize}
+
+% --- EXPÉRIENCES RECHERCHE ---
+\section{Expériences en Recherche \& IA}
+\begin{itemize}[leftmargin=*, label={-}]
+
+    \resumeSubheading
+      {Assistant de Recherche - Généralisation des Réseaux de Neurones}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Remote}{Québec, Canada}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Travaux sur le phénomène de « Grokking » (généralisation tardive) dans les réseaux de neurones.}
+        \item \small{Implémentation de pipelines de tests sous \textbf{PyTorch}, reproduction d'expériences SOTA.}
+        \item \small{Analyse mathématique du comportement des modèles face au surapprentissage.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Projet de Recherche UROP - Analyse de Signaux ECG}{2024}
+      {École Polytechnique de Yaoundé (Mentors Google DeepMind)}{Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un modèle de \textbf{détection d'anomalies} cardiaques à partir d'images d'ECG.}
+        \item \small{Prétraitement : filtrage du bruit, extraction de features sur séries temporelles.}
+        \item \small{Classification avec TensorFlow/Keras, évaluation sur données réelles.}
+      \end{itemize}
+
+\end{itemize}
+
+% --- PROJETS IA ---
+\section{Projets en Machine Learning}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Violence Detection - Classification Vidéo} \hfill \textit{Compétition | 2022}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Modèle de \textbf{détection d'anomalies} (violence) dans des flux vidéo en temps réel.}
+    \item \small{Technologies : TensorFlow, OpenCV. \textbf{2\textsuperscript{ème} place} de la compétition.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Women Safe - Détection de Contenus Sexistes (NLP)} \hfill \textit{Compétition MLPC | 2023}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{État de l'art et comparaison de modèles (BERT, GPT-2) pour la détection de misogynie.}
+    \item \small{Étude des biais éthiques dans les modèles de langage.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management - Prédiction \& Optimisation} \hfill \textit{Hackathon CITS | 2024}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Modèle de prédiction des besoins de collecte de déchets à partir de données IoT.}
+    \item \small{Algorithmes d'optimisation de routes. \textbf{1\textsuperscript{er} prix} contre 75 équipes.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{ClassSync - Reconnaissance Faciale Temps Réel} \hfill \textit{Projet Académique | 2024}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Système de détection et reconnaissance faciale pour appel automatique.}
+    \item \small{Technologies : OpenCV, Face Recognition. Présenté au salon national GETEC.}
+\end{itemize}
+
+\end{itemize}
+
+% --- CERTIFICATIONS & LANGUES ---
+\section{Certifications, Leadership \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM).
+    \item \textbf{Leadership :} Chef de la Cellule IA (Polytechnique Yaoundé), animation de workshops ML.
+    \item \textbf{Hackathons :} \textbf{1\textsuperscript{ère} Place} IndabaX Africa (IA Santé), \textbf{1\textsuperscript{ère} Place} CITS National.
+    \item \textbf{Langues :} Français (Natif), Anglais (Technique/Scientifique).
+    \item \textbf{Note Bac Physique :} 19.25/20.
+\end{itemize}
+
+\end{document}

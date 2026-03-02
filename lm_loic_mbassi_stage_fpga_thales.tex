@@ -1,0 +1,83 @@
+\documentclass[11pt,a4paper]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=1cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+
+\definecolor{primary}{RGB}{35, 55, 123}
+\hypersetup{colorlinks=true, urlcolor=primary}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- EN-TÊTE EXPÉDITEUR ---
+\begin{flushleft}
+\textbf{Loïc Aron MBASSI EWOLO} \\
+Élève-ingénieur ENSEA (2A) \\
+Cergy, France \\
+\faPhone\ (+33) 7 59 52 33 98 \\
+\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\
+\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi}{linkedin.com/in/loic-mbassi}
+\end{flushleft}
+
+\vspace{0.5cm}
+
+% --- DESTINATAIRE ---
+\begin{flushright}
+\textbf{Thales} \\
+Site de Laval \\
+Laval, Mayenne \\
+\today
+\end{flushright}
+
+\vspace{0.5cm}
+
+% --- OBJET ---
+\noindent\textbf{Objet :} Candidature au stage Ingénieur développement FPGA (MPSoC/RFSoC) -- Réf. R0305879
+
+\vspace{0.5cm}
+
+% --- CORPS DE LA LETTRE ---
+Madame, Monsieur,
+
+\vspace{0.3cm}
+
+Actuellement élève-ingénieur en deuxième année à l'ENSEA dans le cadre d'un double diplôme avec l'École Polytechnique de Yaoundé, je suis à la recherche d'un stage de 4 à 5 mois à partir d'avril 2026. Votre offre de stage en développement FPGA sur des composants RFSoC de la famille AMD/Xilinx Zynq UltraScale+ correspond précisément à mon projet professionnel et à mes compétences actuelles.
+
+\vspace{0.3cm}
+
+Ma formation à l'ENSEA m'a permis d'acquérir une expérience concrète en conception numérique sur FPGA. Dans le cadre de mes travaux pratiques, j'ai conçu un système SoPC complet sur Cyclone V intégrant un soft-processeur Nios V via Platform Designer. Ce projet m'a amené à :
+\begin{itemize}
+    \item Développer des descriptions RTL en \textbf{VHDL} et gérer les contraintes de placement/routage
+    \item Configurer l'architecture mémoire et le mapping d'adresses sur bus Avalon
+    \item Intégrer un contrôleur I2C Master pour communiquer avec un accéléromètre ADXL345
+    \item Programmer en \textbf{C} embarqué avec développement de BSP et debug via JTAG UART
+\end{itemize}
+
+\vspace{0.3cm}
+
+Cette expérience m'a familiarisé avec le flux de développement FPGA complet, de la spécification à la validation sur cible. Bien que j'aie travaillé sur des outils Intel/Altera (Quartus, ModelSim), je suis motivé pour monter en compétence sur l'environnement Xilinx (Vivado, SDK) que vous utilisez pour vos projets RFSoC.
+
+\vspace{0.3cm}
+
+Par ailleurs, mon parcours en systèmes embarqués inclut des projets hardware concrets : prototypage d'un gant instrumenté avec soudure de capteurs IMU et interfaçage STM32, ainsi qu'un projet de robotique autonome pour le challenge CoHoMa (Défense) impliquant des algorithmes SLAM. Ces expériences ont développé ma rigueur technique et ma capacité à travailler en équipe sur des projets à forte composante matérielle.
+
+\vspace{0.2cm}
+
+Intégrer l'équipe FPGA de Thales à Laval, spécialisée dans les systèmes IFF pour l'aéronautique, représente une opportunité de contribuer à un projet technologique de premier plan. Je suis particulièrement intéressé par l'élaboration d'un banc de tests à base de FPGA de dernière génération, où je pourrai apporter mon autonomie, ma rigueur et mon esprit d'analyse.
+
+\vspace{0.2cm}
+
+Je reste à votre disposition pour un entretien afin d'échanger sur ma candidature et sur la manière dont je pourrais contribuer à vos projets.
+
+\vspace{0.2cm}
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+\noindent\textbf{Loïc Aron MBASSI EWOLO}
+
+\end{document}

@@ -1,0 +1,132 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs EasyMile (bleu tech) ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage R\&D : Deep Learning \& Perception 3D} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 5 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile France) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-2pt}
+
+% --- PROFIL ---
+\noindent\small{Expérience en traitement de données \textbf{Lidar 3D} et déploiement de modèles de détection (\textbf{YOLOv10}) sur Jetson dans le cadre du challenge CoHoMa (robotique autonome). Stage de recherche au \textbf{MILA} sur la généralisation des réseaux de neurones. Double diplôme ENSEA (Systèmes Embarqués, IA) / Polytechnique Yaoundé. Je souhaite appliquer mes compétences en Deep Learning et Computer Vision à la perception 3D chez \textbf{EasyMile}.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur : \textbf{Deep Learning}, Traitement du Signal, Systèmes Embarqués.} \\
+    \textit{\small{Projets : IA embarquée sur GPU (Jetson), Traitement de données capteurs.}}
+    \vspace{2pt}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Deep Learning :} PyTorch, TensorFlow/Keras, Computer Vision, Segmentation, Détection d'objets.}
+    \item \small{\textbf{Perception 3D :} Lidar 3D (VLP16), Nuages de points, SLAM, Fusion de capteurs, Caméra de profondeur.}
+    \item \small{\textbf{Outils \& Déploiement :} Python, C/C++, Docker, Git, Linux, Nvidia Jetson, OpenCV.}
+    \item \small{\textbf{Maths :} Algèbre Linéaire, Optimisation, Probabilités, Analyse Numérique.}
+\end{itemize}
+
+% --- EXPÉRIENCES RECHERCHE & PROJETS ---
+\section{Recherche \& Projets en Perception}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Robotique Autonome : Perception Lidar \& Vision} \hfill \textit{2025 -- En cours} \\
+\textit{Challenge CoHoMa (Défense / ENSEA)} \hfill \textit{Lidar 3D VLP16, YOLOv10, SLAM, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Intégration et traitement de \textbf{nuages de points Lidar 3D} (VLP16) pour cartographie environnement.}
+        \item \small{Déploiement de modèles de détection (\textbf{YOLOv10}) sur \textbf{Nvidia Jetson} avec optimisation GPU.}
+        \item \small{Implémentation d'algorithmes de \textbf{SLAM} et fusion données Lidar/caméra de profondeur.}
+        \item \small{Environnements reproductibles via \textbf{Docker} pour pipelines de perception.}
+    \end{itemize}
+\vspace{6pt}
+
+\item \textbf{Assistant de Recherche : Généralisation des Réseaux de Neurones} \hfill \textit{Juin -- Sept. 2025} \\
+\textit{MILA (Institut Québécois d'IA) -- Remote} \hfill \textit{PyTorch, Python, Mathématiques}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur le phénomène de \textbf{Grokking} (généralisation tardive après surapprentissage).}
+        \item \small{Implémentation de pipelines d'entraînement et tests statistiques sous \textbf{PyTorch}.}
+        \item \small{Reproduction d'expériences SOTA et analyse mathématique de la convergence.}
+    \end{itemize}
+\vspace{6pt}
+
+\item \textbf{Détection de Violence en Temps Réel (Vidéo)} \hfill \textit{2022} \\
+\textit{Compétition Académique -- 2\textsuperscript{ème} place} \hfill \textit{TensorFlow, OpenCV, Computer Vision}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle de \textbf{classification vidéo temps réel} pour détection automatique de violence.}
+        \item \small{Pipeline complet : extraction de features temporelles, entraînement CNN, inférence optimisée.}
+    \end{itemize}
+\vspace{6pt}
+
+\item \textbf{Analyse Automatique de Signaux ECG} \hfill \textit{2024} \\
+\textit{Projet UROP -- Collaboration mentors Google DeepMind} \hfill \textit{TensorFlow/Keras, Traitement du signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle de détection d'anomalies cardiaques à partir d'images d'ECG (Computer Vision + Signal).}
+        \item \small{Techniques de filtrage numérique et extraction de features sur séries temporelles.}
+    \end{itemize}
+\vspace{4pt}
+
+\item \textbf{Reconnaissance Langue des Signes (Vision + Capteurs)} \hfill \textit{2023 -- 2024} \\
+\textit{Projet Harmony (équipe) -- Laboratoire IOTA, Polytechnique Yaoundé} \hfill \textit{PyTorch, OpenCV, Mediapipe}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation au développement d'un système ML de reconnaissance de gestes (\textbf{dataset custom}).}
+        \item \small{Contribution à la fusion données capteurs IMU et vision par ordinateur (\textbf{Mediapipe}, OpenCV).}
+    \end{itemize}
+\vspace{6pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{1\textsuperscript{ère} Place} -- IndabaX Africa 2025 (IA pour la Santé) : Déploiement API ML, dashboard Streamlit.
+    \item \textbf{Leadership :} Responsable Cellule IA (Polytechnique Yaoundé) -- +50\% membres, collaboration Google DeepMind.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (Natif), Anglais (Professionnel/Technique).
+\end{itemize}
+
+\end{document}

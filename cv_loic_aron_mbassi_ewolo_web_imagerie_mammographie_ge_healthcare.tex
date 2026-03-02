@@ -1,0 +1,166 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Ingénieur Développement Web - Imagerie Médicale} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme \textbf{ENSEA/Polytechnique Yaoundé} (5\textsuperscript{ème} année), spécialisé en développement web (\textbf{JavaScript/TypeScript}, React) et traitement d'images. Expérience en télémédecine (SOSDOCTA) et analyse d'images médicales (projet ECG). Je recherche un stage chez \textbf{GE HealthCare} pour contribuer au développement d'applications de visualisation d'images mammographiques.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - Systèmes Embarqués, Traitement du Signal et IA.}
+    \vspace{2pt}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (5\textsuperscript{ème} année) : Génie Informatique, Génie Logiciel, Architecture Web.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Cameroun | 2020 -- 2022} \\
+    \small{Licence Informatique \& Mathématiques.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Web Frontend :} \textbf{JavaScript/TypeScript}, \textbf{React.js}, HTML5, CSS3, Redux, Responsive Design.}
+    \item \small{\textbf{Web Backend :} Node.js, Laravel/PHP, \textbf{REST APIs}, MySQL, MongoDB.}
+    \item \small{\textbf{Autres Langages :} Python, \textbf{C/C++}, Java.}
+    \item \small{\textbf{Traitement d'Images :} OpenCV, TensorFlow/Keras, Computer Vision.}
+    \item \small{\textbf{Outils :} \textbf{Git}, Docker, Figma (notions UI/UX), Méthodologie Agile.}
+\end{itemize}
+
+% --- EXPÉRIENCES WEB ---
+\section{Expériences en Développement Web}
+\begin{itemize}[leftmargin=*, label={-}]
+
+    \resumeSubheading
+      {Développeur Full Stack - Plateforme de Télémédecine}{Fév. 2022 -- Mars 2024}
+      {SOSDOCTA (Santé / Télémédecine)}{Remote (Belgique/Canada)}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'une plateforme complète de télémédecine : réservation, paiement, dashboards médecins/patients.}
+        \item \small{Technologies : Laravel, PHP, MySQL, \textbf{JavaScript}, OAuth2/JWT.}
+        \item \small{Gestion des données médicales sensibles (conformité RGPD). Maintenance sur 2 ans.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Frontend - Marketplace}{Fév. 2023 -- Mai 2023}
+      {TOGETTECH-LLC}{Yaoundé, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'une interface marketplace responsive avec \textbf{React.js} et Redux.}
+        \item \small{Création de composants réutilisables, optimisation des performances frontend.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Backend - API Financière}{Oct. 2024 -- Jan. 2025}
+      {CSC Fintech}{Yaoundé, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une architecture \textbf{REST API} sécurisée avec gestion des transactions concurrentes.}
+        \item \small{Technologies : Laravel, Docker, Redis, MySQL.}
+      \end{itemize}
+
+\end{itemize}
+
+% --- PROJETS IMAGERIE ---
+\section{Projets en Traitement d'Images \& Santé}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Détection de Cancer du Poumon (IA Médicale)} \hfill \textit{ENSPY | Sept. 2024 -- Juin 2025}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Classification d'\textbf{images médicales} : distinction cas bénins/malins.}
+    \item \small{Mise en place de pipelines de \textbf{prétraitement d'images} pour améliorer la précision des modèles.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Serious Game pour la Formation Médicale} \hfill \textit{Projet Unity | 2024}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Conception d'un simulateur de consultation pour aider les internes en médecine.}
+    \item \small{Travail sur l'\textbf{interface utilisateur} et les interactions avec des besoins utilisateurs spécifiques.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet UROP - Analyse d'Images ECG} \hfill \textit{Mentors Google DeepMind | 2024}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Détection d'anomalies cardiaques à partir d'\textbf{images d'électrocardiogrammes}.}
+    \item \small{Prétraitement d'images, extraction de features, classification avec TensorFlow/Keras.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Outil d'Analyse Vidéo avec YOLO} \hfill \textit{Projet Personnel | 2025}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Script Python : détection de personnes, extraction de séquences, optimisation mémoire.}
+\end{itemize}
+
+\end{itemize}
+
+% --- RECHERCHE ---
+\section{Expérience en Recherche}
+\begin{itemize}[leftmargin=*, label={-}]
+    \resumeSubheading
+      {Assistant de Recherche - IA}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Remote}{Québec, Canada}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Travaux sur la généralisation des réseaux de neurones sous Python/PyTorch.}
+      \end{itemize}
+\end{itemize}
+
+% --- CERTIFICATIONS & LANGUES ---
+\section{Hackathons, Certifications \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Hackathons :} \textbf{1\textsuperscript{ère} Place} IndabaX Africa (IA Santé : nettoyage données, dashboard Streamlit, API Flask).
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (Natif), \textbf{Anglais} (Professionnel/Technique).
+\end{itemize}
+
+\end{document}

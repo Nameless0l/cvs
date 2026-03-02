@@ -1,0 +1,155 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage[english]{babel}
+\usepackage{fontawesome5}
+
+\input glyphtounicode
+\pdfgentounicode=1
+
+\usepackage[default]{sourcesanspro}
+\urlstyle{same}
+
+% Optimized margins for one page
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0in}
+\renewcommand{\footrulewidth}{0in}
+\setlength{\tabcolsep}{0in}
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\topmargin}{-0.8in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\textheight}{1.6in}
+\raggedbottom{}
+
+
+% Compact section styles
+\titleformat{\section}
+  {\scshape\normalsize\bfseries}{}
+  {0em}{\color{blue}}[\color{black}\titlerule\vspace{-3pt}]
+\titlespacing{\section}{0pt}{4pt}{3pt}
+
+% Compact custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}\vspace{-2pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.12in, label={\tiny$\bullet$}, itemsep=1pt, parsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+% Compact header
+\begin{center}
+\textbf{\large MBASSI EWOLO Loïc Aron}\\
+\small{\textit{Recherche d'un stage de 4 mois et 3 semaines à partir d'avril 2026 en Génie Logiciel}}\\
+\small{7 rue les chênes d'or, 95000, Cergy-Pontoise, France}\\
+\small{\href{loicaron.mbassiewolo@ensea.fr}{ \faEnvelope \uline{loicaron.mbassiewolo@ensea.fr}} | \faPhone (+33) 7 59 52 33 98 | \href{https://www.linkedin.com/in/mbassi-loic-3942a9246/}{\faLinkedin \ @mbassi-loic} |
+\href{https://github.com/Nameless0l}{\faGithub \ @Nameless0l} |
+\href{https://mbassiloic.tech/#portfolio}{\faBriefcase  \ portfolio} |
+\href{https://medium.com/@wwwmbassiloic}{\faMedium \ medium}
+\href{https://mbassiloic.tech/#blog}{\faBlog \ blog}
+\end{center}
+\vspace{-11pt}
+
+
+\section{Compétences}
+\resumeItemListStart
+\item \textbf{Technique - IA/ML :} TensorFlow, PyTorch, Scikit-learn, Keras, OpenCV, MediaPipe | \textbf{Déploiement sur Docker}
+\item \textbf{Programmation :} Python, Java, JavaScript, TypeScript, HTML/CSS | \textbf{Outils :} Git, VS Code, MySQL, PostgreSQL, Figma
+\item \textbf{Frameworks :} React.js, NextJS, Spring Boot \textbf{| Science des Données :} Pandas, NumPy, Matplotlib, Jupyter
+\item \textbf{Compétences Transversales :} Travail d'équipe, Créativité, Pensée critique
+\item \textbf{Langues :} Français (Langue maternelle), Anglais (Communication scientifique)
+\resumeItemListEnd
+
+\section{Formation}
+\resumeItemListStart
+\item \textbf{École nationale supérieure de l'électronique et de ses applications (ENSEA)} \hfill 2025-Présent\\
+2ème année - Formation en SIA (Signal et IA), Ingénieur de conception
+\item \textbf{École Nationale Supérieure Polytechnique, Yaoundé} \hfill 2021-2025\\
+-Niveau 3 \& 4 (Génie Informatique), compétences : Python pour ML, Développement full-stack, Analyse de données\\
+-Niveau 1 \& 2 - compétences : Logique, algorithmique, programmation en C | Licence 1 en Informatique en parallèle
+\resumeItemListEnd
+
+\section{Expérience Professionnelle}
+\resumeItemListStart
+\item \textbf{Stage à distance chez MILA, Québec, Canada} \hfill 06/2025 - 08/2025
+\begin{itemize}[leftmargin=0.12in, itemsep=-1pt]
+\item Grokking (d'OpenAI), Généralisation des réseaux de neurones après sur-apprentissage, test des travaux sur des MLP 
+\end{itemize}
+\item \textbf{Freelance, à distance - CSC, Douala} \hfill 10/2024 - 08/2025
+\begin{itemize}[leftmargin=0.12in, itemsep=-1pt]
+\item FinTech, développement d'une API et des interfaces de gestion financières pour des petites entreprises 
+\end{itemize}
+\item \textbf{Stagiaire - Laboratoire IOTA, ENSPY} \hfill 06/2024 - 09/2024
+\begin{itemize}[leftmargin=0.12in, itemsep=-1pt]
+\item Implémentation d'algorithmes pour la traduction de la langue des signes camerounaise
+\end{itemize}
+\resumeItemListEnd
+
+
+\section{Projets Significatifs}
+\resumeItemListStart
+
+\item \textbf{Upgrade Jetson - Challenge CoHoMa}  \hfill Présent - académique
+\begin{itemize}[leftmargin=0.12in, itemsep=-3pt]
+\vspace{-2pt}
+\item Mise en service des Jetsons pour des robots de l'armée, intégration et optimisation des modèles d'IA légers
+\end{itemize}
+\item \textbf{Harmony Gloves - Traduction de la langue des signes} \hfill 2024-Présent
+\begin{itemize}[leftmargin=0.12in, itemsep=-3pt]
+\vspace{-2pt}
+\item Système basé sur des capteurs avec les réseaux de neurones pour la reconnaissance en temps réel des gestes
+\end{itemize}
+\vspace{-2pt}
+
+\item \textbf{Yemba Language Learning Tool avec modèles d'IA pré-entraînés - Audio Langue locale au Cameroun } \hfill 2024
+\begin{itemize}[leftmargin=0.12in, itemsep=-2pt]
+\item Application développée en Python pour l'apprentissage des langues locales : \href{https://yemba-learning-audio.mbassiloic.tech/}{ici}
+\end{itemize}
+
+\vspace{-2pt}
+\item \textbf{Système Multi-Agents basé sur l'ADK de Google - Optimisation de l'agriculture} \hfill 2024, projet personnel
+\begin{itemize}[leftmargin=0.12in, itemsep=-2pt]
+\item Système conçu pour optimiser les rendements agricoles au Cameroun grâce à 04 agents d'IA collaborant ensemble 
+\end{itemize}
+
+\item \textbf{Smart bin : solution intégrée éco-responsable avec IA et analyse statistique} \hfill Octobre - Novembre 2024
+\begin{itemize}[leftmargin=0.12in, itemsep=-2pt]
+\item Système IoT de poubelle intelligente basé sur les algorithmes de ML (Random Forest) et du voyageur de commerce pour l'optimisation de la collecte des déchets, \textbf{1er Prix} National CITS
+\end{itemize}
+\resumeItemListEnd
+\vspace{-2pt}
+
+\section{Activités Académiques}
+\resumeItemListStart
+\item \textbf{Cellule IA ENSPY} - Chef de la cellule \hfill 2024-2025 | Préparation aux hackathons, veille technologique, leader des projets
+\item \textbf{Chef cellule Projet Informatique} \hfill 2023, 2024 | Réalisation des projets informatiques de l'école | Management
+\item \textbf{Vice-Président club Génie Informatique} -  \hfill 2023, 2024 | Réalisation et encadrements de certains projets tech de l'école (Projet antivirus) et management des équipes et cellules du club 
+\item \textbf{MLPC (Machine Learning Project Competition)} \hfill 2023, 2024, 2025 | IA pour l'analyse des ECG, détection d'expressions misogynes
+\resumeItemListEnd
+
+\section{Réalisations et Récompenses}
+\resumeItemListStart
+\item \textbf{Hackathons et Récompenses Majeures :} 1er prix Hackathon CITS (Oct 2024) | 2ème prix national hackathon d'Indabax (Challenge IA d'Afrique) | 1er prix Hackathon Douala (Août 2024) | 2ème prix Semaine de la Fille Scientifique (Mars 2023) | 1er prix journée de la fille scientifique (Mars 2023) | Nuit de l'informatique France 2024 (Déc 2024)
+\item \textbf{Publications :} Mini \href{https://mbassiloic.tech/#blog}{\uline{blogs}} sur l'IA | Présentations d'articles et débats sur les thèmes d'IA (Ex : risque existentiel)
+\resumeItemListEnd
+
+\section{Certifications}
+\resumeItemListStart
+\item \textbf{En cours :} Supervised ML: Regression \& Classification (DeepLearning.ai) | TOEIC | Agents IA en embarqué (IBM)
+\item \textbf{Complétées :} ML Supervisé : Régression \& Classification (DeepLearning.ai) | Python for Data Science | POO Java (EPFL)
+\resumeItemListEnd
+
+\section{Références}
+\resumeItemListStart
+\item \textbf{Ing. James} - Ingénieur de Recherche Google DeepMind, Chef de la Cellule IA ENSPY | \href{mailto:moudie@deepmind.com}{\uline{moudie@deepmind.com}}
+\item \textbf{Ing, PhD. Pascal} - Mila, Ingénieur de Recherche | \href{mailto:pascalnotsawo@gmail.com}{\uline{pascalnotsawo@gmail.com}}
+\item \textbf{Dr. Anne Marie CHANA} - Directrice du Laboratoire IOTA | \href{mailto:anne.chana@univ-yaounde1.cm}{\uline{anne.chana@univ-yaounde1.cm}}
+\resumeItemListEnd
+
+\end{document}

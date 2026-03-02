@@ -1,0 +1,163 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Élève-Ingénieur : Intelligence Artificielle \& Vérification Logicielle} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile France) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme ENSEA/Polytechnique, spécialisé en \textbf{Intelligence Artificielle} et \textbf{systèmes critiques}. Expérience en recherche IA (Mila), développement de \textbf{tests automatisés} et projet académique de \textbf{détection de défauts et contrôle tolérant aux pannes sur drone}. Je recherche un stage chez \textbf{Thales} pour contribuer à la vérification de pilotes automatiques par IA.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - Traitement du Signal, \textbf{Systèmes Embarqués} et Intelligence Artificielle.} \\
+    \textit{\small{Cours : Automatique, Contrôle, Traitement du Signal, Programmation C/Python.}}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique de Yaoundé} \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Logiciel, \textbf{Tests \& Vérification}, Mathématiques Appliquées.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA \& Machine Learning :} PyTorch, TensorFlow, Scikit-learn, Computer Vision, NLP, Hugging Face.}
+    \item \small{\textbf{Programmation :} \textbf{Python} (Avancé), C/C++, Java, MATLAB/Simulink.}
+    \item \small{\textbf{Tests \& Qualité Logicielle :} Tests unitaires, Tests d'intégration, CI/CD, Git, Documentation technique.}
+    \item \small{\textbf{Outils \& Méthodologies :} Docker, Linux, UML, Méthodologie Agile, Revue de code.}
+\end{itemize}
+
+% --- EXPÉRIENCES ---
+\section{Expériences Significatives}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Assistant de Recherche - Généralisation \& Interprétabilité IA}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Collaboration à distance}{\textbf{Québec, Canada}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur le phénomène de « Grokking » (généralisation tardive) dans les réseaux de neurones.}
+        \item \small{Reproduction d'expériences SOTA et \textbf{validation d'hypothèses} par tests statistiques sous \textbf{PyTorch}.}
+        \item \small{Analyse mathématique de la convergence et documentation des résultats expérimentaux.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Backend \& Tests (Mission Freelance)}{Oct. 2024 -- Janv. 2025}
+      {CSC Fintech - Plateforme Bancaire Sécurisée}{Yaoundé, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une API financière critique avec haute disponibilité et sécurité des transactions.}
+        \item \small{Mise en place de \textbf{tests unitaires et d'intégration}, revues de code pour garantir la fiabilité.}
+        \item \small{Documentation technique et accompagnement des développeurs juniors.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Projet UROP - Analyse Automatique d'ECG par IA}{2024}
+      {Collaboration avec mentors Google DeepMind}{Yaoundé, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un modèle de \textbf{détection et classification d'anomalies} cardiaques à partir d'images ECG.}
+        \item \small{Extraction de features sur signaux, filtrage numérique et traitement d'images médicales.}
+      \end{itemize}
+\end{itemize}
+
+% --- PROJETS ACADÉMIQUES ---
+\section{Projets Académiques \& Techniques}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control (Drone)} \hfill \textit{Projet d'option ENSEA}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique d'un \textbf{drone en conditions nominales et dégradées} (perte d'efficacité actionneurs).}
+        \item \small{Conception d'un schéma de \textbf{détection de défauts} basé sur des observateurs (résidus, équations de parité).}
+        \item \small{Mise en place d'une stratégie de \textbf{contrôle tolérant aux défauts (FTC)} avec reconfiguration de contrôleur.}
+        \item \small{Simulation de scénarios de pannes réalistes sous \textbf{MATLAB/Simulink}.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Upgrade Jetson - Robotique Autonome (Challenge CoHoMa Défense)} \hfill \textit{En cours}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation d'algorithmes de \textbf{SLAM} et détection d'objets (\textbf{YOLOv10}) sur Nvidia Jetson.}
+        \item \small{Intégration de capteurs (Lidar 3D, caméras) et validation des modules de navigation autonome.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Laravel API Generator - Outil Open Source} \hfill \textit{Projet Personnel}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un générateur de code backend à partir de diagrammes UML/XML.}
+        \item \small{Parsing avancé, architecture modulaire, \textbf{+30 étoiles GitHub}, déployé sur Packagist.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Système Multi-Agents Agricole} \hfill \textit{Projet Personnel}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 5 agents IA (Google ADK, Gemini, RAG) pour recommandations multi-critères.}
+        \item \small{Architecture avec résolution de conflits inter-agents et adaptation contextuelle.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- PRIX & CERTIFICATIONS ---
+\section{Distinctions \& Certifications}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Hackathons :} \textbf{1\textsuperscript{ère} Place} IndabaX Africa 2025 (IA Santé), \textbf{1\textsuperscript{ère} Place} CITS National, \textbf{1\textsuperscript{ère} Place} Mountain Hub.
+    \item \textbf{Leadership :} Chef Cellule IA \& Projets (Polytechnique) - Animation workshops ML, +50\% membres.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (Natif), Anglais (Professionnel/Technique).
+    \item \textbf{Intérêts :} Piano, Rédaction articles techniques (Medium), Veille technologique aéronautique.
+\end{itemize}
+
+\end{document}

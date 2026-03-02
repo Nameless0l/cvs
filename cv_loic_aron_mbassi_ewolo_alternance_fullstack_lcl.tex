@@ -1,0 +1,152 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs (Bleu LCL / Crédit Agricole) ---
+\definecolor{primary}{RGB}{0, 51, 102}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Ingénieur d'Études et Développement Full Stack} \\
+    \textit{\small Disponible dès septembre 2026 pour 1 an} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur double diplôme ENSEA/Polytechnique Yaoundé avec \textbf{+3 ans d'expérience en développement web Full Stack} et une pratique de Java (Spring Boot, Design Patterns) et des frameworks frontend (React, TypeScript). Expérience en secteur bancaire/Fintech, APIs RESTful et architecture logicielle. Habitué au travail en équipe Agile et à la livraison continue.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus incluant architecture logicielle et DevOps.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Logiciel, POO avancée, Design Patterns, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Java :} Java 17+, Spring Boot, POO avancée, Design Patterns (Singleton, Factory, Observer, MVC).}
+    \item \small{\textbf{Frontend :} Angular (notions), React.js (maîtrise), TypeScript, HTML5, CSS3/SASS, Responsive Design.}
+    \item \small{\textbf{Backend \& APIs :} APIs RESTful, Laravel/PHP (maîtrise), Node.js (Express, NestJS), Python (FastAPI).}
+    \item \small{\textbf{Bases de données :} MySQL (maîtrise), MongoDB, ScyllaDB (NoSQL), Redis. Modélisation et optimisation.}
+    \item \small{\textbf{DevOps \& Tests :} Git/GitHub (maîtrise), Docker, CI/CD, Tests unitaires/intégration, Jira, Documentation.}
+    \item \small{\textbf{Méthodologies :} Agile/Scrum (sprints, rétrospectives, code review), Clean Code, SOLID.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique -- collaboration internationale).}
+\end{itemize}
+
+% --- EXPÉRIENCES PROFESSIONNELLES ---
+\section{Expériences Professionnelles}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Développeur Backend @ CSC (Cameroon Software Company)} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Yaoundé -- Secteur Fintech / Bancaire} \hfill \textit{Laravel, MySQL, Docker, REST APIs, Redis}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception et développement du backend d'une plateforme de transactions financières sécurisée.}
+        \item \small{Gestion de transactions concurrentes avec conformité aux normes financières.}
+        \item \small{Implémentation d'APIs RESTful documentées et architecture scalable (Docker, Redis).}
+        \item \small{Travail en équipe Agile : sprints, démonstrations, revues de code.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Web Full Stack @ SOSDOCTA} \hfill \textit{Fév 2022 -- Mars 2024} \\
+\textit{Remote (Belgique/Canada) -- Télémédecine} \hfill \textit{Laravel, PHP, MySQL, JavaScript, OAuth2/JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement complet d'une plateforme de télémédecine : backend, dashboard, système de paiement.}
+        \item \small{Maintenance évolutive sur 2 ans : nouvelles fonctionnalités, corrections, gestion données sensibles (RGPD).}
+        \item \small{Sécurisation des accès avec OAuth2/JWT et gestion des rôles médecins/patients.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Frontend @ TOGETTECH-LLC} \hfill \textit{Fév 2023 -- Mai 2023} \\
+\textit{Yaoundé -- Marketplace} \hfill \textit{React.js, Redux, JavaScript, HTML/CSS}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'interfaces responsives avec composants réutilisables et gestion d'état Redux.}
+        \item \small{Optimisation des performances frontend et intégration avec APIs backend.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- PROJETS ---
+\section{Projets Techniques}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Freengo -- Application Covoiturage (Java)} \hfill \textit{2024} \\
+\textit{Projet Académique} \hfill \textit{Spring Boot (Java), ScyllaDB (NoSQL), Next.js}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Backend Java/Spring Boot avec APIs RESTful, frontend Next.js (React).}
+        \item \small{Base NoSQL haute performance (ScyllaDB) et algorithmes d'optimisation de routes.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Application Desktop Java -- Design Patterns} \hfill \textit{2023} \\
+\textit{Projet Académique} \hfill \textit{Java, Swing/JavaFX, Design Patterns}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Application complète en Java avec utilisation intensive des patterns : Singleton, Factory, Observer, MVC.}
+        \item \small{Architecture modulaire, tests unitaires et documentation technique.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind -- Architecture Microservices} \hfill \textit{2024} \\
+\textit{Projet Académique} \hfill \textit{NestJS (TypeScript), MongoDB, RabbitMQ, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture microservices avec API Gateway, communication asynchrone RabbitMQ.}
+        \item \small{Containerisation Docker, tests d'intégration et documentation OpenAPI.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Outil Open Source} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Personnel} \hfill \textit{PHP, Laravel, Python, Packagist}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Génération automatique d'architecture backend depuis UML/XML. +30 étoiles GitHub, déployé sur Packagist.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions et Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{ère} Place} -- IndabaX Africa 2025 (IA Santé). \textbf{1\textsuperscript{ère} Place} -- CITS National Hackathon 2024.}
+    \item \small{\textbf{Lead AI Cell} (Polytechnique Yaoundé) : animation workshops (Java, Laravel, React, ML), +50\% membres.}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/Coursera), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

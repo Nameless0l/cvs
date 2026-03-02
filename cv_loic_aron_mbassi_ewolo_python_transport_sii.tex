@@ -1,0 +1,164 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Groupe SII (bleu corporate) ---
+\definecolor{primary}{RGB}{0, 75, 135}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Ingénieur Logiciel Python} \\
+    \textit{\small Disponible dès \textbf{avril 2026} pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Vélizy accessible) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme ENSEA / Polytechnique Yaoundé, avec une solide maîtrise de \textbf{Python} et une expérience en \textbf{tests et validation logicielle}. Sensibilisé aux processus d'intégration et de vérification (IVV). Adaptable et rigoureux, je souhaite rejoindre le \textbf{Groupe SII} pour contribuer à la validation des systèmes logiciels dans le domaine ferroviaire.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA, École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur : Systèmes Embarqués, Signal, IA.} \\
+    \textit{\small{Cours clés : Algorithmique avancée, Architecture logicielle, Tests et Validation.}}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Génie Logiciel}, Mathématiques Appliquées, Algorithmique.} \\
+    \textit{\small{Cursus : Développement Python, Tests unitaires, Qualité logicielle, Méthodes Agile.}}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Python :} Scripts, Automatisation, \textbf{pytest}, FastAPI, Pandas, NumPy, TensorFlow/PyTorch.}
+    \item \small{\textbf{Tests \& Validation :} Tests unitaires, Tests fonctionnels, Rédaction fiches de test, Analyse de bugs.}
+    \item \small{\textbf{Outils :} Git, Docker, Linux, MATLAB/Simulink, Jupyter, VS Code.}
+    \item \small{\textbf{Méthodologie :} Cycle en V, Intégration continue, Traçabilité, Documentation technique.}
+    \item \small{\textbf{Certifications :} Python for Data Science (IBM), Supervised Machine Learning (DeepLearning.AI/Stanford).}
+\end{itemize}
+
+% --- PROJETS PYTHON ---
+\section{Projets Python \& Validation}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Système Multi-Agents Agricole (IA \& Python)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet Recherche} \hfill \textit{Python, FastAPI, Google ADK, RAG, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement \textbf{Python} d'un système de 4 agents IA collaboratifs.}
+        \item \small{API FastAPI, \textbf{tests automatisés} et validation fonctionnelle.}
+        \item \small{Documentation technique et déploiement Docker.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control, Drone} \hfill \textit{2025} \\
+\textit{Projet d'Option ENSEA} \hfill \textit{MATLAB/Simulink, Python, Modélisation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation et \textbf{simulation de scénarios de pannes} réalistes.}
+        \item \small{\textbf{Validation} par simulation, analyse de robustesse et rédaction de rapports.}
+        \item \small{Cycle complet : spécifications, développement, tests, validation.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet UROP : Analyse ECG par Computer Vision} \hfill \textit{2024} \\
+\textit{Collaboration Google DeepMind} \hfill \textit{Python, TensorFlow/Keras, OpenCV}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement \textbf{Python} d'un modèle de détection d'anomalies cardiaques.}
+        \item \small{\textbf{Évaluation des performances} du modèle, analyse des résultats.}
+        \item \small{Rédaction de \textbf{fiches de test} et documentation des résultats.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Women Safe : Détection de Contenus Sexistes (NLP)} \hfill \textit{2023} \\
+\textit{Compétition MLPC} \hfill \textit{Python, BERT, Transformers, pytest}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle NLP en \textbf{Python} pour détection de contenus problématiques.}
+        \item \small{\textbf{Tests de validation} et analyse des performances (précision, rappel).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Challenge CoHoMa, Robotique Autonome} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{Python, C/C++, Docker, Git}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Scripts \textbf{Python} pour traitement de données capteurs et automatisation.}
+        \item \small{Environnement Docker pour reproductibilité et \textbf{tests d'intégration}.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE PROFESSIONNELLE ---
+\section{Expérience Professionnelle}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Assistant de Recherche, Interprétabilité IA} \hfill \textit{Juin 2025 -- Sept. 2025} \\
+\textit{MILA (Institut Québécois d'IA)} \hfill \textit{Python, PyTorch, TensorFlow}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement \textbf{Python} de pipelines de tests et d'expérimentation.}
+        \item \small{Analyse de résultats, \textbf{rédaction de rapports} scientifiques.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche, Laboratoire IoT (TinyML)} \hfill \textit{Oct. 2023 -- Jan. 2024} \\
+\textit{École Polytechnique de Yaoundé} \hfill \textit{Python, TensorFlow Lite, Arduino}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Scripts \textbf{Python} pour optimisation de modèles ML.}
+        \item \small{\textbf{Tests de validation} fonctionnelle sur microcontrôleurs.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend, Plateforme Fintech} \hfill \textit{Oct. 2024 -- Jan. 2025} \\
+\textit{CSC (Cameroon Software Company)} \hfill \textit{Laravel, MySQL, Docker, Git}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Tests rigoureux}, correction de bugs, documentation technique.}
+        \item \small{Participation aux réunions d'équipe, \textbf{adaptabilité} aux contextes variés.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Soft Skills}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{Hackathons :} 1\textsuperscript{er} Prix IndabaX Africa 2025 | 1\textsuperscript{er} CITS National (75 équipes) | 1\textsuperscript{er} Mountain Hub 2024.
+    \item \textbf{Leadership :} Lead Cellule IA, Chef Cellule Projets (Polytechnique Yaoundé).
+    \item \textbf{Langues :} Français (natif), Anglais (professionnel/technique).
+    \item \textbf{Qualités :} Adaptabilité, rigueur, vision globale des projets, esprit d'analyse.
+\end{itemize}
+
+\end{document}

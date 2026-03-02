@@ -1,0 +1,75 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=1.8cm,bottom=1.8cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+
+\definecolor{primary}{RGB}{0, 82, 147}
+\hypersetup{colorlinks=true, linkcolor=primary, urlcolor=primary}
+
+\begin{document}
+
+\noindent
+\textbf{Loïc Aron MBASSI EWOLO} \\
+Élève-Ingénieur ENSEA / Polytechnique Yaoundé \\
+Cergy, France \\
+\faPhone\ (+33) 7 59 52 33 98 \quad \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
+
+\vspace{0.6cm}
+
+\noindent
+\textbf{CEA/CESTA} \\
+À l'attention de M. Yohan LIVET \\
+BP 2 - 33114 Le Barp
+
+\hfill Cergy, le 23 janvier 2026
+
+\vspace{0.5cm}
+
+\noindent\textbf{Objet : Stage - Déploiement du Model Context Protocol (MCP) sur réseau privé}
+
+\vspace{0.4cm}
+
+Monsieur,
+
+\vspace{0.3cm}
+
+Je suis en deuxième année à l'ENSEA, en double diplôme avec Polytechnique Yaoundé. Votre offre sur le déploiement du MCP et les agents IA spécialisés correspond exactement à ce sur quoi je travaille depuis un an.
+
+\vspace{0.25cm}
+
+J'ai développé un système multi-agents pour l'agriculture avec Google ADK. Cinq agents spécialisés (météo, cultures, santé des plantes, économie, ressources) qui s'orchestrent autour d'objectifs communs. Le plus difficile a été la gestion du contexte partagé : comment un agent transmet une information à un autre, comment résoudre les conflits quand deux agents donnent des recommandations contradictoires. J'ai utilisé RAG pour enrichir le contexte et Gemini comme moteur d'inférence. Le tout déployé avec Docker et FastAPI.
+
+\vspace{0.25cm}
+
+La partie génération de code m'intéresse aussi. J'ai développé un outil open source (Laravel API Generator) qui génère automatiquement du code backend à partir de diagrammes UML. L'outil parse des fichiers XML, calcule les relations entre entités, et produit du code fonctionnel. J'y ai intégré un LLM pour assister la génération. C'est exactement le type de workflow que vous décrivez : « création automatisée d'un composant logiciel à partir d'un prompt ».
+
+\vspace{0.25cm}
+
+Concernant le déploiement offline, je comprends les contraintes. Docker permet d'isoler les environnements, et le fine-tuning ou la mise en cache de modèles LLM pour usage local est une approche que j'ai étudiée au Mila (Québec) où j'ai fait un stage de recherche sur les réseaux de neurones. Je n'ai pas encore déployé de LLM en environnement complètement offline, mais les concepts (quantization, modèles légers, inférence locale) me sont familiers.
+
+\vspace{0.25cm}
+
+Sur les formats, je travaille régulièrement avec JSON et XML. Pour le système multi-agents, j'ai dû structurer le contexte de manière à ce qu'il soit lisible par tous les agents, ce qui rejoint les problématiques du MCP.
+
+\vspace{0.25cm}
+
+La possibilité de poursuivre en thèse m'intéresse. Les systèmes multi-agents et les protocoles de contexte pour LLM sont des sujets sur lesquels je souhaite approfondir mes connaissances.
+
+\vspace{0.25cm}
+
+Je suis disponible à partir d'avril 2026 et mobile pour Le Barp.
+
+\vspace{0.4cm}
+
+Cordialement,
+
+\vspace{0.8cm}
+
+\textbf{Loïc Aron MBASSI EWOLO}
+
+\end{document}

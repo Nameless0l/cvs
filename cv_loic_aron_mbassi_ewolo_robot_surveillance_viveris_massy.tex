@@ -1,0 +1,127 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Viveris ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Ingénieur Logiciel Embarqué -- Robot Autonome} \\
+    \textit{\small Disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur double diplôme ENSEA/Polytechnique Yaoundé, spécialisé en systèmes embarqués et robotique autonome. Expérience en développement C/C++/Python, navigation autonome (SLAM, Lidar) et IA embarquée. Passionné par la sûreté de fonctionnement et les systèmes critiques.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Logiciel, Algorithmique, Systèmes embarqués.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} C, C++, Python, Java.}
+    \item \small{\textbf{Embarqué \& Hardware :} Nvidia Jetson, Raspberry Pi, STM32, Arduino, capteurs IMU/Lidar.}
+    \item \small{\textbf{Robotique \& Navigation :} SLAM, Fusion capteurs, Lidar 3D, Caméra de profondeur, ROS (notions).}
+    \item \small{\textbf{IA Embarquée :} PyTorch, TensorFlow, YOLO, TF Lite, LLM (fine-tuning).}
+    \item \small{\textbf{Outils \& CI/CD :} Git, Docker, UML, Linux, Jenkins (notions).}
+    \item \small{\textbf{Certifications :} Supervised Machine Learning (Stanford/DeepLearning.AI), Python for Data Science (IBM).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Projets \& Expériences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Robotique Défense)} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{C/C++, Nvidia Jetson, Lidar 3D, SLAM}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un robot autonome militaire pour la cartographie et les missions autonomes.}
+        \item \small{Intégration d'un Lidar 3D VLP16 et d'une caméra de profondeur pour la navigation.}
+        \item \small{Implémentation des algorithmes SLAM et fusion de capteurs sur Nvidia Jetson.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Control (Drone)} \hfill \textit{2025} \\
+\textit{Projet ENSEA -- Sûreté de fonctionnement} \hfill \textit{MATLAB/Simulink}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique d'un drone en conditions nominales et dégradées.}
+        \item \small{Conception d'un schéma de détection de défauts basé sur des observateurs (approche sûreté).}
+        \item \small{Mise en place d'une stratégie de contrôle tolérant aux pannes avec reconfiguration.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Gants Intelligents (IoT)} \hfill \textit{2024} \\
+\textit{Labo IoTA, Polytechnique Yaoundé} \hfill \textit{STM32, C, Capteurs IMU/Flex, PyTorch}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un prototype de gants instrumentés pour la reconnaissance de la langue des signes.}
+        \item \small{Développement embarqué en C sur STM32, fusion de données capteurs et inférence ML temps réel.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote} \hfill \textit{Python, PyTorch}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène "Grokking" (généralisation tardive des réseaux de neurones).}
+        \item \small{Reproduction des expériences état de l'art et analyse de la convergence mathématique.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT Lab -- TinyML} \hfill \textit{Oct 2023 -- Jan 2024} \\
+\textit{École Polytechnique de Yaoundé} \hfill \textit{Python, TF Lite, Arduino, Raspberry Pi, C}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles ML pour le déploiement sur des plateformes à ressources limitées.}
+        \item \small{Développement en C avec des contraintes temps réel et benchmarking des plateformes.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Distinctions}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) | \textbf{1\textsuperscript{er} Prix} CITS National Hackathon 2024.}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : +50\% membres, collaboration Google DeepMind, workshops ML.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+\end{document}

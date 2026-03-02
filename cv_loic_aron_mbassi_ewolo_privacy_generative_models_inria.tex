@@ -1,0 +1,170 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs INRIA ---
+\definecolor{primary}{RGB}{227, 0, 82}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Recherche -- Large-scale Privacy Evaluation of Generative Mobility Models} \\
+    \textit{\small Disponible dès \textbf{avril 2026} pour 6 à 7 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Île-de-France) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur à l'\textbf{ENSEA} (double diplôme avec l'\textbf{École Polytechnique de Yaoundé}), avec une expérience en recherche IA (\textbf{MILA}) sur la généralisation des réseaux de neurones. Solides compétences en \textbf{Python}, expérimentation à grande échelle et \textbf{reproductibilité} (Git, Docker, documentation). Intérêt marqué pour la \textbf{privacy}, l'évaluation des modèles génératifs et les risques de mémorisation. Je recherche un stage de recherche au sein de l'équipe \textbf{TRiBE} (INRIA Saclay) pour contribuer à l'évaluation de modèles de mobilité.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA - École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{Cergy | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme -- Traitement du Signal et \textbf{Intelligence Artificielle}.}
+    \vspace{2pt}
+    \item \textbf{École Polytechnique de Yaoundé} (1\textsuperscript{ère} école d'ingénieurs CEMAC) \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.} \\
+    \small{Classement : \textbf{20\textsuperscript{ème}/108} -- Moyenne : 14,03/20.}
+    \vspace{2pt}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Cameroun | 2020 -- 2022} \\
+    \small{Licence Informatique \& Mathématiques : Algorithmique, Probabilités, Statistiques, Analyse de données.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, itemsep=2pt]
+    \item \small{\textbf{Certifications :} Supervised ML (DeepLearning.AI), Python for Data Science (IBM).}
+    \item \small{\textbf{IA \& Modèles Génératifs :} PyTorch, TensorFlow, Hugging Face, Transformers, LLM, RAG, ONNX.}
+    \item \small{\textbf{Évaluation \& Benchmarking :} Métriques de similarité, analyse statistique, pipelines expérimentaux.}
+    \item \small{\textbf{Programmation :} \textbf{Python} (avancé), NumPy, Pandas, Matplotlib, Scikit-learn, C/C++.}
+    \item \small{\textbf{Reproductibilité :} \textbf{Git} (versioning), \textbf{Docker}, Linux, CI/CD, documentation rigoureuse.}
+    \item \small{\textbf{Méthodologie Recherche :} Veille bibliographique, reproduction papers SOTA, rédaction scientifique (anglais).}
+\end{itemize}
+
+% --- EXPÉRIENCE RECHERCHE ---
+\section{Expérience en Recherche}
+\begin{itemize}[leftmargin=*, label={-}]
+
+    \resumeSubheading
+      {Assistant de Recherche -- Généralisation \& Mémorisation (Grokking)}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) -- Collaboration avec PhD}{Québec, Canada (Remote)}
+      \vspace{3pt}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène de \textbf{Grokking} : généralisation tardive après \textbf{mémorisation/surapprentissage}.}
+        \item \small{\textbf{Reproduction d'expériences SOTA} et analyse mathématique de la convergence des modèles.}
+        \item \small{Conception de \textbf{pipelines expérimentaux} (PyTorch), \textbf{benchmarking} et documentation rigoureuse.}
+        \item \small{Veille bibliographique intensive, lecture et synthèse de papers en \textbf{anglais scientifique}.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Stage Recherche -- Collecte de Données \& Modélisation (Harmony Gloves)}{2024}
+      {Laboratoire IOTA -- École Polytechnique de Yaoundé}{Yaoundé, Cameroun}
+      \vspace{3pt}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Collecte et préparation de \textbf{données expérimentales} pour entraînement de modèles ML.}
+        \item \small{Recherche du modèle adéquat pour classification de gestes (langue des signes).}
+        \item \small{Travail en équipe pluridisciplinaire (hardware, data, ML).}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Research Proposal -- Analyse d'Électrocardiogrammes (UROP)}{2024}
+      {Collaboration mentors Google DeepMind}{Yaoundé, Cameroun}
+      \vspace{3pt}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Proposition de recherche sur la \textbf{détection d'anomalies cardiaques} par deep learning.}
+        \item \small{Prétraitement de séries temporelles, extraction de features, modélisation TensorFlow.}
+      \end{itemize}
+
+\end{itemize}
+
+% --- PROJETS IA & DATA ---
+\section{Projets IA \& Expérimentation}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Système Multi-Agents avec RAG -- Agriculture} \hfill \textit{Projet Open Source | 2024-2025}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 5 agents IA (Gemini/RAG), \textbf{évaluation de la qualité} des réponses générées.}
+        \item \small{\textbf{Pipeline reproductible} : FastAPI, Docker, scripts d'évaluation, documentation complète.}
+        \item \small{Gestion des données expérimentales et versioning rigoureux (Git).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- Optimisation \& ML} \hfill \textit{1\textsuperscript{er} Prix CITS National | 2024}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Prédiction des besoins de collecte, optimisation des routes (-20\% coûts).}
+        \item \small{Algorithmes d'optimisation (voyageur de commerce), analyse de données IoT.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Women Safe -- Détection de Contenus Sexistes (NLP)} \hfill \textit{Compétition MLPC | 2023}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Fine-tuning BERT/GPT-2, étude des \textbf{biais} et analyse de \textbf{mémorisation} des modèles de langage.}
+        \item \small{Réflexion sur les enjeux \textbf{éthiques} et de protection des données dans les modèles génératifs.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Open Source} \hfill \textit{+30 étoiles GitHub | 2024}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Package open source, architecture modulaire, \textbf{documentation} et versioning rigoureux.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions, Leadership \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Hackathons :} 1\textsuperscript{er} IndabaX Africa 2025 | 1\textsuperscript{er} CITS National | 1\textsuperscript{er} Mountain Hub | Nuit de l'Info France.
+    \item \textbf{Leadership :} Lead Cellule IA (Polytechnique), Animation workshops ML, Rédaction articles Medium.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (natif), \textbf{Anglais scientifique} (lecture papers, rédaction technique).
+\end{itemize}
+
+\end{document}

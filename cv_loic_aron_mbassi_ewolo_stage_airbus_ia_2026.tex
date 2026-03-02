@@ -1,0 +1,192 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Airbus (Bleu corporate) ---
+\definecolor{primary}{RGB}{0, 32, 91}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+colorlinks=true,
+linkcolor=primary,
+filecolor=primary,
+urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textit{\small #2} \\
+\textit{\small #3} & \textit{\small #4} \\
+\end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+{\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+\textbf{\large Stage : Environnement d'Aide à l'Ingénierie basé sur l'IA} \\
+\textit{\small Élève Ingénieur 2A en double diplôme ENSEA — Disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+\small
+\faMapMarker\ Cergy, France (Mobile) \quad
+\faPhone\ (+33) 7 59 52 33 98 \quad
+\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+\faLinkedin\ \href{https://www.linkedin.com/in/mbassi-loic-3942a9246/}{@mbassi-loic} \quad
+\faGithub\ \href{https://github.com/Nameless0l}{@Nameless0l} \quad
+\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-8pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme à l'\textbf{ENSEA}, spécialisé en \textbf{Intelligence Artificielle} et développement logiciel.
+Expérience concrète en \textbf{intégration d'IA} dans des environnements de production (systèmes multi-agents, RAG, LLM) et en développement d'outils d'automatisation.
+Capacité à analyser des cas d'usage complexes et à proposer des solutions techniques adaptées, avec une approche orientée \textbf{satisfaction client}.}
+
+\vspace{4pt}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+\item \textbf{Double diplôme : École Nationale Supérieure de l'Électronique et de ses Applications (ENSEA)} \hfill \textit{2025 -- Présent} \\
+\small{2ème année - Spécialité Intelligence Artificielle et Traitement du Signal, Ingénieur de conception}
+\vspace{2pt}
+\item \textbf{École Nationale Supérieure Polytechnique de Yaoundé — Génie Informatique} \hfill \textit{2021 -- 2025} \\
+\small{Diplôme d'Ingénieur (Master 2) : Génie Logiciel \& Systèmes | Architecture logicielle, IA, méthodologies de développement}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+\item \small{\textbf{Intelligence Artificielle :} Python, \textbf{PyTorch}, TensorFlow, LangChain, RAG, LLM (Gemini, GPT), NLP, Computer Vision}
+\item \small{\textbf{Développement Logiciel :} PHP/Laravel, Java, JavaScript/TypeScript, C | APIs RESTful, Architecture Microservices}
+\item \small{\textbf{Outils \& Méthodologies :} Git/GitHub, \textbf{Docker}, CI/CD, tests unitaires \& intégration, \textbf{Agile/Scrum}, UML}
+\item \small{\textbf{Données \& Infrastructure :} MySQL, MongoDB, Redis, RabbitMQ | Parsing XML, génération automatique de code}
+\end{itemize}
+
+% --- PROJETS IA & AUTOMATISATION ---
+\section{Projets — Intelligence Artificielle \& Automatisation}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \item \textbf{Système Multi-Agents Agricole — Orchestration IA avec RAG} \hfill \textit{2024 -- 2025, recherche}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture et orchestration de \textbf{5 agents IA} spécialisés (Google ADK, Gemini, LangChain)}
+        \item \small{Implémentation d'un système \textbf{RAG} (Retrieval-Augmented Generation) avec base de connaissances agricoles}
+        \item \small{Gestion des conflits inter-agents et optimisation des réponses contextuelles — Déploiement Docker}
+    \end{itemize}
+    \vspace{4pt}
+
+    \item \textbf{Laravel API Generator — Génération de Code Assistée par IA} \hfill \textit{2024 -- Présent, Open Source}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Outil générant une \textbf{architecture backend complète} à partir de diagrammes UML/XML}
+        \item \small{Parsing avancé de fichiers XML, métaprogrammation, intégration de LLM pour assistance au code}
+        \item \small{Automatisation des tâches répétitives d'ingénierie logicielle — \href{https://github.com/Nameless0l/laravel-api-generator}{\faGithub}}
+    \end{itemize}
+    \vspace{4pt}
+
+    \item \textbf{Harmony of Languages — Reconnaissance Langue des Signes par ML} \hfill \textit{2023 -- 2024, personnel}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Système ML de reconnaissance gestuelle (PyTorch, OpenCV, Mediapipe) avec dataset custom}
+        \item \small{Pipeline complet : collecte données, entraînement modèle, intégration dans application temps réel}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCES PROFESSIONNELLES ---
+\section{Expériences Professionnelles \& Recherche}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Stage de Recherche à distance — MILA}{Juin -- Août 2025}
+      {Institut Québécois d'Intelligence Artificielle}{Québec, Canada}
+      \resumeItem{Recherche sur le Grokking : généralisation tardive des réseaux de neurones}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Reproduction d'expériences SOTA, implémentation de pipelines de tests sous \textbf{PyTorch}}
+        \item \small{Analyse mathématique de la convergence et rédaction de rapports de recherche}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Projet UROP — Analyse ECG par Deep Learning}{2024}
+      {Collaboration avec mentors Google DeepMind}{Yaoundé, Cameroun}
+      \resumeItem{Développement d'un modèle de détection d'anomalies cardiaques}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Extraction de features sur signaux ECG, entraînement modèle TensorFlow/Keras}
+        \item \small{Collaboration internationale avec retours réguliers et itérations sur les résultats}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Full-Stack (Fintech) — CSC}{Oct. 2024 -- Jan. 2025}
+      {Cameroon Software Company}{Yaoundé, Cameroun}
+      \resumeItem{Conception d'une plateforme de transactions sécurisée}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture backend scalable (Laravel, Docker, Redis), \textbf{CI/CD}, méthodologie \textbf{Agile/Scrum}}
+        \item \small{Gestion des accès concurrents, conformité normes financières, revue de code}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Full-Stack — SOSDOCTA (Télémédecine)}{Fév. 2022 -- Mars 2024}
+      {Remote — Belgique/Canada}{}
+      \resumeItem{Plateforme complète de télémédecine avec +2 ans de maintenance}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Système de réservation, paiement, dashboards médecins/patients — Conformité RGPD}
+      \end{itemize}
+
+\end{itemize}
+
+% --- AUTRES PROJETS ---
+\section{Autres Projets Significatifs}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \item \textbf{GoFind — Architecture Microservices} \hfill \textit{2024, académique}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Plateforme microservices : Laravel, NestJS, MongoDB, communication asynchrone RabbitMQ, Docker}
+    \end{itemize}
+    \vspace{2pt}
+
+    \item \textbf{Women Safe — Détection de Contenus Sexistes (NLP)} \hfill \textit{2023, compétition MLPC}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle NLP (BERT, GPT-2, Transformers) pour détection de misogynie — Étude des biais éthiques}
+    \end{itemize}
+
+\end{itemize}
+
+% --- HACKATHONS & LEADERSHIP ---
+\section{Hackathons \& Leadership}
+\begin{itemize}[leftmargin=*, nosep]
+\item \small{\textbf{Hackathons :} 1\textsuperscript{re} place IndabaX Africa 2025 (IA Santé) | 1\textsuperscript{re} place CITS National \& Mountain Hub Regional (2024)}
+\item \small{\textbf{Leadership :} Lead AI Cell ENSPY (+50\% membres), Animation workshops ML/LLM, Collab. Google DeepMind}
+\end{itemize}
+
+% --- CERTIFICATIONS ---
+\section{Certifications \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+\item \small{Supervised Machine Learning (DeepLearning.AI / Andrew Ng) | Python for Data Science (IBM)}
+\item \small{\textbf{Langues :} Français (Langue maternelle), Anglais (Niveau avancé — Communication scientifique)}
+\end{itemize}
+
+\end{document}

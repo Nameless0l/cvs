@@ -1,0 +1,144 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Développement \& Analyse de Performance - Calcul Scientifique} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme \textbf{ENSEA/Polytechnique Yaoundé}, avec une expérience en programmation \textbf{C/C++}, \textbf{Python} et environnement \textbf{Linux}. Projets en programmation système (IPC, mémoire partagée) et optimisation sur cibles embarquées. Je recherche un stage au \textbf{CEA Grenoble} pour contribuer au développement de micro-programmes pour le calcul scientifique.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - Systèmes Embarqués, Traitement du Signal et IA.} \\
+    \textit{\small{Cours : Programmation C/C++, Architecture des processeurs, Systèmes temps réel, Linux embarqué.}}
+    \vspace{2pt}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Cameroun | 2020 -- 2022} \\
+    \small{Licence Informatique \& Mathématiques : Algorithmique C, Analyse Numérique, Algèbre Linéaire.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} \textbf{C/C++}, \textbf{Python}, Bash/Shell scripts, Java.}
+    \item \small{\textbf{Systèmes :} \textbf{Linux} (Ubuntu, Debian), Programmation système (IPC, SHM, Signaux), Docker.}
+    \item \small{\textbf{Calcul \& Optimisation :} NumPy, PyTorch, Optimisation sur GPU (Jetson), Algorithmes numériques.}
+    \item \small{\textbf{Mathématiques :} Algèbre Linéaire, Analyse Numérique, Probabilités/Statistiques, Optimisation.}
+    \item \small{\textbf{Outils :} Git, CMake, GDB, Valgrind, CI/CD.}
+\end{itemize}
+
+% --- PROJETS SYSTÈMES ---
+\section{Projets en Programmation Système \& Optimisation}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Projet TAXI - Simulation Multi-Processus en C} \hfill \textit{Projet Académique | 2024}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Développement d'un noyau de simulation pour une flotte de taxis sous \textbf{Linux}.}
+    \item \small{Gestion de la \textbf{mémoire partagée} (SHM), communication inter-processus (IPC), synchronisation par signaux.}
+    \item \small{Implémentation d'un ordonnanceur FIFO avec prévention des interblocages.}
+    \item \small{Visualisation temps réel avec OpenGL.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Upgrade Jetson - Optimisation IA Embarquée (Défense)} \hfill \textit{Challenge CoHoMa | En cours}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Optimisation d'algorithmes de SLAM et de détection (YOLOv10) sur \textbf{Nvidia Jetson}.}
+    \item \small{Analyse de performance et profilage pour respecter les contraintes temps réel.}
+    \item \small{Utilisation de \textbf{Docker} pour l'isolation et la reproductibilité des environnements.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT Lab - TinyML} \hfill \textit{ENSPY | Oct. 2023 - Jan. 2024}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Optimisation de modèles ML pour \textbf{hardware limité} (Arduino, Raspberry Pi).}
+    \item \small{Travail sous contraintes de mémoire et de temps d'exécution.}
+    \item \small{Technologies : Python, TensorFlow Lite, C.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind - Architecture Microservices} \hfill \textit{Projet Académique | 2024}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Conception d'une architecture microservices avec communication asynchrone (RabbitMQ).}
+    \item \small{Déploiement avec \textbf{Docker}, scripts d'automatisation en \textbf{Bash}.}
+\end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE RECHERCHE ---
+\section{Expérience en Recherche}
+\begin{itemize}[leftmargin=*, label={-}]
+
+    \resumeSubheading
+      {Assistant de Recherche - Généralisation des Réseaux de Neurones}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Remote}{Québec, Canada}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Implémentation de pipelines de tests sous \textbf{Python/PyTorch}.}
+        \item \small{Reproduction d'expériences et analyse de convergence mathématique.}
+        \item \small{Travail en autonomie avec reporting régulier.}
+      \end{itemize}
+
+\end{itemize}
+
+% --- CERTIFICATIONS & LANGUES ---
+\section{Certifications, Leadership \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM).
+    \item \textbf{Leadership :} Chef de la Cellule Projets (Polytechnique Yaoundé), animation de workshops techniques.
+    \item \textbf{Hackathons :} \textbf{1\textsuperscript{ère} Place} CITS National (Algorithmes d'optimisation), IndabaX Africa.
+    \item \textbf{Langues :} Français (Natif), \textbf{Anglais} (Intermédiaire/Technique).
+\end{itemize}
+
+\end{document}

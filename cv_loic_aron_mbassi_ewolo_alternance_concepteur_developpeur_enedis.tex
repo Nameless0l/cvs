@@ -1,0 +1,144 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Enedis (Bleu énergie) ---
+\definecolor{primary}{RGB}{0, 87, 184}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Concepteur Développeur} \\
+    \textit{\small Disponible dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile nationale) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur double diplôme ENSEA/Polytechnique Yaoundé, \textbf{+3 ans d'expérience en développement PHP/Laravel} sur des projets en production (fintech, télémédecine, e-commerce). Compétences en analyse de données, modélisation et rédaction de spécifications techniques. Habitué à la maintenance évolutive d'applications et au travail en autonomie sur des projets à forts enjeux métier.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus incluant traitement de données et architecture logicielle.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique, Bases de données.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Backend :} PHP 8 (Expert), Laravel, APIs REST, OAuth2/JWT, MySQL, MongoDB, Redis.}
+    \item \small{\textbf{Frontend :} HTML5, CSS3/SASS, JavaScript/TypeScript, React.js, Next.js, Responsive Design.}
+    \item \small{\textbf{Data \& IA :} Python, TensorFlow/Keras, Pandas, analyse de données, modélisation, séries temporelles.}
+    \item \small{\textbf{Outils \& Méthodes :} Git, Docker, CI/CD, Jira, PHPUnit, documentation technique, Agile/Scrum.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES PROFESSIONNELLES ---
+\section{Expériences Professionnelles}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Développeur Web Full Stack @ SOSDOCTA} \hfill \textit{Fév 2022 -- Mars 2024} \\
+\textit{Remote (Belgique/Canada) -- Télémédecine} \hfill \textit{Laravel, PHP, MySQL, JS, OAuth2/JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement complet d'une plateforme de télémédecine : backend, intégration frontend, APIs REST.}
+        \item \small{Conception du système de réservation et d'un module de paiement sécurisé en ligne.}
+        \item \small{Maintenance évolutive sur 2 ans : nouvelles fonctionnalités, corrections, optimisations de performance.}
+        \item \small{Rédaction de documentation technique et gestion sécurisée des données médicales (RGPD).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend @ CSC (Cameroon Software Company)} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Yaoundé -- Fintech / Bancaire} \hfill \textit{Laravel, MySQL, Docker, REST APIs, Redis}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception du backend d'une plateforme de transactions financières sécurisée et scalable.}
+        \item \small{Gestion de transactions concurrentes avec Redis et respect des normes de conformité financière.}
+        \item \small{Rédaction de cahiers des charges et spécifications techniques pour les intégrations tierces.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Full Stack @ NettoieQuebec} \hfill \textit{2025} \\
+\textit{Remote (Québec) -- Services / Réservation} \hfill \textit{Laravel, MySQL, JavaScript}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une plateforme de réservation avec gestion des disponibilités et notifications email.}
+        \item \small{Analyse des besoins métier, modélisation des données et développement from scratch.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Full Stack @ BAZEL SQUARE} \hfill \textit{Oct 2023 -- Jan 2024} \\
+\textit{Yaoundé -- E-commerce} \hfill \textit{Laravel, PHP, JS, MySQL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement from scratch d'un site e-commerce : gestion catalogue, stocks et paiements locaux.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- PROJETS TECHNIQUES ---
+\section{Projets Techniques}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Laravel API Generator -- Outil Open Source} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Personnel} \hfill \textit{PHP, Laravel, Python, XML, Packagist}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Outil générant automatiquement une architecture backend Laravel complète depuis diagrammes UML/XML.}
+        \item \small{Parsing géométrique avancé des fichiers XML (draw.io), génération de modèles, contrôleurs, migrations et routes.}
+        \item \small{Open source : +30 étoiles GitHub, déployé sur Packagist (+20 téléchargements).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- Optimisation collecte déchets} \hfill \textit{2024} \\
+\textit{Projet Académique -- Smart City} \hfill \textit{Python, ML, Algorithmes d'optimisation, IoT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse et modélisation de données IoT pour prédire les besoins de collecte en milieu urbain.}
+        \item \small{Optimisation de routes par algorithme du voyageur de commerce : réduction de 20\% des coûts.}
+        \item \small{\textbf{1\textsuperscript{er} prix} compétition nationale CITS contre 75 équipes.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Distinctions}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé : nettoyage de données médicales, déploiement API Flask, dashboard Streamlit).}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : animation de workshops (Laravel, React, ML), +50\% de membres recrutés.}
+    \item \small{\textbf{Rédaction technique} : articles Medium sur Laravel, architecture logicielle et bonnes pratiques Git.}
+    \item \small{\textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM), POO Java (EPFL).}
+\end{itemize}
+
+\end{document}

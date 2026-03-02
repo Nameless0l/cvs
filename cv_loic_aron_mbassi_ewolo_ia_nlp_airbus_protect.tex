@@ -1,0 +1,155 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Airbus ---
+\definecolor{primary}{RGB}{0, 32, 91}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Recherche IA / NLP -- LLM \& RAG} \\
+    \textit{\small Disponible dès \textbf{avril 2026} pour 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile France entière) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur à l'\textbf{ENSEA} en double diplôme, passionné par le \textbf{NLP} et les \textbf{LLM}. Expérience en recherche IA (\textbf{MILA}), implémentation de systèmes \textbf{RAG} et fine-tuning de modèles de langage. Solide bagage en \textbf{PyTorch}, \textbf{Hugging Face} et veille scientifique. Je recherche un stage de recherche chez \textbf{Airbus Protect} pour contribuer aux défis des LLM appliqués à la cybersécurité.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA - École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{Cergy | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme -- Systèmes Embarqués, Traitement du Signal et \textbf{Intelligence Artificielle}.}
+    \vspace{2pt}
+    \item \textbf{École Polytechnique de Yaoundé} (1\textsuperscript{ère} école d'ingénieurs CEMAC) \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.} \\
+    \small{Classement : \textbf{20\textsuperscript{ème}/108} -- Moyenne : 14,03/20.}
+    \vspace{2pt}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Cameroun | 2020 -- 2022} \\
+    \small{Licence Informatique \& Mathématiques : Algorithmique, Probabilités, Statistiques.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{NLP \& LLM :} Transformers, \textbf{BERT}, GPT, Fine-tuning, \textbf{RAG}, Prompt Engineering, LangChain.}
+    \item \small{\textbf{Frameworks IA :} \textbf{PyTorch}, TensorFlow/Keras, \textbf{Hugging Face}, Scikit-learn, NumPy, Pandas.}
+    \item \small{\textbf{Développement :} \textbf{Python} (avancé), Git, Docker, FastAPI, Linux, CI/CD.}
+    \item \small{\textbf{Méthodologie :} Veille scientifique, Reproduction d'articles, Rédaction technique, Travail en équipe.}
+\end{itemize}
+
+% --- EXPÉRIENCE RECHERCHE ---
+\section{Expérience en Recherche IA}
+\begin{itemize}[leftmargin=*, label={-}]
+
+    \resumeSubheading
+      {Assistant de Recherche -- Interprétabilité \& Généralisation des Réseaux de Neurones}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA)}{Québec, Canada (Remote)}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur le phénomène de \textbf{Grokking} : généralisation tardive après surapprentissage.}
+        \item \small{Reproduction d'expériences \textbf{SOTA} et analyse mathématique de la convergence.}
+        \item \small{Implémentation de pipelines de tests sous \textbf{PyTorch}, veille bibliographique intensive.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Projet UROP -- Analyse d'ECG par Deep Learning}{2024}
+      {Collaboration Google DeepMind}{Yaoundé, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un modèle de \textbf{classification d'anomalies cardiaques} à partir d'images d'ECG.}
+        \item \small{Prétraitement de séries temporelles, extraction de features, modèle \textbf{TensorFlow/Keras}.}
+      \end{itemize}
+
+\end{itemize}
+
+% --- PROJETS NLP & LLM ---
+\section{Projets NLP \& Systèmes Intelligents}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Système Multi-Agents Agricole avec RAG} \hfill \textit{Projet Personnel | 2024-2025}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de \textbf{5 agents IA} spécialisés via \textbf{Google ADK} et \textbf{Gemini 2.0 Flash}.}
+        \item \small{Implémentation d'un système \textbf{RAG} pour l'enrichissement contextuel des réponses.}
+        \item \small{Architecture : FastAPI, Docker, résolution de conflits inter-agents.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Women Safe -- Détection de Contenus Sexistes (NLP)} \hfill \textit{Compétition MLPC | 2023}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Fine-tuning de modèles \textbf{BERT} et \textbf{GPT-2} pour la détection de misogynie en ligne.}
+        \item \small{Étude des biais éthiques dans les modèles de langage.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{YembaAudio -- Reconnaissance Vocale Low-Resource} \hfill \textit{Projet Personnel | 2025}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Application d'apprentissage de langue locale (Yemba) avec \textbf{Speech Recognition}.}
+        \item \small{Utilisation de modèles pré-entraînés \textbf{Hugging Face}, adaptation à langue peu dotée.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Génération de Code assistée par LLM} \hfill \textit{Open Source | 2024}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Intégration de \textbf{LLM} pour l'assistance à la génération de code backend.}
+        \item \small{Package open source : +30 étoiles GitHub, déployé sur Packagist.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions, Leadership \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Hackathons :} 1\textsuperscript{er} Prix IndabaX Africa 2025 (IA Santé) | 1\textsuperscript{er} CITS National | 1\textsuperscript{er} Mountain Hub 2024.
+    \item \textbf{Leadership :} Lead Cellule IA (+50\% membres, collab. Google DeepMind), Animation workshops ML/LLM.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (natif), \textbf{Anglais (avancé -- lecture papers, rédaction technique)}.
+\end{itemize}
+
+\end{document}

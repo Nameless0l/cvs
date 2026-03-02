@@ -1,0 +1,135 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs BNP Paribas ---
+\definecolor{primary}{RGB}{0, 100, 60}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Développeur Automatisation / QA Paiement} \\
+    \textit{\small Disponible dès avril 2026 pour 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur double diplôme ENSEA/Polytechnique Yaoundé, spécialisé en développement logiciel et tests. Expérience en Java, développement backend (Spring Boot, Maven) et secteur Fintech. Rigoureux, orienté qualité et habitué aux environnements internationaux.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Logiciel, Algorithmique, Tests \& Validation.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} Java (POO, Design Patterns), Python, PHP, TypeScript, SQL.}
+    \item \small{\textbf{Frameworks \& Outils :} Spring Boot, Maven, JUnit, Laravel, NestJS, REST APIs.}
+    \item \small{\textbf{Tests \& Qualité :} Tests unitaires, Tests E2E, Validation fonctionnelle, Gestion d'anomalies.}
+    \item \small{\textbf{DevOps \& Outils :} Git/GitHub, Docker, IntelliJ IDEA, VS Code, CI/CD (notions).}
+    \item \small{\textbf{Certifications :} Introduction à la POO Java (EPFL), Python for Data Science (IBM).}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique -- contexte international).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Projets \& Expériences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Développeur Backend @ CSC (Cameroon Software Company)} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Yaoundé -- Secteur Fintech/Bancaire} \hfill \textit{Laravel, MySQL, Docker, REST APIs}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception du backend d'une plateforme de transactions financières sécurisée.}
+        \item \small{Gestion des transactions concurrentes et conformité aux normes financières.}
+        \item \small{Tests de validation et gestion des anomalies avec les équipes techniques.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Freengo -- Application Covoiturage (Type Uber)} \hfill \textit{2024} \\
+\textit{Projet Académique} \hfill \textit{Spring Boot (Java), Maven, ScyllaDB, Next.js}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement backend Java avec Spring Boot et gestion des dépendances Maven.}
+        \item \small{Conception d'API REST documentées et tests unitaires JUnit.}
+        \item \small{Base NoSQL haute performance et algorithmes d'optimisation de routes.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet Java POO2 -- Application Desktop} \hfill \textit{2023} \\
+\textit{Polytechnique Yaoundé} \hfill \textit{Java, Swing/JavaFX, Design Patterns}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Application desktop robuste avec utilisation intensive des design patterns (Singleton, Factory, Observer).}
+        \item \small{Architecture MVC modulaire et maintenable, tests de validation fonctionnelle.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Control (Drone)} \hfill \textit{2025} \\
+\textit{Projet ENSEA -- Validation \& Tests} \hfill \textit{MATLAB/Simulink}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique d'un drone et simulation de scénarios de pannes réalistes.}
+        \item \small{Conception de schémas de détection de défauts et validation des stratégies de contrôle.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind -- Architecture Microservices} \hfill \textit{2024} \\
+\textit{Projet Académique} \hfill \textit{NestJS, TypeScript, MongoDB, RabbitMQ, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une architecture microservices avec tests d'intégration E2E.}
+        \item \small{Documentation OpenAPI et communication asynchrone (RabbitMQ).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Contexte international} \hfill \textit{Python, PyTorch}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Collaboration en anglais avec une équipe de recherche internationale.}
+        \item \small{Reproduction et validation d'expériences état de l'art, rédaction de rapports.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Distinctions}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) | \textbf{1\textsuperscript{er} Prix} CITS National Hackathon 2024.}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : gestion d'équipe, organisation de workshops techniques.}
+\end{itemize}
+
+\end{document}

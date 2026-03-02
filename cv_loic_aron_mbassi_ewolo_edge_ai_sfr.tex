@@ -1,0 +1,135 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs (SFR / rouge) ---
+\definecolor{primary}{RGB}{210, 0, 28}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ingénieur Développement C/C++ \& Edge AI} \\
+    \textit{\small Disponible dès septembre 2026 pour une alternance} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme (ENSEA / Polytechnique Yaoundé) spécialisé en systèmes embarqués et IA. Expérience en optimisation de modèles ML sur hardware contraint (TinyML, Nvidia Jetson), développement C/C++ bas niveau (IPC, mémoire partagée, signaux Linux) et déploiement Edge AI. Familiarité avec RAG/LLM et Raspberry Pi.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Traitement du Signal, Intelligence Artificielle.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Embarqué \& Système :} C, C++, STM32, Arduino, Raspberry Pi, Linux (IPC, signaux, mémoire partagée), Docker}
+    \item \small{\textbf{Edge AI / MLOps :} TensorFlow Lite, YOLO, ONNX, TinyML, Nvidia Jetson, optimisation modèles sur hardware contraint}
+    \item \small{\textbf{IA \& LLM :} PyTorch, TensorFlow/Keras, RAG, LangChain, Google ADK, Transformers (BERT, GPT-2)}
+    \item \small{\textbf{Outils :} Git/GitLab, Docker, Linux, Python, MATLAB, Jira}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique)}
+\end{itemize}
+
+% --- EXPÉRIENCES & PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- Labo ICS, Florence (Italie)} \hfill \textit{Avr. 2026 -- Août 2026} \\
+\textit{Analyse de Signaux \& Neurosciences Computationnelles} \hfill \textit{Python, MATLAB, Traitement du signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'outils en Python pour l'analyse de signaux en recherche neurosciences computationnelles.}
+        \item \small{Maintenance et évolution de bibliothèques MATLAB pour le laboratoire.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Robotique Autonome)} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA -- Challenge organisé par l'Armée française} \hfill \textit{C/C++, YOLOv10, Docker, Lidar 3D, SLAM}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles de détection (YOLOv10) embarqués sur Nvidia Jetson pour cartographie autonome.}
+        \item \small{Développement C/C++ pour intégration Lidar 3D (VLP16) et caméra de profondeur, fusion de capteurs et SLAM.}
+        \item \small{Conteneurisation Docker pour reproductibilité des environnements de déploiement embarqué.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT -- Edge Computing \& TinyML} \hfill \textit{Oct. 2023 -- Jan. 2024} \\
+\textit{Laboratoire IoT, ENSPY} \hfill \textit{C, Python, Arduino, Raspberry Pi, TF Lite}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles ML pour exécution sur hardware contraint (Raspberry Pi, Arduino) avec TensorFlow Lite.}
+        \item \small{Développement C embarqué sous contraintes temps réel et mémoire limitée.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Traduction Langue des Signes (Hardware)} \hfill \textit{2024} \\
+\textit{Laboratoire IOTA, ENSPY} \hfill \textit{STM32, Arduino, C, Capteurs IMU/Flex, Soudure}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception de gants instrumentés (capteurs IMU/Flex) pour traduction langue des signes en texte/audio.}
+        \item \small{Développement firmware C sur STM32/Arduino, fusion données capteurs et vision par ordinateur.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Simulation Flotte Taxis -- Programmation Système C} \hfill \textit{2024} \\
+\textit{Projet académique, ENSPY} \hfill \textit{C, Linux (IPC, SHM, Signaux), OpenGL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Simulation multiprocessus en C avec gestion de mémoire partagée, signaux POSIX et ordonnanceur FIFO.}
+        \item \small{Visualisation temps réel OpenGL de la flotte de véhicules.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents (RAG + LLM)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet de recherche} \hfill \textit{Google ADK, RAG, Gemini, LangChain, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Système de 4 agents IA collaboratifs utilisant RAG et Gemini (LLM) pour recommandations multi-critères.}
+        \item \small{Orchestration via Google ADK, intégration APIs externes, déploiement FastAPI/Docker.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Engagement}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{ère} Place -- CITS National Hackathon 2024} (Smart City/IoT) : optimisation collecte déchets par ML, 1\textsuperscript{er}/75 équipes.}
+    \item \small{\textbf{1\textsuperscript{ère} Place -- IndabaX Africa 2025} (IA Santé) : pipeline données, déploiement API, dashboard.}
+    \item \small{\textbf{Responsable Cellule IA -- ENSPY} : animation workshops ML, collaboration Google DeepMind.}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM).}
+\end{itemize}
+
+\end{document}

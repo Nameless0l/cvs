@@ -1,0 +1,156 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Harmattan AI ---
+\definecolor{primary}{RGB}{30, 60, 90}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Élève-Ingénieur Bac+5 -- Systèmes Embarqués \& Traitement du Signal} \\
+    \textit{\small Disponible dès \textbf{avril 2026} pour un stage de 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Paris/IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en 5\textsuperscript{e} année à l'\textbf{École Polytechnique de Yaoundé}, en double diplôme à l'\textbf{ENSEA} (Traitement du Signal \& Systèmes Embarqués). Expérience en \textbf{FPGA/VHDL}, programmation bas niveau (\textbf{C/C++}) et traitement de données capteurs (Lidar, caméras). Impliqué dans le challenge \textbf{CoHoMa} (robotique autonome défense). Motivé par les systèmes critiques et la conception hardware.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{Cergy | 2025 -- Présent} \\
+    \small{Double Diplôme Ingénieur -- \textbf{Traitement du Signal}, Systèmes Embarqués, Électronique Numérique.} \\
+    \small{\textit{Projet en cours : Conception numérique sur \textbf{FPGA} (VHDL), implémentation de circuits logiques.}}
+    \vspace{2pt}
+    \item \textbf{École Polytechnique de Yaoundé} (1\textsuperscript{ère} école d'ingénieurs CEMAC) \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (\textbf{Bac+5}, en cours) : Mathématiques Appliquées, Génie Logiciel, Algorithmique.}
+    \vspace{2pt}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Cameroun | 2020 -- 2022} \\
+    \small{Licence Informatique \& Mathématiques : Algorithmique C, Analyse, Algèbre Linéaire.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{FPGA \& Hardware :} \textbf{VHDL} (en cours), Conception circuits numériques, Simulation, STM32, Arduino.}
+    \item \small{\textbf{Traitement du Signal :} DSP, Filtrage numérique, Analyse spectrale, Séries temporelles, MATLAB/Simulink.}
+    \item \small{\textbf{Capteurs \& Embarqué :} Lidar 3D (VLP16), Caméras de profondeur, \textbf{Nvidia Jetson}, Fusion de données.}
+    \item \small{\textbf{Programmation :} \textbf{C/C++} (avancé), Python, Linux/Unix, Git, Docker.}
+    \item \small{\textbf{Algorithmes :} SLAM, Détection d'objets (YOLOv10), Optimisation, Monte Carlo.}
+\end{itemize}
+
+% --- PROJETS EMBARQUÉS & DÉFENSE ---
+\section{Projets Embarqués \& Défense}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Upgrade Jetson -- Robotique Autonome Militaire} \hfill \textit{Challenge CoHoMa (Défense) | En cours}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'algorithmes de navigation autonome pour robots militaires.}
+        \item \small{\textbf{Hardware :} Nvidia Jetson, \textbf{Lidar 3D VLP16}, caméras de profondeur.}
+        \item \small{\textbf{Traitement signal :} Fusion de données capteurs, algorithmes \textbf{SLAM}, localisation temps réel.}
+        \item \small{\textbf{IA embarquée :} Détection d'objets YOLOv10 optimisé pour GPU embarqué.}
+        \item \small{Environnement Docker pour isolation et reproductibilité des modules.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Conception FPGA -- Circuits Logiques Numériques} \hfill \textit{Projet ENSEA | En cours}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement de descriptions matérielles en \textbf{VHDL}.}
+        \item \small{Simulation comportementale et validation sur carte FPGA.}
+        \item \small{Implémentation de machines à états et modules de traitement.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control -- Drone} \hfill \textit{Projet Académique | 2025}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique d'un drone en conditions nominales et dégradées.}
+        \item \small{Conception d'un schéma de \textbf{détection de défauts} (observateurs, résidus).}
+        \item \small{Stratégie de contrôle tolérant aux pannes (reconfiguration, gain scheduling).}
+        \item \small{Simulations sous \textbf{MATLAB/Simulink}.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Gants Instrumentés (IoT)} \hfill \textit{Laboratoire IOTA | 2024}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Prototypage hardware : \textbf{soudure} de composants, capteurs IMU/Flex.}
+        \item \small{Microcontrôleurs \textbf{STM32}/Arduino, communication I2C/SPI.}
+        \item \small{Acquisition et traitement de données capteurs pour classification ML.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet Taxi -- Simulation Système Temps Réel} \hfill \textit{Projet Académique | 2024}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Simulation multiprocessus en \textbf{C} : mémoire partagée (SHM), signaux UNIX.}
+        \item \small{Ordonnanceur FIFO, gestion de la concurrence et prévention des interblocages.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE PROFESSIONNELLE ---
+\section{Expérience Professionnelle}
+\begin{itemize}[leftmargin=*, label={-}]
+    \resumeSubheading
+      {Assistant de Recherche -- Généralisation IA (Grokking)}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA)}{Québec, Canada (Remote)}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Reproduction d'expériences SOTA, pipelines PyTorch, documentation rigoureuse.}
+      \end{itemize}
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Hackathons :} 1\textsuperscript{er} IndabaX Africa | 1\textsuperscript{er} CITS National | 1\textsuperscript{er} Mountain Hub.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI), Python (IBM).
+    \item \textbf{Langues :} Français (natif), \textbf{Anglais} (professionnel/technique).
+\end{itemize}
+
+\end{document}

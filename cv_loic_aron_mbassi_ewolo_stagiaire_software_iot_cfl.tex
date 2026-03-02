@@ -1,0 +1,165 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs CFL (Bleu ferroviaire) ---
+\definecolor{primary}{RGB}{0, 70, 135}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\definecolor{accent}{RGB}{220, 53, 69}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Élève-Ingénieur : IoT, Data Science \& Intelligence Artificielle} \\
+    \textit{\small Disponible \textbf{immédiatement} pour 3 à 5 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Luxembourg) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme ENSEA/Polytechnique, spécialisé en \textbf{IoT}, \textbf{Machine Learning} et \textbf{systèmes embarqués}. Expérience en développement de \textbf{dashboards}, analyse statistique de données capteurs et maintenance prédictive. Je souhaite rejoindre le groupe \textbf{CBM des CFL} pour contribuer à la digitalisation et l'analyse des signaux des trains.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - Traitement du Signal, \textbf{Systèmes Embarqués} et Intelligence Artificielle.} \\
+    \textit{\small{Cours : Capteurs \& Instrumentation, Traitement du Signal, Machine Learning, Programmation.}}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique de Yaoundé} \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Logiciel, \textbf{Data Science}, Mathématiques Appliquées.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} \textbf{Python} (Avancé), \textbf{JavaScript}, XML, C/C++, SQL.}
+    \item \small{\textbf{Machine Learning \& Data :} PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Analyse statistique.}
+    \item \small{\textbf{IoT \& Embarqué :} Arduino, STM32, Raspberry Pi, Capteurs (IMU, Flex), Protocoles (I2C, SPI).}
+    \item \small{\textbf{Dashboards \& Visualisation :} Streamlit, Flask, APIs REST, Tableaux de bord interactifs.}
+    \item \small{\textbf{Outils :} Git, Docker, Linux, CI/CD, Méthodologie Agile.}
+\end{itemize}
+
+% --- EXPÉRIENCES ---
+\section{Expériences Significatives}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Stage Recherche IoT - Machine Learning sur Edge Computing}{Oct. 2023 -- Janv. 2024}
+      {Laboratoire IOTA (IoT Lab) - École Polytechnique}{\textbf{Yaoundé, Cameroun}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles ML pour \textbf{hardware embarqué} (TinyML) avec contraintes temps réel.}
+        \item \small{Déploiement sur \textbf{Raspberry Pi} et Arduino avec TensorFlow Lite.}
+        \item \small{Collecte et traitement de données capteurs pour la maintenance prédictive.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Assistant de Recherche - Intelligence Artificielle}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Collaboration à distance}{\textbf{Québec, Canada}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur la généralisation des réseaux de neurones sous \textbf{PyTorch}.}
+        \item \small{Implémentation de pipelines de tests statistiques et analyse de convergence.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Full-Stack \& Dashboards}{Fév. 2022 -- Mars 2024}
+      {SOSDOCTA - Plateforme de Télémédecine}{Remote (Belgique/Canada)}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement de \textbf{tableaux de bord interactifs} pour médecins et patients.}
+        \item \small{Conception d'APIs REST et intégration de systèmes de notifications en temps réel.}
+        \item \small{Maintenance évolutive sur 2 ans avec gestion de données sensibles.}
+      \end{itemize}
+\end{itemize}
+
+% --- PROJETS ---
+\section{Projets Académiques \& Techniques}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Urban Waste Management - Maintenance Prédictive IoT} \hfill \textit{\textbf{1\textsuperscript{er} Prix} CITS National}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Analyse statistique} de données capteurs pour prédire les besoins de collecte.}
+        \item \small{Corrélation entre historiques de pannes et données de capteurs (-20\% coûts opérationnels).}
+        \item \small{Algorithmes d'optimisation de routes inspirés du voyageur de commerce.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Harmony Gloves - Système IoT de Traduction Langue des Signes} \hfill \textit{Laboratoire IOTA}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Prototypage de gants instrumentés avec \textbf{capteurs IMU et Flex sensors}.}
+        \item \small{Fusion de données capteurs et classification ML en temps réel (TinyML).}
+        \item \small{Soudure de composants et intégration hardware/software.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{IndabaX Africa - Dashboard Santé \& IA} \hfill \textit{\textbf{1\textsuperscript{ère} Place} Hackathon}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Nettoyage et traitement de données médicales à grande échelle.}
+        \item \small{Déploiement d'API Flask et \textbf{dashboard Streamlit} pour visualisation en temps réel.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Projet UROP - Analyse de Signaux ECG par IA} \hfill \textit{Collaboration Google DeepMind}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Détection d'anomalies sur signaux médicaux (filtrage, extraction de features).}
+        \item \small{Modèle de classification pour déterminer les indicateurs de dégradation.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- LANGUES & CERTIFICATIONS ---
+\section{Langues, Certifications \& Intérêts}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Langues :} \textbf{Français} (Natif), \textbf{Anglais} (Professionnel/Technique - B2+).
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM).
+    \item \textbf{Leadership :} Chef Cellule IA \& Projets (Polytechnique) - Animation workshops ML, gestion d'équipes.
+    \item \textbf{Soft Skills :} Rigueur, souci du détail, autonomie, esprit d'initiative, travail en équipe.
+    \item \textbf{Intérêts :} Piano, Rédaction articles techniques, Veille technologique transport ferroviaire.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,145 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs (Vert Valeo) ---
+\definecolor{primary}{RGB}{0, 128, 0}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stagiaire Ingénieur Data Science \& IA -- SDV Lighting} \\
+    \textit{\small Disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur double diplôme ENSEA/Polytechnique Yaoundé, spécialisé en \textbf{IA, traitement du signal et systèmes embarqués}. Expérience en entraînement de modèles deep learning (PyTorch, TensorFlow), optimisation pour hardware contraint (TinyML, Jetson) et Computer Vision (YOLO, OpenCV). Familiarité avec LLM/RAG, MATLAB/Simulink et dashboards Streamlit. Anglais professionnel courant.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Traitement du Signal, Intelligence Artificielle.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA / Deep Learning :} PyTorch, TensorFlow/Keras, YOLO (v8/v10), Transformers (BERT, GPT-2), Scikit-learn.}
+    \item \small{\textbf{Data Science :} Python (NumPy, Pandas, Matplotlib), analyse de données, dashboards Streamlit, pipelines ML.}
+    \item \small{\textbf{LLM \& RAG :} LangChain, Google ADK, Gemini, RAG, fine-tuning, NLP.}
+    \item \small{\textbf{Embarqué \& Signal :} TensorFlow Lite, TinyML, Nvidia Jetson, Raspberry Pi, MATLAB/Simulink, C/C++.}
+    \item \small{\textbf{Outils :} Git/GitLab, Docker, CI/CD, Jira, Linux, documentation technique.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique -- collaborations MILA Canada, SOSDOCTA Belgique).}
+\end{itemize}
+
+% --- EXPÉRIENCES & PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- Labo ICS, Florence (Italie)} \hfill \textit{Avr. 2026 -- Août 2026} \\
+\textit{Analyse de Signaux \& Neurosciences Computationnelles} \hfill \textit{Python, MATLAB, Traitement du signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse de signaux et développement d'outils en Python pour la recherche en neurosciences computationnelles.}
+        \item \small{Lecture et exploitation de publications scientifiques en anglais, proposition d'axes de recherche.}
+        \item \small{Maintenance et évolution de bibliothèques MATLAB pour le laboratoire.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Montréal, Canada} \hfill \textit{Python, PyTorch, Mathématiques}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène Grokking (généralisation tardive) : entraînement de modèles jusqu'à convergence sur MLP.}
+        \item \small{Reproduction d'expériences état de l'art et analyse mathématique de la convergence.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet UROP -- Analyse ECG par Deep Learning} \hfill \textit{2024} \\
+\textit{Collaboration mentors Google DeepMind} \hfill \textit{TensorFlow/Keras, OpenCV, traitement du signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Classification d'anomalies cardiaques à partir d'images d'ECG : extraction de features, filtrage, Computer Vision.}
+        \item \small{Pipeline complet : prétraitement image, entraînement modèle, évaluation des performances.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Robotique Autonome)} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA -- Challenge Armée française} \hfill \textit{C/C++, YOLOv10, Docker, Nvidia Jetson, SLAM}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles YOLOv10 embarqués sur Nvidia Jetson sous contraintes CPU/mémoire.}
+        \item \small{Intégration Lidar 3D et caméra de profondeur, fusion de capteurs pour cartographie autonome.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT -- Edge Computing \& TinyML} \hfill \textit{Oct. 2023 -- Jan. 2024} \\
+\textit{Laboratoire IoT, ENSPY} \hfill \textit{C, Python, Raspberry Pi, Arduino, TF Lite}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Déploiement de modèles ML sur hardware contraint (Raspberry Pi, Arduino) avec TensorFlow Lite.}
+        \item \small{Optimisation sous contraintes mémoire et latence pour exécution temps réel.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control (Drone)} \hfill \textit{2025} \\
+\textit{Projet académique ENSEA} \hfill \textit{MATLAB/Simulink, Contrôle automatique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation d'un drone en conditions dégradées. Détection et isolation de défauts (FDI) par observateurs.}
+        \item \small{Contrôle tolérant aux pannes (FTC), simulation de scénarios de défaillance capteurs/actionneurs.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents (RAG + LLM)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet de recherche} \hfill \textit{Google ADK, RAG, Gemini, LangChain, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 4 agents IA collaboratifs (LLM Gemini + RAG) pour recommandations multi-critères.}
+        \item \small{Intégration APIs externes (OpenWeather, marchés), déploiement FastAPI/Docker.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Engagement}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{ère} Place -- IndabaX Africa 2025} (IA Santé) : pipeline données, déploiement API, dashboards Streamlit.}
+    \item \small{\textbf{1\textsuperscript{ère} Place -- CITS National Hackathon 2024} (Smart City/IoT) : optimisation par ML, 1\textsuperscript{er}/75 équipes.}
+    \item \small{\textbf{Responsable Cellule IA -- ENSPY} : workshops ML/Deep Learning, collaboration Google DeepMind.}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

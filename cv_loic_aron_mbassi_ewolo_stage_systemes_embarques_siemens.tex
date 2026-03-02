@@ -1,0 +1,133 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Siemens (teal corporate) ---
+\definecolor{primary}{RGB}{0, 153, 153}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Systèmes Embarqués -- Capteurs \& Protocoles SPI} \\
+    \textit{\small Stage disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Drivers SPI en C sur STM32, acquisition de capteurs et validation sur prototype -- compétences acquises en laboratoire embarqué et en compétition robotique. Double diplôme ENSEA / Polytechnique Yaoundé, spécialité Systèmes Embarqués. Je suis disponible en stage dès avril 2026 pour rejoindre le département R\&D de \textbf{Siemens} à Vélizy.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. \textit{Cursus :} Architecture microcontrôleurs ARM Cortex-M, Protocoles (SPI, I2C, UART), FPGA/VHDL, Traitement du signal, Électronique analogique/numérique.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Mathématiques Appliquées, Génie Logiciel, Algorithmique avancée.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} C (firmware embarqué), C++, Python}
+    \item \small{\textbf{Microcontrôleurs :} STM32, Arduino, Raspberry Pi, Nvidia Jetson -- Renesas RX231 (à prendre en main)}
+    \item \small{\textbf{Protocoles \& Interfaces :} SPI, I2C, UART, GPIO, PWM, interruptions, capteurs IMU, flex sensors}
+    \item \small{\textbf{Outils :} GCC, Makefile, Git, Linux, GDB, oscilloscope (notions mesure en labo)}
+    \item \small{\textbf{Visualisation \& Tests :} OpenGL (visualisation temps réel), tests unitaires, validation sur cible, comparaison cahier des charges}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique)}
+\end{itemize}
+
+% --- PROJETS EMBARQUÉS ---
+\section{Projets Embarqués}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Harmony Gloves -- Firmware \& Protocoles SPI/I2C (Gants Instrumentés)} \hfill \textit{2024} \\
+\textit{Laboratoire IoT -- ENSPY} \hfill \textit{STM32/Arduino, C, SPI/I2C, Capteurs IMU/Flex, Soudure}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation à l'écriture des drivers \textbf{SPI/I2C} en C sur STM32 pour l'acquisition de capteurs IMU et flex sensors.}
+        \item \small{Gestion des interruptions, timing et synchronisation entre microcontrôleur et périphériques.}
+        \item \small{Cycle complet : soudure composants, câblage, débogage bas niveau à l'oscilloscope, validation fonctionnelle.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT Lab -- Microcontrôleurs \& Contraintes Temps Réel} \hfill \textit{Oct. 2023 -- Jan. 2024} \\
+\textit{ENSPY -- Laboratoire IoT} \hfill \textit{C, Arduino, Raspberry Pi, TensorFlow Lite, Python}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Portage et optimisation de code C pour microcontrôleurs à ressources limitées (RAM, flash, fréquence CPU).}
+        \item \small{Vérification des contraintes temps réel sur cible -- comparaison performances mesurées vs cahier des charges.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Robotique Autonome Militaire)} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{C/C++, Nvidia Jetson, Lidar 3D, Caméra profondeur, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement firmware C/C++ pour intégration de capteurs Lidar 3D (VLP16) et caméra de profondeur.}
+        \item \small{Tests d'intégration hardware/software en conditions opérationnelles -- validation comportement sur prototype réel.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{PROJET-TAXI -- Simulation Multiprocessus C avec Visualisation} \hfill \textit{2024} \\
+\textit{Projet Académique -- Polytechnique Yaoundé} \hfill \textit{C, Linux, IPC (mémoire partagée, signaux), OpenGL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'une interface de visualisation temps réel en \textbf{OpenGL} couplée à un backend C pur multiprocessus.}
+        \item \small{Gestion mémoire partagée, signaux POSIX et tests de robustesse sous charge.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- PROJET COMPLÉMENTAIRE ---
+\section{Projet Académique Complémentaire}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control -- Drone} \hfill \textit{2025} \\
+\textit{Projet Option -- ENSEA} \hfill \textit{MATLAB/Simulink, Contrôle robuste, FDI/FTC}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique, détection de défauts capteurs/actionneurs (FDI), contrôle tolérant aux pannes.}
+        \item \small{Simulation de scénarios de défaillance -- évaluation comparative avec les spécifications initiales.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{1\textsuperscript{ère} Place} -- IndabaX Africa 2025 (Hackathon IA Santé) \hfill \textit{2025}
+    \item \textbf{1\textsuperscript{ère} Place} -- CITS National Hackathon (Smart City, contre 75 équipes) \hfill \textit{2024}
+    \item \textbf{Lead AI Cell} -- Polytechnique Yaoundé : animation workshops C/C++, Git, Architecture logicielle \hfill \textit{2023-2024}
+\end{itemize}
+
+\end{document}

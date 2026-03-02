@@ -1,0 +1,149 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Élève-Ingénieur R\&D : Électronique \& Systèmes Embarqués} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 4 à 5 mois (Stage Assistant Ingénieur)}\\
+    \textit{\small Objectif : Poursuite en Contrat de Professionnalisation (Sept. 2026)}\\
+    \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF / Villejuif) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi}{loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech/\#portfolio}{Portfolio : mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme \textbf{ENSEA/Polytechnique Yaoundé}, spécialisé en \textbf{électronique} et \textbf{systèmes embarqués}. Expérience pratique en \textbf{soudure de composants}, conception de circuits, développement \textbf{C/VHDL} et utilisation d'instruments de métrologie. Je recherche un stage R\&D chez \textbf{ValoTec} pour contribuer au développement de dispositifs médicaux actifs et poursuivre en alternance.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - \textbf{Systèmes Embarqués}, Traitement du Signal et IA.} \\
+    \textit{\small{Projets actuels : Conception FPGA (VHDL), Électronique analogique/numérique, Traitement du Signal.}}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique} \hfill \textit{Yaoundé, Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Niveau Master 2) : Mathématiques Appliquées, Génie Logiciel \& Systèmes.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Yaoundé, Cameroun | 2020 -- 2022} \\
+    \small{Licence en Informatique et Mathématiques : Algorithmique C, Analyse, Algèbre Linéaire.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Électronique :} \textbf{Soudure CMS}, Oscilloscope, Multimètre, Conception circuits, Capteurs, Gestion puissance.}
+    \item \small{\textbf{Embarqué \& HDL :} \textbf{C / C++}, \textbf{VHDL} (FPGA), STM32, Protocoles (\textbf{I2C}, SPI, UART), Linux.}
+    \item \small{\textbf{CAO Électronique :} \textbf{Altium Designer}, KiCad (Routage PCB, Schématique).}
+    \item \small{\textbf{IA \& Traitement Signal :} PyTorch, TensorFlow, Computer Vision, Filtrage numérique.}
+    \item \small{\textbf{Outils :} Python, Git, Docker, Rédaction technique (Français/Anglais).}
+\end{itemize}
+
+% --- PROJETS ÉLECTRONIQUE & EMBARQUÉ ---
+\section{Projets Électronique \& Systèmes Embarqués}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Harmony Gloves -- Gant Instrumenté pour Langue des Signes} \hfill \textit{Laboratoire IOTA (Polytechnique)}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Électronique :} \textbf{Soudure} de capteurs flex et IMU sur PCB, intégration mécanique du prototype.}
+        \item \small{\textbf{Instrumentation :} Validation signaux à l'oscilloscope, calibration capteurs, tests fonctionnels.}
+        \item \small{\textbf{Embarqué :} Acquisition données via I2C/SPI sur STM32, modèle TinyML pour classification.}
+    \end{itemize}
+    \vspace{2pt}
+
+\item \textbf{Conception FPGA -- Système SoPC sur Cyclone V} \hfill \textit{Projet ENSEA (En cours)}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement \textbf{VHDL} : Description RTL, contraintes de routage, simulation comportementale.}
+        \item \small{Intégration soft-processeur Nios V, contrôleur I2C pour capteur ADXL345, debug JTAG.}
+    \end{itemize}
+    \vspace{2pt}
+
+\item \textbf{Upgrade Jetson -- Robotique Autonome (Challenge Défense)} \hfill \textit{Challenge CoHoMa}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Algorithmes SLAM et Monte Carlo sur Nvidia Jetson, déploiement IA embarquée via Docker.}
+    \end{itemize}
+    \vspace{2pt}
+
+\item \textbf{Analyse de Signaux ECG -- Proposition de Recherche} \hfill \textit{Projet de Recherche}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude de techniques de \textbf{filtrage numérique} pour réduction du bruit sur signaux biomédicaux.}
+        \item \small{Exploration d'algorithmes de détection d'arythmies (application médicale).}
+    \end{itemize}
+    \vspace{2pt}
+
+\item \textbf{Projet Taxi -- Simulation Temps Réel en C} \hfill \textit{Projet Académique}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Programmation bas niveau : mémoire partagée (SHM), IPC, signaux UNIX, ordonnanceur FIFO.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE PROFESSIONNELLE ---
+\section{Expériences Professionnelles}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Assistant de Recherche -- Généralisation IA (Grokking)}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Collaboration à distance}{\textbf{Québec, Canada}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Rigueur scientifique : reproduction d'expériences SOTA, rédaction de rapports techniques.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Ingénieur Backend (Freelance)}{Oct. 2024 -- Août 2025}
+      {CSC Fintech -- Architecture Bancaire Sécurisée}{Douala, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture robuste (Docker, Redis), tests unitaires et revues de code systématiques.}
+      \end{itemize}
+\end{itemize}
+
+% --- ENGAGEMENT & CERTIFICATIONS ---
+\section{Engagement Associatif \& Certifications}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Leadership :} Président du Club Informatique, Chef de la Cellule Projet IA (Polytechnique Yaoundé).
+    \item \textbf{Hackathons :} 2\textsuperscript{e} Place - IndabaX Africa (IA Santé), 1\textsuperscript{er} National - Mountain Hub.
+    \item \textbf{Certifications :} TinyML (En cours), Supervised ML (DeepLearning.AI), Python (IBM).
+    \item \textbf{Langues :} Français (Natif), \textbf{Anglais technique} (B2 -- Documentation, articles).
+\end{itemize}
+
+\end{document}

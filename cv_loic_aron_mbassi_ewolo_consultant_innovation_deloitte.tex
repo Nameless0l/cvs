@@ -1,0 +1,140 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Deloitte (Vert corporate) ---
+\definecolor{primary}{RGB}{0, 105, 55}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Consultant Informatique \& Financement de l'Innovation} \\
+    \textit{\small Disponible dès avril 2026 pour 4 à 6 mois (stage) ou dès septembre 2026 (alternance)} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Ingénieur double diplôme ENSEA/Polytechnique Yaoundé avec une expertise technique couvrant \textbf{IA (PyTorch, LLM, RAG)}, \textbf{développement logiciel (Python, PHP, Java)} et \textbf{systèmes embarqués (C/C++, FPGA)}. Expérience en recherche appliquée (MILA, Google DeepMind) avec analyse d'état de l'art, identification de verrous technologiques et rédaction de documentation scientifique. Compétences rédactionnelles avérées (articles techniques, rapports de recherche). Anglais professionnel.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus : Deep Learning, FPGA/VHDL, traitement du signal.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Intelligence Artificielle :} PyTorch, TensorFlow/Keras, LangChain, RAG, HuggingFace, NLP (BERT, GPT-2), Computer Vision (YOLO, OpenCV).}
+    \item \small{\textbf{Développement Logiciel :} Python (Expert), PHP/Laravel, Java, JavaScript/TypeScript, React, Next.js, REST APIs.}
+    \item \small{\textbf{Data \& Cloud :} MySQL, PostgreSQL, MongoDB, Redis, Docker, CI/CD, Git, Linux.}
+    \item \small{\textbf{Systèmes \& Embarqué :} C/C++, STM32, MATLAB/Simulink, FPGA/VHDL, IoT, traitement du signal.}
+    \item \small{\textbf{Rédaction \& Langues :} Documentation technique, rapports de recherche, articles Medium. Français (natif), Anglais (professionnel).}
+\end{itemize}
+
+% --- EXPÉRIENCES RECHERCHE ---
+\section{Recherche \& Projets d'Innovation}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Interprétabilité des Modèles de Deep Learning} \hfill \textit{Python, PyTorch, TensorFlow}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse de l'état de l'art sur le phénomène de Grokking (généralisation tardive des réseaux de neurones).}
+        \item \small{Reproduction d'expériences SOTA sur des MLP : identification des verrous scientifiques et analyse mathématique.}
+        \item \small{Rédaction de rapports de synthèse et présentation des résultats à l'équipe de recherche.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet UROP -- Analyse d'Électrocardiogrammes (IA Santé)} \hfill \textit{2024} \\
+\textit{Collaboration mentors Google DeepMind} \hfill \textit{Python, TensorFlow/Keras, traitement du signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle de classification d'anomalies cardiaques : recherche bibliographique, conception, évaluation.}
+        \item \small{Extraction de features sur signaux ECG (filtrage, séries temporelles). Documentation des résultats.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents Agricole (LLM + RAG)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet de Recherche} \hfill \textit{Python, Google ADK, LangChain, RAG, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture de 4 agents IA avec RAG et Gemini pour des recommandations agricoles multi-critères.}
+        \item \small{Orchestration APIs, déploiement Docker reproductible et documentation technique complète.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Outil Open Source} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Personnel -- Innovation en génie logiciel} \hfill \textit{PHP, Python, XML, LLM Integration}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Outil de génération automatique de code backend depuis diagrammes UML : parsing géométrique avancé.}
+        \item \small{Intégration LLM pour assistance intelligente. Open source : +30 étoiles GitHub, déployé sur Packagist.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- EXPÉRIENCES PROFESSIONNELLES ---
+\section{Expériences Professionnelles}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Développeur Web Full Stack @ SOSDOCTA} \hfill \textit{Fév 2022 -- Mars 2024} \\
+\textit{Remote (Belgique/Canada) -- Télémédecine} \hfill \textit{Laravel, PHP, MySQL, JS, OAuth2/JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement complet d'une plateforme de télémédecine en production pendant 2 ans.}
+        \item \small{Interaction directe avec le client pour l'analyse des besoins et les spécifications fonctionnelles.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend @ CSC (Fintech)} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Yaoundé -- Secteur Bancaire} \hfill \textit{Laravel, MySQL, Docker, REST APIs, Redis}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception backend plateforme de transactions sécurisée. Conformité aux normes financières.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership, Prix \& Certifications}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{3 $\times$ 1\textsuperscript{er} Prix} : IndabaX Africa 2025 (IA Santé), Mountain Hub 2024, CITS National Hackathon 2024.}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : workshops (ML, LLM, Laravel), collaboration Google DeepMind.}
+    \item \small{\textbf{Rédaction technique} : articles Medium (Laravel, architecture logicielle, Git workflows).}
+    \item \small{\textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM), Jira (Coursera).}
+\end{itemize}
+
+\end{document}

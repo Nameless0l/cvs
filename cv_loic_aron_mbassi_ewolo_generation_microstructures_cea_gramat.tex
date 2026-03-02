@@ -1,0 +1,166 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs CEA ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Élève-Ingénieur : Développement d'Outils de Simulation \& IA} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 5 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Occitanie) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-aron-mbassi-ewolo-3942a9246/}{linkedin} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme ENSEA/Polytechnique, spécialisé en \textbf{algorithmique}, \textbf{optimisation} et \textbf{intelligence artificielle}. Expérience en développement d'outils de génération automatique, algorithmes d'optimisation combinatoire et augmentation de données par IA. Je souhaite contribuer au \textbf{CEA Gramat} pour le développement d'outils de génération de microstructures.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - Traitement du Signal, Systèmes Embarqués et Intelligence Artificielle.} \\
+    \textit{\small{Cours : Analyse Numérique, Traitement d'Images, Programmation C/Python, Mathématiques Appliquées.}}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique de Yaoundé} \hfill \textit{Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Cameroun | 2020 -- 2022} \\
+    \small{Licence Informatique \& Mathématiques : Algorithmique C, Analyse, Algèbre Linéaire.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} \textbf{Python} (Avancé), \textbf{C/C++}, Java, SQL. Notions de Fortran.}
+    \item \small{\textbf{Mathématiques :} Algèbre Linéaire (SVD), Analyse Numérique, Probabilités/Statistiques, Optimisation.}
+    \item \small{\textbf{IA \& Data :} PyTorch, TensorFlow, Scikit-learn, Computer Vision, Augmentation de données, NumPy.}
+    \item \small{\textbf{Outils :} Git, Docker, Linux, LaTeX, Méthodologie Agile, Documentation technique.}
+\end{itemize}
+
+% --- EXPÉRIENCES ---
+\section{Expériences Significatives}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Assistant de Recherche - Intelligence Artificielle}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Collaboration à distance}{\textbf{Québec, Canada}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur le phénomène de « Grokking » (généralisation tardive) dans les réseaux de neurones.}
+        \item \small{Implémentation d'expériences reproductibles sous \textbf{PyTorch} avec analyse mathématique.}
+        \item \small{Étude de la convergence et validation par tests statistiques rigoureux.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Projet UROP - Analyse d'Images Médicales par IA}{2024}
+      {Collaboration avec mentors Google DeepMind}{Yaoundé, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un modèle de \textbf{classification d'anomalies} à partir d'images ECG.}
+        \item \small{Extraction de features sur images et traitement de signaux (filtrage numérique).}
+        \item \small{Collaboration avec chercheurs pour validation des méthodes.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Stage Recherche - Machine Learning Embarqué (TinyML)}{Oct. 2023 -- Janv. 2024}
+      {Laboratoire IOTA (IoT Lab) - École Polytechnique}{\textbf{Yaoundé, Cameroun}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Optimisation} de modèles ML pour hardware contraint (temps d'exécution, mémoire).}
+        \item \small{Déploiement sur Raspberry Pi et Arduino avec TensorFlow Lite.}
+      \end{itemize}
+\end{itemize}
+
+% --- PROJETS ---
+\section{Projets Académiques \& Techniques}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Laravel API Generator - Outil de Génération Automatique} \hfill \textit{Projet Open Source}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un \textbf{outil de génération de code} à partir de diagrammes UML/XML.}
+        \item \small{Parsing avancé et calculs géométriques sur les relations entre entités.}
+        \item \small{Architecture modulaire, +30 étoiles GitHub, déployé sur Packagist.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Urban Waste Management - Algorithmes d'Optimisation} \hfill \textit{\textbf{1\textsuperscript{er} Prix} CITS National}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Implémentation d'algorithmes d'optimisation inspirés du \textbf{voyageur de commerce}.}
+        \item \small{Optimisation des routes de collecte avec contraintes de capacité (-20\% coûts).}
+        \item \small{Analyse statistique de données pour la maintenance prédictive.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Projet Taxi - Simulation Multiprocessus en C} \hfill \textit{Projet Académique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un simulateur de flotte avec \textbf{placement optimal} de véhicules.}
+        \item \small{Gestion mémoire partagée (SHM), IPC, ordonnanceur FIFO et synchronisation.}
+        \item \small{Visualisation 2D avec OpenGL.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Harmony of Languages - Vision par Ordinateur} \hfill \textit{Laboratoire IOTA}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Création d'un \textbf{dataset custom} de gestes et augmentation de données.}
+        \item \small{Modèle de classification avec PyTorch/OpenCV et génération 3D (Blender).}
+    \end{itemize}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions, Certifications \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Hackathons :} \textbf{1\textsuperscript{ère} Place} IndabaX Africa (IA Santé), \textbf{1\textsuperscript{ère} Place} CITS National, \textbf{1\textsuperscript{ère} Place} Mountain Hub.
+    \item \textbf{Leadership :} Chef Cellule IA \& Projets (Polytechnique) - Animation workshops, gestion d'équipes techniques.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (Natif), Anglais (Professionnel/Technique).
+    \item \textbf{Académique :} Note Baccalauréat Physique : 19.25/20.
+\end{itemize}
+
+\end{document}

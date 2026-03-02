@@ -1,0 +1,69 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{parskip}
+
+% --- Couleurs BNB SAS ---
+\definecolor{primary}{RGB}{25, 65, 140}
+\hypersetup{colorlinks=true, urlcolor=primary}
+
+\begin{document}
+
+% --- EXPÉDITEUR ---
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+    \textbf{Loïc Aron MBASSI EWOLO}\\
+    Élève-Ingénieur Bac+5 -- Double diplôme ENSEA\\[3pt]
+    \faMapMarker\ Cergy, France\\
+    \faPhone\ (+33) 7 59 52 33 98\\
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
+\end{minipage}
+\hfill
+% --- DATE ---
+\begin{minipage}[t]{0.4\textwidth}
+    \raggedleft
+    Cergy, le 19 février 2026
+\end{minipage}
+
+\vspace{1.2cm}
+
+% --- DESTINATAIRE ---
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+    \raggedleft
+    \textbf{BNB SAS}\\
+    Service Recrutement\\
+    La Verrière (78), France
+\end{minipage}
+
+\vspace{1cm}
+
+\noindent\textbf{Objet :} Candidature au poste d'Ingénieur en Charge du Développement de Logiciels Embarqués (Alternance)
+
+\vspace{0.8cm}
+
+Madame, Monsieur,
+
+Écrire du firmware C/C++ sur microcontrôleurs, valider le comportement logiciel sur cible réelle et respecter des contraintes temps réel : ce sont les missions centrales du poste que vous proposez chez BNB SAS. Mon double diplôme ENSEA / Polytechnique Yaoundé, orienté systèmes embarqués, et mes projets concrets sur STM32 et Nvidia Jetson m'ont préparé à y contribuer dès le premier jour.
+
+Le Challenge CoHoMa, organisé par l'armée française en partenariat avec l'ENSEA, constitue ma vitrine en développement embarqué. Sur Nvidia Jetson (ARM Cortex-A), le code C/C++ que nous développons gère des flux critiques issus d'un Lidar 3D VLP16 et d'une caméra de profondeur, alimente les algorithmes SLAM et doit satisfaire des contraintes de latence strictes. Les cycles de vérification -- tests d'intégration, validation comportement en conditions opérationnelles -- font partie intégrante du workflow quotidien.
+
+Ma participation aux Harmony Gloves, au laboratoire IoT de l'ENSPY, m'a confronté au cycle hardware/software complet : soudure de composants, écriture du firmware C sur STM32 pour l'acquisition de capteurs IMU et flex sensors via I2C/SPI, débogage bas niveau et gestion des interruptions. Parallèlement, mon projet PROJET-TAXI -- simulation multiprocessus en C pur sous Linux -- a renforcé ma rigueur sur la gestion mémoire (mémoire partagée, signaux POSIX) et les tests de robustesse sous charge, compétences directement transférables à la vérification logicielle embarquée.
+
+Je suis disponible en alternance dès septembre 2026. Mon cursus ENSEA intègre l'architecture ARM Cortex-M, ce qui me permettra de prendre en main l'environnement NXP MCUxpresso et les processeurs MIMXRT avec un délai d'adaptation court. Rejoindre BNB SAS représente pour moi l'opportunité de mettre ces compétences au service du développement de produits innovants pour vos clients.
+
+Je reste à votre disposition pour un entretien.
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+\vspace{0.8cm}
+
+\textbf{Loïc Aron MBASSI EWOLO}\\
+\textit{Élève-Ingénieur ENSEA / Polytechnique Yaoundé}
+
+\end{document}

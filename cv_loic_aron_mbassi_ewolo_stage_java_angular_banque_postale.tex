@@ -1,0 +1,152 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs La Banque Postale ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{black}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Développeur Java / Angular} \\
+    \textit{\small Disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile nationale) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Développeur Java POO avec expérience en frameworks web (Angular, React) et intégration d'IA générative (LLM, RAG). Projets en architecture microservices et déploiement Docker. Habitué au travail en équipe Agile/Scrum. Formation ingénieur avec solides bases en algorithmique et génie logiciel.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes, IA, Traitement du Signal.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Génie Logiciel}, Algorithmique, POO, Architecture logicielle.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Java :} POO avancée, Design Patterns (Singleton, Factory, Observer), JADE (multi-agents).}
+    \item \small{\textbf{Frameworks Web :} Angular (notions), React.js/Next.js, Spring Boot (notions).}
+    \item \small{\textbf{Backend :} API REST, Node.js, PHP/Laravel, Python (FastAPI, Flask).}
+    \item \small{\textbf{IA Générative :} Intégration LLM, RAG (Retrieval-Augmented Generation), Google ADK, Gemini.}
+    \item \small{\textbf{DevOps / Cloud :} Docker, Git/GitHub, CI/CD, déploiement conteneurisé.}
+    \item \small{\textbf{Bases de données :} MySQL, PostgreSQL, MongoDB, Redis.}
+    \item \small{\textbf{Méthodologies :} Scrum/Agile, revues de code, tests unitaires et d'intégration.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Système Multi-Agents avec IA Générative} \hfill \textit{2024 -- 2025} \\
+\textit{Projet Open Source} \hfill \textit{Java (JADE), Python, Gemini, RAG, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 5 agents IA avec intégration API LLM (Gemini 2.0).}
+        \item \small{RAG pour enrichissement contextuel des échanges utilisateur/IA.}
+        \item \small{API REST pour interfaçage avec le socle IA générative.}
+        \item \small{Déploiement Docker pour isolation et reproductibilité.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet Java POO2 -- Application Desktop} \hfill \textit{2023} \\
+\textit{Projet Académique} \hfill \textit{Java, Swing/JavaFX, Design Patterns}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Application robuste avec utilisation intensive de patterns (Singleton, Factory, Observer).}
+        \item \small{Architecture MVC, gestion d'événements et IHM responsive.}
+        \item \small{Tests unitaires et documentation technique.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Frontend @ TOGETTECH-LLC (Marketplace)} \hfill \textit{Fév 2023 -- Mai 2023} \\
+\textit{Yaoundé} \hfill \textit{React.js, Redux, React Router, TypeScript}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Interface SPA marketplace avec composants réutilisables.}
+        \item \small{Intégration API REST, gestion d'état Redux.}
+        \item \small{Travail en équipe Agile avec sprints et revues de code.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind -- Architecture Microservices} \hfill \textit{2024} \\
+\textit{Projet Académique} \hfill \textit{NestJS, Laravel, MongoDB, RabbitMQ, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture microservices complète avec API Gateway.}
+        \item \small{Communication asynchrone via RabbitMQ.}
+        \item \small{Déploiement conteneurisé Docker.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Full Stack @ CSC Fintech (Bancaire)} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Yaoundé} \hfill \textit{Laravel, MySQL, Docker, Redis, API REST}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Backend sécurisé pour plateforme de transactions financières.}
+        \item \small{Gestion des accès concurrents et conformité normes financières.}
+        \item \small{Tests unitaires et d'intégration, revues de code strictes.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Génération de Code} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Open Source (+30 stars GitHub)} \hfill \textit{Python, PHP, LLM Integration}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Génération automatique de code backend depuis spécifications.}
+        \item \small{Intégration LLM pour assistance intelligente au développeur.}
+        \item \small{Déployé sur Packagist, documentation technique complète.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Full Stack @ SOSDOCTA (Télémédecine)} \hfill \textit{Fév 2022 -- Mars 2024} \\
+\textit{Remote -- Belgique/Canada} \hfill \textit{Laravel, React, MySQL, OAuth2/JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Plateforme complète avec IHM web responsive.}
+        \item \small{2 ans de maintenance et itérations en mode Agile.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Certifications}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 | \textbf{1\textsuperscript{er} Prix} CITS National 2024 (75 équipes).}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : workshops, coordination projets, travail collaboratif.}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/Coursera), Python for Data Science (IBM), POO Java (EPFL/Coursera).}
+\end{itemize}
+
+\end{document}

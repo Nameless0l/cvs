@@ -1,0 +1,142 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{black}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Internship -- Wireless Implanted Sensor \& Energy Transfer} \\
+    \textit{\small Available from April 2026 for 4 to 6 months} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Engineering student with hands-on experience in electronics design, sensor integration, and embedded systems. Background in signal processing, hardware prototyping, and scientific research. Curious, autonomous, and driven by a "maker" culture. Eager to contribute to innovative bioelectronics research in a cleanroom environment.}
+
+% --- FORMATION ---
+\section{Education}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double degree in Engineering -- Embedded Systems, Signal Processing, Electronics, AI.}
+    \item \textbf{École Polytechnique de Yaoundé (Top engineering school in Central Africa)} \hfill \textit{2021 -- 2025} \\
+    \small{Master's degree in Engineering: Applied Mathematics, Signal Processing, Electronics.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Technical Skills}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Electronics \& Hardware:} Sensor integration (IMU, flex, temperature), PCB reading, soldering, circuit design.}
+    \item \small{\textbf{Microcontrollers:} Arduino, STM32, Raspberry Pi, ESP32 -- C/C++ firmware development.}
+    \item \small{\textbf{Signal Processing:} Filtering, acquisition, time-series analysis (ECG, EEG signals).}
+    \item \small{\textbf{Simulation \& CAD:} MATLAB/Simulink, Onshape (3D CAD), basic COMSOL (notions).}
+    \item \small{\textbf{Programming:} C/C++, Python (NumPy, SciPy, PyTorch), LaTeX for documentation.}
+    \item \small{\textbf{Lab \& Research:} Experimental protocols, technical documentation, scientific presentations.}
+    \item \small{\textbf{Languages:} French (native), English (professional/technical -- research collaboration).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Research \& Projects}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{UROP 2024 -- ECG Signal Analysis for Cardiac Anomaly Detection} \hfill \textit{2024} \\
+\textit{Google DeepMind Mentorship} \hfill \textit{TensorFlow, Signal Processing, Medical Imaging}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Developed ML model for automatic detection of cardiac anomalies from ECG images.}
+        \item \small{Signal processing pipeline: filtering, feature extraction from time-series data.}
+        \item \small{Collaboration with international research mentors -- scientific rigor and documentation.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Instrumented Gloves for Sign Language} \hfill \textit{2024} \\
+\textit{IoT Lab ENSPY -- Team Project} \hfill \textit{STM32/Arduino, C, IMU/Flex Sensors, Soldering}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Hardware prototype with IMU and flex sensors for gesture recognition.}
+        \item \small{Firmware development in C for real-time sensor data acquisition and processing.}
+        \item \small{Component soldering and integration into functional enclosure.}
+        \item \small{Technical documentation and presentation to the research team.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Research Internship -- IoT Lab \& TinyML} \hfill \textit{Oct 2023 -- Jan 2024} \\
+\textit{ENSPY} \hfill \textit{Arduino, Raspberry Pi, Python, C, TensorFlow Lite}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Sensor data acquisition programs on Arduino and Raspberry Pi.}
+        \item \small{ML model optimization for resource-constrained embedded hardware.}
+        \item \small{Test bench automation and experimental validation with rigorous documentation.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Research Assistant @ MILA (Quebec AI Institute)} \hfill \textit{June 2025 -- Sept 2025} \\
+\textit{Remote -- Montreal, Canada} \hfill \textit{Python, PyTorch, Scientific Research}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Research on "Grokking" phenomenon -- late generalization in neural networks.}
+        \item \small{Reproducibility of SOTA experiments with mathematical convergence analysis.}
+        \item \small{International collaboration -- scientific writing and rigorous methodology.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control (Drone)} \hfill \textit{2025} \\
+\textit{Academic Project -- ENSEA} \hfill \textit{MATLAB/Simulink, Control Theory, Simulation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Dynamic modeling of drone under nominal and degraded conditions.}
+        \item \small{Observer-based fault detection scheme with residual analysis.}
+        \item \small{Simulation of realistic failure scenarios (sensor drift, motor failure).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{ClassSync -- Facial Recognition System} \hfill \textit{2024} \\
+\textit{Presented at GETEC National Exhibition} \hfill \textit{Python, OpenCV, Raspberry Pi, Camera}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Camera + Raspberry Pi hardware integration for real-time detection.}
+        \item \small{Complete documentation and public demonstration at national exhibition.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Awards \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1st Place} IndabaX Africa 2025 (AI for Health) | \textbf{1st Place} CITS National Hackathon 2024.}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé: workshops, project coordination, Google DeepMind collaboration.}
+    \item \small{\textbf{Certifications:} Supervised ML (Stanford/Coursera), Python for Data Science (IBM).}
+    \item \small{\textbf{Physics Baccalaureate:} 19.25/20 -- Strong foundation in physics and electronics.}
+\end{itemize}
+
+\end{document}

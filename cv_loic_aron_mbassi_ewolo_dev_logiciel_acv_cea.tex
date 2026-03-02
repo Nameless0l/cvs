@@ -1,0 +1,132 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs CEA ---
+\definecolor{primary}{RGB}{0, 102, 153}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+% NOTE: NE PAS utiliser resumeSubheading avec tabular* car cela cause des superpositions de texte
+% Utiliser le format avec \hfill et \\ pour les retours à la ligne
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance -- Développement Logiciel Python / ACV} \\
+    \textit{\small Disponible dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile -- Grenoble) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Stage de recherche en analyse de signaux et neurosciences computationnelles (Labo ICS, Florence, avr.-août 2026), suivi d'une expérience au MILA (PyTorch, analyse mathématique) et de la conception d'outils Python orientés recherche : système multi-agents (FastAPI, RAG, Gemini), outil open source de génération de code (+30 étoiles GitHub). Une pratique constante de l'ingénierie logicielle au service de problématiques scientifiques -- à mettre au service du développement de \textbf{MyLCA} au \textbf{CEA LITEN} dès septembre 2026.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, Intelligence Artificielle.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} Python (principal), PHP/Laravel, Java, C/C++, JavaScript/TypeScript}
+    \item \small{\textbf{Python \& Calcul Scientifique :} FastAPI, PyTorch, TensorFlow, NumPy, Pandas, Matplotlib, simulations Monte-Carlo}
+    \item \small{\textbf{Architecture logicielle :} Microservices, RAG, APIs REST, LLM Integration, Open Source, Brightway (initiation)}
+    \item \small{\textbf{Outils \& DevOps :} Docker, Git/GitHub, Linux, CI/CD, Poetry, Packagist}
+    \item \small{\textbf{Langues :} Français (Natif), Anglais (Professionnel -- Technique)}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Projets \& Expériences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- Labo ICS, Florence (Italie)} \hfill \textit{Avr 2026 -- Août 2026} \\
+\textit{Analyse de Signaux \& Neurosciences Computationnelles} \hfill \textit{Python, MATLAB, Traitement du Signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse de signaux et développement d'outils en Python pour la recherche en neurosciences computationnelles.}
+        \item \small{Lecture et exploitation de publications scientifiques en anglais, proposition d'axes de recherche.}
+        \item \small{Maintenance et évolution de bibliothèques MATLAB pour le laboratoire.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents Agricole -- Outil Python de Recommandation} \hfill \textit{2024 -- 2025} \\
+\textit{Projet Académique / Recherche} \hfill \textit{Python, FastAPI, Google ADK, RAG, Gemini, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception en Python d'un système de 4 agents IA collaboratifs (Gemini + RAG) pour recommandations agricoles multi-critères -- architecture modulaire et paramétrique directement comparable à celle de MyLCA.}
+        \item \small{Structuration de bibliothèques de connaissances réutilisables, orchestration d'APIs externes (OpenWeather, données marchés). Déploiement Docker/FastAPI pour reproductibilité.}
+        \item \small{Conception d'interfaces simplifiées permettant aux non-développeurs d'accéder aux fonctionnalités complexes du système -- parallèle direct avec les outils d'éco-conception pour laboratoires.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche -- MILA (Institut Québécois d'IA)} \hfill \textit{Juin -- Sept 2025} \\
+\textit{Remote -- Montréal} \hfill \textit{Python, PyTorch, TensorFlow, Analyse Mathématique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène "Grokking" (généralisation tardive des réseaux de neurones) : reproduction d'expériences SOTA, analyse de convergence mathématique, simulations Python itératives.}
+        \item \small{Expérience en recherche académique rigoureuse -- rigueur quantitative applicable aux études de sensibilité et à l'ACV prospective et dynamique.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Outil Open Source de Génération de Code} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Personnel} \hfill \textit{Python (Parsing), PHP/Laravel, XML, LLM Integration, Packagist}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un outil logiciel générant automatiquement une architecture backend complète depuis diagrammes UML/XML -- parsing géométrique avancé des relations entre entités, métaprogrammation.}
+        \item \small{Publié sur Packagist, +30 étoiles GitHub, +20 téléchargements. Intégration LLM pour assistance intelligente. Démontre la capacité à concevoir et maintenir un outil open source complexe.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet UROP -- Analyse Automatique d'Électrocardiogrammes} \hfill \textit{2024} \\
+\textit{Collaboration avec mentors Google DeepMind} \hfill \textit{Python, TensorFlow/Keras, Computer Vision, Traitement du Signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation et classification d'anomalies cardiaques depuis images ECG : extraction de features de signaux, traitement de données scientifiques complexes en Python.}
+        \item \small{Travail interdisciplinaire entre informatique et domaine médical -- posture adaptée à la traduction des besoins ACV des laboratoires en fonctionnalités logicielles concrètes.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{ère} Place} -- IndabaX Africa 2025 (IA Santé) : déploiement d'API, Flask, Streamlit, traitement de données médicales.}
+    \item \small{\textbf{1\textsuperscript{ère} Place} -- CITS National Hackathon 2024 (Smart City / Optimisation, 75 équipes) -- algorithme du voyageur de commerce, proposition de publication.}
+    \item \small{\textbf{Head of Projects Cell \& Lead AI Cell} (ENSPY) : animation workshops Python, ML, LLM. +50\% membres. Collaboration Google DeepMind.}
+    \item \small{\textbf{Certification} Supervised Machine Learning -- DeepLearning.AI / Stanford (Coursera, Oct. 2024).}
+\end{itemize}
+
+\end{document}

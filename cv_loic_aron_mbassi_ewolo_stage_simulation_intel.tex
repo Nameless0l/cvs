@@ -1,0 +1,143 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Intel ---
+\definecolor{primary}{RGB}{0, 113, 197}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{black}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Ingénieur en Simulation Système} \\
+    \textit{\small Disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile nationale) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Expérience en développement Python/C++ et frameworks ML (PyTorch, TensorFlow). Projets en détection d'anomalies sur séries temporelles, conception d'APIs et génération de code assistée par IA. Formation ENSEA en traitement du signal et systèmes. Analytique, rigoureux et curieux des technologies émergentes.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA(2A) -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Traitement du Signal, Systèmes Embarqués, IA, Architecture processeurs.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Programmation :} Python (maîtrise), C/C++ (intermédiaire), conception d'APIs (FastAPI, Flask).}
+    \item \small{\textbf{IA / ML :} PyTorch, TensorFlow/Keras, Scikit-learn, détection d'anomalies, séries temporelles.}
+    \item \small{\textbf{LLM \& Génération :} Intégration LLM, RAG, génération de code assistée par IA, Hugging Face.}
+    \item \small{\textbf{Simulation :} MATLAB/Simulink, modélisation dynamique, analyse de données de simulation.}
+    \item \small{\textbf{Data Analysis :} Pandas, NumPy, Matplotlib, analyse statistique, validation de données.}
+    \item \small{\textbf{Outils :} Git/GitHub, Docker, Linux, LaTeX pour documentation technique.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique -- collaboration internationale).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{UROP 2024 -- Détection d'Anomalies sur Signaux ECG} \hfill \textit{2024} \\
+\textit{Mentorat Google DeepMind} \hfill \textit{Python, TensorFlow, Traitement du Signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'algorithmes de détection d'anomalies sur séries temporelles.}
+        \item \small{Analyse de relations causales et patterns temporels dans les données.}
+        \item \small{Pipeline complet : extraction de features, validation, évaluation des performances.}
+        \item \small{Collaboration avec chercheurs internationaux, documentation rigoureuse.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control (Drone)} \hfill \textit{2025} \\
+\textit{Projet Académique -- ENSEA} \hfill \textit{MATLAB/Simulink, Modélisation, Simulation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique de système en conditions nominales et dégradées.}
+        \item \small{Schéma de détection de défauts basé sur observateurs et analyse de résidus.}
+        \item \small{Simulation de scénarios de pannes : analyse de sensibilité, seuils de validation.}
+        \item \small{Validation comportementale : si fréquence chute → vérification réponse système.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Génération de Code par IA} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Open Source (+30 stars GitHub)} \hfill \textit{Python, LLM Integration, Parsing}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Moteur de génération automatique de code depuis spécifications.}
+        \item \small{Intégration LLM pour assistance intelligente à la génération.}
+        \item \small{API flexible et personnalisable par l'utilisateur.}
+        \item \small{Déployé sur Packagist, documentation technique complète.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Montréal, Canada} \hfill \textit{Python, PyTorch, Analyse Statistique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur comportement des réseaux de neurones (Grokking).}
+        \item \small{Pipelines de tests statistiques pour validation d'hypothèses.}
+        \item \small{Analyse de données de simulation complexes, convergence mathématique.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents (RAG + LLM)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet Open Source} \hfill \textit{Python, Gemini, LangChain, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 5 agents IA avec validation en temps réel.}
+        \item \small{API de validation dynamique avec règles personnalisables.}
+        \item \small{Intégration de données hétérogènes et analyse de dépendances.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- Optimisation par ML} \hfill \textit{2024} \\
+\textit{1\textsuperscript{er} Prix CITS National (75 équipes)} \hfill \textit{Python, ML, Algorithmes}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation prédictive et analyse de patterns dans les données.}
+        \item \small{Algorithmes d'optimisation (voyageur de commerce) : -20\% coûts.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Certifications}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) | \textbf{1\textsuperscript{er} Prix} CITS National 2024.}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : workshops ML, coordination projets, veille technologique.}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/Coursera), Python for Data Science (IBM).}
+\end{itemize}
+
+\end{document}

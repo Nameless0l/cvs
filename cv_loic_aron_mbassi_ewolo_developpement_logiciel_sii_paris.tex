@@ -1,0 +1,156 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Groupe SII (bleu corporate) ---
+\definecolor{primary}{RGB}{0, 75, 135}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Ingénieur Développement Logiciel} \\
+    \textit{\small Disponible dès \textbf{avril 2026} pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Gennevilliers accessible) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme ENSEA / Polytechnique Yaoundé, spécialisé en \textbf{génie logiciel} et systèmes embarqués. Expérience solide en \textbf{POO} (Java, Python), \textbf{intégration continue} (Git, Docker) et développement pour systèmes critiques. Sensibilisé à la \textbf{traçabilité} et aux méthodologies Agile. Je souhaite rejoindre le \textbf{Groupe SII} pour contribuer au développement de solutions logicielles pour la défense.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA, École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur : Systèmes Embarqués, Signal, IA.} \\
+    \textit{\small{Cours clés : Architecture logicielle, Algorithmique avancée, Programmation C/C++.}}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Génie Logiciel}, Mathématiques Appliquées, Algorithmique.} \\
+    \textit{\small{Cursus : POO avancée (Java), Design Patterns, UML, Bases de données, Méthodes Agile.}}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} \textbf{Java}, \textbf{Python}, C/C++, PHP, JavaScript/TypeScript, SQL.}
+    \item \small{\textbf{POO \& Architecture :} Design Patterns (Singleton, Factory, Observer), UML, Clean Code, SOLID.}
+    \item \small{\textbf{Outils CI/CD :} \textbf{Git}, GitHub/GitLab, Docker, \textbf{Jenkins} (notions), Tests unitaires (JUnit, pytest).}
+    \item \small{\textbf{Méthodologie :} \textbf{Agile/Scrum}, Intégration continue, Traçabilité des exigences, Documentation.}
+    \item \small{\textbf{Certifications :} Supervised Machine Learning (DeepLearning.AI/Stanford), Python for Data Science (IBM).}
+\end{itemize}
+
+% --- PROJETS LOGICIELS ---
+\section{Projets Logiciels \& Développement}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Laravel API Generator (Open Source)} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Personnel, +30 étoiles GitHub} \hfill \textit{PHP, Python, UML, XML, LLM}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Outil de \textbf{génération automatique} de code backend depuis diagrammes UML/XML.}
+        \item \small{Parsing avancé et métaprogrammation, architecture modulaire et extensible.}
+        \item \small{Déployé sur Packagist avec +20 téléchargements, \textbf{documentation technique} complète.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet Java POO2, Application Desktop} \hfill \textit{2023} \\
+\textit{Projet Académique, Polytechnique Yaoundé} \hfill \textit{Java, Swing/JavaFX, Design Patterns}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Application Desktop robuste avec utilisation intensive des \textbf{Design Patterns}.}
+        \item \small{Architecture \textbf{MVC}, patterns Singleton, Factory, Observer, Strategy.}
+        \item \small{\textbf{Tests unitaires} et documentation technique.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind, Architecture Microservices} \hfill \textit{2024} \\
+\textit{Projet Académique} \hfill \textit{NestJS, Laravel, MongoDB, RabbitMQ, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture \textbf{microservices} complète avec communication asynchrone.}
+        \item \small{API Gateway, messagerie RabbitMQ, conteneurisation \textbf{Docker}.}
+        \item \small{\textbf{Intégration continue} et tests automatisés.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Challenge CoHoMa, Robotique Autonome Militaire} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{C/C++, Python, Docker, Git}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement logiciel pour robot autonome de \textbf{défense}.}
+        \item \small{Environnement Docker pour reproductibilité, \textbf{versioning Git} rigoureux.}
+        \item \small{Travail en équipe, \textbf{traçabilité} des développements.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE PROFESSIONNELLE ---
+\section{Expérience Professionnelle}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Développeur Backend, Plateforme Fintech} \hfill \textit{Oct. 2024 -- Jan. 2025} \\
+\textit{CSC (Cameroon Software Company)} \hfill \textit{Laravel, MySQL, Docker, Redis, Git}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception backend pour transactions sécurisées, architecture \textbf{scalable}.}
+        \item \small{\textbf{Tests rigoureux}, respect des normes de conformité, documentation.}
+        \item \small{Travail en équipe Agile, revues de code, \textbf{intégration continue}.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Full Stack, Télémédecine} \hfill \textit{Fév. 2022 -- Mars 2024} \\
+\textit{SOSDOCTA (Remote, Belgique/Canada)} \hfill \textit{Laravel, PHP, MySQL, OAuth2/JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Plateforme complète télémédecine, maintenance \textbf{2 ans+}.}
+        \item \small{Gestion données sensibles (RGPD), \textbf{qualité logicielle} et documentation.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche, Interprétabilité IA} \hfill \textit{Juin 2025 -- Sept. 2025} \\
+\textit{MILA (Institut Québécois d'IA)} \hfill \textit{Python, PyTorch, TensorFlow}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur la généralisation des réseaux de neurones. \textbf{Rigueur scientifique}.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Soft Skills}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{Hackathons :} 1\textsuperscript{er} Prix IndabaX Africa 2025 | 1\textsuperscript{er} CITS National (75 équipes) | 1\textsuperscript{er} Mountain Hub 2024.
+    \item \textbf{Leadership :} Lead Cellule IA, Chef Cellule Projets (Polytechnique Yaoundé). Animation workshops Git, Architecture.
+    \item \textbf{Langues :} Français (natif), Anglais (professionnel/technique).
+    \item \textbf{Qualités :} Esprit de synthèse, capacités d'analyse, qualités rédactionnelles, travail en équipe.
+\end{itemize}
+
+\end{document}

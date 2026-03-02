@@ -1,0 +1,147 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Recherche / Académique ---
+\definecolor{primary}{RGB}{0, 102, 153}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{8pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Recherche : Analyse de Signaux \& Neurosciences Computationnelles} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Europe) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-2pt}
+
+% --- PROFIL ---
+\noindent\small{Stage de recherche au \textbf{MILA} (Institut Québécois d'IA) sur la généralisation des réseaux de neurones. Proposition de recherche sur l'analyse de \textbf{signaux ECG} (filtrage, extraction de features). Double diplôme ENSEA / Polytechnique Yaoundé en traitement du signal et IA. Compétences en \textbf{Python}, analyse de séries temporelles et modélisation mathématique.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur : \textbf{Traitement du Signal}, Deep Learning, Systèmes Embarqués.} \\
+    \textit{\small{Cours : Analyse spectrale, Filtrage numérique, Réseaux de neurones, Statistiques.}}
+    \vspace{4pt}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.} \\
+    \textit{\small{Spécialités : Algèbre linéaire, Probabilités/Statistiques, Analyse numérique, Optimisation.}}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} \textbf{Python} (NumPy, SciPy, Matplotlib, Pandas), Matlab (lecture), C.}
+    \item \small{\textbf{Machine Learning :} PyTorch, TensorFlow/Keras, Scikit-learn, Analyse de séries temporelles.}
+    \item \small{\textbf{Traitement du Signal :} Filtrage numérique, FFT, Extraction de features, Signaux biomédicaux.}
+    \item \small{\textbf{Mathématiques :} Algèbre linéaire (SVD, décompositions), Probabilités, Statistiques, Optimisation.}
+    \item \small{\textbf{Langues :} Français (Natif), \textbf{Anglais} (Professionnel/Technique, lecture articles scientifiques).}
+\end{itemize}
+
+% --- EXPÉRIENCES RECHERCHE ---
+\section{Expériences de Recherche}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Assistant de Recherche : Généralisation des Réseaux de Neurones} \hfill \textit{Juin -- Sept. 2025} \\
+\textit{MILA (Institut Québécois d'IA) -- Remote} \hfill \textit{Python, PyTorch, Mathématiques}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur le phénomène de \textbf{Grokking} (généralisation tardive après surapprentissage sur MLP).}
+        \item \small{Implémentation de pipelines d'entraînement et \textbf{tests statistiques} sous PyTorch.}
+        \item \small{Reproduction d'expériences SOTA et \textbf{analyse mathématique} de la convergence.}
+        \item \small{Rédaction de rapports de recherche et présentation des résultats.}
+    \end{itemize}
+\vspace{6pt}
+
+\item \textbf{Proposition de Recherche : Analyse Automatique de Signaux ECG} \hfill \textit{2024} \\
+\textit{Projet UROP -- Collaboration mentors Google DeepMind} \hfill \textit{Traitement du signal, Python}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude des techniques de \textbf{filtrage numérique} pour la réduction du bruit sur signaux ECG.}
+        \item \small{Exploration d'algorithmes de détection d'arythmies et \textbf{extraction de features} temporelles.}
+        \item \small{Revue de littérature sur l'analyse de \textbf{signaux électrophysiologiques}.}
+    \end{itemize}
+\vspace{6pt}
+
+\item \textbf{Stage Recherche : Machine Learning sur Edge Computing} \hfill \textit{Oct. 2023 -- Jan. 2024} \\
+\textit{Laboratoire IoT, Polytechnique Yaoundé} \hfill \textit{Python, TensorFlow Lite, C}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles ML pour hardware à ressources limitées (TinyML).}
+        \item \small{Implémentation sous contraintes temps réel sur Arduino et Raspberry Pi.}
+    \end{itemize}
+\vspace{6pt}
+
+\end{itemize}
+
+% --- PROJETS EN ANALYSE DE DONNÉES ---
+\section{Projets en Analyse de Données \& Signaux}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Reconnaissance de Gestes (Vision + Capteurs)} \hfill \textit{2023 -- 2024} \\
+\textit{Projet Harmony (équipe) -- Laboratoire IOTA, Polytechnique Yaoundé} \hfill \textit{Python, PyTorch, OpenCV}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation au traitement de \textbf{données capteurs} (IMU, flex sensors) et fusion avec vision.}
+        \item \small{Création d'un \textbf{dataset} et entraînement de modèles de classification de séries temporelles.}
+    \end{itemize}
+\vspace{6pt}
+
+\item \textbf{Classification Vidéo Temps Réel (Violence Detection)} \hfill \textit{2022} \\
+\textit{Compétition Académique -- 2\textsuperscript{ème} place} \hfill \textit{TensorFlow, OpenCV, Python}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline d'extraction de features temporelles et entraînement CNN pour classification.}
+    \end{itemize}
+\vspace{6pt}
+
+\item \textbf{Détection de Contenus Sexistes (NLP)} \hfill \textit{2023} \\
+\textit{Compétition MLPC} \hfill \textit{BERT, Transformers, Python}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle NLP avec fine-tuning de \textbf{BERT/GPT-2}. Étude des biais dans les données.}
+    \end{itemize}
+\vspace{6pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Engagement Scientifique}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{1\textsuperscript{ère} Place} -- IndabaX Africa 2025 (IA pour la Santé) : Pipeline ML, déploiement API.
+    \item \textbf{Leadership :} Responsable Cellule IA (Polytechnique Yaoundé) -- Collaboration Google DeepMind.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM).
+    \item \textbf{Conférences :} IndabaX (Volontaire), ML Week Africa (Rencontre chercheurs DeepMind).
+\end{itemize}
+
+\end{document}

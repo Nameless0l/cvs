@@ -1,0 +1,140 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Sopra Steria (Rouge corporate) ---
+\definecolor{primary}{RGB}{190, 30, 45}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Développeur Full Stack IA} \\
+    \textit{\small Disponible dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile nationale) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur double diplôme ENSEA/Polytechnique Yaoundé avec une expérience concrète en \textbf{développement d'agents IA (RAG, LangChain, FastAPI)} et en \textbf{NLP/Transformers (BERT, GPT-2, HuggingFace)}. Stage de recherche au MILA (Institut Québécois d'IA) sur l'interprétabilité des modèles. +3 ans d'expérience en développement Full Stack (Python, PHP, JS). Habitué au travail en Agile, Docker et Git.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus : Deep Learning, traitement du signal, architecture logicielle.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA / NLP :} PyTorch, TensorFlow/Keras, LangChain, HuggingFace (Transformers, Speech), RAG, BERT, GPT-2, OpenCV.}
+    \item \small{\textbf{Backend \& APIs :} Python (Expert), FastAPI, PHP/Laravel, Node.js/NestJS, REST APIs, OAuth2/JWT.}
+    \item \small{\textbf{Bases de données :} PostgreSQL, MongoDB, MySQL, Redis, bases vectorielles.}
+    \item \small{\textbf{DevOps \& Outils :} Git/GitLab, Docker, CI/CD, Linux (Ubuntu), Jira, tests unitaires, documentation technique.}
+    \item \small{\textbf{Méthodologies :} Agile/Scrum, Clean Code, code review. \textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- PROJETS IA ---
+\section{Projets IA \& Agents}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Système Multi-Agents Agricole (RAG + LLM)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet de Recherche} \hfill \textit{Python, Google ADK, LangChain, RAG, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture de 4 agents IA collaboratifs utilisant Gemini (LLM) et \textbf{RAG} pour l'enrichissement contextuel.}
+        \item \small{Orchestration via Google ADK avec résolution de conflits entre agents et fusion de recommandations.}
+        \item \small{Intégration d'APIs externes (OpenWeather, marchés) via \textbf{FastAPI}. Déploiement Docker reproductible.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{YembaAudio -- NLP sur Langue Peu Dotée} \hfill \textit{2025} \\
+\textit{Projet Académique -- Préservation linguistique} \hfill \textit{Python, HuggingFace, TensorFlow, Next.js}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{App web d'apprentissage d'une langue locale à partir d'un \textbf{modèle pré-entraîné HuggingFace}.}
+        \item \small{Reconnaissance vocale (Speech Recognition) sur langue peu dotée avec corpus custom.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Women Safe -- Détection de Contenus Sexistes (NLP)} \hfill \textit{2023} \\
+\textit{Compétition MLPC} \hfill \textit{Python, BERT, GPT-2, Transformers}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle NLP de détection de misogynie en ligne basé sur \textbf{BERT et GPT-2} (fine-tuning Transformers).}
+        \item \small{Étude des biais éthiques et analyse des performances sur des corpus multilingues.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- EXPÉRIENCES RECHERCHE & DEV ---
+\section{Recherche \& Développement Full Stack}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Interprétabilité des Modèles} \hfill \textit{Python, PyTorch, TensorFlow}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène de Grokking (généralisation tardive) sur des MLP avec PyTorch.}
+        \item \small{Reproduction d'expériences SOTA, analyse mathématique de la convergence et rapports de synthèse.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Web Full Stack @ SOSDOCTA} \hfill \textit{Fév 2022 -- Mars 2024} \\
+\textit{Remote (Belgique/Canada) -- Télémédecine} \hfill \textit{Laravel, PHP, MySQL, JS, OAuth2/JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement complet d'une plateforme de télémédecine : backend REST, frontend, paiement sécurisé.}
+        \item \small{Maintenance évolutive 2 ans en autonomie. Gestion données sensibles (RGPD).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Outil Open Source} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Personnel} \hfill \textit{PHP, Python, XML, LLM Integration, Packagist}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Outil de génération automatique d'architecture backend depuis UML/XML. Intégration LLM pour assistance.}
+        \item \small{Open source : +30 étoiles GitHub, déployé sur Packagist. Documentation technique complète.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Distinctions}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé : déploiement API Flask, dashboard Streamlit).}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : workshops (Python, ML, fine-tuning LLM), collab. Google DeepMind.}
+    \item \small{\textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

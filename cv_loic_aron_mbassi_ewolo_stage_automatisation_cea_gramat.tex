@@ -1,0 +1,135 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs CEA ---
+\definecolor{primary}{RGB}{0, 102, 153}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Développement Outil d'Automatisation Python} \\
+    \textit{\small Disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile nationale) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur double diplôme ENSEA/Polytechnique Yaoundé (Mathématiques Appliquées, Signal, IA). Expérience en \textbf{développement d'outils Python automatisés}, analyse de données scientifiques et rédaction de documentation technique. Créateur d'un outil open source de génération de code (+30 étoiles GitHub). Stage de recherche au MILA (Institut Québécois d'IA) et collaboration avec Google DeepMind sur l'analyse de signaux médicaux.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus : traitement du signal, analyse numérique, modélisation.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} Python (Expert), PHP, C, JavaScript/TypeScript, MATLAB, SQL.}
+    \item \small{\textbf{Python scientifique :} NumPy, Pandas, Matplotlib, TensorFlow/Keras, PyTorch, SciPy, scikit-learn.}
+    \item \small{\textbf{Outils \& Méthodes :} Git/GitHub, Docker, Linux, CI/CD, tests unitaires, documentation technique (Markdown, LaTeX).}
+    \item \small{\textbf{Modélisation \& Données :} Analyse numérique, séries temporelles, traitement du signal, optimisation, bases de données.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique -- lecture d'articles scientifiques).}
+\end{itemize}
+
+% --- EXPÉRIENCES RECHERCHE ---
+\section{Expériences en Recherche \& Calcul Scientifique}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Interprétabilité des Modèles} \hfill \textit{Python, PyTorch, TensorFlow}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène de Grokking (généralisation tardive) sur des réseaux de neurones (MLP).}
+        \item \small{Reproduction d'expériences SOTA en Python et analyse mathématique de la convergence.}
+        \item \small{Rédaction de rapports de synthèse et présentation des résultats à l'équipe de recherche.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet UROP -- Analyse d'Électrocardiogrammes} \hfill \textit{2024} \\
+\textit{Collaboration mentors Google DeepMind} \hfill \textit{Python, TensorFlow/Keras, traitement du signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle de détection et classification d'anomalies cardiaques à partir d'images d'ECG.}
+        \item \small{Extraction de features sur signaux physiologiques : filtrage, séries temporelles, analyse fréquentielle.}
+        \item \small{Confrontation résultats du modèle avec données expérimentales de référence.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- Optimisation collecte déchets} \hfill \textit{2024} \\
+\textit{Projet Académique -- Smart City} \hfill \textit{Python, ML, algorithmes d'optimisation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation et analyse de données IoT pour prédire les besoins de collecte en milieu urbain.}
+        \item \small{Implémentation de l'algorithme du voyageur de commerce : réduction de 20\% des coûts.}
+        \item \small{Rédaction d'un papier de recherche. \textbf{1\textsuperscript{er} prix} compétition nationale CITS (75 équipes).}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- PROJETS OUTILS ---
+\section{Développement d'Outils \& Automatisation}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Laravel API Generator -- Outil Open Source d'automatisation} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Personnel} \hfill \textit{PHP, Python (parsing), XML, Packagist}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception et développement d'un outil générant automatiquement une architecture backend complète depuis des diagrammes UML/XML (parsing géométrique des fichiers draw.io).}
+        \item \small{Rédaction du cahier des charges, documentation utilisateur et guide de contribution.}
+        \item \small{Open source : +30 étoiles GitHub, déployé sur Packagist (+20 téléchargements).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents Agricole} \hfill \textit{2024 -- 2025} \\
+\textit{Projet de Recherche} \hfill \textit{Python, Google ADK, RAG, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 4 agents IA avec RAG pour des recommandations agricoles multi-critères.}
+        \item \small{Automatisation de l'interrogation d'APIs externes (météo, marchés) et traitement des données.}
+        \item \small{Documentation technique complète et déploiement reproductible (Docker, Poetry).}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Distinctions}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) | \textbf{1\textsuperscript{er} Prix} Mountain Hub Regional 2024 (Innovation).}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : animation de workshops (Python, ML), collaboration Google DeepMind.}
+    \item \small{\textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

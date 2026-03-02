@@ -1,0 +1,185 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Nokia (Bleu corporate) ---
+\definecolor{primary}{RGB}{18, 65, 145}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage : Développement Logiciels Temps Réel 5G/6G} \\
+    \textit{\small Élève Ingénieur en 2ème année, double diplôme ENSEA} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/mbassi-loic-3942a9246/}{@mbassi-loic} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{@Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-8pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme à l'\textbf{ENSEA} avec une formation riche et variée en \textbf{Mathématiques, Électronique, Informatique et Programmation}. 
+J'aime explorer de nouvelles approches et technologies ainsi que relever des défis open source. 
+Ce dont témoignent la note de \textbf{19,25/20} en physique obtenue au Baccalauréat S, la 2\textsuperscript{e} place au hackathon IndabaX \textbf{Africa} et mes divers travaux en programmation \textbf{système}, \textbf{temps réel} et \textbf{embarqué}.}
+
+\vspace{4pt}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{Double diplôme : École Nationale Supérieure de l'Électronique et de ses Applications (ENSEA)} \hfill \textit{2025 -- Présent} \\
+    \small{2ème année - Spécialité Intelligence Artificielle et \textbf{Traitement du Signal}, Ingénieur de conception}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique de Yaoundé — Génie Informatique} \hfill \textit{2021 -- Présent} \\
+    \small{Niveaux 4 \& 5 : Systèmes d'exploitation, architectures distribuées, programmation concurrente, réseaux} \\
+    \small{Niveaux 1 à 3 : Logique, algorithmique, programmation \textbf{C}, électronique | \textbf{Licence 1} Informatique en parallèle}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Système \& Temps Réel :} \textbf{Langage C} (IPC, signaux UNIX, mémoire partagée), Linux/Unix, Makefiles, debugging bas-niveau}
+    \item \small{\textbf{Embarqué :} Arduino, Raspberry Pi, Nvidia Jetson, TensorFlow Lite, STM32, capteurs IMU/Flex}
+    \item \small{\textbf{Outils \& DevOps :} Git/GitHub, \textbf{Docker}, CI/CD, tests unitaires \& intégration, méthodologie \textbf{Agile/Scrum}}
+    \item \small{\textbf{IA/ML :} Python, PyTorch, TensorFlow, OpenCV, YOLO | Optimisation modèles pour hardware limité}
+    \item \small{\textbf{Développement :} Java, PHP/Laravel, JavaScript, TypeScript | APIs RESTful, Microservices}
+\end{itemize}
+
+% --- PROJETS SYSTÈME & EMBARQUÉ ---
+\section{Projets — Programmation Système \& Embarqué}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \item \textbf{Système de simulation taxi multiprocessus en C — PROJET-TAXI} \hfill \textit{2023 -- 2024, académique}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture distribuée simulant clients, motos-taxis et centre opérationnel avec contraintes \textbf{temps réel}}
+        \item \small{Communication inter-processus : files de messages, \textbf{signaux UNIX}, \textbf{mémoire partagée} (SHM)}
+        \item \small{Développement d'un ordonnanceur central gérant l'allocation ressources avec politique FIFO et prévention deadlocks}
+        \item \small{Visualisation temps-réel avec \textbf{OpenGL}, Makefiles modulaires, profilage et debugging bas-niveau — \href{https://github.com/Nameless0l/PROJET-TAXI}{\faGithub}}
+    \end{itemize}
+    \vspace{4pt}
+
+    \item \textbf{Upgrade Jetson — Déploiement IA Embarquée (Challenge CoHoMa, Défense)} \hfill \textit{2025, académique}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Mise en fonction des Jetsons pour des robots militaires, intégration et optimisation des modèles d'IA légers (YOLOv10)}
+        \item \small{Déploiement \textbf{Docker} sur systèmes embarqués, traitement données Lidar 3D VLP16, caméras de profondeur}
+        \item \small{Navigation autonome basée sur le \textbf{SLAM}, orchestration des modules développés par les autres équipes}
+    \end{itemize}
+    \vspace{4pt}
+
+    \item \textbf{Harmony Gloves — Gants Connectés pour Langue des Signes} \hfill \textit{2024, personnel}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception et assemblage de gants instrumentés avec capteurs flex et gyroscopes}
+        \item \small{Programmation \textbf{Arduino/STM32} pour lecture données capteurs, fusion avec modèle Computer Vision}
+        \item \small{Présenté aux Journées Portes Ouvertes de l'ENSPY 2024}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCES PROFESSIONNELLES ---
+\section{Expériences Professionnelles \& Recherche}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Stage de Recherche à distance — MILA}{Juin -- Août 2025}
+      {Institut Québécois d'Intelligence Artificielle}{Québec, Canada}
+      \resumeItem{Grokking (de OpenAI), Généralisation des réseaux de neurones après sur-apprentissage}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Reproduction d'expériences SOTA, implémentation de pipelines de tests sous \textbf{PyTorch}}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Stage de Recherche — Laboratoire IoT, ENSPY}{Oct. 2023 -- Jan. 2024}
+      {Supervisé par Dr. Anne Chana}{Yaoundé, Cameroun}
+      \resumeItem{Intégration d'algorithmes de Machine Learning avec des dispositifs IoT}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Traitement et prise de décision en \textbf{temps réel} sur hardware limité (Arduino, Raspberry Pi)}
+        \item \small{Optimisation modèles ML pour contraintes mémoire et consommation énergétique — \textbf{TensorFlow Lite}}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Full-Stack (Fintech) — CSC}{Oct. 2024 -- Août 2025}
+      {Douala, Cameroun}{}
+      \resumeItem{Conception et développement d'une API fintech sécurisée et d'interfaces de gestion}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture backend (Laravel/Docker, Redis), \textbf{CI/CD}, tests unitaires \& intégration (TDD)}
+        \item \small{Méthodologie \textbf{Agile/Scrum}, revue de code, gestion des accès concurrents}
+      \end{itemize}
+
+\end{itemize}
+
+% --- AUTRES PROJETS ---
+\section{Autres Projets Significatifs}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \item \textbf{GoFind — Architecture Microservices} \hfill \textit{2024, académique}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Plateforme microservices : Laravel, NestJS, MongoDB, communication inter-services avec RabbitMQ, Docker}
+    \end{itemize}
+    \vspace{2pt}
+
+    \item \textbf{Laravel API Generator — Génération de Code Assistée par LLM} \hfill \textit{2024 -- Présent, Open Source}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un package pour la génération de projets à partir de diagrammes UML, parsing XML, Python}
+    \end{itemize}
+
+\end{itemize}
+
+% --- HACKATHONS & LEADERSHIP ---
+\section{Hackathons \& Leadership}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Hackathons :} 2\textsuperscript{e} place IndabaX Africa (2025) | 1\textsuperscript{re} place CITS National \& Mountain Hub Regional (2024)}
+\end{itemize}
+
+% --- CERTIFICATIONS ---
+\section{Certifications \& Langues}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{Supervised Machine Learning (DeepLearning.AI) | Python for Data Science (IBM)}
+    \item \small{\textbf{Langues :} Français (Langue maternelle), Anglais (Communication scientifique)}
+\end{itemize}
+
+\end{document}

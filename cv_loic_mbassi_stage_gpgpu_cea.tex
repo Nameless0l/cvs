@@ -1,0 +1,163 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs CEA ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage : Développement et Optimisation Architecture GPGPU} \\
+    \textit{\small Disponible dès \textbf{Février 2026} pour 6 mois}\\
+    \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Grenoble) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi}{loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github} \quad
+    \faGlobe\ \href{https://mbassiloic.tech/\#portfolio}{Portfolio : mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme \textbf{ENSEA/Polytechnique Yaoundé}, spécialisé en \textbf{systèmes embarqués} et \textbf{architecture numérique FPGA}. Expérience en développement \textbf{VHDL}, intégration de soft-processeurs (\textbf{Nios V/RISC-V}) et \textbf{optimisation algorithmique} (Python, PyTorch). Passionné par l'\textbf{architecture des processeurs} et le calcul haute performance, je recherche un stage au \textbf{CEA} pour contribuer à l'exploration et l'optimisation de l'architecture GPGPU \textbf{Vortex} sur FPGA.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - \textbf{Systèmes Embarqués}, Traitement du Signal et IA.} \\
+    \textit{\small{Projets : Conception numérique FPGA (VHDL, Quartus), Architecture processeurs, Traitement du Signal.}}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique} \hfill \textit{Yaoundé, Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Niveau Master 2) : Mathématiques Appliquées, Génie Logiciel \& Systèmes.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Yaoundé, Cameroun | 2020 -- 2022} \\
+    \small{Licence en Informatique et Mathématiques : Algorithmique C, Analyse, Algèbre Linéaire.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{FPGA \& HDL :} \textbf{VHDL}, Quartus Prime, \textbf{Platform Designer (SoPC)}, Nios V, ModelSim, Vivado.}
+    \item \small{\textbf{Langages \& Scripts :} \textbf{Python} (NumPy, SciPy), \textbf{C/C++}, \textbf{TCL}, Bash, Makefiles.}
+    \item \small{\textbf{Optimisation \& HPC :} Algorithmes génétiques, Optimisation multi-objectif, PyTorch, Calcul parallèle (CUDA).}
+    \item \small{\textbf{Environnement :} \textbf{Linux} (Ubuntu, scripts shell), Git, Docker, CI/CD, Simulation RTL.}
+    \item \small{\textbf{Architecture :} Micro-architecture processeurs, Pipeline, Hiérarchie mémoire, \textbf{RISC-V}, GPGPU/SIMT.}
+\end{itemize}
+
+% --- PROJETS TECHNIQUES FPGA ---
+\section{Projets FPGA, Architecture \& Optimisation}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Système SoPC sur Cyclone V -- Intégration Soft-Processeur RISC} \hfill \textit{TP ENSEA (En cours)}
+\vspace{-2pt}
+\item \small{Conception d'un système sur puce programmable avec soft-processeur et exploration architecturale.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Architecture SoPC :} Instanciation processeur \textbf{Nios V (RISC-V)} via \textbf{Platform Designer}, configuration mémoire, mapping d'adresses et interconnexion bus Avalon.}
+        \item \small{\textbf{Synthèse FPGA :} Flow complet Quartus (synthèse, placement/routage), analyse timing, extraction fréquence maximale et ressources utilisées (LUT, FF, BRAM).}
+        \item \small{\textbf{Simulation RTL :} Validation comportementale ModelSim, génération de testbenches, analyse des signaux.}
+        \item \small{\textbf{Scripts TCL :} Automatisation du flow de compilation et extraction des métriques de performance.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Classification Cancer du Poumon -- IndabaX Africa 2025 (1\textsuperscript{er} Prix)} \hfill \textit{Hackathon IA Santé}
+\vspace{-2pt}
+\item \small{Pipeline ML complet pour classification d'images CT pulmonaires (1190 images, 3 classes).}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Prétraitement :} Algorithme d'Otsu, rescaling, niveaux de gris -- analyse impact sur performances.}
+        \item \small{\textbf{Modèles :} Random Forest (98.6\% précision), SVM, Régression Logistique -- comparaison systématique.}
+        \item \small{\textbf{Analyse :} Matrices de confusion, PCA pour visualisation, rapport technique complet.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Upgrade Jetson -- Calcul GPU et Optimisation IA} \hfill \textit{Challenge CoHoMa}
+\vspace{-2pt}
+\item \small{Optimisation de pipelines de calcul sur architecture GPU embarquée (Nvidia Jetson).}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Calcul parallèle :} Profilage et optimisation inférence CUDA, analyse goulots d'étranglement.}
+        \item \small{\textbf{Architecture GPGPU :} Compréhension du modèle d'exécution \textbf{SIMT}, optimisation accès mémoire.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Traduction de la Langue des Signes} \hfill \textit{Laboratoire IOTA}
+\vspace{-2pt}
+\item \small{Prototypage d'un gant instrumenté avec capteurs IMU pour reconnaissance gestuelle.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Embarqué :} Acquisition données capteurs via I2C/SPI sur STM32, modèle TinyML.}
+        \item \small{\textbf{Électronique :} Conception circuit, soudure composants (Capteurs Flex/IMU).}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Projet Taxi -- Simulation Système Temps Réel en C} \hfill \textit{Projet Académique}
+\vspace{-2pt}
+\item \small{Développement d'un noyau de simulation multiprocessus pour flotte de véhicules.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Programmation Bas Niveau :} Mémoire partagée (SHM), IPC, synchronisation Signaux UNIX.}
+        \item \small{Ordonnanceur FIFO avec prévention des interblocages, visualisation OpenGL.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE PROFESSIONNELLE & RECHERCHE ---
+\section{Expériences Professionnelles}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Assistant de Recherche -- Optimisation et Généralisation IA}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Collaboration à distance}{\textbf{Québec, Canada}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement de \textbf{pipelines Python} automatisés pour exploration d'hyperparamètres.}
+        \item \small{Analyse statistique et \textbf{optimisation} de la convergence de modèles deep learning sous PyTorch.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Ingénieur Backend (Freelance)}{Oct. 2024 -- Août 2025}
+      {CSC Fintech -- Architecture Bancaire Sécurisée}{Douala, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture Backend robuste (Docker, Redis), tests unitaires et revues de code.}
+      \end{itemize}
+\end{itemize}
+
+% --- ENGAGEMENT ASSOCIATIF & LEADERSHIP ---
+\section{Engagement Associatif \& Certifications}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Leadership :} \textbf{Président du Club Informatique}, \textbf{Chef de la Cellule Projet IA} (Polytechnique Yaoundé).
+    \item \textbf{Hackathons :} \textbf{1\textsuperscript{er} Place} - IndabaX Africa 2025 (Classification Cancer Poumon, 98.6\% précision), \textbf{1\textsuperscript{er}} - Mountain Hub.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI / Andrew Ng), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (Natif), \textbf{Anglais} (Intermédiaire - Documentation technique, articles scientifiques).
+\end{itemize}
+
+\end{document}

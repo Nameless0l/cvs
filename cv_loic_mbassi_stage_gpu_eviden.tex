@@ -1,0 +1,160 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+% \usepackage{hyperref} % Désactivé pour compatibilité portail recrutement
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Eviden ---
+\definecolor{primary}{RGB}{0, 55, 110}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens (désactivés pour compatibilité) ---
+% \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage : Développement GPU / Traitement du Signal} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 4 à 6 mois}\\
+    \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Aix-en-Provence) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ loicaron.mbassiewolo@ensea.fr \\ \vspace{2pt}
+    \faLinkedin\ loic-mbassi \quad
+    \faGithub\ Nameless0l \quad
+    \faGlobe\ mbassiloic.tech
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme \textbf{ENSEA/Polytechnique Yaoundé}, spécialisé en \textbf{systèmes embarqués} et \textbf{traitement du signal}. Expérience en \textbf{Python/PyTorch}, \textbf{C/C++} et développement sur \textbf{GPU Nvidia} (Jetson). Formation solide en mathématiques appliquées et traitement numérique du signal. Je recherche un stage chez \textbf{Eviden} pour porter des algorithmes de traitement du signal sur plateforme GPU haute performance.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - \textbf{Systèmes Embarqués}, \textbf{Traitement du Signal} et IA.} \\
+    \textit{\small{Cours : Traitement numérique du signal, Filtrage, FFT, Conception FPGA (VHDL), Architecture processeurs.}}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique} \hfill \textit{Yaoundé, Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Niveau Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel \& Systèmes.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Yaoundé, Cameroun | 2020 -- 2022} \\
+    \small{Licence en Informatique et Mathématiques : Algorithmique C, Analyse, Algèbre Linéaire.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} \textbf{Python} (NumPy, SciPy), \textbf{C/C++}, VHDL, Bash.}
+    \item \small{\textbf{GPU \& Deep Learning :} \textbf{PyTorch}, TensorFlow, \textbf{CUDA} (notions), Nvidia Jetson.}
+    \item \small{\textbf{Traitement du Signal :} Filtrage numérique (FIR/IIR), FFT, Convolution, Analyse spectrale.}
+    \item \small{\textbf{Environnement :} \textbf{Linux} (Ubuntu), Windows, Git, Docker, CI/CD.}
+    \item \small{\textbf{Maths :} Algèbre linéaire (tenseurs, matrices), Probabilités/Stats, Analyse numérique.}
+\end{itemize}
+
+% --- PROJETS ---
+\section{Projets GPU, IA \& Traitement du Signal}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Upgrade Jetson -- IA Embarquée sur GPU Nvidia} \hfill \textit{Challenge CoHoMa}
+\vspace{-2pt}
+\item \small{Déploiement et optimisation de pipelines IA sur Nvidia Jetson (architecture GPU).}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{GPU Computing :} Déploiement YOLOv10 sur Jetson, profilage inférence, optimisation mémoire.}
+        \item \small{\textbf{Temps réel :} Contraintes de latence pour robotique autonome (SLAM, Monte Carlo).}
+        \item \small{\textbf{Environnement :} Linux, Docker, C++.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Classification Cancer du Poumon -- IndabaX Africa 2025 (2\textsuperscript{e} Prix)} \hfill \textit{Hackathon IA Santé}
+\vspace{-2pt}
+\item \small{Pipeline ML complet pour classification d'images CT pulmonaires (1190 images, 3 classes).}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Prétraitement :} Algorithme d'Otsu, rescaling, niveaux de gris -- analyse impact sur performances.}
+        \item \small{\textbf{Modèles :} Random Forest (98.6\% précision), SVM, Régression Logistique -- comparaison rigoureuse.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Analyse de Signaux ECG} \hfill \textit{Projet de Recherche}
+\vspace{-2pt}
+\item \small{Traitement de signaux biomédicaux pour détection d'anomalies cardiaques.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Filtrage numérique :} Réduction du bruit, extraction de caractéristiques temporelles/fréquentielles.}
+        \item \small{\textbf{Classification :} Algorithmes ML pour détection d'arythmies.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Reconnaissance Gestuelle} \hfill \textit{Laboratoire IOTA}
+\vspace{-2pt}
+\item \small{Système de reconnaissance de la langue des signes avec capteurs IMU et ML.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Traitement signal :} Acquisition données accéléromètre/gyroscope, filtrage, fusion capteurs.}
+        \item \small{\textbf{ML Embarqué :} Modèle TinyML pour classification temps réel sur STM32.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Projet Taxi -- Simulation Temps Réel en C} \hfill \textit{Projet Académique}
+\vspace{-2pt}
+\item \small{Simulation multiprocessus avec contraintes temps réel.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{C/Linux :} Mémoire partagée (SHM), IPC, signaux UNIX, ordonnanceur FIFO.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE PROFESSIONNELLE ---
+\section{Expériences Professionnelles}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Assistant de Recherche -- Généralisation IA (Grokking)}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Collaboration à distance}{\textbf{Québec, Canada}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement de pipelines \textbf{PyTorch} pour analyse de convergence de modèles (papier OpenAI).}
+        \item \small{Rigueur scientifique : reproduction d'expériences, documentation, rapports techniques.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Ingénieur Backend (Freelance)}{Oct. 2024 -- Août 2025}
+      {CSC Fintech -- Architecture Bancaire}{Douala, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture robuste (Docker, Redis), tests unitaires, revues de code.}
+      \end{itemize}
+\end{itemize}
+
+% --- ENGAGEMENT ---
+\section{Engagement \& Certifications}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Leadership :} Président du Club Informatique, Chef Cellule Projet IA (Polytechnique Yaoundé).
+    \item \textbf{Hackathons :} 2\textsuperscript{e} Place - IndabaX Africa 2025, 1\textsuperscript{er} - Mountain Hub, 1\textsuperscript{er} - CITS National.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI / Andrew Ng), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (Natif), Anglais (Intermédiaire - Documentation technique).
+\end{itemize}
+
+\end{document}

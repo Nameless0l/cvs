@@ -1,0 +1,137 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Naval Group ---
+\definecolor{primary}{RGB}{0, 51, 102}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Développeur Logiciel Embarqué -- Guerre des Mines} \\
+    \textit{\small Disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile nationale) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur double diplôme ENSEA/Polytechnique Yaoundé, spécialisé en développement logiciel orienté objet et systèmes embarqués. Expérience en Java, TypeScript et architecture backend. Passionné par les systèmes autonomes et la robotique de défense (projet CoHoMa). Méthodologie Agile et design patterns maîtrisés.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cours : Architecture logicielle, Temps réel, Traitement du signal.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Logiciel, Algorithmique, POO avancée, Design Patterns.}
+    \item \textbf{Licence en Informatique -- École Polytechnique de Yaoundé} \hfill \textit{2021 -- 2024} \\
+    \small{Fondamentaux : Programmation, Structures de données, Bases de données, Réseaux, Mathématiques appliquées.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages \& Frameworks :} Java (POO, Design Patterns), TypeScript, Angular, JavaScript, Python, C/C++.}
+    \item \small{\textbf{Backend \& Architecture :} Spring Boot, NestJS, Laravel, REST APIs, Microservices, Maven, Docker.}
+    \item \small{\textbf{IA \& Traitement :} PyTorch, TensorFlow, Computer Vision (YOLO), NLP, Algorithmes d'optimisation.}
+    \item \small{\textbf{Méthodologies :} Agile/Scrum, Git/GitHub, CI/CD, Tests unitaires, Gestion de projet.}
+    \item \small{\textbf{Certifications :} Supervised Machine Learning (Stanford/DeepLearning.AI), Python for Data Science (IBM).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Projets \& Expériences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Robotique Défense)} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{C/C++, YOLOv10, Docker, SLAM, Lidar 3D}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Challenge robotique autonome militaire : cartographie environnement et missions autonomes.}
+        \item \small{Développement embarqué C/C++, intégration Lidar 3D et caméra de profondeur, fusion capteurs.}
+        \item \small{Optimisation IA embarquée (YOLOv10) sur GPU Nvidia Jetson pour détection temps réel.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents Agricole (Orchestration IA)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet Recherche} \hfill \textit{Python, FastAPI, Google ADK, RAG, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture de 5 agents IA collaboratifs avec orchestration et résolution de conflits.}
+        \item \small{Intégration APIs multiples (météo, cartographie, marchés) pour recommandations multi-critères.}
+        \item \small{Conception modulaire avec RAG pour enrichissement contextuel des décisions.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind -- Architecture Microservices} \hfill \textit{2024} \\
+\textit{Projet Académique} \hfill \textit{NestJS, TypeScript, MongoDB, RabbitMQ, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception architecture microservices complète avec communication asynchrone (RabbitMQ).}
+        \item \small{Développement backend TypeScript/NestJS, API Gateway, documentation OpenAPI.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Freengo -- Application Covoiturage (Type Uber)} \hfill \textit{2024} \\
+\textit{Projet Académique} \hfill \textit{Spring Boot (Java), ScyllaDB, Next.js}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Backend Java avec Spring Boot, algorithmes d'optimisation de routes.}
+        \item \small{Base NoSQL haute performance (ScyllaDB), API REST complète.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet Java POO2 -- Application Desktop} \hfill \textit{2023} \\
+\textit{Polytechnique Yaoundé} \hfill \textit{Java, Swing/JavaFX, Design Patterns}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Application desktop robuste avec utilisation intensive des design patterns (Singleton, Factory, Observer, MVC).}
+        \item \small{Interface graphique Swing/JavaFX, architecture modulaire et maintenable.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- Optimisation Smart City} \hfill \textit{2024} \\
+\textit{Compétition CITS -- 1\textsuperscript{er} Prix} \hfill \textit{ML, Algorithmes d'optimisation, IoT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Algorithme du voyageur de commerce pour optimisation routes collecte (-20\% coûts).}
+        \item \small{1\textsuperscript{er} prix national contre 75 équipes, publication papier de recherche.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Distinctions}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) | \textbf{1\textsuperscript{er} Prix} CITS National Hackathon (Optimisation).}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : +50\% membres, collaboration Google DeepMind, workshops ML.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+\end{document}

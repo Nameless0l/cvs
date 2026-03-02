@@ -1,0 +1,160 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Valeo ---
+\definecolor{primary}{RGB}{0, 125, 50}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage R\&D Algorithmes -- Optimisation Multi-Plateforme} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 4 à 6 mois}\\
+    \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Créteil / IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi}{loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme \textbf{ENSEA/Polytechnique Yaoundé}, spécialisé en \textbf{systèmes embarqués} et \textbf{traitement du signal}. Expérience en \textbf{C/C++}, \textbf{Python} et développement sur \textbf{GPU Nvidia} (Jetson). Projets en traitement de signaux physiologiques (ECG) et optimisation de code embarqué. Je recherche un stage chez \textbf{Valeo} pour contribuer à l'optimisation multi-plateforme d'algorithmes de monitoring conducteur.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - \textbf{Systèmes Embarqués}, \textbf{Traitement du Signal} et IA.} \\
+    \textit{\small{Cours : Traitement du signal, Architecture processeurs, FPGA (VHDL), Optimisation, Computer Vision.}}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique} \hfill \textit{Yaoundé, Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Niveau Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel \& Systèmes.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Yaoundé, Cameroun | 2020 -- 2022} \\
+    \small{Licence en Informatique et Mathématiques : Algorithmique C, Analyse, Algèbre Linéaire.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} \textbf{C/C++}, \textbf{Python} (NumPy, SciPy), VHDL, Bash.}
+    \item \small{\textbf{GPU \& Parallélisme :} \textbf{CUDA} (notions), Nvidia Jetson, PyTorch, optimisation mémoire.}
+    \item \small{\textbf{Embarqué :} STM32, protocoles I2C/SPI, TinyML, contraintes temps réel.}
+    \item \small{\textbf{Traitement Signal/Image :} Filtrage (FIR/IIR), FFT, Computer Vision (OpenCV, YOLO).}
+    \item \small{\textbf{Architecture :} Pipeline CPU, hiérarchie mémoire, SIMD/vectorisation, FPGA.}
+    \item \small{\textbf{Environnement :} \textbf{Linux}, Git, Docker, CI/CD.}
+\end{itemize}
+
+% --- PROJETS ---
+\section{Projets Embarqué, Optimisation \& Traitement du Signal}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Analyse de Signaux ECG -- Détection d'Anomalies Cardiaques} \hfill \textit{Projet de Recherche}
+\vspace{-2pt}
+\item \small{Traitement de signaux physiologiques pour classification automatique (proche PPG).}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Filtrage numérique :} Réduction bruit, extraction caractéristiques temps/fréquence.}
+        \item \small{\textbf{Classification :} Algorithmes ML pour détection d'arythmies, évaluation précision.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Upgrade Jetson -- IA Embarquée sur GPU Nvidia} \hfill \textit{Challenge CoHoMa}
+\vspace{-2pt}
+\item \small{Déploiement et optimisation de pipelines IA sur architecture GPU embarquée.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Optimisation GPU :} Déploiement YOLOv10, profilage inférence, gestion mémoire.}
+        \item \small{\textbf{Temps réel :} Contraintes latence pour robotique autonome (C++, Docker).}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Classification Cancer du Poumon -- IndabaX Africa 2025 (2\textsuperscript{e} Prix)} \hfill \textit{Hackathon IA}
+\vspace{-2pt}
+\item \small{Pipeline ML pour classification d'images médicales (1190 images CT).}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Traitement images :} Prétraitement (Otsu, rescaling), analyse impact sur performances.}
+        \item \small{\textbf{Évaluation :} Comparaison rigoureuse modèles (Random Forest 98.6\%, SVM, Logistic).}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Reconnaissance Gestuelle Temps Réel} \hfill \textit{Laboratoire IOTA}
+\vspace{-2pt}
+\item \small{Système embarqué de reconnaissance langue des signes avec capteurs IMU.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Traitement signal :} Acquisition accéléromètre/gyroscope, filtrage, fusion capteurs.}
+        \item \small{\textbf{Embarqué :} Modèle TinyML sur STM32, contraintes mémoire et latence.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Projet Taxi -- Simulation Multiprocessus en C} \hfill \textit{Projet Académique}
+\vspace{-2pt}
+\item \small{Noyau de simulation temps réel avec parallélisme.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{C/Linux :} Mémoire partagée (SHM), IPC, signaux UNIX, ordonnanceur FIFO.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE PROFESSIONNELLE ---
+\section{Expériences Professionnelles}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Assistant de Recherche -- Généralisation IA}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Collaboration à distance}{\textbf{Québec, Canada}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipelines \textbf{PyTorch} pour analyse convergence modèles (papier Grokking, OpenAI).}
+        \item \small{Rigueur scientifique : reproduction expériences, documentation, rapports.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Ingénieur Backend (Freelance)}{Oct. 2024 -- Août 2025}
+      {CSC Fintech -- Architecture Bancaire}{Douala, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture robuste (Docker, Redis), tests unitaires, revues de code.}
+      \end{itemize}
+\end{itemize}
+
+% --- ENGAGEMENT ---
+\section{Engagement \& Certifications}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Leadership :} Président Club Informatique, Chef Cellule Projet IA (Polytechnique Yaoundé).
+    \item \textbf{Hackathons :} 2\textsuperscript{e} Place IndabaX Africa 2025, 1\textsuperscript{er} Mountain Hub, 1\textsuperscript{er} CITS National.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (Natif), Anglais (Intermédiaire - Documentation technique).
+\end{itemize}
+
+\end{document}

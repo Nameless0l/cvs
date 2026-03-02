@@ -1,0 +1,189 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Startup / Tech (Violet-Indigo moderne) ---
+\definecolor{primary}{RGB}{79, 70, 229}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance : Développeur IA \& Full-Stack – Agents Conversationnels} \\
+    \textit{\small Élève Ingénieur en 2ème année, double diplôme ENSEA} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Paris / Île-de-France) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \\ \vspace{2pt}
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad
+    \faLinkedin\ \href{https://www.linkedin.com/in/mbassi-loic-3942a9246/}{@mbassi-loic} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{@Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech} \quad
+    \faMedium\ \href{https://medium.com/@wwwmbassiloic}{medium}
+\end{center}
+
+\vspace{-8pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme à l'\textbf{ENSEA} avec une formation riche et variée en \textbf{Mathématiques, Électronique, Informatique et Programmation}. 
+J'aime explorer de nouvelles approches et technologies ainsi que relever des défis open source. 
+Ce dont témoignent la note de \textbf{19,25/20} en physique obtenue au Baccalauréat S, la 2\textsuperscript{e} place au hackathon IndabaX \textbf{Africa} et mes divers travaux en \textbf{IA conversationnelle}, \textbf{systèmes multi-agents} et développement \textbf{Full-Stack PHP/JavaScript}.}
+
+\vspace{4pt}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{Double diplôme : École Nationale Supérieure de l'Électronique et de ses Applications (ENSEA)} \hfill \textit{2025 -- Présent} \\
+    \small{2ème année - Spécialité Intelligence Artificielle et Traitement du Signal, Ingénieur de conception}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique de Yaoundé — Génie Informatique} \hfill \textit{2021 -- Présent} \\
+    \small{Niveaux 4 \& 5 : \textbf{Systèmes multi-agents}, NLP, conception logicielle, architectures distribuées} \\
+    \small{Niveaux 1 à 3 : Logique, algorithmique, programmation C, POO Java | \textbf{Licence 1} Informatique en parallèle}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA Conversationnelle \& Agents :} Google ADK, LangChain, RAG, Prompt Engineering, APIs OpenAI/Gemini, NLP, BERT}
+    \item \small{\textbf{Backend :} \textbf{PHP/Laravel}, Python, Java/Spring Boot | APIs RESTful, Microservices, RabbitMQ}
+    \item \small{\textbf{Frontend :} \textbf{JavaScript}, React.js, Next.js, TypeScript, HTML/CSS}
+    \item \small{\textbf{Outils \& DevOps :} Git/GitHub, Docker, MySQL, PostgreSQL, MongoDB, Redis | CI/CD, Tests (TDD)}
+    \item \small{\textbf{IA/ML :} PyTorch, TensorFlow, Hugging Face Transformers, Computer Vision, Fine-tuning LLM}
+\end{itemize}
+
+% --- PROJETS IA CONVERSATIONNELLE & AGENTS ---
+\section{Projets – IA Conversationnelle \& Systèmes Multi-Agents}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \item \textbf{Système Multi-Agents avec Google ADK — Chatbot Agricole} \hfill \textit{2024 -- 2025, personnel}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un système d'agents IA collaboratifs orchestrant \textbf{5 agents spécialisés} pour fournir dans un \textbf{chatbot} des conseils personnalisés aux agriculteurs camerounais}
+        \item \small{Architecture de conversation avec gestion des scénarios, objections et propositions contextuelles}
+        \item \small{Orchestration multi-agents avec Google ADK, \textbf{RAG} (Retrieval-Augmented Generation), intégration API Gemini}
+        \item \small{\textbf{Stack :} Google ADK, Gemini 2.0 Flash, FastAPI, Docker, LangChain, Poetry — vectorisation de données}
+    \end{itemize}
+    \vspace{4pt}
+
+    \item \textbf{Laravel API Generator — Génération de Code Assistée par LLM} \hfill \textit{2024 -- Présent, Open Source}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un package assisté par IA pour la génération de projets (à partir de diagrammes UML) en suivant les bonnes pratiques}
+        \item \small{Intégration de \textbf{LLM} pour l'assistance contextuelle au code et prompt engineering}
+        \item \small{Parsing XML, métaprogrammation Python, tests unitaires automatisés, documentation auto — \href{https://github.com/Nameless0l}{\faGithub}}
+    \end{itemize}
+    \vspace{4pt}
+
+    \item \textbf{Women Safe — Détection de Contenus Sexistes (NLP)} \hfill \textit{2023, MLPC Competition}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un modèle de détection d'expressions sexistes avec \textbf{BERT} et fine-tuning}
+        \item \small{Analyse de texte en français, gestion des biais, évaluation éthique — 2\textsuperscript{e} place compétition}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE PROFESSIONNELLE ---
+\section{Expériences Professionnelles — Développement Full-Stack}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Développeur Full-Stack (Fintech) — CSC}{Oct. 2024 -- Août 2025}
+      {Douala, Cameroun}{}
+      \resumeItem{Conception et développement d'une API fintech sécurisée et d'interfaces de gestion}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture backend sécurisée (\textbf{Laravel}/Docker, Redis), APIs RESTful, gestion des accès concurrents}
+        \item \small{Tests unitaires \& d'intégration (TDD), revue de code, CI/CD, méthodologie \textbf{Agile/Scrum}}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Full-Stack — SOSDOCTA, Belgique}{Fév. 2022 -- Nov. 2024}
+      {Remote — Plateforme de télémédecine}{}
+      \resumeItem{Application de consultation et gestion des patients avec télémédecine intégrée}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Laravel}, MySQL, JavaScript — Dashboard client, APIs de paiement, notifications}
+        \item \small{Maintenance 2+ ans, gestion de projet en équipe distribuée, conformité RGPD}
+      \end{itemize}
+\end{itemize}
+
+% --- AUTRES PROJETS ---
+\section{Autres Projets Significatifs}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \item \textbf{Nettoie-Québec, Canada} \hfill \textit{2024, freelance}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Application web de réservation en ligne — Laravel, JavaScript, système de notifications email}
+    \end{itemize}
+    \vspace{2pt}
+
+    % \item \textbf{YembaAudio — Reconnaissance Vocale Langue Locale} \hfill \textit{2025, personnel}
+    % \vspace{-2pt}
+    % \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    %     \item \small{Système de reconnaissance vocale pour le Yemba (NLP), Next.js, TensorFlow, transfer learning}
+    % \end{itemize}
+    % \vspace{2pt}
+
+    \item \textbf{GoFind — Architecture Microservices} \hfill \textit{2024, académique}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Plateforme microservices : Laravel, NestJS, MongoDB, communication inter-services avec \textbf{RabbitMQ}}
+    \end{itemize}
+
+\end{itemize}
+
+% --- RECHERCHE ---
+\section{Expérience en Recherche}
+\begin{itemize}[leftmargin=*, label={}]
+    \resumeSubheading
+      {Stage de Recherche à distance — MILA}{Juin -- Août 2025}
+      {Institut Québécois d'Intelligence Artificielle}{Québec, Canada}
+      \resumeItem{Grokking (de OpenAI), Généralisation des réseaux de neurones après sur-apprentissage}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Reproduction d'expériences SOTA, implémentation de pipelines de tests sous \textbf{PyTorch}}
+      \end{itemize}
+\end{itemize}
+
+% --- HACKATHONS & LEADERSHIP ---
+\section{Hackathons, Leadership \& Certifications}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Hackathons :} 2\textsuperscript{e} place IndabaX Africa (2025) | 1\textsuperscript{re} place CITS National \& Mountain Hub Regional (2024)}
+    \item \small{\textbf{Certifications :} Supervised ML (DeepLearning.AI), Python (IBM), Agents IA (IBM, en cours)}
+    \item \small{\textbf{Langues :} Français (Langue maternelle), Anglais (Communication scientifique)}
+\end{itemize}
+
+\end{document}

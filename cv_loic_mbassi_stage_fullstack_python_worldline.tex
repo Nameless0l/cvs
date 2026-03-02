@@ -1,0 +1,168 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Worldline ---
+\definecolor{primary}{RGB}{0, 70, 135}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Développement Fullstack Python} \\
+    \textit{\small Disponible dès \textbf{Avril 2026} pour 4 à 6 mois}\\
+    \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Seclin / Hauts-de-France) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi}{loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme \textbf{ENSEA/Polytechnique Yaoundé}, spécialisé en \textbf{systèmes embarqués} et \textbf{IA}. Expérience en développement \textbf{Python} (PyTorch, NumPy), \textbf{fullstack web} (React, Laravel, NestJS) et \textbf{Machine Learning} (modèles de prédiction, séries temporelles). Je recherche un stage chez \textbf{Worldline} pour contribuer au développement d'un portail d'observabilité avec intégration de modèles d'IA.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label={.}, nosep]
+    \item \textbf{ENSEA (École Nationale Supérieure de l'Électronique et de ses Applications)} \hfill \textit{Cergy, France | 2025 -- Présent} \\
+    \small{Ingénieur 2A, Double Diplôme - Systèmes Embarqués, Traitement du Signal et \textbf{IA}.} \\
+    \textit{\small{Cours : Machine Learning, Deep Learning, Traitement du signal, Architecture logicielle.}}
+    \vspace{2pt}
+    \item \textbf{École Nationale Supérieure Polytechnique} \hfill \textit{Yaoundé, Cameroun | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Niveau Master 2) : \textbf{Génie Logiciel} \& Systèmes.}
+    \item \textbf{Université de Yaoundé I} \hfill \textit{Yaoundé, Cameroun | 2020 -- 2022} \\
+    \small{Licence en Informatique et Mathématiques : Algorithmique, Analyse, Statistiques.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Python :} \textbf{PyTorch}, NumPy, Pandas, SciPy, Scikit-learn, Flask/FastAPI.}
+    \item \small{\textbf{IA / ML :} Modèles de prédiction (Random Forest, SVM, XGBoost), Séries temporelles, Deep Learning.}
+    \item \small{\textbf{Fullstack Web :} \textbf{React.js}, Next.js, Laravel, NestJS, REST APIs, MongoDB, MySQL.}
+    \item \small{\textbf{DevOps :} \textbf{Docker}, Git, CI/CD, Linux, Redis.}
+    \item \small{\textbf{Outils IA :} GitHub Copilot, assistants de codage IA.}
+\end{itemize}
+
+% --- PROJETS ---
+\section{Projets Python, IA \& Fullstack}
+\begin{itemize}[leftmargin=*, label={}]
+
+\item \textbf{Classification Cancer du Poumon -- IndabaX Africa 2025 (2\textsuperscript{e} Prix)} \hfill \textit{Hackathon IA}
+\vspace{-2pt}
+\item \small{Pipeline ML complet en Python pour classification d'images médicales.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Modèles :} Random Forest (98.6\%), SVM, Régression Logistique -- comparaison performances.}
+        \item \small{\textbf{Analyse :} Prétraitement données, matrices de confusion, visualisation PCA.}
+        \item \small{\textbf{Stack :} Python, Scikit-learn, NumPy, Pandas, Matplotlib.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{GoFind -- Plateforme Microservices} \hfill \textit{Projet Académique}
+\vspace{-2pt}
+\item \small{Architecture microservices complète avec API Gateway.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Backend :} Laravel, NestJS, MongoDB, communication asynchrone RabbitMQ.}
+        \item \small{\textbf{DevOps :} Docker, containerisation, déploiement.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Système Multi-Agents Agricole} \hfill \textit{Projet Recherche}
+\vspace{-2pt}
+\item \small{Orchestration de 5 agents IA pour aide à la décision agricole.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{IA :} LangChain, RAG avec base de connaissances, résolution de conflits.}
+        \item \small{\textbf{Stack :} Python, Docker, API REST.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{SOSDOCTA -- Plateforme de Télémédecine} \hfill \textit{Freelance (2 ans)}
+\vspace{-2pt}
+\item \small{Plateforme fullstack complète pour téléconsultations médicales.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Frontend :} Interface responsive, dashboard médecins/patients.}
+        \item \small{\textbf{Backend :} API REST, système de réservation et paiement, authentification OAuth2/JWT.}
+    \end{itemize}
+    \vspace{3pt}
+
+\item \textbf{Laravel API Generator} \hfill \textit{Projet Open Source}
+\vspace{-2pt}
+\item \small{Outil générant automatiquement une architecture backend depuis UML/XML.}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\textbf{Parsing :} Python pour analyse fichiers UML, génération code Laravel.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCE PROFESSIONNELLE ---
+\section{Expériences Professionnelles}
+\begin{itemize}[leftmargin=*, label={}]
+
+    \resumeSubheading
+      {Assistant de Recherche -- IA / Deep Learning}{Juin 2025 -- Sept. 2025}
+      {MILA (Institut Québécois d'IA) - Remote}{\textbf{Québec, Canada}}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipelines \textbf{Python/PyTorch} pour analyse de convergence de modèles (papier Grokking).}
+        \item \small{Rigueur scientifique, documentation, rapports techniques.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Backend}{Oct. 2024 -- Août 2025}
+      {CSC Fintech -- Architecture Bancaire}{Douala, Cameroun}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture robuste (Docker, Redis), gestion transactions concurrentes.}
+      \end{itemize}
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Développeur Fullstack}{Fév. 2022 -- Mars 2024}
+      {SOSDOCTA -- Plateforme Télémédecine}{Remote (Belgique/Canada)}
+      \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Plateforme complète : API REST, dashboard, système de paiement, maintenance 2+ ans.}
+      \end{itemize}
+\end{itemize}
+
+% --- ENGAGEMENT ---
+\section{Engagement \& Certifications}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Leadership :} Président Club Informatique, Chef Cellule Projet IA (Polytechnique Yaoundé).
+    \item \textbf{Hackathons :} 2\textsuperscript{e} IndabaX Africa 2025, 1\textsuperscript{er} Mountain Hub, 1\textsuperscript{er} CITS National.
+    \item \textbf{Certifications :} Supervised ML (DeepLearning.AI / Andrew Ng), Python for Data Science (IBM).
+    \item \textbf{Langues :} Français (Natif), Anglais (Intermédiaire - Documentation technique).
+\end{itemize}
+
+\end{document}

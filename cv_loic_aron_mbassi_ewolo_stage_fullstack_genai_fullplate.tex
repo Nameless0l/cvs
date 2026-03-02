@@ -1,0 +1,148 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{black}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Full Stack Engineer -- GenAI \& Creative Automation} \\
+    \textit{\small Stage dès avril 2026 (4-6 mois) | Alternance dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Paris) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Full Stack avec expérience React/Next.js et Python backend. Projets en IA générative (LLM, fine-tuning, RAG) et Computer Vision. Créateur d'un outil open source (+30 stars GitHub). Habitué aux cycles courts et au ship rapide. Hacker mindset : je débug jusqu'à trouver la solution.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Deep Learning, Traitement du Signal, IA.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Logiciel, Algorithmique, Mathématiques Appliquées.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Frontend :} React.js, Next.js, TypeScript, Redux, Tailwind CSS.}
+    \item \small{\textbf{Backend :} Node.js, Python (FastAPI, Flask), PHP/Laravel, API REST.}
+    \item \small{\textbf{GenAI / ML :} PyTorch, TensorFlow, Hugging Face, fine-tuning LLM, RAG, Stable Diffusion (notions).}
+    \item \small{\textbf{Infra / DevOps :} Docker, Git/GitHub, CI/CD, déploiement GPU (Nvidia Jetson).}
+    \item \small{\textbf{Bases de données :} PostgreSQL, MySQL, MongoDB, Redis.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Laravel API Generator -- Outil Open Source (+30 stars)} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Personnel} \hfill \textit{Python, PHP, LLM Integration, Métaprogrammation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Génération automatique de code backend complet depuis diagrammes UML.}
+        \item \small{Parsing XML avancé et intégration LLM pour assistance au code.}
+        \item \small{Déployé sur Packagist, +20 téléchargements, documentation complète.}
+        \item \small{Approche product : résout un vrai problème de développeurs.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents (RAG + LLM)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet Open Source} \hfill \textit{Python, Gemini 2.0, LangChain, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 5 agents IA avec Google ADK et Gemini comme moteur LLM.}
+        \item \small{RAG pour enrichissement contextuel, intégration APIs externes.}
+        \item \small{Pipeline automatisé de génération de recommandations en temps réel.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Full Stack @ SOSDOCTA (Télémédecine)} \hfill \textit{Fév 2022 -- Mars 2024} \\
+\textit{Remote -- Belgique/Canada} \hfill \textit{Laravel, React, MySQL, OAuth2/JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Plateforme complète de télémédecine : réservation, paiement, dashboard.}
+        \item \small{2 ans de maintenance et itérations produit continues.}
+        \item \small{Cycles courts : features livrées, feedback utilisateurs, amélioration.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Frontend @ TOGETTECH-LLC (Marketplace)} \hfill \textit{Fév 2023 -- Mai 2023} \\
+\textit{Yaoundé} \hfill \textit{React.js, Redux, React Router}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Interface marketplace responsive avec composants React réutilisables.}
+        \item \small{Optimisation des performances frontend.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Défense)} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{C/C++, Python, YOLOv10, Docker, GPU}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles IA (YOLO) sur GPU Nvidia Jetson.}
+        \item \small{Docker pour isolation et reproductibilité des environnements.}
+        \item \small{Intégration Lidar 3D et caméra de profondeur.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche @ MILA} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Institut Québécois d'IA -- Remote} \hfill \textit{Python, PyTorch}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Recherche sur généralisation des réseaux de neurones (Grokking).}
+        \item \small{Reproduction expériences SOTA, pipelines de tests PyTorch.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{YembaAudio -- NLP Low-Resource} \hfill \textit{2025} \\
+\textit{Projet Personnel} \hfill \textit{Hugging Face, TensorFlow, Next.js}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Fine-tuning modèle pré-entraîné sur langue peu dotée.}
+        \item \small{App web Next.js pour apprentissage avec reconnaissance vocale.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Hackathons \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 | \textbf{1\textsuperscript{er} Prix} CITS National 2024 (75 équipes).}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : workshops fine-tuning LLM, +50\% membres.}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/Coursera), Python for Data Science (IBM).}
+\end{itemize}
+
+\end{document}

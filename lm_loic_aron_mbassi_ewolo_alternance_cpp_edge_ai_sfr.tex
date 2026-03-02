@@ -1,0 +1,69 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{parskip}
+
+% --- Couleurs (Rouge SFR) ---
+\definecolor{primary}{RGB}{200, 16, 46}
+\hypersetup{colorlinks=true, urlcolor=primary}
+
+\begin{document}
+
+% --- EXPÉDITEUR ---
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+    \textbf{Loïc Aron MBASSI EWOLO}\\
+    Élève-Ingénieur Bac+5 -- Double diplôme ENSEA\\[3pt]
+    \faMapMarker\ Cergy, France\\
+    \faPhone\ (+33) 7 59 52 33 98\\
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
+\end{minipage}
+\hfill
+% --- DATE ---
+\begin{minipage}[t]{0.4\textwidth}
+    \raggedleft
+    Cergy, le 27 février 2026
+\end{minipage}
+
+\vspace{1.2cm}
+
+% --- DESTINATAIRE ---
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+    \raggedleft
+    \textbf{SFR}\\
+    Service Recrutement\\
+    Paris, France
+\end{minipage}
+
+\vspace{1cm}
+
+\noindent\textbf{Objet :} Candidature en alternance -- Ingénieur Développement C/C++ \& Edge AI
+
+\vspace{0.8cm}
+
+Madame, Monsieur,
+
+Optimiser un modèle YOLOv10 pour qu'il tourne sur un Nvidia Jetson embarqué dans un robot autonome, puis développer en C le firmware d'un gant instrumenté sur STM32 : ces deux projets m'ont confronté aux mêmes contraintes que celles d'une box opérateur, à savoir exécuter de l'intelligence sur du hardware limité en CPU, mémoire et consommation. En double diplôme à l'ENSEA après un diplôme d'ingénieur à l'École Polytechnique de Yaoundé, je souhaite mettre cette expérience au service de l'équipe middleware home gateway de SFR pour contribuer au développement du module Edge AI de self-healing.
+
+Dans le cadre du challenge CoHoMa (robotique autonome militaire, ENSEA), je travaille actuellement sur l'intégration de modèles de détection YOLOv10 embarqués sur Nvidia Jetson, couplés à un Lidar 3D et une caméra de profondeur. Le développement se fait en C/C++ sous Linux avec Docker pour la reproductibilité, et inclut du SLAM et de la fusion de capteurs. Ce projet m'a donné une compréhension concrète du pipeline complet : collecte de données capteurs, inférence embarquée, et prise de décision temps réel, un pipeline proche de celui que vous envisagez pour la détection d'anomalies et le diagnostic intelligent sur vos gateways.
+
+Mon stage au laboratoire IoT de l'ENSPY m'a spécifiquement formé à l'optimisation de modèles ML pour hardware contraint (Raspberry Pi, Arduino) avec TensorFlow Lite, sous contraintes strictes de mémoire et de latence. J'ai également participé à la conception des Harmony Gloves (gants de traduction langue des signes) au laboratoire IOTA, avec développement firmware C sur STM32 et fusion de données capteurs IMU/Flex. Côté LLM et RAG, j'ai conçu un système multi-agents utilisant Gemini et RAG via Google ADK, déployé avec FastAPI et Docker, une brique pertinente pour les approches SLM/RAG que vous explorez sur les box.
+
+Je suis disponible dès septembre 2026 pour une alternance. L'opportunité de travailler sur l'intégration d'IA embarquée dans un environnement Yocto/RDKB/Linux, au sein d'une équipe experte sur les gateways SFR, représente le cadre technique idéal pour approfondir mes compétences en Edge AI et en développement système. Mon expérience en programmation C bas niveau (IPC, mémoire partagée, signaux POSIX via mon projet de simulation multiprocessus) et en déploiement de modèles sur hardware contraint me permettra d'être opérationnel rapidement.
+
+Je reste à votre disposition pour un entretien afin de discuter de ma candidature.
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+\vspace{0.8cm}
+
+\textbf{Loïc Aron MBASSI EWOLO}\\
+\textit{Élève-Ingénieur ENSEA / Polytechnique Yaoundé}
+
+\end{document}

@@ -1,0 +1,138 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Viveris ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Développeur IA Embarqué -- Edge \& Cloud} \\
+    \textit{\small Disponible dès avril 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile nationale) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur double diplôme ENSEA/Polytechnique Yaoundé, spécialisé en IA embarquée et systèmes connectés. Expérience en déploiement de modèles sur edge (Jetson, STM32) et intégration Cloud. Maîtrise de Python, Computer Vision (YOLO, OpenCV) et optimisation de modèles pour hardware contraint.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cours : Deep Learning, Architecture embarquée, Traitement du signal.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Logiciel, IA, Algorithmique avancée.}
+    \item \textbf{Licence en Informatique -- École Polytechnique de Yaoundé} \hfill \textit{2021 -- 2024} \\
+    \small{Fondamentaux : Programmation, Structures de données, Bases de données, Réseaux.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA \& Vision :} Python, PyTorch, TensorFlow, YOLO (v8/v10), OpenCV, Mediapipe, TensorRT, ONNX, TF Lite.}
+    \item \small{\textbf{Embarqué \& Edge :} Nvidia Jetson, STM32, Arduino, Raspberry Pi, C/C++, optimisation mémoire/latence.}
+    \item \small{\textbf{Cloud \& DevOps :} Docker, FastAPI, REST APIs, GitLab CI/CD, déploiement containerisé.}
+    \item \small{\textbf{Outils :} Git/GitLab, Linux, VS Code, Jupyter, Poetry.}
+    \item \small{\textbf{Certifications :} Supervised Machine Learning (Stanford/DeepLearning.AI), Python for Data Science (IBM).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Projets \& Expériences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Robotique Défense)} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{C/C++, YOLOv10, Docker, Nvidia Jetson}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation IA embarquée (YOLOv10) sur GPU Nvidia Jetson pour détection temps réel.}
+        \item \small{Comparaison performances edge vs cloud, optimisation latence et consommation mémoire.}
+        \item \small{Intégration Lidar 3D et caméra de profondeur, fusion capteurs pour navigation autonome.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT Lab -- TinyML} \hfill \textit{Oct 2023 -- Jan 2024} \\
+\textit{École Polytechnique de Yaoundé} \hfill \textit{Python, TF Lite, Arduino, Raspberry Pi, C}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation modèles ML pour déploiement sur hardware contraint (TinyML).}
+        \item \small{Quantification et conversion TensorFlow Lite, contraintes temps réel et mémoire.}
+        \item \small{Benchmarking performances edge computing sur différentes plateformes embarquées.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Gants Intelligents Langue des Signes} \hfill \textit{2024} \\
+\textit{Labo IoTA, Polytechnique Yaoundé} \hfill \textit{STM32, C, PyTorch, Capteurs IMU/Flex}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Prototype hardware instrumenté : acquisition données capteurs, traitement embarqué.}
+        \item \small{Fusion données capteurs + modèle ML pour reconnaissance gestes temps réel.}
+        \item \small{Pipeline complète : acquisition edge, inférence locale, remontée données cloud.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{UROP 2024 : Analyse ECG par Deep Learning} \hfill \textit{2024} \\
+\textit{Collaboration Google DeepMind} \hfill \textit{TensorFlow/Keras, Computer Vision, Signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle de classification d'anomalies cardiaques à partir d'images ECG.}
+        \item \small{Extraction features signaux, prétraitement images médicales, validation médicale.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{ClassSync -- Reconnaissance Faciale Temps Réel} \hfill \textit{2024} \\
+\textit{Polytechnique Yaoundé -- Salon GETEC} \hfill \textit{OpenCV, Face Recognition, Python}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Système temps réel de reconnaissance faciale pour appel automatique.}
+        \item \small{Parallélisation traitement multi-caméras, optimisation ressources.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents Agricole (Cloud + IA)} \hfill \textit{2024 -- 2025} \\
+\textit{Projet Recherche} \hfill \textit{Python, FastAPI, Google ADK, Docker, RAG}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture 5 agents IA orchestrés avec APIs cloud (météo, cartographie).}
+        \item \small{Déploiement containerisé (Docker), API REST FastAPI, intégration continue.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Distinctions}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) | \textbf{1\textsuperscript{er} Prix} CITS National Hackathon.}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : +50\% membres, collaboration Google DeepMind, workshops ML.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+\end{document}

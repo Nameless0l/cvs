@@ -1,0 +1,131 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Air France ---
+\definecolor{primary}{RGB}{0, 63, 135}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Développeur Banc de Test Graphique 2D} \\
+    \textit{\small Disponible dès mars 2026 pour 4 à 6 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Élève-ingénieur en double diplôme ENSEA/Polytechnique Yaoundé, spécialisé en développement Python et traitement de données structurées. Expérience concrète en parsing XML, conception d'interfaces graphiques et analyse de données. Intérêt marqué pour les systèmes aéronautiques et l'optimisation d'outils de test.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA(2A)-- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus : Python avancé, Traitement du Signal.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages \& Scripting :} Python (NumPy, Pandas, Tkinter, PyQt), XML/JSON parsing, C, JavaScript, PHP.}
+    \item \small{\textbf{Interfaces Graphiques :} Unity/C\# (IHM 3D), Tkinter, développement d'outils interactifs, ergonomie UI/UX.}
+    \item \small{\textbf{Traitement de Données :} Parsing XML avancé, analyse structurée, extraction de features, visualisation.}
+    \item \small{\textbf{Outils \& Environnement :} Git, Docker, Linux, VS Code, PyInstaller, méthodologies Agile.}
+    \item \small{\textbf{Langues :} Français (Natif), Anglais (Professionnel/Technique -- lecture documentation, rédaction).}
+\end{itemize}
+
+% --- PROJETS ---
+\section{Projets Pertinents}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Laravel API Generator -- Outil de génération automatique depuis XML} \hfill \textit{2024 -- Présent} \\
+\textit{Projet Open Source (+30 étoiles GitHub)} \hfill \textit{Python, XML, PHP, Parsing géométrique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement d'un parseur XML avancé pour fichiers draw.io : calcul géométrique des liens entre entités.}
+        \item \small{Génération automatique de code backend complet (modèles, contrôleurs, routes) à partir de diagrammes UML.}
+        \item \small{Déploiement sur Packagist avec +20 téléchargements, documentation technique complète.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Outil d'Analyse Vidéo avec YOLO} \hfill \textit{2025} \\
+\textit{Projet Python autonome} \hfill \textit{Python, YOLOv8/v10, OpenCV, PyInstaller}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Script Python pour détection automatique de personnes et extraction de séquences vidéo pertinentes.}
+        \item \small{Optimisation mémoire pour traitement de vidéos longues, compilation en exécutable (.exe) distribué.}
+        \item \small{Interface ligne de commande ergonomique avec paramètres configurables.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Serious Game pour Formation Médicale} \hfill \textit{2024} \\
+\textit{Projet académique} \hfill \textit{Unity, C\#, Blender, IHM}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une interface graphique interactive pour simulateur médical immersif.}
+        \item \small{Intégration de scénarios cliniques interactifs avec évaluations en temps réel.}
+        \item \small{Focus sur l'ergonomie utilisateur et la réactivité de l'interface.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet UROP ECG Analysis -- Analyse d'électrocardiogrammes} \hfill \textit{2024} \\
+\textit{Collaboration Google DeepMind} \hfill \textit{Python, TensorFlow/Keras, Traitement du signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Extraction et traitement de données structurées depuis images ECG (séries temporelles).}
+        \item \small{Pipeline Python complet : prétraitement, extraction de features, classification d'anomalies.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- EXPÉRIENCE ---
+\section{Expérience Complémentaire}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote} \hfill \textit{Python, PyTorch, Analyse mathématique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène "Grokking" : reproduction d'expériences SOTA, analyse de convergence sur réseaux MLP.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{ère} Place} -- IndabaX Africa 2025 (IA Santé) : Déploiement API Flask, dashboard Streamlit.}
+    \item \small{\textbf{Lead AI Cell} (ENSPY) : Animation workshops Python, ML. Collaboration Google DeepMind.}
+\end{itemize}
+
+\end{document}

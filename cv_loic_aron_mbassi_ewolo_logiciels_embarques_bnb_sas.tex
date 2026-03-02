@@ -1,0 +1,133 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs BNB SAS (bleu tech/startup) ---
+\definecolor{primary}{RGB}{25, 65, 140}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ingénieur Développement Logiciels Embarqués} \\
+    \textit{\small Alternance -- Je suis disponible dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Firmware \textbf{C/C++} sur microcontrôleurs (STM32, Nvidia Jetson ARM Cortex), cycles complets codage/tests/vérification sur cible réelle -- compétences construites à travers des projets embarqués concrets en laboratoire et en compétition. Double diplôme ENSEA / Polytechnique Yaoundé. Je suis disponible en alternance dès septembre 2026 pour rejoindre \textbf{BNB SAS}.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. \textit{Cursus :} Architecture processeurs ARM Cortex-M/A, FPGA/VHDL, Systèmes temps réel, Traitement du signal.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Mathématiques Appliquées, Génie Logiciel, Algorithmique avancée.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages embarqués :} C, C++, Python, notions Assembleur}
+    \item \small{\textbf{Microcontrôleurs \& Plateformes :} STM32, Arduino, Raspberry Pi, Nvidia Jetson (ARM Cortex-M/A) -- NXP MCUxpresso/MIMXRT (à prendre en main)}
+    \item \small{\textbf{Outils \& Environnements :} GCC, Makefile, Git, Linux, Docker, GDB, oscilloscope (notions)}
+    \item \small{\textbf{Protocoles \& Interfaces :} I2C, SPI, UART, GPIO, interruptions, capteurs IMU, flex sensors}
+    \item \small{\textbf{Méthodes :} IPC (mémoire partagée, signaux POSIX), TinyML, tests unitaires, vérification logicielle sur cible}
+\end{itemize}
+
+% --- PROJETS EMBARQUÉS ---
+\section{Projets Embarqués}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Robotique Autonome Militaire)} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{C/C++, Nvidia Jetson, Docker, SLAM, Lidar 3D VLP16}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement firmware \textbf{C/C++} sur Nvidia Jetson : gestion flux temps réel, mémoire, optimisation code critique.}
+        \item \small{Intégration Lidar 3D (VLP16) et caméra de profondeur -- fusion de capteurs pour navigation SLAM autonome.}
+        \item \small{Vérification comportement logiciel sur cible réelle, tests d'intégration hardware/software en conditions opérationnelles.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Firmware Gants Instrumentés pour Langue des Signes} \hfill \textit{2024} \\
+\textit{Laboratoire IoT -- ENSPY} \hfill \textit{STM32/Arduino, C, Capteurs IMU/Flex, I2C/SPI, Soudure}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation à l'écriture firmware \textbf{C} sur STM32 pour acquisition et fusion données capteurs (IMU, flex) via I2C/SPI.}
+        \item \small{Cycle complet hardware/software : soudure composants, câblage, débogage firmware, gestion interruptions.}
+        \item \small{Validation fonctionnelle sur cible et intégration avec le module de traitement ML.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT Lab -- TinyML sur Microcontrôleurs} \hfill \textit{Oct. 2023 -- Jan. 2024} \\
+\textit{ENSPY -- Laboratoire IoT} \hfill \textit{C, Arduino, Raspberry Pi, TensorFlow Lite, Python}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Portage et optimisation de modèles ML pour exécution sur microcontrôleurs à ressources limitées (RAM/flash contraints).}
+        \item \small{Vérification des contraintes temps réel et validation performances en conditions embarquées.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{PROJET-TAXI -- Simulation Multiprocessus en C sous Linux} \hfill \textit{2024} \\
+\textit{Projet Académique -- Polytechnique Yaoundé} \hfill \textit{C, Linux, IPC (mémoire partagée, signaux POSIX), OpenGL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture logicielle \textbf{C pur} bas niveau : mémoire partagée, signaux POSIX, synchronisation inter-processus.}
+        \item \small{Tests de robustesse et vérification comportement sous charge et conditions limites -- ordonnanceur FIFO.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- PROJET ACADÉMIQUE COMPLÉMENTAIRE ---
+\section{Projet Académique Complémentaire}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control -- Drone} \hfill \textit{2025} \\
+\textit{Projet Option -- ENSEA} \hfill \textit{MATLAB/Simulink, Contrôle robuste, FDI/FTC}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique, détection et isolation de défauts capteurs/actionneurs (FDI), contrôle tolérant aux pannes (FTC).}
+        \item \small{Simulation scénarios de défaillance réalistes -- évaluation comparative et vérification des performances.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{1\textsuperscript{ère} Place} -- IndabaX Africa 2025 (Hackathon IA Santé) \hfill \textit{2025}
+    \item \textbf{1\textsuperscript{ère} Place} -- CITS National Hackathon (Smart City, contre 75 équipes) \hfill \textit{2024}
+    \item \textbf{Lead AI Cell} -- Polytechnique Yaoundé : animation workshops C/C++, Git, Architecture logicielle \hfill \textit{2023-2024}
+\end{itemize}
+
+\end{document}

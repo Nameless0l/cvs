@@ -1,0 +1,140 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Bureau Veritas (Orange) ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{black}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage Développeur Interface Arduino} \\
+    \textit{\small Disponible dès avril 2026 pour 5 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile nationale) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Passionné par l'électronique et la programmation embarquée, je développe sur Arduino et STM32 depuis plusieurs années. Expérience en conception de prototypes hardware, intégration de capteurs, et automatisation de systèmes. Formation double diplôme ENSEA/Polytechnique Yaoundé en systèmes embarqués. Méthodique, rigoureux et autonome.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Électronique, Signal. Cours : FPGA, Architecture processeurs.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : Génie Électrique, Informatique Industrielle, Automatique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Microcontrôleurs :} Arduino (maîtrise), STM32, Raspberry Pi, ESP32 (notions).}
+    \item \small{\textbf{Langages :} C/C++ (maîtrise), Python, VBA (notions), VHDL (notions).}
+    \item \small{\textbf{Électronique :} Capteurs (IMU, flex, température), relais, soudure, lecture de schémas, intégration PCB.}
+    \item \small{\textbf{Interfaces :} I2C, SPI, UART, GPIO, PWM, communication série.}
+    \item \small{\textbf{Outils :} Git/GitHub, MATLAB/Simulink, Onshape (CAO 3D), oscilloscope, multimètre.}
+    \item \small{\textbf{Documentation :} Rédaction de modes opératoires, documentation technique, rapports de tests.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Projets \& Expériences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Harmony Gloves -- Gants Instrumentés pour Langue des Signes} \hfill \textit{2024} \\
+\textit{Labo IoT ENSPY} \hfill \textit{Arduino, STM32, C, Capteurs IMU/Flex, Soudure}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un prototype hardware complet avec capteurs IMU et flex sensors.}
+        \item \small{Développement firmware C pour acquisition et traitement temps réel des données capteurs.}
+        \item \small{Soudure de composants électroniques et intégration dans un boîtier fonctionnel.}
+        \item \small{Rédaction de la documentation technique et présentation des travaux à l'équipe.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT Lab -- TinyML \& Edge Computing} \hfill \textit{Oct 2023 -- Jan 2024} \\
+\textit{ENSPY} \hfill \textit{Arduino, Raspberry Pi, Python, C, TensorFlow Lite}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement de programmes Arduino pour acquisition de données capteurs.}
+        \item \small{Optimisation de modèles ML pour hardware à ressources limitées.}
+        \item \small{Tests et validation des systèmes embarqués avec documentation des résultats.}
+        \item \small{Intégration de capteurs et automatisation de bancs de test.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{ClassSync -- Système de Reconnaissance Faciale} \hfill \textit{2024} \\
+\textit{Projet Académique -- Présenté au Salon GETEC} \hfill \textit{Python, OpenCV, Raspberry Pi, Caméra}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Intégration hardware caméra + Raspberry Pi pour système temps réel.}
+        \item \small{Développement du logiciel de détection et parallélisation des traitements.}
+        \item \small{Documentation complète et présentation au salon national GETEC.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Challenge CoHoMa -- Robotique Autonome} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{C/C++, Nvidia Jetson, Lidar 3D, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement embarqué C/C++ pour robot autonome de défense.}
+        \item \small{Intégration de capteurs (Lidar 3D, caméra de profondeur) et validation système.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{PROJET-TAXI -- Simulation Système Multiprocessus} \hfill \textit{2024} \\
+\textit{Projet Académique} \hfill \textit{C, Linux, IPC (Signaux, Mémoire partagée), OpenGL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement C structuré avec gestion de la concurrence et synchronisation.}
+        \item \small{Visualisation OpenGL et documentation technique complète.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Montréal, Canada} \hfill \textit{Python, PyTorch, Git, Documentation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Travail en équipe internationale avec documentation rigoureuse des travaux.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Distinctions}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) | \textbf{1\textsuperscript{er} Prix} CITS National Hackathon 2024 (75 équipes).}
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : animation workshops, coordination projets techniques.}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/Coursera), Python for Data Science (IBM).}
+    \item \small{\textbf{Note Bac Physique :} 19.25/20 -- Solides bases en physique et électronique.}
+\end{itemize}
+
+\end{document}

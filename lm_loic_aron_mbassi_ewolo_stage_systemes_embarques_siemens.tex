@@ -1,0 +1,69 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{parskip}
+
+% --- Couleurs Siemens ---
+\definecolor{primary}{RGB}{0, 153, 153}
+\hypersetup{colorlinks=true, urlcolor=primary}
+
+\begin{document}
+
+% --- EXPÉDITEUR ---
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+    \textbf{Loïc Aron MBASSI EWOLO}\\
+    Élève-Ingénieur Bac+5 -- Double diplôme ENSEA\\[3pt]
+    \faMapMarker\ Cergy, France\\
+    \faPhone\ (+33) 7 59 52 33 98\\
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
+\end{minipage}
+\hfill
+% --- DATE ---
+\begin{minipage}[t]{0.4\textwidth}
+    \raggedleft
+    Cergy, le 20 février 2026
+\end{minipage}
+
+\vspace{1.2cm}
+
+% --- DESTINATAIRE ---
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+    \raggedleft
+    \textbf{Siemens France}\\
+    Département R\&D\\
+    Vélizy-Villacoublay (78), France
+\end{minipage}
+
+\vspace{1cm}
+
+\noindent\textbf{Objet :} Candidature au poste de Stagiaire Systèmes Embarqués H/F
+
+\vspace{0.8cm}
+
+Madame, Monsieur,
+
+Écrire des drivers SPI en C sur microcontrôleur, piloter des capteurs via des protocoles de communication bas niveau et valider le comportement sur prototype : ces missions structurent le stage que vous proposez au sein de votre département R\&D, et constituent le coeur de mon expérience en systèmes embarqués. Mon double diplôme ENSEA / Polytechnique Yaoundé, orienté systèmes embarqués et traitement du signal, me prépare à prendre en main rapidement la chaîne complète de calibration du capteur d'humidité.
+
+Ma contribution aux Harmony Gloves, au laboratoire IoT de l'ENSPY, m'a confronté précisément au type de travail décrit dans votre offre : écriture des drivers SPI/I2C en C sur STM32 pour l'acquisition de capteurs IMU et flex sensors, gestion des interruptions, synchronisation microcontrôleur-périphérique et débogage bas niveau à l'oscilloscope. Le cycle complet -- soudure composants, câblage, firmware, validation fonctionnelle -- m'a donné une vision concrète des interactions hardware/software. Si le microcontrôleur RX231 de Renesas diffère architecturalement du STM32, la maîtrise des couches bas niveau en C (registres, timing SPI, PWM) se transfère directement d'une plateforme à l'autre.
+
+Mon stage de recherche au laboratoire IoT de l'ENSPY (TinyML sur microcontrôleurs) a consolidé ma rigueur sur la vérification de contraintes et la comparaison avec un cahier des charges. Par ailleurs, mon projet PROJET-TAXI -- simulation multiprocessus C sous Linux avec visualisation OpenGL temps réel -- m'a familiarisé avec la construction d'interfaces graphiques couplées à un code bas niveau. La création d'une interface Windows pour piloter la calibration représente un volet que je prendrai en main avec méthode, en m'appuyant sur les bibliothèques disponibles sous l'environnement cible.
+
+Je suis disponible en stage dès avril 2026 pour une durée de 4 à 6 mois, ce qui correspond à votre démarrage en mai. Rejoindre le R\&D Siemens sur un sujet aussi concret -- board d'évaluation, protocole SPI, calibration automatique -- est une opportunité d'approfondir mes compétences embarquées dans un contexte industriel de haut niveau.
+
+Je reste à votre disposition pour un entretien.
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+\vspace{0.8cm}
+
+\textbf{Loïc Aron MBASSI EWOLO}\\
+\textit{Élève-Ingénieur ENSEA / Polytechnique Yaoundé}
+
+\end{document}

@@ -1,0 +1,142 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{0, 82, 147}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{black}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage / Alternance Data Analyst Power BI} \\
+    \textit{\small Stage dès avril 2026 (6 mois) | Alternance dès septembre 2026 (12 mois)} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Expérience en analyse de données, SQL et création de dashboards (Streamlit, Python). Formation en mathématiques appliquées et statistiques. Projets impliquant nettoyage de données, modélisation et visualisation pour aide à la décision. Rigoureux, autonome et à l'aise dans la vulgarisation technique auprès d'interlocuteurs métiers.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Traitement du Signal, IA, Analyse de données.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Statistiques, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{SQL :} Requêtes complexes, jointures, agrégations, optimisation de requêtes (MySQL, PostgreSQL).}
+    \item \small{\textbf{Python Data :} Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, nettoyage et transformation de données.}
+    \item \small{\textbf{Visualisation :} Streamlit (dashboards interactifs), Matplotlib, notions Power BI (en apprentissage).}
+    \item \small{\textbf{Modélisation :} Modèles relationnels, schémas de données, normalisation, cardinalités.}
+    \item \small{\textbf{Outils :} Git/GitHub, Docker, API REST, LaTeX pour documentation.}
+    \item \small{\textbf{Soft Skills :} Vulgarisation technique, gestion de projet Agile, travail en équipe.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets Data}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{1\textsuperscript{er} Prix IndabaX Africa 2025 -- IA Santé} \hfill \textit{2025} \\
+\textit{Hackathon Pan-Africain} \hfill \textit{Python, Pandas, SQL, Flask, Streamlit}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Nettoyage et structuration de données médicales brutes pour analyse.}
+        \item \small{Création d'un dashboard Streamlit pour visualisation des KPIs santé.}
+        \item \small{Déploiement d'API Flask pour accès aux données transformées.}
+        \item \small{Présentation des résultats à un jury non-technique.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- Optimisation Collecte Déchets} \hfill \textit{2024} \\
+\textit{1\textsuperscript{er} Prix CITS National (75 équipes)} \hfill \textit{Python, Pandas, Visualisation, ML}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse de données de collecte pour identifier des patterns et KPIs.}
+        \item \small{Modélisation prédictive des besoins de collecte par zone.}
+        \item \small{Visualisation des résultats pour aide à la décision (-20\% coûts estimés).}
+        \item \small{Rédaction d'un rapport technique pour les décideurs.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend @ CSC Fintech} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Yaoundé, Cameroun} \hfill \textit{SQL, Laravel, MySQL, Redis}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception de schémas de données relationnels pour transactions financières.}
+        \item \small{Requêtes SQL complexes pour reporting et suivi des KPIs métiers.}
+        \item \small{Gestion des accès concurrents et intégrité des données.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{UROP 2024 -- Analyse ECG pour Détection d'Anomalies} \hfill \textit{2024} \\
+\textit{Mentorat Google DeepMind} \hfill \textit{Python, Pandas, TensorFlow, Visualisation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline complet : nettoyage données, extraction features, analyse exploratoire.}
+        \item \small{Visualisation des patterns dans les séries temporelles ECG.}
+        \item \small{Documentation technique et présentation des résultats.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Montréal, Canada} \hfill \textit{Python, PyTorch, Analyse statistique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipelines de tests statistiques pour validation d'hypothèses.}
+        \item \small{Analyse de métriques de performance et visualisation des résultats.}
+        \item \small{Collaboration internationale, documentation rigoureuse.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents Agricole} \hfill \textit{2024 -- 2025} \\
+\textit{Projet Open Source} \hfill \textit{Python, FastAPI, APIs externes, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Intégration de données hétérogènes (météo, marchés, cultures).}
+        \item \small{Transformation et structuration des données pour recommandations.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Leadership \& Certifications}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{Lead AI Cell} Polytechnique Yaoundé : +50\% membres, workshops data science, coordination projets.}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/Coursera), Python for Data Science (IBM).}
+    \item \small{\textbf{Vulgarisation :} Rédaction d'articles techniques sur Medium, formation des équipes.}
+\end{itemize}
+
+\end{document}
