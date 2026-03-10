@@ -1,3 +1,23 @@
+# Fichiers de compilation LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.synctex(busy)
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.pdf
+
+# Fichiers personnels
 /aprepare.md
 /preparation_entretien_florence_loic_mbassi.pdf
 /preparation_entretien_florence_loic_mbassi.tex
