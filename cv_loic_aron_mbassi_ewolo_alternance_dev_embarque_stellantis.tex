@@ -1,0 +1,125 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Stellantis ---
+\definecolor{primary}{RGB}{0, 40, 95}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance -- Développement Logiciel Embarqué / Prototypage Rapide} \\
+    \textit{\small Disponible dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Programmation embarquée C sur STM32 et Nvidia Jetson, développement d'un outil de génération automatique de code backend à partir de diagrammes UML/XML, et simulation multiprocessus en C sous Linux : ces réalisations couvrent le spectre de compétences attendu pour le développement de calculateurs et d'outils logiciels en contexte automobile. Formé aux systèmes embarqués et au génie logiciel (double diplôme ENSEA / Polytechnique Yaoundé), je suis disponible dès septembre 2026 pour intégrer le service de prototypage de PSA Retail.}
+
+\vspace{2pt}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus : C embarqué, FPGA/VHDL, architecture processeurs, traitement du signal.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique avancée, POO (C++, Java).}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages :} C (embarqué bas niveau), C++, Python, Java, MATLAB/Simulink}
+    \item \small{\textbf{Embarqué et matériels :} STM32, Arduino, Raspberry Pi, Nvidia Jetson, capteurs IMU/Flex, Lidar 3D}
+    \item \small{\textbf{Temps réel et système :} IPC Linux (mémoire partagée, signaux POSIX), ordonnancement FIFO, fusion de capteurs, contraintes temps réel}
+    \item \small{\textbf{Outils et méthodes :} Git, Docker, CMake, Qt (notions C++), génération de code (UML/XML), tests d'intégration, documentation technique}
+\end{itemize}
+
+% --- EXPÉRIENCES ---
+\section{Expériences et Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Laravel API Generator -- Outil de génération automatique de code} \hfill \textit{2024 -- Présent} \\
+\textit{Projet open source (+30 \faGithub\ stars, déployé sur Packagist)} \hfill \textit{PHP, Python (parsing), XML, LLM}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Conception d'un outil générant automatiquement une architecture backend complète (modèles, contrôleurs, migrations, routes) à partir de diagrammes UML ou de fichiers XML (draw.io).}
+    \item \small{Parsing géométrique des liens entre entités dans le XML, puis génération de code structuré. Intégration d'un LLM pour l'assistance intelligente à la génération.}
+    \item \small{Projet initié en solo, maintenant open source avec +30 étoiles GitHub et +20 téléchargements Packagist.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Armée française / ENSEA)} \hfill \textit{2025 -- en cours} \\
+\textit{Robotique autonome militaire} \hfill \textit{C/C++, Nvidia Jetson, YOLOv10, SLAM, Lidar VLP16}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Développement embarqué C/C++ sur Nvidia Jetson : optimisation de YOLOv10 pour la détection d'objets en temps réel sur GPU contraint.}
+    \item \small{Intégration et traitement de données Lidar 3D (VLP16) et caméra de profondeur. Mise en oeuvre d'algorithmes SLAM et fusion de capteurs pour cartographie autonome.}
+    \item \small{Déploiement reproductible via Docker. Modélisation 3D des composants mécaniques sur Onshape.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Gants de traduction de la langue des signes} \hfill \textit{2024, ENSPY} \\
+\textit{Labo IoT ENSPY -- Prototype hardware embarqué} \hfill \textit{STM32, C, capteurs IMU/Flex, soudure}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Participation au prototypage de gants instrumentés (STM32, capteurs IMU et Flex) pour la reconnaissance temps réel de gestes en langue des signes.}
+    \item \small{Programmation C bas niveau du microcontrôleur, soudure de composants, fusion de données capteurs et communication avec le module de vision (Python/OpenCV).}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{PROJET-TAXI -- Simulation multiprocessus en C} \hfill \textit{2024, ENSEA} \\
+\textit{Projet système bas niveau} \hfill \textit{C, IPC/SHM, signaux POSIX, Linux, OpenGL}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Simulation d'une flotte de taxis en C pur : gestion mémoire partagée, communication inter-processus par signaux POSIX, ordonnanceur FIFO multi-processus. Visualisation temps réel sous OpenGL.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE (campus IP Paris)} \hfill \textit{Avr. -- Août 2026} \\
+\textit{Palaiseau -- PEPR MOBIDEC national} \hfill \textit{Python, analyse statique, pipelines}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Analyse statique de SDKs embarqués dans des applications mobiles : identification des capacités techniques réelles vs déclarées, pipelines Python automatisés (scikit-learn, pandas).}
+    \item \small{Contribution à des publications scientifiques, collaboration multi-laboratoires (LVMT, École des Ponts ParisTech).}
+\end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions et Engagement}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix} IndabaX Africa 2025 (IA \& Santé) \quad \textbf{1\textsuperscript{er} prix} CITS National Hackathon (75 équipes) \quad \textbf{1\textsuperscript{er} prix} Mountain Hub Regional 2024}
+    \item \small{Lead Cellule IA, ENSPY : structuration de +50\% membres, collaboration Google DeepMind. Animation ateliers C, embarqué, ML.}
+\end{itemize}
+
+\end{document}

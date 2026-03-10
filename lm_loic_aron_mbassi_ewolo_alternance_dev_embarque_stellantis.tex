@@ -1,0 +1,69 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=2cm,top=1cm,bottom=1cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{parskip}
+
+% --- Couleurs Stellantis ---
+\definecolor{primary}{RGB}{0, 40, 95}
+\hypersetup{colorlinks=true, urlcolor=primary}
+
+\begin{document}
+
+% --- EXPÉDITEUR ---
+\noindent
+\begin{minipage}[t]{0.5\textwidth}
+    \textbf{Loïc Aron MBASSI EWOLO}\\
+    Élève-Ingénieur Bac+5 -- Double diplôme ENSEA\\[3pt]
+    \faMapMarker\ Cergy, France\\
+    \faPhone\ (+33) 7 59 52 33 98\\
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
+\end{minipage}
+\hfill
+% --- DATE ---
+\begin{minipage}[t]{0.4\textwidth}
+    \raggedleft
+    Cergy, le 9 mars 2026
+\end{minipage}
+
+\vspace{1.2cm}
+
+% --- DESTINATAIRE ---
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+    \raggedleft
+    \textbf{PSA Retail France SAS}\\
+    Service Recrutement\\
+    Essonne, France
+\end{minipage}
+
+\vspace{1cm}
+
+\noindent\textbf{Objet :} Candidature en alternance -- Développement Logiciel Embarqué sur Plateforme de Prototypage Rapide
+
+\vspace{0.8cm}
+
+Madame, Monsieur,
+
+Développer un outil de génération automatique de code à partir de diagrammes UML, programmer des microcontrôleurs STM32 en C pour un prototype de gants instrumentés, et optimiser du code C/C++ embarqué sur Nvidia Jetson sous contraintes temps réel : ce parcours m'a préparé aux enjeux de votre poste, où il s'agit de concevoir des outils logiciels et de coder des calculateurs embarqués pour les véhicules de démonstration. Élève-ingénieur en double diplôme à l'ENSEA (systèmes embarqués, signal, IA) et diplômé de l'École Polytechnique de Yaoundé, je suis disponible dès septembre 2026 pour rejoindre le service de prototypage et d'ingénierie des innovations de PSA Retail.
+
+Votre offre mentionne la création d'un outil de génération de code pour la cible embarquée : c'est un sujet que je connais concrètement. Mon projet open source Laravel API Generator (+30 étoiles GitHub) génère automatiquement une architecture logicielle complète à partir de fichiers XML issus de draw.io, en analysant géométriquement les liens entre entités. Cette expérience de parsing, de métaprogrammation et de génération de code structuré est directement transposable à la création d'outils de génération de code C pour vos calculateurs. En parallèle, dans le cadre du challenge CoHoMa (robotique autonome organisé par l'armée française avec l'ENSEA), je développe en C/C++ sur Nvidia Jetson, avec intégration de données Lidar 3D et caméra de profondeur, SLAM et déploiement Docker. Ce travail m'a confronté aux contraintes du développement embarqué temps réel sur plateforme physique.
+
+Sur le volet microcontrôleurs et prototypage hardware, j'ai participé à la conception des Harmony Gloves au laboratoire IoT de l'ENSPY : programmation C bas niveau sur STM32, soudure de composants (capteurs IMU, Flex), fusion de données capteurs et communication avec un module de vision. Ce projet combine prototypage matériel et développement embarqué, deux compétences centrales pour votre poste. Mon projet académique de simulation de flotte de taxis en C pur (IPC, mémoire partagée, signaux POSIX, ordonnancement FIFO) a renforcé ma maîtrise de la programmation système bas niveau et des mécanismes de communication inter-processus, pertinents pour les couches middleware de votre plateforme embarquée.
+
+Actuellement en stage de recherche à INRIA Saclay (équipe TRIBE, campus de l'Institut Polytechnique de Paris), je travaille sur l'analyse statique de SDKs et le développement de pipelines Python automatisés, ce qui consolide ma rigueur en documentation et en méthodologie logicielle. La création d'interfaces génériques pour les bus CAN, LIN et Ethernet, ainsi que le développement d'interfaces de saisie pour utilisateurs non experts, sont des défis techniques que ma double formation en systèmes embarqués et en génie logiciel me permet d'aborder avec méthode.
+
+Je reste à votre disposition pour un entretien afin de discuter de ma candidature.
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+\vspace{0.8cm}
+
+\textbf{Loïc Aron MBASSI EWOLO}\\
+\textit{Élève-Ingénieur ENSEA / Polytechnique Yaoundé}
+
+\end{document}

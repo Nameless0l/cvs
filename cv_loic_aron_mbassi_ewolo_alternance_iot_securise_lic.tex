@@ -1,0 +1,129 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs LIC (bleu tech/sécurité) ---
+\definecolor{primary}{RGB}{0, 60, 120}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Ingénieur Objets Connectés Sécurisés} \\
+    \textit{\small Disponible dès septembre 2026 pour 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Prototypage de gants IoT sur STM32 (capteurs IMU, communication sans fil) et développement backend d'une plateforme de paiement sécurisé (conformité normes financières, APIs REST). Double diplôme ENSEA/Polytechnique Yaoundé en systèmes embarqués, signal et IA. Stage recherche INRIA Saclay (avril-août 2026) sur l'analyse de sécurité et de conformité d'applications mobiles (NLP, analyse statique, RGPD). Anglais professionnel/technique, collaboration internationale.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, FPGA/VHDL, Traitement du Signal, Deep Learning.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Embarqué \& IoT :} C, C++, STM32, Arduino, Raspberry Pi, Nvidia Jetson, capteurs IMU/Flex, NFC/RFID (notions).}
+    \item \small{\textbf{Protocoles \& Communication :} APIs REST, ISO 7816 (notions), BLE (notions), LPWAN (notions), TCP/IP, MQTT.}
+    \item \small{\textbf{Sécurité \& Conformité :} Analyse statique de code/SDKs, RGPD, OAuth2/JWT, conformité normes financières.}
+    \item \small{\textbf{Développement \& Outils :} Python, PHP/Laravel, Docker, Git, MATLAB/Simulink, Linux, tests et spécifications.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique, échanges internationaux).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- Sécurité \& Conformité d'Applications Mobiles} \hfill \textit{Avr 2026 -- Août 2026} \\
+\textit{INRIA Saclay -- Équipe TRIBE (Plateau de Saclay / IP Paris)} \hfill \textit{Python, NLP (BERT), Analyse statique, pandas}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse automatisée de la cohérence entre fonctionnalités déclarées et permissions demandées par des apps mobiles.}
+        \item \small{Analyse statique des SDKs embarqués : identification des risques de fuite de données (localisation, vie privée).}
+        \item \small{Conception d'un score de confiance interprétable, évaluation de conformité RGPD.}
+        \item \small{Rédaction scientifique en anglais, présentation aux partenaires du programme national PEPR MOBIDEC.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend -- Plateforme de Paiement Sécurisé} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{CSC (Cameroon Software Company) -- Secteur Fintech} \hfill \textit{Laravel, MySQL, Docker, REST APIs}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception backend d'une plateforme de transactions : APIs REST sécurisées, gestion concurrence.}
+        \item \small{Conformité aux normes de sécurité financière, architecture scalable, containerisation Docker.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Gants IoT Traduction Langue des Signes} \hfill \textit{2024} \\
+\textit{Labo IOTA, École Polytechnique de Yaoundé} \hfill \textit{STM32, Arduino, C, Capteurs IMU/Flex, PyTorch}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation à la conception de gants instrumentés : capteurs inertiels, flex sensors, communication sans fil.}
+        \item \small{Fusion données capteurs + vision, intégration hardware/software, soudure composants électroniques.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT -- Edge Computing \& TinyML} \hfill \textit{Oct 2023 -- Jan 2024} \\
+\textit{IoT Lab, École Polytechnique de Yaoundé} \hfill \textit{Python, TF Lite, Arduino, Raspberry Pi, C}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles ML pour microcontrôleurs : quantification, contraintes mémoire et temps réel.}
+        \item \small{Déploiement TensorFlow Lite sur Arduino et Raspberry Pi, tests de performance embarquée.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Challenge CoHoMa -- Robotique Autonome (ENSEA / Armée française)} \hfill \textit{2025 -- En cours} \\
+\textit{Upgrade Jetson -- Cartographie \& Perception} \hfill \textit{C/C++, Nvidia Jetson, YOLOv10, SLAM, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement embarqué C/C++ sur Nvidia Jetson, intégration Lidar 3D et caméra de profondeur.}
+        \item \small{Optimisation d'inférence IA sur GPU embarqué, containerisation Docker.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Engagements}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{ère} place} -- IndabaX Africa 2025 (Hackathon IA Santé). \textbf{1\textsuperscript{ère} place} -- CITS National Hackathon 2024.}
+    \item \small{Lead AI Cell (ENSPY) : +50\% de membres, collaboration Google DeepMind. Animation workshops (ML, Fine-tuning LLM).}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

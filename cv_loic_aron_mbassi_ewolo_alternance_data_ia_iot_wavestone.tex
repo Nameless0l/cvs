@@ -1,0 +1,130 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Wavestone ---
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Consultant Data, IA \& IoT} \\
+    \textit{\small Disponible dès septembre 2026 pour 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Orchestration de 4 agents IA (RAG, LangChain, Google ADK) pour des recommandations multi-critères via APIs, et prototypage IoT (TinyML, STM32, capteurs) pour des systèmes embarqués intelligents. Double diplôme ENSEA/Polytechnique Yaoundé en IA, signal et systèmes embarqués. Stage INRIA Saclay en cours sur l'analyse de données à grande échelle (NLP, Python, pipelines). 1\textsuperscript{er} prix hackathon national sur l'optimisation IoT/ML de collecte de déchets urbains.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Deep Learning, Traitement du Signal, Systèmes Embarqués, IoT.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA \& GenAI :} Python, PyTorch, TensorFlow, LangChain, RAG, Google ADK, Transformers (BERT, GPT-2), Prompt Engineering.}
+    \item \small{\textbf{Data \& Visualisation :} Pandas, NumPy, Scikit-learn, Matplotlib, Streamlit, analyse de séries temporelles.}
+    \item \small{\textbf{IoT \& Embarqué :} STM32, Arduino, Raspberry Pi, TF Lite (TinyML), capteurs IMU/Flex, C/C++.}
+    \item \small{\textbf{Architecture \& Outils :} FastAPI, Flask, Docker, Git, API REST, MongoDB, MySQL, LaTeX.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE} \hfill \textit{Avr 2026 -- Août 2026} \\
+\textit{Plateau de Saclay / Institut Polytechnique de Paris} \hfill \textit{Python, NLP, BERT, Pandas, Scikit-learn}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un pipeline d'analyse automatisée de données d'applications mobiles (permissions, SDK, politiques de confidentialité).}
+        \item \small{NLP à grande échelle sur corpus de politiques de confidentialité : évaluation transparence et conformité RGPD.}
+        \item \small{Modèle de score de confiance interprétable, synthétisant analyses statiques et NLP pour aide à la décision.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents IA -- Recommandations Agricoles} \hfill \textit{2024 -- 2025} \\
+\textit{Projet académique -- IA agentique \& GenAI} \hfill \textit{Google ADK, RAG, LangChain, Gemini, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 4 agents IA collaboratifs (Gemini + RAG) pour recommandations multi-critères (météo, marchés, cultures).}
+        \item \small{Intégration APIs externes (OpenWeather, données marchés), résolution de conflits entre agents spécialisés.}
+        \item \small{Déploiement Python (Poetry, FastAPI), containerisation Docker pour industrialisation.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{1\textsuperscript{er} Prix CITS -- Optimisation Collecte Déchets (IoT \& ML)} \hfill \textit{2024} \\
+\textit{Hackathon National -- 75 équipes} \hfill \textit{ML, IoT data, Algorithmes d'optimisation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Prédiction des besoins de collecte par ML sur données IoT, optimisation de routes ($-$20\% coûts logistiques).}
+        \item \small{Proposition d'un modèle reposant sur l'algorithme du voyageur de commerce pour l'économie circulaire.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Prototypage IoT -- Harmony Gloves (Langue des Signes)} \hfill \textit{2024} \\
+\textit{Labo IOTA, École Polytechnique de Yaoundé} \hfill \textit{STM32, Arduino, C, Capteurs IMU/Flex, PyTorch, OpenCV}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation à la conception de gants instrumentés : fusion capteurs inertiels + vision pour reconnaissance gestuelle.}
+        \item \small{Modèle ML embarqué pour traduction langue des signes en texte/audio, soudure et intégration hardware.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT -- Edge Computing \& TinyML} \hfill \textit{Oct 2023 -- Jan 2024} \\
+\textit{IoT Lab, École Polytechnique de Yaoundé} \hfill \textit{Python, TF Lite, Arduino, Raspberry Pi, C}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles ML pour déploiement sur microcontrôleurs (contraintes mémoire et temps réel).}
+        \item \small{Benchmarking de stratégies de quantification et pruning pour Edge AI.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) -- Pipeline data, API Flask, dashboard Streamlit.}
+    \item \small{\textbf{Assistant de Recherche @ MILA} (Institut Québécois d'IA, 2025) -- Étude ``Grokking'' sur réseaux de neurones (PyTorch).}
+    \item \small{\textbf{Lead AI Cell} (ENSPY) : +50\% membres, collaboration Google DeepMind. Workshops ML, LLM, React.}
+    \item \small{\textbf{Certif.} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

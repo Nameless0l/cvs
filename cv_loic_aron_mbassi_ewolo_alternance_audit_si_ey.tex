@@ -1,0 +1,131 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs EY ---
+\definecolor{primary}{RGB}{46, 46, 56}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Audit des Systèmes d'Information} \\
+    \textit{\small Disponible dès septembre 2026 pour 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Conception d'un score de confiance interprétable évaluant la conformité RGPD d'applications mobiles (NLP, analyse statique de SDK) en stage à INRIA Saclay. Double diplôme ENSEA/Polytechnique Yaoundé en systèmes d'information, IA et mathématiques appliquées. Expérience en développement de plateformes sécurisées (fintech, télémédecine) avec contraintes de conformité réglementaire et en architectures SI complexes (microservices, Docker, API).}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes d'Information, IA, Traitement du Signal, Sécurité.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Audit \& Conformité :} Analyse de risques SI, conformité RGPD, analyse statique de code/SDK, scoring de confiance, privacy by design.}
+    \item \small{\textbf{Architectures SI :} Microservices, API REST, Docker, CI/CD, RabbitMQ, bases de données (MySQL, MongoDB, Redis).}
+    \item \small{\textbf{Technologies émergentes :} IA (PyTorch, TensorFlow, LLM/RAG, NLP), IoT, systèmes embarqués, Cloud.}
+    \item \small{\textbf{Développement :} Python, Java, JavaScript/TypeScript, PHP/Laravel, Node.js, FastAPI, Git.}
+    \item \small{\textbf{Rédaction \& Analyse :} Rédaction scientifique (anglais/français), synthèse technique, documentation structurée.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique -- rédaction scientifique INRIA).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences Professionnelles \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE (Sécurité \& Privacy)} \hfill \textit{Avr 2026 -- Août 2026} \\
+\textit{Plateau de Saclay / Institut Polytechnique de Paris} \hfill \textit{Python, NLP, BERT, Pandas, Scikit-learn}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse automatisée de la cohérence entre fonctionnalités déclarées et permissions réellement demandées par des applications mobiles.}
+        \item \small{NLP à grande échelle sur politiques de confidentialité : évaluation de la transparence et conformité RGPD.}
+        \item \small{Analyse statique de SDK embarqués : identification des risques de fuite de données de localisation sans permission explicite.}
+        \item \small{Conception d'un score de confiance interprétable synthétisant l'ensemble des analyses pour aide à la décision.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend -- CSC (Cameroon Software Company)} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Fintech / Bancaire -- Yaoundé} \hfill \textit{Laravel, MySQL, Docker, Redis, API REST}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une plateforme de transactions sécurisée : gestion de la concurrence, conformité aux normes financières.}
+        \item \small{Architecture scalable (Docker, Redis), tests de sécurité, documentation technique des processus.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Full Stack -- SOSDOCTA (Télémédecine)} \hfill \textit{Fév 2022 -- Mars 2024} \\
+\textit{Remote -- Belgique/Canada} \hfill \textit{Laravel, PHP, MySQL, OAuth2/JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Plateforme de télémédecine complète : gestion de données médicales sensibles, conformité RGPD.}
+        \item \small{Systèmes d'authentification sécurisés (OAuth2/JWT), maintenance et évolution sur 2 ans.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Architecture Microservices -- GoFind} \hfill \textit{2024} \\
+\textit{Projet académique} \hfill \textit{Laravel, NestJS, MongoDB, RabbitMQ, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une architecture microservices complète : API Gateway, communication asynchrone (RabbitMQ), containerisation.}
+        \item \small{Documentation des flux de données, cartographie des composants et de leurs interactions.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents IA -- Recommandations Agricoles} \hfill \textit{2024 -- 2025} \\
+\textit{Technologies émergentes : IA agentique} \hfill \textit{Google ADK, RAG, LangChain, Gemini, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 4 agents IA (Gemini + RAG) : maîtrise des technologies émergentes (LLM, IA générative).}
+        \item \small{Évaluation des risques et résolution de conflits entre agents, intégration d'APIs externes.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{Assistant de Recherche @ MILA} (Institut Québécois d'IA, 2025) -- Environnement international anglophone, rédaction scientifique.}
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) et CITS National 2024 (75 équipes).}
+    \item \small{\textbf{Lead AI Cell} (ENSPY) : +50\% membres, collab. Google DeepMind. Animation workshops techniques.}
+    \item \small{\textbf{Certif.} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM), Jira (Coursera).}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,130 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Capgemini ---
+\definecolor{primary}{RGB}{0, 70, 173}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Ingénieur Logiciels Embarqués} \\
+    \textit{\small Disponible dès septembre 2026 pour 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Développement embarqué C/C++ sur Nvidia Jetson (SLAM, Lidar 3D, YOLOv10) dans le cadre du challenge robotique militaire CoHoMa, et prototypage de gants IoT sur STM32 (capteurs IMU, fusion données). Double diplôme ENSEA/Polytechnique Yaoundé en systèmes embarqués, signal et IA. Expérience en programmation système Linux (IPC, mémoire partagée, signaux) et optimisation de modèles ML pour microcontrôleurs (TinyML, TF Lite).}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, FPGA/VHDL, Traitement du Signal, Deep Learning.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Embarqué \& Système :} C, C++, STM32, Arduino, Raspberry Pi, Nvidia Jetson, FPGA/VHDL (Quartus, ModelSim).}
+    \item \small{\textbf{OS \& Temps Réel :} Linux (IPC, SHM, signaux, processus), RTOS, ordonnancement FIFO, contraintes temps réel.}
+    \item \small{\textbf{Capteurs \& Perception :} Lidar 3D (VLP16), caméra de profondeur, IMU, flex sensors, SLAM, fusion de capteurs.}
+    \item \small{\textbf{IA Embarquée :} TensorFlow Lite (TinyML), YOLOv10, OpenCV, quantification, optimisation mémoire.}
+    \item \small{\textbf{Outils :} Docker, Git, Python, MATLAB/Simulink, Onshape (CAO 3D).}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets Embarqués}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Challenge CoHoMa -- Robotique Autonome (ENSEA / Armée française)} \hfill \textit{2025 -- En cours} \\
+\textit{Upgrade Jetson -- Cartographie \& Perception} \hfill \textit{C/C++, Nvidia Jetson, YOLOv10, SLAM, Lidar 3D, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement embarqué C/C++ sur Nvidia Jetson pour cartographie autonome (SLAM, Lidar VLP16, caméra de profondeur).}
+        \item \small{Optimisation d'inférence YOLOv10 sur GPU embarqué, fusion de capteurs Lidar/caméra.}
+        \item \small{Containerisation Docker pour reproductibilité multi-plateforme, modélisation 3D (Onshape).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Simulation Flotte de Taxis -- Programmation Système C/Linux} \hfill \textit{2024} \\
+\textit{Projet académique -- ENSPY} \hfill \textit{C, IPC (SHM, Signaux), OpenGL, Linux}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Simulation multiprocessus en C : mémoire partagée, communication inter-processus (signaux POSIX), ordonnanceur FIFO.}
+        \item \small{Gestion manuelle de la mémoire, synchronisation de processus concurrents, visualisation OpenGL.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Gants IoT Traduction Langue des Signes} \hfill \textit{2024} \\
+\textit{Labo IOTA, École Polytechnique de Yaoundé} \hfill \textit{STM32, Arduino, C, Capteurs IMU/Flex, PyTorch}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation à la conception de gants instrumentés : lecture capteurs inertiels et flex, fusion données capteurs + vision.}
+        \item \small{Intégration hardware/software, soudure de composants, modèle ML embarqué pour classification gestuelle.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche IoT -- Edge Computing \& TinyML} \hfill \textit{Oct 2023 -- Jan 2024} \\
+\textit{IoT Lab, École Polytechnique de Yaoundé} \hfill \textit{Python, TF Lite, Arduino, Raspberry Pi, C}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation de modèles ML pour microcontrôleurs : quantification, pruning, contraintes mémoire et temps réel.}
+        \item \small{Déploiement TensorFlow Lite sur Arduino et Raspberry Pi, benchmarking de performances embarquées.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control -- Drone} \hfill \textit{2025} \\
+\textit{Projet d'option -- Contrôle automatique, ENSEA} \hfill \textit{MATLAB/Simulink}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique d'un drone en conditions dégradées (perte actionneurs, biais capteurs).}
+        \item \small{Détection et isolation de défauts (FDI), contrôle tolérant aux pannes (FTC), gain scheduling.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Compléments}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{Stage INRIA Saclay} (Équipe TRIBE, avr--août 2026) : pipeline Python d'analyse automatisée, NLP, rédaction scientifique en anglais.}
+    \item \small{\textbf{1\textsuperscript{er} Prix} CITS National 2024 (75 équipes) -- Optimisation ML/IoT collecte déchets ($-$20\% coûts).}
+    \item \small{\textbf{Lead AI Cell} (ENSPY) : +50\% membres, collab. Google DeepMind. Workshops ML, embarqué.}
+    \item \small{\textbf{Certif.} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

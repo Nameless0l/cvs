@@ -1,0 +1,130 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Wevioo ---
+\definecolor{primary}{RGB}{0, 100, 160}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Agents IA \& Automatisation} \\
+    \textit{\small Disponible dès septembre 2026 pour 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Conception d'un système de 4 agents IA collaboratifs (RAG, LangChain, Google ADK, Gemini) et d'un outil open source de génération automatique de code backend (+30 étoiles GitHub). Double diplôme ENSEA/Polytechnique Yaoundé en IA et génie logiciel. Stage INRIA Saclay en cours (NLP, pipelines Python). Expérience fullstack (Python, TypeScript, Docker) et recherche IA (MILA, Québec).}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Deep Learning, Traitement du Signal, IA, Systèmes Embarqués.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA \& Agents :} Python, PyTorch, TensorFlow, LangChain, RAG, Google ADK, Transformers (BERT, GPT-2), Prompt Engineering.}
+    \item \small{\textbf{Développement :} Python, Java, JavaScript, TypeScript, PHP/Laravel, Node.js/NestJS, FastAPI, Flask.}
+    \item \small{\textbf{DevOps \& Outils :} Docker, Git, CI/CD, RabbitMQ, API REST, MongoDB, MySQL.}
+    \item \small{\textbf{Automatisation :} Génération de code (LLM + parsing), métaprogrammation, scripting Python, pipelines data.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Système Multi-Agents IA -- Recommandations Agricoles} \hfill \textit{2024 -- 2025} \\
+\textit{Projet académique -- IA agentique} \hfill \textit{Google ADK, RAG, LangChain, Gemini, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 4 agents IA collaboratifs (Gemini + RAG) : planification, raisonnement, résolution de conflits.}
+        \item \small{Intégration d'APIs externes (OpenWeather, marchés) pour recommandations contextuelles multi-critères.}
+        \item \small{Déploiement Python (Poetry, FastAPI), containerisation Docker pour reproductibilité.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Outil Open Source (+30\faStarHalf\ GitHub)} \hfill \textit{2024 -- Présent} \\
+\textit{Projet personnel -- Automatisation \& Génération de code} \hfill \textit{PHP, Python, LLM, XML, Packagist}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Outil générant automatiquement le code backend Laravel (modèles, contrôleurs, migrations, routes) depuis des diagrammes UML/XML.}
+        \item \small{Parsing géométrique avancé des fichiers draw.io, intégration LLM pour assistance intelligente à la génération.}
+        \item \small{Déployé sur Packagist (+20 téléchargements), maintenu en open source.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE} \hfill \textit{Avr 2026 -- Août 2026} \\
+\textit{Plateau de Saclay / Institut Polytechnique de Paris} \hfill \textit{Python, NLP, BERT, Pandas, Scikit-learn}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline d'analyse automatisée à grande échelle : NLP sur corpus textuels, analyse statique de SDK, scoring interprétable.}
+        \item \small{Développement Python structuré (Pandas, Scikit-learn), rédaction scientifique en anglais.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche @ MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Remote -- Montréal, Canada} \hfill \textit{Python, PyTorch, TensorFlow}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène ``Grokking'' (généralisation tardive) sur des MLP : reproduction expériences SOTA, analyse mathématique.}
+        \item \small{Pipelines de tests statistiques, documentation rigoureuse, travail en autonomie dans un environnement international.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend @ CSC (Fintech)} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Cameroon Software Company, Yaoundé} \hfill \textit{Laravel, MySQL, Docker, Redis, API REST}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception backend plateforme de transactions sécurisée : gestion concurrence, conformité normes financières.}
+        \item \small{Architecture scalable (Docker, Redis), API RESTful, déploiement CI/CD.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) -- Pipeline data, API Flask, dashboard Streamlit.}
+    \item \small{\textbf{1\textsuperscript{er} Prix} CITS National 2024 (75 équipes) -- Optimisation ML collecte déchets ($-$20\% coûts).}
+    \item \small{\textbf{Lead AI Cell} (ENSPY) : +50\% membres, collab. Google DeepMind. Workshops ML, Fine-tuning LLM, React.}
+    \item \small{\textbf{Certif.} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

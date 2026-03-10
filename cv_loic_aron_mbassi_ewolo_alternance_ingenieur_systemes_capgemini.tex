@@ -1,0 +1,131 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Capgemini ---
+\definecolor{primary}{RGB}{0, 70, 173}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Ingénieur Systèmes} \\
+    \textit{\small Disponible dès septembre 2026 pour 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Modélisation et contrôle d'un drone en conditions dégradées (FDI/FTC, MATLAB/Simulink) et intégration système robotique autonome (SLAM, Lidar 3D, caméra, C/C++). Double diplôme ENSEA/Polytechnique Yaoundé en systèmes embarqués, signal et IA. Expérience en architecture logicielle (microservices, API Gateway, Docker) et en spécification d'exigences. Conception de systèmes multi-agents avec résolution de conflits et traçabilité des décisions.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, FPGA/VHDL, Traitement du Signal, Deep Learning.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Ingénierie Système :} Modélisation, spécification d'exigences, traçabilité, analyse fonctionnelle, use cases, architecture système.}
+    \item \small{\textbf{Embarqué \& Capteurs :} C/C++, STM32, Nvidia Jetson, FPGA/VHDL, Lidar 3D, caméra profondeur, IMU, SLAM.}
+    \item \small{\textbf{Modélisation \& Simulation :} MATLAB/Simulink, modélisation de systèmes en conditions nominales et dégradées, FDI/FTC.}
+    \item \small{\textbf{Architecture Logicielle :} Microservices, API Gateway, Docker, RabbitMQ, CI/CD, bus de données.}
+    \item \small{\textbf{Outils :} Git, Python, Java, Onshape (CAO 3D), LaTeX, documentation technique.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (B2+ -- rédaction scientifique INRIA, recherche MILA).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control -- Drone} \hfill \textit{2025} \\
+\textit{Projet d'option -- Contrôle automatique, ENSEA} \hfill \textit{MATLAB/Simulink, Modélisation système}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation d'un système embarqué en conditions nominales et dégradées (perte actionneurs, biais capteurs).}
+        \item \small{Spécification des exigences de sécurité, de performance et de fiabilité du système de contrôle.}
+        \item \small{Définition et analyse des scénarios d'utilisation (use cases) en conditions de pannes.}
+        \item \small{Traçabilité entre exigences fonctionnelles et solutions techniques (FDI, FTC, gain scheduling).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Challenge CoHoMa -- Robotique Autonome (ENSEA / Armée française)} \hfill \textit{2025 -- En cours} \\
+\textit{Intégration système} \hfill \textit{C/C++, Nvidia Jetson, SLAM, Lidar 3D, Docker, Onshape}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Définition de l'architecture matérielle et logicielle du robot : capteurs, traitement, actionneurs.}
+        \item \small{Intégration Lidar VLP16, caméra de profondeur et SLAM : spécification des interactions et dépendances.}
+        \item \small{Modélisation 3D (Onshape), containerisation Docker pour intégration continue.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Architecture Microservices -- GoFind} \hfill \textit{2024} \\
+\textit{Projet académique} \hfill \textit{Laravel, NestJS, MongoDB, RabbitMQ, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception de l'architecture système : API Gateway, services, bus de données (RabbitMQ).}
+        \item \small{Spécification des interfaces entre composants, cartographie des flux et des dépendances.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents IA -- Recommandations Agricoles} \hfill \textit{2024 -- 2025} \\
+\textit{Architecture multi-agents} \hfill \textit{Google ADK, RAG, LangChain, Gemini, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture de 4 agents spécialisés : définition des rôles, interactions, protocoles de résolution de conflits.}
+        \item \small{Traçabilité des décisions entre agents, intégration d'APIs externes, déploiement Docker.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Système IoT (Conception \& Intégration)} \hfill \textit{2024} \\
+\textit{Labo IOTA, École Polytechnique de Yaoundé} \hfill \textit{STM32, Arduino, C, Capteurs, PyTorch, OpenCV}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation à la définition de l'architecture du système : capteurs, traitement embarqué, interface utilisateur.}
+        \item \small{Intégration hardware/software, fusion de données multi-capteurs (IMU + vision).}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Compléments}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{Stage INRIA Saclay} (Équipe TRIBE, avr--août 2026) : pipeline Python, méthodologie de recherche, rédaction anglais.}
+    \item \small{\textbf{1\textsuperscript{er} Prix} CITS National 2024 (75 équipes). \textbf{Lead AI Cell} (ENSPY) : +50\% membres, collab. Google DeepMind.}
+    \item \small{\textbf{Certif.} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM/Coursera).}
+\end{itemize}
+
+\end{document}

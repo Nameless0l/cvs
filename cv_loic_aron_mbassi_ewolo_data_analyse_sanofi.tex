@@ -1,0 +1,123 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Sanofi ---
+\definecolor{primary}{RGB}{102, 45, 145}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance -- Data Analyse / Machine Learning} \\
+    \textit{\small Disponible dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Pipelines Python d'analyse de données médicales à grande échelle, classification d'anomalies cardiaques par ML et tableaux de bord de visualisation en santé : trois axes pratiqués en contexte de recherche (INRIA Saclay / campus IP Paris, UROP avec mentors Google DeepMind, 1\textsuperscript{er} prix IndabaX Africa 2025 -- IA \& Santé). Formé en mathématiques appliquées, génie logiciel et IA (ENSEA / Polytechnique Yaoundé), je suis disponible dès septembre 2026 pour rejoindre les équipes data de Sanofi.}
+
+\vspace{2pt}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus : Deep Learning, traitement du signal, probabilités, statistiques.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique. Algèbre linéaire (SVD), probabilités, analyse numérique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Data \& Machine Learning :} Python, pandas, NumPy, scikit-learn, PyTorch, TensorFlow/Keras, NLP (BERT/Transformers)}
+    \item \small{\textbf{Visualisation et reporting :} Streamlit, Flask, matplotlib, seaborn, Power BI (notions)}
+    \item \small{\textbf{Collecte et traitement :} SQL, API REST, Git, Docker, nettoyage et normalisation de données, traitement de données textuelles}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (scientifique, rédaction et lecture)}
+\end{itemize}
+
+% --- EXPÉRIENCES ---
+\section{Expériences et Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE (campus IP Paris)} \hfill \textit{Avr. -- Août 2026} \\
+\textit{Palaiseau -- Programme national PEPR MOBIDEC, collab. École des Ponts ParisTech} \hfill \textit{Python, NLP, pandas}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Analyse NLP à grande échelle des politiques de confidentialité d'applications mobiles (BERT/Transformers) : évaluation automatisée de la transparence, de la spécificité et de la conformité RGPD sur plusieurs centaines de documents.}
+    \item \small{Conception d'un modèle de score de confiance interprétable, synthétisant plusieurs analyses (NLP, statique, permissions) en un indicateur lisible. Contribution à des publications scientifiques.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche -- MILA, Institut Québécois d'IA} \hfill \textit{Juin -- Sept. 2025 (Remote)} \\
+\textit{Sujet : Grokking et interprétabilité des réseaux de neurones} \hfill \textit{Python, PyTorch, mathématiques}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Étude du phénomène de généralisation tardive (grokking) sur des MLP : reproduction d'expériences SOTA, analyse mathématique de la convergence et des dynamiques d'apprentissage.}
+    \item \small{Rédaction scientifique en anglais. Collaboration à distance avec des chercheurs du MILA (un des instituts IA de référence au monde).}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{UROP 2024 -- Analyse automatique d'ECG (Santé)} \hfill \textit{2024} \\
+\textit{Projet de recherche -- Mentors Google DeepMind} \hfill \textit{TensorFlow/Keras, Computer Vision, traitement du signal}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Conception d'un modèle de détection et classification d'anomalies cardiaques à partir d'images d'électrocardiogrammes (ECG sur papier photographié) : extraction de features signal, filtrage, pipeline d'inférence complet.}
+    \item \small{Collaboration avec des mentors Google DeepMind. Traitement de données médicales bruyantes et hétérogènes.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{1\textsuperscript{er} Prix IndabaX Africa 2025 -- IA \& Santé} \hfill \textit{2025} \\
+\textit{Hackathon continental IA (données médicales)} \hfill \textit{Python, Flask, Streamlit, API REST}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Nettoyage et normalisation d'un jeu de données médicales réelles (valeurs manquantes, anomalies, formats hétérogènes). Entraînement et déploiement d'un modèle ML via API Flask.}
+    \item \small{Tableau de bord Streamlit pour la visualisation et l'interprétation des résultats par des non-techniciens. Premier prix continental.}
+\end{itemize}
+\vspace{3pt}
+
+\item \textbf{Women Safe -- Détection de contenus sexistes (NLP)} \hfill \textit{2023, Compétition MLPC} \\
+\textit{Classification de texte -- Réseaux sociaux et offres d'emploi} \hfill \textit{BERT, GPT-2, Transformers}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+    \item \small{Modèle NLP de détection de misogynie (BERT, GPT-2). Étude des biais éthiques dans les données d'entraînement. Évaluation des faux positifs et implications réglementaires.}
+\end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions et Engagement}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix} IndabaX Africa 2025 (IA \& Santé) \quad \textbf{1\textsuperscript{er} prix} CITS National Hackathon (75 équipes) \quad \textbf{1\textsuperscript{er} prix} Mountain Hub Regional 2024}
+    \item \small{Lead Cellule IA, ENSPY : +50\% membres, collaboration Google DeepMind. Animation ateliers ML, NLP, fine-tuning LLM. Articles techniques publiés sur Medium.}
+\end{itemize}
+
+\end{document}

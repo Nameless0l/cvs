@@ -38,8 +38,8 @@ cvs/
 
 **Disponibilités :**
 
-- **Stage** : Disponible dès **Avril 2026** pour 4 à 6 mois
-- **Alternance / Contrat Pro** : Disponible dès **Septembre 2026**
+- **Stage en cours** : INRIA Saclay (Équipe TRIBE, plateau de Saclay / IP Paris) -- **Avril 2026 à fin Août 2026** ✅ CONFIRMÉ
+- **Alternance / Contrat Pro** : Disponible dès **Septembre 2026** (fin du stage INRIA)
 
 ## 1. RÈGLES D'OR
 
@@ -197,10 +197,18 @@ cvs/
 
 ### B. RECHERCHE & IA (ACADÉMIQUE & STAGES)
 
-- **Stage Recherche @ Labo ICS, Florence (Italie)** | _Avr 2026 - Août 2026_ | _Florence, Italie_
-- _Sujet:_ Analyse de Signaux & Neurosciences Computationnelles.
-- _Tech:_ Python, MATLAB, Traitement du signal.
-- _Réalisations:_ Analyse de signaux et développement d'outils en Python pour la recherche en neurosciences computationnelles. Lecture et exploitation de publications scientifiques en anglais, proposition d'axes de recherche. Maintenance et évolution de bibliothèques MATLAB pour le laboratoire.
+- **Stage Recherche @ INRIA Saclay -- Équipe TRIBE** | _Avril 2026 - Août 2026_ | _Palaiseau, France_ ✅ STAGE CONFIRMÉ (À METTRE EN AVANT POUR TOUTES LES CANDIDATURES ALTERNANCE/CONTRAT PRO)
+- _Domaine:_ Sécurité numérique / Protection de la vie privée / Science des données appliquée à la mobilité
+- _Contexte:_ Stage de recherche financé par le programme national PEPR MOBIDEC (MobSciDat Factory PC3), réalisé au sein d'INRIA Saclay -- Île-de-France, sur le plateau de Saclay (campus de l'Institut Polytechnique de Paris : École Polytechnique, ENSTA Paris, Télécom Paris). Collaboration avec le LVMT -- École des Ponts ParisTech / Université Gustave Eiffel. Projet PRIMO : analyse automatisée de la confiance et de la transparence des applications mobiles de mobilité. INRIA est l'institut national de recherche en sciences du numérique, classé parmi les meilleures institutions de recherche en informatique en Europe.
+- _Tech:_ Python, NLP (BERT / Transformers), analyse statique de code/SDKs, traitement de données à grande échelle, scikit-learn, pandas, Git, rédaction scientifique en anglais.
+- _Réalisations:_
+  - Conception d'un cadre méthodologique d'analyse automatisée de la cohérence entre fonctionnalités déclarées et permissions réellement demandées par les applications mobiles de mobilité.
+  - Analyse NLP à grande échelle des politiques de confidentialité : évaluation de la transparence, de la spécificité et de la conformité aux bonnes pratiques RGPD.
+  - Analyse statique des SDKs embarqués dans les applications : identification des capacités d'inférence de mobilité sans permission explicite (risques de fuite de données de localisation).
+  - Conception et évaluation d'un modèle de score de confiance interprétable, synthétisant l'ensemble des analyses sous une forme accessible aux utilisateurs et aux chercheurs.
+  - Contribution à des publications scientifiques et présentation des résultats aux partenaires du PEPR MOBIDEC (programme national pluridisciplinaire).
+- _Mots-clés vendeurs pour alternance:_ INRIA, Institut Polytechnique de Paris, École Polytechnique, plateau de Saclay, recherche d'excellence, RGPD, privacy by design, NLP, analyse de données à grande échelle, score de confiance, pipeline Python, publication scientifique, collaboration académique multi-laboratoires.
+
 
 - **Assistant de Recherche @ MILA (Institut Québécois d'IA)** | _Juin 2025 - Sept 2025_ | _Remote_
 - _Sujet:_ Grokking et Interprétabilité des Modèles. découvete de OpenAI sur la généralisation tardive des reseaux de neurones apres suraprentissage, mon travail était de faire une application sur des MLP.
@@ -386,14 +394,16 @@ Modélisation, détection et isolation de défauts, contrôle tolérant aux pann
 
 ### Mapping Offre -> Expériences à Prioriser
 
-| Type d'offre               | Expériences à prioriser                                          | Compétences clés                          |
-| -------------------------- | ---------------------------------------------------------------- | ----------------------------------------- |
-| **Full Stack / Web**       | CSC, SOSDOCTA, Laravel Generator, GoFind, NettoieQuebec          | PHP, Laravel, React, Docker, MySQL        |
-| **IA / Data Scientist**    | Mila, UROP ECG, Harmony Projects, Women Safe, Multi-Agents       | PyTorch, TensorFlow, NLP, Computer Vision |
-| **Embarqué / Système**     | Projet Taxi (C), Harmony Gloves (STM32), Upgrade Jetson, IoT Lab | C, C++, Linux, STM32, IPC, Signaux        |
-| **FPGA / Électronique**    | TP ENSEA FPGA, Harmony Gloves (soudure), Projet Drone FTC        | VHDL, Quartus, ModelSim, Soudure, PCB     |
-| **MLOps / Déploiement IA** | Upgrade Jetson, Harmony Gloves (TinyML), IndabaX                 | TensorRT, ONNX, Docker, quantization      |
-| **Architecture / DevOps**  | Laravel Generator, GoFind (Microservices), CSC (Docker/CI)       | Docker, CI/CD, Microservices, RabbitMQ    |
+| Type d'offre                        | Expériences à prioriser                                                          | Compétences clés                                        |
+| ----------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| **Full Stack / Web**                | CSC, SOSDOCTA, Laravel Generator, GoFind, NettoieQuebec                          | PHP, Laravel, React, Docker, MySQL                      |
+| **IA / Data Scientist**             | INRIA TRIBE, Mila, UROP ECG, Harmony Projects, Women Safe, Multi-Agents          | PyTorch, TensorFlow, NLP, Computer Vision               |
+| **Privacy / Sécurité / RGPD**       | INRIA TRIBE (stage), Women Safe (NLP/biais), SOSDOCTA (RGPD santé), Laravel Gen (analyse statique) | Python, NLP, RGPD, analyse statique, privacy by design |
+| **Data Science / Recherche**        | INRIA TRIBE (stage), Mila (Grokking), UROP ECG, Urban Waste (1er prix)           | Python, pandas, scikit-learn, rédaction scientifique    |
+| **Embarqué / Système**              | Projet Taxi (C), Harmony Gloves (STM32), Upgrade Jetson, IoT Lab                 | C, C++, Linux, STM32, IPC, Signaux                      |
+| **FPGA / Électronique**             | TP ENSEA FPGA, Harmony Gloves (soudure), Projet Drone FTC                        | VHDL, Quartus, ModelSim, Soudure, PCB                   |
+| **MLOps / Déploiement IA**          | Upgrade Jetson, Harmony Gloves (TinyML), IndabaX                                 | TensorRT, ONNX, Docker, quantization                    |
+| **Architecture / DevOps**           | Laravel Generator, GoFind (Microservices), CSC (Docker/CI)                       | Docker, CI/CD, Microservices, RabbitMQ                  |
 
 ### Couleurs d'entreprise connues (pour `\definecolor{primary}`)
 
