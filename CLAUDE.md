@@ -41,6 +41,34 @@ cvs/
 - **Stage en cours** : INRIA Saclay (Équipe TRIBE, plateau de Saclay / IP Paris) -- **Avril 2026 à fin Août 2026** ✅ CONFIRMÉ
 - **Alternance / Contrat Pro** : Disponible dès **Septembre 2026** (fin du stage INRIA)
 
+---
+
+## 0.2 SUIVI DES CANDIDATURES (GOOGLE SHEET)
+
+**Lien :** [Tableau de suivi des candidatures](https://docs.google.com/spreadsheets/d/1i_TFn5u_A3nPMbukYlsRzfpgUQXanrviIn4xAFtE5rc/edit?usp=sharing)
+
+Ce fichier Google Sheet est rempli **après chaque candidature envoyée**. Il sert de source de vérité pour le suivi de toutes les postulations.
+
+**Colonnes du Sheet (dans l'ordre) :**
+
+| Colonne               | Description                                                             | Valeur par défaut lors de la génération |
+|-----------------------|-------------------------------------------------------------------------|-----------------------------------------|
+| **Entreprise**        | Nom de l'entreprise                                                     | À renseigner                            |
+| **Intitulé du Poste** | Intitulé exact du poste                                                 | À renseigner                            |
+| **Priorité (1-3)**    | Niveau de priorité (1 = haute, 3 = basse)                              | Laisser vide                            |
+| **Lien de l'offre**   | URL de l'offre d'emploi                                                 | Laisser vide                            |
+| **Source**            | Origine de l'offre (LinkedIn, Site, Cooptation...)                      | Laisser vide                            |
+| **Date Candidature**  | Date d'envoi (format JJ/MM/AAAA)                                        | Date du jour                            |
+| **Statut**            | État : Envoyée, Relancée, Entretien, Refus, Acceptée                   | `Envoyée`                               |
+| **Contact RH**        | Nom du contact RH si connu                                              | Laisser vide                            |
+| **Date Relance**      | Date de relance prévue ou effectuée                                     | Laisser vide                            |
+| **Docs envoyés**      | Noms des fichiers CV/LM envoyés                                         | Noms des fichiers `.pdf` générés        |
+| **Stage**             | Type de contrat (Stage, Alternance, CDI...)                             | `Stage`                                 |
+
+**Règle d'or :** Après avoir généré un CV et/ou une LM, **mettre à jour le Google Sheet automatiquement** en ajoutant une nouvelle ligne. Champs minimum obligatoires : **Entreprise**, **Intitulé du Poste**, **Date Candidature** (= date du jour), **Statut** = `Envoyée`, **Docs envoyés** (noms des fichiers `.pdf` générés).
+
+---
+
 ## 1. RÈGLES D'OR
 
 1.  **Source de Vérité Unique :** Utilise UNIQUEMENT les informations de la section "3. BASE DE DONNÉES". N'invente rien.
@@ -425,6 +453,7 @@ Modélisation, détection et isolation de défauts, contrôle tolérant aux pann
 3. **Adapter le profil** : Phrase d'accroche ciblée avec le nom de l'entreprise
 4. **Choisir les compétences** : Regrouper par catégorie pertinente pour l'offre
 5. **Vérifier la mise en page** : CV = 1 page max, LM = format lettre classique
+6. **Mettre à jour le Google Sheet** : Après génération du CV/LM, ajouter une entrée dans le [tableau de suivi](https://docs.google.com/spreadsheets/d/1i_TFn5u_A3nPMbukYlsRzfpgUQXanrviIn4xAFtE5rc/edit?usp=sharing) avec : Entreprise, Poste, Date du jour, Statut = `Envoyée`
 
 ---
 

@@ -1,0 +1,159 @@
+\documentclass[a4paper,10.5pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Valeo (vert corporate) ---
+\definecolor{primary}{RGB}{0, 120, 60}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primary,
+    filecolor=primary,
+    urlcolor=primary,
+}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes personnalisées ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Ingénieur Développement Logiciel HMI Embarqué} \\
+    \textit{\small Disponible dès \textbf{septembre 2026} pour alternance 2 à 3 ans} \\ \vspace{4pt}
+    \small
+    \Letter\ Cergy, France (Mobile IDF) \quad
+    \Telefon\ (+33) 7 59 52 33 98 \quad
+    \MVAt\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \href{https://www.linkedin.com/in/loic-mbassi/}{LinkedIn} \quad
+    \href{https://github.com/Nameless0l}{GitHub} \quad
+    \Mundus\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Développement d'interfaces temps réel sur systèmes embarqués (\textbf{C/C++}, OpenGL, STM32) et conception d'architectures logicielles robustes : voilà le fil conducteur de mon parcours en double diplôme \textbf{ENSEA}/Polytechnique Yaoundé. Après un stage R\&D à l'\textbf{INRIA Saclay}, je souhaite intégrer le pôle Innovation de \textbf{Valeo Brain} pour contribuer aux \textbf{interfaces homme-machine} embarquées de nouvelle génération.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- \textbf{Systèmes Embarqués}, Traitement du Signal, IA.} \\
+    \textit{\small{Projets : Conception FPGA/VHDL, Robotique autonome (Challenge CoHoMa), Contrôle tolérant aux fautes.}}
+    \vspace{2pt}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Systèmes.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Langages \& Embarqué :} \textbf{C/C++}, Python, VHDL, STM32, Arduino, Nvidia Jetson, Linux embarqué.}
+    \item \small{\textbf{IHM \& Graphique :} OpenGL, Unity/C\#, Qt (notions), interfaces temps réel, rendu 2D/3D.}
+    \item \small{\textbf{Architecture \& Outils :} Git, Docker, CI/CD, conception orientée objet, design patterns, Agile/Scrum.}
+    \item \small{\textbf{IA Embarquée :} TensorFlow Lite, YOLOv10, Computer Vision (OpenCV), optimisation modèles sur GPU.}
+    \item \small{\textbf{Langues :} Français (natif), \textbf{Anglais professionnel} (contexte recherche internationale).}
+\end{itemize}
+
+% --- EXPÉRIENCES ---
+\section{Expériences Professionnelles \& Recherche}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE} \hfill \textit{Avr. 2026 -- Août 2026} \\
+\textit{Plateau de Saclay (Institut Polytechnique de Paris)} \hfill \textit{Python, NLP, Pipelines de données}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un cadre d'analyse automatisée des applications mobiles (cohérence permissions/fonctionnalités).}
+        \item \small{Pipeline NLP à grande échelle pour l'évaluation de conformité RGPD des politiques de confidentialité.}
+        \item \small{Modèle de score de confiance interprétable, contribution à des publications scientifiques.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche -- MILA (Institut Québécois d'IA)} \hfill \textit{Juin 2025 -- Sept. 2025} \\
+\textit{Collaboration internationale à distance (Montréal, Canada)} \hfill \textit{PyTorch, Mathématiques}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène de Grokking (généralisation tardive des réseaux de neurones) sur des MLP.}
+        \item \small{Reproduction d'expériences SOTA et analyse mathématique de la convergence.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend -- CSC (Cameroon Software Company)} \hfill \textit{Oct. 2024 -- Jan. 2025} \\
+\textit{Projet Fintech / Plateforme bancaire sécurisée} \hfill \textit{Laravel, Docker, Redis}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture backend scalable avec gestion de transactions concurrentes et conformité financière.}
+        \item \small{Revues de code, tests unitaires et déploiement conteneurisé (Docker).}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- PROJETS TECHNIQUES ---
+\section{Projets Techniques}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Upgrade Jetson -- Robotique Autonome (Challenge CoHoMa)} \hfill \textit{2025 -- En cours} \\
+\textit{Challenge défense ENSEA / Armée française} \hfill \textit{C/C++, Docker, YOLOv10, SLAM, Lidar 3D}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement embarqué sur \textbf{Nvidia Jetson} : détection objets temps réel, fusion Lidar/caméra profondeur.}
+        \item \small{Implémentation d'algorithmes \textbf{SLAM} et intégration de la chaîne perception-décision.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Serious Game -- Simulateur de Formation Médicale} \hfill \textit{2024} \\
+\textit{Projet académique -- Conception IHM interactive} \hfill \textit{Unity, C\#, Blender}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une \textbf{interface homme-machine} immersive avec scénarios cliniques interactifs.}
+        \item \small{Rendu 3D temps réel, gestion d'événements utilisateur et évaluations dynamiques.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet Taxi -- Simulation Système Temps Réel} \hfill \textit{2024} \\
+\textit{Projet académique -- Programmation système} \hfill \textit{C, IPC, OpenGL, Linux}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Simulation multiprocessus d'une flotte de véhicules avec \textbf{visualisation OpenGL} temps réel.}
+        \item \small{Gestion mémoire partagée (SHM), synchronisation par signaux UNIX, ordonnanceur FIFO.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control (Drone)} \hfill \textit{2025} \\
+\textit{Projet d'option -- Contrôle automatique \& embarqué} \hfill \textit{MATLAB/Simulink}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique d'un drone, détection/isolation de défauts capteurs et actionneurs (FDI).}
+        \item \small{Stratégie de \textbf{contrôle tolérant aux fautes} avec reconfiguration et gain scheduling.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Engagement}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{1\textsuperscript{ère} Place} -- IndabaX Africa 2025 (IA pour la Santé) | \textbf{1\textsuperscript{ère} Place} -- CITS National Hackathon (Optimisation collecte déchets).}
+    \item \small{\textbf{Leadership :} Chef de la Cellule Projets \& Chef de la Cellule IA (Polytechnique Yaoundé), +50\% de membres, collaboration Google DeepMind.}
+    \item \small{\textbf{Certifications :} Supervised ML (DeepLearning.AI / Stanford), Python for Data Science (IBM).}
+\end{itemize}
+
+\end{document}
