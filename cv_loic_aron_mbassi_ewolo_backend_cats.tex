@@ -1,0 +1,142 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+\usepackage{pifont}
+
+% --- Couleurs Crédit Agricole (vert) ---
+\definecolor{primary}{RGB}{0, 100, 62}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Développeur Back-End Java / API REST} \\
+    \textit{\small Alternance 12 mois, disponible dès \textbf{septembre 2026}} \\ \vspace{4pt}
+    \small
+    \ding{168} Cergy, France (Mobile IDF) \quad
+    \ding{37} (+33) 7 59 52 33 98 \quad
+    \ding{41} \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \href{https://www.linkedin.com/in/loic-mbassi/}{LinkedIn : loic-mbassi} \quad
+    \href{https://github.com/Nameless0l}{GitHub : Nameless0l} \quad
+    \href{https://mbassiloic.tech}{Portfolio : mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Développeur backend avec 3 ans d'expérience en conception d'API REST, architectures microservices et systèmes de messaging asynchrone. Double diplôme \textbf{ENSEA} / \textbf{Polytechnique Yaoundé}, stage de recherche \textbf{INRIA Saclay} en cours. Expérience directe en \textbf{développement bancaire sécurisé} (Fintech) et en architecture réactive (\textbf{Spring Boot}, Redis, PostgreSQL). Je souhaite mettre ces compétences au service de la squad CRM Opérationnel de \textbf{CA-TS} pour contribuer à l'amélioration des outils de campagnes marketing et de gestion des leads.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cours : Architecture logicielle, Deep Learning, Traitement du Signal.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Backend \& API :} Java, Spring Boot / Spring WebFlux, PHP/Laravel, API REST, Architecture DDD, Microservices.}
+    \item \small{\textbf{Messaging \& Data :} RabbitMQ, Redis (Cache/Pub-Sub), PostgreSQL, MySQL, MongoDB, ScyllaDB (NoSQL).}
+    \item \small{\textbf{DevOps \& Outils :} Docker, Git, CI/CD, Tests unitaires, Agile/Scrum, Linux.}
+    \item \small{\textbf{Langues :} Français (Natif), Anglais (Professionnel/Technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES ---
+\section{Expériences Professionnelles}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stagiaire Recherche -- Sécurité Numérique \& NLP} \hfill \textit{Avril 2026 -- Août 2026} \\
+\textit{INRIA Saclay -- Équipe TRIBE (Plateau de Saclay / IP Paris)} \hfill \textit{Python, NLP, BERT, pandas}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un pipeline Python d'analyse automatisée de la conformité RGPD d'applications mobiles.}
+        \item \small{Analyse NLP à grande échelle des politiques de confidentialité avec modèles Transformers (BERT).}
+        \item \small{Contribution à des publications scientifiques dans le cadre du programme national PEPR MOBIDEC.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend -- Plateforme Bancaire Sécurisée} \hfill \textit{Oct. 2024 -- Jan. 2025} \\
+\textit{CSC (Cameroon Software Company) -- Fintech} \hfill \textit{Laravel, MySQL, Redis, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception du backend d'une plateforme de transactions financières sécurisée, conforme aux normes bancaires.}
+        \item \small{Gestion de la concurrence des transactions et architecture scalable (Docker, Redis, tests unitaires).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Full Stack -- Télémédecine} \hfill \textit{Fév. 2022 -- Mars 2024} \\
+\textit{SOSDOCTA (Remote, Belgique/Canada)} \hfill \textit{Laravel, MySQL, OAuth2/JWT, API REST}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement et maintenance (2 ans) d'une plateforme complète de télémédecine : API REST, réservation, paiement.}
+        \item \small{Gestion de données médicales sensibles (conformité RGPD) et authentification sécurisée (OAuth2/JWT).}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- PROJETS ---
+\section{Projets Pertinents}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Snappy -- Plateforme de Messagerie Sécurisée (Projet académique)} \hfill \textit{2024 -- 2025} \\
+\textit{Architecture DDD, 4 modules} \hfill \textit{Spring Boot / WebFlux, PostgreSQL, Redis, Socket.IO}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation à la conception d'une architecture \textbf{Spring Boot réactive} (WebFlux, Mono/Flux) gérant des milliers de connexions WebSocket simultanées avec backpressure.}
+        \item \small{Implémentation de cache multi-niveaux (Redis LRU + applicatif), indexation composite PostgreSQL, élimination des requêtes N+1.}
+        \item \small{Chiffrement bout en bout (protocole Signal, AES-256-GCM) et conformité RGPD native.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind -- Architecture Microservices} \hfill \textit{2024} \\
+\textit{Projet académique} \hfill \textit{Laravel, NestJS, MongoDB, RabbitMQ, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'une architecture microservices complète avec communication asynchrone via \textbf{RabbitMQ} et API Gateway.}
+        \item \small{Orchestration des services avec Docker et gestion de bases de données hétérogènes (MongoDB, MySQL).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Outil Open Source} \hfill \textit{2024 -- Présent} \\
+\textit{Projet personnel, +30 étoiles GitHub} \hfill \textit{PHP, Laravel, Python, LLM}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Création d'un outil de génération automatique de code backend Laravel (modèles, contrôleurs, migrations, routes) à partir de diagrammes UML/XML. Déployé sur Packagist.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Engagement}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{1\textsuperscript{ère} Place} -- IndabaX Africa 2025 (IA Santé : déploiement API, Flask, Streamlit). \textbf{1\textsuperscript{ère} Place} -- CITS National Hackathon (75 équipes).}
+    \item \small{\textbf{Leadership :} Chef de la Cellule Projets et Cellule IA (Polytechnique Yaoundé). Animation workshops : Laravel, React, ML.}
+    \item \small{\textbf{Certifications :} Supervised ML (DeepLearning.AI/Stanford), Python for Data Science (IBM), Jira (Coursera).}
+\end{itemize}
+
+\end{document}

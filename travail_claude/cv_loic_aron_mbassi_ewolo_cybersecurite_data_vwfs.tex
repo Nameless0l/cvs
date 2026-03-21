@@ -1,0 +1,97 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{20, 100, 175}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternance Informatique / Cybers\'ecurit\'e / Data} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{La protection des donn\'ees personnelles dans les syst\`emes de financement automobile implique une articulation fine entre mesures techniques (pseudonymisation, chiffrement, contr\^ole d'acc\`es) et exigences r\'eglementaires RGPD. Volkswagen Financial Services, en int\'egrant ces enjeux dans son d\'epartement Juridique Conformit\'e, s'attaque \`a une probl\'ematique au c\oe{}ur de mon stage INRIA Saclay sur l'analyse de vie priv\'ee par NLP.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{S\'ecurit\'e \& Conformit\'e :} RGPD, JWT, chiffrement AES-256-GCM, protocole Signal, IAM, audit s\'ecurit\'e}
+    \item \small{\textbf{Data / IA :} Python, NLP, BERT, Transformers, scoring de conformit\'e, analyse de risques}
+    \item \small{\textbf{Informatique :} Laravel, MySQL, Redis, Docker, API REST, Linux, Git}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, RGPD, scoring de conformit\'e}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Construction d'un pipeline NLP pour l'identification et le scoring de clauses RGPD dans des documents contractuels (50k+ documents).}
+        \item \small{Cartographie des traitements de donn\'ees personnelles et formalisation des mesures de protection associ\'ees selon les articles du RGPD.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{SOSDOCTA -- Plateforme T\'el\'em\'edecine RGPD} \hfill \textit{2022 -- 2024} \\
+\textit{Production, 5k+ utilisateurs} \hfill \textit{Laravel, JWT, MySQL, RGPD, s\'ecurit\'e}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Mise en conformit\'e RGPD d'une plateforme de t\'el\'em\'edecine : consentement, droit \`a l'oubli, chiffrement des donn\'ees de sant\'e, gestion des acc\`es.}
+        \item \small{Impl\'ementation d'un syst\`eme IAM avec JWT et gestion des r\^oles (m\'edecin, patient, administrateur).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Snappy -- S\'ecurit\'e des Communications} \hfill \textit{2025} \\
+\textit{Projet Open Source} \hfill \textit{AES-256-GCM, protocole Signal, Spring WebFlux}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture s\'ecuris\'ee avec chiffrement de bout en bout (protocole Signal), gestion des identit\'es et rotation des cl\'es cryptographiques.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{D\'eveloppeur Backend -- CSC Fintech} \hfill \textit{Oct. 2024 -- Jan. 2025} \\
+\textit{Transactions s\'ecuris\'ees} \hfill \textit{Laravel, MySQL, Redis, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{S\'ecurisation des flux de transactions financi\`eres : validation, audit trail, gestion des tokens d'acc\`es.}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix CITS National} ; \textbf{Head of Projects Cell ENSEA}}
+\end{itemize}
+
+\end{document}

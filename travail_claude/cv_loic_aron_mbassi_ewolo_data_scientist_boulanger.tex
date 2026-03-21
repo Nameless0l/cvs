@@ -1,0 +1,94 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{0, 100, 200}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Data Scientist -- Recommandation \& Analyse Comportementale} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Nord) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{La recommandation produit et la personnalisation dans le retail \'electrodom\'estique s'appuient sur des mod\`eles capables d'exploiter l'historique de navigation, les achats et les pr\'ef\'erences pour maximiser la conversion. Concevoir et am\'eliorer ces syst\`emes ML chez Boulanger -- avec les contraintes de volumétrie, de cold start et de diversit\'e catalog -- est un d\'efi concret que mon exp\'erience en ML appliqu\'e m'outille pour relever.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{ML / Data Science :} Python, Scikit-learn, PyTorch, TensorFlow, filtrage collaboratif, NLP, A/B testing}
+    \item \small{\textbf{Data Engineering :} SQL, pandas, ETL, Docker, API REST, Git, MLflow}
+    \item \small{\textbf{Math\'ematiques :} statistiques bay\'esiennes, optimisation, th\'eorie de la d\'ecision, probabilit\'es}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, scoring, pipeline ML}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Mod\`eles de scoring et de classification sur corpus de 50k+ documents : fine-tuning BERT, \'evaluation rigoureuse, analyse de l'impact des hyperparamètres sur les m\'etriques de performance.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche -- MILA} \hfill \textit{\'Et\'e 2025} \\
+\textit{Math\'ematiques de l'apprentissage} \hfill \textit{PyTorch, optimisation, th\'eorie}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse de la dynamique d'optimisation des r\'eseaux de neurones : phases de m\'emorisation vs. g\'en\'eralisation, impact du taux d'apprentissage et de la r\'egularisation sur les capacit\'es de g\'en\'eralisation.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{UROP 2024 -- Optimisation de Pipeline ML} \hfill \textit{2024} \\
+\textit{Collaboration Google DeepMind} \hfill \textit{TensorFlow, CNN, optimisation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation d'un pipeline d'entra\^inement CNN : r\'eduction de 40\% du temps de calcul, fine-tuning par grid search et random search, validation crois\'ee rigoureuse.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- ML en Production} \hfill \textit{2024} \\
+\textit{1\textsuperscript{er} prix CITS National} \hfill \textit{ML, IoT, pipeline, d\'eploiement}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Mod\`ele ML de classification d\'eploy\'e sur donn\'ees r\'eelles IoT, avec calibration en ligne, monitoring des d\'erives de distribution et tableau de bord de performance temps r\'eel.}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix CITS National} ; \textbf{Head of Projects Cell ENSEA}}
+\end{itemize}
+
+\end{document}

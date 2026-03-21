@@ -1,0 +1,98 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{219, 10, 50}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ing\'enieur Intelligence Artificielle et Data} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{Les institutions financi\`eres mondiales comme HSBC font face \`a des volumes de donn\'ees non structur\'ees -- rapports d'analystes, transactions, communications clients -- que les techniques NLP et Deep Learning permettent de transformer en signaux d\'ecisionnels exploitables. Rejoindre l'\'equipe IA \& Data de HSBC France pour concevoir et d\'eployer des mod\`eles ML dans un contexte financier international correspond \`a mon orientation vers la recherche appliqu\'ee \`a fort impact m\'etier.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA / ML / Data :} Python, PyTorch, TensorFlow, BERT, Transformers, NLP, statistiques, pandas, SQL}
+    \item \small{\textbf{Finance \& Conformit\'e :} RGPD, scoring, analyse de risques, pipelines de donn\'ees s\'ecuris\'ees, JWT}
+    \item \small{\textbf{Backend \& Cloud :} Laravel, MySQL, Redis, Docker, API REST, Git}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, BERT, RGPD, scoring}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse de conformit\'e RGPD par NLP sur corpus de 50k+ documents contractuels : pipeline de classification, extraction d'entit\'es et calcul de scores de confiance.}
+        \item \small{Gain de +12\% F1-score par fine-tuning BERT sur corpus juridique annot\'e.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{D\'eveloppeur Backend -- CSC Fintech} \hfill \textit{Oct. 2024 -- Jan. 2025} \\
+\textit{Fintech, transactions s\'ecuris\'ees} \hfill \textit{Laravel, MySQL, Redis, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception et d\'eploiement d'APIs de transactions financi\`eres s\'ecuris\'ees avec gestion des tokens, caching Redis et tests d'int\'egration.}
+        \item \small{Mise en place de pipelines CI/CD et conteneurisation Docker pour la production.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Full Stack -- SOSDOCTA T\'el\'em\'edecine} \hfill \textit{2022 -- 2024} \\
+\textit{Plateforme RGPD, 2 ans} \hfill \textit{Laravel, PHP, MySQL, JWT, RGPD}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{D\'eveloppement d'une plateforme de t\'el\'em\'edecine (ordonnances, consultations, dossiers patients) avec authentification JWT et conformit\'e RGPD.}
+        \item \small{Architecture REST scalable g\'erant plus de 5k utilisateurs avec moins de 200ms de latence.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{UROP 2024 -- Analyse ECG} \hfill \textit{2024} \\
+\textit{Collaboration Google DeepMind} \hfill \textit{TensorFlow, CNN, s\'eries temporelles}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{D\'etection d'arythmies cardiaques par Deep Learning sur signaux ECG avec optimisation du pipeline d'entra\^inement (-40\% temps de calcul).}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} (IA Sant\'e) ; \textbf{1\textsuperscript{er} prix CITS National} (75 \'equipes) ; \textbf{Lead AI Cell ENSEA}}
+\end{itemize}
+
+\end{document}

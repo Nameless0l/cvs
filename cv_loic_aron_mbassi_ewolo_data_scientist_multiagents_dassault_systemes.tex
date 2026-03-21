@@ -1,0 +1,116 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Dassault Systèmes ---
+\definecolor{primary}{RGB}{0, 32, 91}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Stage -- Data Scientist | Systèmes Multi-Agents IA \& LLM} \\
+    \textit{\small Disponible dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Orchestration de 5 agents IA collaboratifs avec LangChain, Google ADK et RAG (projet de recherche 2024-2025), NLP à grande échelle avec BERT/Transformers à l'INRIA Saclay (Institut Polytechnique de Paris), et étude de l'interprétabilité des LLMs au MILA : ces travaux me positionnent pour contribuer directement au développement de votre assistant multi-agents sur la plateforme 3DEXPERIENCE.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus : Deep Learning, Traitement du Signal, Architecture processeurs.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA Générative \& Agents :} LangChain, Google ADK, RAG (Retrieval-Augmented Generation), Gemini, GPT-2, BERT/Transformers, LangGraph (notions), orchestration multi-agents, ReAct (pattern).}
+    \item \small{\textbf{ML \& NLP :} Python, PyTorch, TensorFlow, scikit-learn, pandas, NumPy, traitement du langage naturel, séries temporelles, Computer Vision (OpenCV).}
+    \item \small{\textbf{Développement \& DevOps :} APIs REST, FastAPI, Docker, Git, Agile/Scrum, intégration continue.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel -- rédaction et communication technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Système Multi-Agents Agricole -- Orchestration LLM} \hfill \textit{2024 -- 2025} \\
+\textit{Projet de recherche} \hfill \textit{Python, LangChain, Google ADK, Gemini, RAG, FastAPI, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception et déploiement d'un système de 5 agents IA collaboratifs (Google ADK) utilisant Gemini comme moteur LLM, pour des recommandations agricoles multi-critères (météo, cultures, marchés).}
+        \item \small{Implémentation d'un pipeline RAG pour l'enrichissement contextuel des réponses agents : vectorisation des connaissances, recherche sémantique, augmentation du prompt.}
+        \item \small{Orchestration d'APIs externes (OpenWeather, données de marché) et déploiement via FastAPI/Docker (Poetry). Architecture modulaire et extensible.}
+        \item \small{Résolution de conflits entre agents et gestion de la cohérence des réponses dans un contexte multi-sources.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE (PEPR MOBIDEC)} \hfill \textit{Avril -- Août 2026} \\
+\textit{Institut Polytechnique de Paris (École Polytechnique, ENSTA, Télécom Paris)} \hfill \textit{Python, NLP, BERT/Transformers, pandas, scikit-learn}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse NLP à grande échelle des politiques de confidentialité d'applications mobiles (BERT/Transformers) : évaluation de la transparence, conformité RGPD, spécificité des déclarations.}
+        \item \small{Conception d'un pipeline d'analyse automatisée combinant NLP, analyse statique de code et modélisation de scores interprétables. Contribution à des publications scientifiques.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche -- MILA (Institut Québécois d'IA)} \hfill \textit{Juin -- Sept 2025} \\
+\textit{Remote} \hfill \textit{Python, PyTorch, interprétabilité des modèles}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène de Grokking (généralisation tardive des réseaux de neurones) : reproduction d'expériences état de l'art, analyse de la convergence mathématique sur MLP.}
+        \item \small{Analyse de l'interprétabilité des modèles : visualisation des dynamiques d'entraînement, comportement émergent des réseaux de neurones profonds.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Intégration LLM} \hfill \textit{2024 -- Présent} \\
+\textit{Projet open source (+30 étoiles GitHub, déployé sur Packagist)} \hfill \textit{PHP, Python, LLM Integration, XML, métaprogrammation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Outil générant l'architecture backend Laravel complète (modèles, contrôleurs, migrations, routes) à partir de diagrammes UML/XML, avec calcul géométrique des liens entre composants.}
+        \item \small{Intégration LLM pour assistance intelligente à la génération de code : interaction naturelle avec le générateur, suggestions contextualisées.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} Prix} -- IndabaX Africa 2025 (IA Santé) : pipeline de nettoyage de données médicales, déploiement API, dashboard analytique.}
+    \item \small{\textbf{1\textsuperscript{er} Prix} -- CITS National 2024 (Urban Waste Management) : ML appliqué à l'optimisation de routes, réduction 20\% des coûts, 75 équipes en compétition.}
+    \item \small{\textbf{Lead AI Cell ENSPY} : animation de workshops ML/LLM fine-tuning, collaboration avec Google DeepMind (ML Week). Articles techniques publiés sur Medium.}
+\end{itemize}
+
+\end{document}

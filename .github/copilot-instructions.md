@@ -12,7 +12,7 @@ cvs/
 ├── examples/                                 # Exemples de candidatures
 ├── cv_actuel.tex                             # CV de base (template vide)
 ├── Fichier_Maitre.md                         # Données brutes (vide actuellement)
-└── .github/copilot-instructions.md           # CE FICHIER - source de vérité
+└── CLAUDE.md                                  # CE FICHIER - source de vérité
 ```
 
 **Nommage des fichiers :**
@@ -38,7 +38,7 @@ cvs/
 
 **Disponibilités :**
 
-- **Stage** : Disponible dès **Avril 2026** pour 4 à 6 mois
+- **Stage en cours** : INRIA Saclay (Équipe TRIBE, plateau de Saclay / IP Paris) -- **Avril 2026 à fin Août 2026** ✅ CONFIRMÉ
 - **Alternance / Contrat Pro** : Disponible dès **Septembre 2026** (fin du stage INRIA)
 
 ---
@@ -77,7 +77,7 @@ Ce fichier Google Sheet est rempli **après chaque candidature envoyée**. Il se
     - Ne tente pas de tout mettre. Cible (ex: Si offre Web -> CSC, SOSDOCTA, NettoieQuebec. Si offre IA -> Mila, UROP, Harmony).
 3.  **Format LaTeX Strict :** Utilise le template fourni en section 2. Échappe les caractères spéciaux (`&`, `%`, `_`).
 4.  **Règles de rédaction (OBLIGATOIRES) :**
-    - JAMAIS de tirets longs (—, ---) dans les textes
+    - ⚠️ JAMAIS de tirets longs (—, –, ---) dans les textes, ni dans les CV/LM, ni dans les messages LinkedIn/mail. RÈGLE ABSOLUE.
     - JAMAIS de formulations "exactement ce que vous recherchez", "correspond précisément", "raisonne exactement avec"
     - JAMAIS commencer un message/paragraphe par "J'ai développé...", "J'ai conçu...", "J'ai réalisé..."
     - JAMAIS commencer par "Actuellement en..." ou "Étudiant en..." (trop générique, sent l'IA)
@@ -92,7 +92,7 @@ Ce fichier Google Sheet est rempli **après chaque candidature envoyée**. Il se
 ## 2. TEMPLATE LATEX (SQUELETTE IMMUABLE)
 
 ```latex
-\documentclass[a4paper,10.5pt]{article}
+\documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
@@ -358,6 +358,26 @@ Modélisation, détection et isolation de défauts, contrôle tolérant aux pann
 - _Tech:_ Python, YOLOv8/v10, OpenCV, PyInstaller.
 - _Réalisations:_ Script Python pour détection automatique de personnes dans des vidéos. Extraction de séquences pertinentes. Optimisation mémoire pour traitement de longues vidéos. Compilation en exécutable (.exe) pour distribution.
 
+- **Snappy – Plateforme de Messagerie Mobile et Intelligente** | _2024-2025_ | _Projet académique 4ème année ENSPY_ (projet d'équipe, utiliser "j'ai participé à")
+- _Sujet:_ Conception et architecture complète d'une plateforme de messagerie d'entreprise sécurisée, temps réel, avec intégration IA (chatbots RAG) — encadré par Pr Djotio Thomas.
+- _Tech:_ Spring Boot 3 / Spring WebFlux (programmation réactive), Socket.IO (temps réel), PostgreSQL + R2DBC, Redis (cache LRU / Pub-Sub / sessions), Python/Flask (module IA "Alan"), TypeScript/React (SDK client), Docker, JWT/HS256, AES-256-GCM, protocole Signal.
+- _Aspects mathématiques et formels (à mettre en avant) :_
+  - **Cryptographie** : chiffrement hybride AES-256-GCM (clé symétrique unique par message + vecteur d'initialisation IV aléatoire cryptographiquement sûr) combiné au protocole Signal pour le chiffrement de bout en bout (Perfect Forward Secrecy, algorithme double ratchet, gestion des PreKeys éphémères et SignedPreKeys). Hachage des mots de passe BCrypt à facteur de coût adaptatif (résistance aux rainbow tables). Rotation automatique planifiée des clés cryptographiques.
+  - **Modélisation formelle DDD** : modèle de domaine structuré autour d'agrégats (Organization, User, Message, Chat, Chatbot) avec invariants de domaine stricts et séparation couche domaine / infrastructure / présentation.
+  - **Machines à états** : automate de transitions pour le mode de messagerie (OFF / LISTEN / ON) géré par transaction atomique R2DBC avec cohérence garantie même en contexte réactif non-bloquant.
+  - **Théorie des graphes** : relation many-to-many auto-référencée pour le réseau de contacts utilisateurs ; modèle Chat bidirectionnel (senderUser / receiverUser) permettant une navigation efficace dans les deux sens.
+  - **Programmation réactive (Project Reactor)** : modèle Mono/Flux non-bloquant, gestion du backpressure pour absorber les pics de charge, validations parallèles des utilisateurs réduisant la latence totale.
+  - **RAG et recherche vectorielle** : embeddings des documents de référence stockés dans un vector store, recherche sémantique par similarité cosinus pour enrichir les réponses des chatbots avec le contexte documentaire pertinent.
+  - **Optimisation algorithmique** : indexation composite (projectId, externalId), (senderId, receiverId, createdAt) sur PostgreSQL ; cache LRU multi-niveaux (application + Redis distribué) ; élimination des requêtes N+1 via projections et jointures optimisées ; partitionnement des tables par date pour archivage à grande échelle.
+  - **Métriques de performance cibles** : temps de connexion < 500ms, taux de reconnexion > 99%, latence messages < 100ms, couverture tests > 90%.
+- _Réalisations:_
+  - Conception de l'architecture DDD complète en 4 modules (Serveur HTTP Spring WebFlux, Serveur Socket Socket.IO, Serveur IA Python/Alan, SDK TypeScript).
+  - Implémentation du protocole Signal (chiffrement bout en bout, rotation des clés, Perfect Forward Secrecy) avec module SecureMessagingSDK.
+  - Système de chatbots intelligents avec RAG (Gemini Flash/Pro + vector store) pour réponses contextuelles à partir de documents d'organisation.
+  - Architecture réactive gérant des milliers de connexions WebSocket simultanées avec un nombre limité de threads (backpressure, non-blocking I/O).
+  - Conformité RGPD native : export données utilisateur, suppression en cascade avec destruction des clés (droit à l'oubli cryptographique), audit logs structurés SIEM-compatible.
+- _Mots-clés vendeurs:_ Domain-Driven Design, programmation réactive, cryptographie appliquée, protocole Signal, Perfect Forward Secrecy, AES-256-GCM, RAG, embeddings vectoriels, microservices, WebSocket temps réel, RGPD by design, Spring WebFlux, PostgreSQL, Redis.
+
 ---
 
 ### D. LEADERSHIP, PRIX & CERTIFICATIONS
@@ -421,16 +441,17 @@ Modélisation, détection et isolation de défauts, contrôle tolérant aux pann
 
 ### Mapping Offre -> Expériences à Prioriser
 
-| Type d'offre                  | Expériences à prioriser                                                                            | Compétences clés                                       |
-| ----------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| **Full Stack / Web**          | CSC, SOSDOCTA, Laravel Generator, GoFind, NettoieQuebec                                            | PHP, Laravel, React, Docker, MySQL                     |
-| **IA / Data Scientist**       | INRIA TRIBE, Mila, UROP ECG, Harmony Projects, Women Safe, Multi-Agents                            | PyTorch, TensorFlow, NLP, Computer Vision              |
-| **Privacy / Sécurité / RGPD** | INRIA TRIBE (stage), Women Safe (NLP/biais), SOSDOCTA (RGPD santé), Laravel Gen (analyse statique) | Python, NLP, RGPD, analyse statique, privacy by design |
-| **Data Science / Recherche**  | INRIA TRIBE (stage), Mila (Grokking), UROP ECG, Urban Waste (1er prix)                             | Python, pandas, scikit-learn, rédaction scientifique   |
-| **Embarqué / Système**        | Projet Taxi (C), Harmony Gloves (STM32), Upgrade Jetson, IoT Lab                                   | C, C++, Linux, STM32, IPC, Signaux                     |
-| **FPGA / Électronique**       | TP ENSEA FPGA, Harmony Gloves (soudure), Projet Drone FTC                                          | VHDL, Quartus, ModelSim, Soudure, PCB                  |
-| **MLOps / Déploiement IA**    | Upgrade Jetson, Harmony Gloves (TinyML), IndabaX                                                   | TensorRT, ONNX, Docker, quantization                   |
-| **Architecture / DevOps**     | Laravel Generator, GoFind (Microservices), CSC (Docker/CI)                                         | Docker, CI/CD, Microservices, RabbitMQ                 |
+| Type d'offre                      | Expériences à prioriser                                                                   | Compétences clés                                                 |
+| --------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Full Stack / Web**              | CSC, SOSDOCTA, Laravel Generator, GoFind, NettoieQuebec                                   | PHP, Laravel, React, Docker, MySQL                               |
+| **IA / Data Scientist**           | INRIA TRIBE, Mila, UROP ECG, Harmony Projects, Women Safe, Multi-Agents                   | PyTorch, TensorFlow, NLP, Computer Vision                        |
+| **Privacy / Sécurité / RGPD**     | INRIA TRIBE (stage), Snappy (protocole Signal, AES-256, RGPD), Women Safe, SOSDOCTA       | Python, NLP, RGPD, cryptographie, privacy by design, AES-256-GCM |
+| **Data Science / Recherche**      | INRIA TRIBE (stage), Mila (Grokking), UROP ECG, Urban Waste (1er prix)                    | Python, pandas, scikit-learn, rédaction scientifique             |
+| **Embarqué / Système**            | Projet Taxi (C), Harmony Gloves (STM32), Upgrade Jetson, IoT Lab                          | C, C++, Linux, STM32, IPC, Signaux                               |
+| **FPGA / Électronique**           | TP ENSEA FPGA, Harmony Gloves (soudure), Projet Drone FTC                                 | VHDL, Quartus, ModelSim, Soudure, PCB                            |
+| **MLOps / Déploiement IA**        | Upgrade Jetson, Harmony Gloves (TinyML), IndabaX                                          | TensorRT, ONNX, Docker, quantization                             |
+| **Architecture / DevOps**         | Snappy (DDD, Spring WebFlux, Redis, Socket.IO), Laravel Generator, GoFind (Microservices) | Docker, CI/CD, Microservices, programmation réactive, WebSocket  |
+| **Backend / Systèmes Distribués** | Snappy (réactif, WebSocket, Redis Pub-Sub), GoFind (RabbitMQ), Freengo (ScyllaDB)         | Spring Boot, programmation réactive, Redis, PostgreSQL, DDD      |
 
 ### Couleurs d'entreprise connues (pour `\definecolor{primary}`)
 

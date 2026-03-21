@@ -1,0 +1,114 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Thales ---
+\definecolor{primary}{RGB}{0, 45, 114}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternant Ingénieur IA pour l'Ingénierie Système Aéro} \\
+    \textit{\small Disponible dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Génération automatique de code backend à partir de diagrammes UML (outil open source, +30 étoiles GitHub), IA embarquée sur Nvidia Jetson dans un contexte de robotique autonome militaire (challenge CoHoMa), et détection/contrôle tolérant aux défauts sur drone (MATLAB/Simulink) : ces travaux à l'intersection de l'IA, de l'ingénierie système et de l'embarqué me préparent à contribuer au déploiement de solutions IA pour vos équipes d'architectes et ingénieurs systèmes aéro chez Thales.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA. Cursus : Deep Learning, FPGA/VHDL, Traitement du Signal, Architecture processeurs.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique, Systèmes.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA \& ML :} Python, PyTorch, TensorFlow, LangChain, RAG, LLMs (Gemini, GPT-2, BERT), scikit-learn, Computer Vision (YOLO, OpenCV).}
+    \item \small{\textbf{Ingénierie Système :} UML (parsing et génération de code), modélisation système, rédaction technique, MATLAB/Simulink, traçabilité exigences.}
+    \item \small{\textbf{Embarqué \& Défense :} C/C++, Nvidia Jetson, STM32/Arduino, Docker, SLAM, Lidar 3D, caméra de profondeur, Onshape (modélisation 3D).}
+    \item \small{\textbf{Développement :} Python, SQL, APIs REST, FastAPI, Docker, Git, Agile/Scrum.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel / rédaction technique et communication orale).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Upgrade Jetson -- Challenge CoHoMa (Robotique Autonome Militaire)} \hfill \textit{En cours} \\
+\textit{ENSEA / Armée Française} \hfill \textit{C/C++, Docker, Nvidia Jetson, YOLOv10, SLAM, Lidar 3D}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation d'IA embarquée sur GPU Nvidia Jetson pour cartographie et missions autonomes. Intégration et traitement des données Lidar 3D VLP16 et caméra de profondeur.}
+        \item \small{Détection d'objets avec YOLOv10, SLAM et fusion de capteurs. Docker pour reproductibilité. Modélisation 3D sur Onshape.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Generator -- Parsing UML et Génération de Code} \hfill \textit{2024 -- Présent} \\
+\textit{Projet open source (+30 étoiles GitHub, déployé sur Packagist)} \hfill \textit{PHP, Python, LLM Integration, UML/XML}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Outil générant l'architecture backend complète à partir de diagrammes UML : parsing XML de draw.io, calcul géométrique des liens entre composants, génération automatique (modèles, contrôleurs, migrations, routes).}
+        \item \small{Intégration LLM pour assistance intelligente à la génération de code. Métaprogrammation et analyse structurelle des modèles.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control (Drone)} \hfill \textit{2025 -- 2026} \\
+\textit{Projet d'option ENSEA -- Contrôle automatique \& systèmes embarqués} \hfill \textit{MATLAB/Simulink, contrôle robuste}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique d'un drone en conditions nominales et dégradées (perte d'actionneurs, biais capteurs). Détection et isolation de défauts (FDI) par observateurs.}
+        \item \small{Stratégie de contrôle tolérant aux défauts (FTC) : reconfiguration de contrôleur, gain scheduling, modes dégradés. Simulation de scénarios de pannes réalistes.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE} \hfill \textit{Avril -- Août 2026} \\
+\textit{Institut Polytechnique de Paris} \hfill \textit{Python, NLP, BERT/Transformers, pandas, scikit-learn}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline d'analyse NLP à grande échelle (BERT/Transformers). Conception d'un score interprétable. Contribution à des publications scientifiques.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} Prix} -- IndabaX Africa 2025 (IA Santé) : pipeline ML, déploiement API, dashboard analytique.}
+    \item \small{\textbf{1\textsuperscript{er} Prix} -- CITS National 2024 (Urban Waste) : optimisation routes par ML, réduction 20\% des coûts, 75 équipes.}
+    \item \small{\textbf{Lead AI Cell ENSPY} : workshops ML/LLM fine-tuning. Collaboration Google DeepMind (ML Week).}
+\end{itemize}
+
+\end{document}

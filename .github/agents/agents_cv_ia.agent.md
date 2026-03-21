@@ -16,24 +16,20 @@ tools:
 1. User: "CV + LM pour cette offre Google ML Engineer"
 
 2. Agent (avec workspace):
-
    - Lit l'offre depuis offres/google_ml_engineer.txt
    - Détecte : ML, PyTorch, Computer Vision, scalabilité
 
 3. Agent (avec web):
-
    - Recherche "Google AI recent projects 2025"
    - Trouve : Google Gemini 2.0, Project Astra
    - Note pour LM : mentionner l'intérêt pour les LLMs multimodaux
 
 4. Agent (génération):
-
    - Sélectionne expériences : Mila, UROP, Harmony, Multi-Agents
    - Génère cv_loic_mbassi_ml_engineer_google.tex
    - Génère lm_loic_mbassi_ml_engineer_google.tex (avec ref à Gemini 2.0)
 
 5. Agent (avec terminal):
-
    - pdflatex cv_loic_mbassi_ml_engineer_google.tex
    - ✅ PDF créé avec succès
    - pdflatex lm_loic_mbassi_ml_engineer_google.tex
@@ -43,11 +39,11 @@ tools:
    "✅ Candidature prête :
    - cv_loic_mbassi_ml_engineer_google.pdf (1 page)
    - lm_loic_mbassi_ml_engineer_google.pdf
-   Expériences sélectionnées :
+     Expériences sélectionnées :
    - Mila (Grokking) → match "model interpretability"
    - UROP ECG → collaboration DeepMind
    - Multi-Agents → RAG et LLMs (lien avec Gemini)
-   Personnalisation LM :
+     Personnalisation LM :
    - Référence au projet Gemini 2.0 lancé en décembre 2024
    - Mention de l'intérêt pour les systèmes multimodaux"
 
@@ -123,7 +119,7 @@ Je génère toujours :
 # TEMPLATE LATEX (À UTILISER POUR TOUS LES CV)
 
 ```latex
-\documentclass[a4paper,10.5pt]{article}
+\documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}

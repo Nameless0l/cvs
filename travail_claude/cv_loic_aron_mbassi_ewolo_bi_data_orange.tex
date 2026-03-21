@@ -1,0 +1,97 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{255, 100, 0}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ing\'enieur BI \& Data Management} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{Un op\'erateur t\'el\'ecom de l'envergure d'Orange g\`ere des p\'etaoctets de donn\'ees clients, r\'eseau et usage dont la valorisation analytique n\'ecessite des architectures BI et Data Management robustes. Contribuer \`a la structuration et l'exploitation de ces donn\'ees pour produire des insights d\'ecisionnels -- tout en maintenant la qualit\'e et la gouvernance des donn\'ees -- correspond \`a mon exp\'erience en construction de pipelines de donn\'ees \`a grande \'echelle.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Data \& BI :} SQL, Python, pandas, pipelines ETL, data modeling, visualisation, Jupyter, MongoDB}
+    \item \small{\textbf{ML \& Analyse :} Scikit-learn, PyTorch, NLP, statistiques, s\'eries temporelles}
+    \item \small{\textbf{Infrastructure :} Docker, API REST, Laravel, Redis, Git, Linux}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, pipeline de donn\'ees}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Construction d'un pipeline de traitement de corpus documentaire (50k+ documents) : extraction, transformation, chargement et analyse qualitative des donn\'ees.}
+        \item \small{Mise en place de m\'etriques de suivi de qualit\'e et de d\'erive de distribution dans le pipeline.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{SOSDOCTA -- Data Management Plateforme M\'edicale} \hfill \textit{2022 -- 2024} \\
+\textit{Production, 5k+ utilisateurs} \hfill \textit{MySQL, Laravel, Redis, JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception du mod\`ele de donn\'ees pour une plateforme m\'edicale : gestion des dossiers patients, historiques de consultations, ordonnances et consentements.}
+        \item \small{Optimisation des requ\^etes SQL cr\'etiques r\'eduisant la latence de 200ms \`a 50ms sur les requ\^etes fr\'equentes.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind -- Architecture Data Distribu\'ee} \hfill \textit{2024 -- 2025} \\
+\textit{Microservices} \hfill \textit{MongoDB, RabbitMQ, NestJS, Laravel}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception du sch\'ema de donn\'ees distribu\'e (MongoDB) et des flux de messages (RabbitMQ) pour une plateforme microservices avec garanties de coh\'erence.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- Pipeline IoT} \hfill \textit{2024} \\
+\textit{1\textsuperscript{er} prix CITS} \hfill \textit{IoT, ML, pipeline de donn\'ees temps r\'eel}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline temps r\'eel de collecte, normalisation et analyse de donn\'ees capteurs IoT avec tableau de bord analytique.}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix CITS National} (75 \'equipes) ; \textbf{Head of Projects Cell ENSEA}}
+\end{itemize}
+
+\end{document}

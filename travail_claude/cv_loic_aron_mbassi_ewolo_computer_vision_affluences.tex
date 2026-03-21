@@ -1,0 +1,97 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{50, 130, 100}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large D\'eveloppeur Data / IA -- Vision par Ordinateur} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{La mesure automatis\'ee de la fr\'equentation dans les lieux publics repose sur des algorithmes de d\'etection et de suivi d'objets en temps r\'eel que la vision par ordinateur moderne rend accessibles sur mat\'eriel embarqu\'e. Chez Affluences, dont la plateforme de gestion des flux cr\'ee une valeur directe pour des milliers d'\'etablissements publics, d\'evelopper des solutions de vision IA robustes et pr\'ecises correspond \`a mon exp\'erience sur des syst\`emes de traitement d'image temps r\'eel.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Vision par Ordinateur :} Python, PyTorch, OpenCV, Mediapipe, YOLO, TensorFlow, TF Lite, CNN}
+    \item \small{\textbf{IA Embarqu\'ee :} Nvidia Jetson, Raspberry Pi, Arduino, TinyML, C/C++, optimisation d'inf\'erence}
+    \item \small{\textbf{Backend \& Data :} FastAPI, Docker, API REST, Git, pandas, pipelines de donn\'ees}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, pipeline ML, analyse de donn\'ees}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Construction d'un pipeline ML complet d'analyse de documents : pr\'etraitement, extraction de caract\'eristiques, classification et scoring.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{UROP 2024 -- Analyse ECG par Computer Vision} \hfill \textit{2024} \\
+\textit{Collaboration Google DeepMind} \hfill \textit{TensorFlow, CNN, imagerie m\'edicale}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Entra\^inement de CNN pour la d\'etection de pathologies cardiaques sur images ECG vectoris\'ees, avec pipeline d'augmentation de donn\'ees m\'edicales.}
+        \item \small{Optimisation du pipeline d'entra\^inement : r\'eduction de 40\% du temps de calcul par pr\'etraitement vectoris\'e.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony of Languages -- Reconnaissance de Gestes Temps R\'eel} \hfill \textit{2024} \\
+\textit{Projet de recherche} \hfill \textit{PyTorch, OpenCV, Mediapipe, traitement vid\'eo}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Participation \`a la conception d'un syst\`eme de traduction de langue des signes en temps r\'eel via Mediapipe (d\'etection de 21 points de la main) et classification LSTM.}
+        \item \small{Optimisation du pipeline vid\'eo pour traitement \`a 30 fps sur mat\'eriel standard.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Upgrade Jetson CoHoMa -- Vision Robotique} \hfill \textit{2024} \\
+\textit{Projet ENSEA} \hfill \textit{Docker, YOLO, SLAM, Lidar 3D, Nvidia Jetson, C/C++}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Int\'egration de YOLO pour la d\'etection d'objets temps r\'eel et du SLAM Lidar 3D sur Nvidia Jetson pour la navigation autonome d'un robot mobile.}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} (IA Sant\'e) ; \textbf{1\textsuperscript{er} prix Mountain Hub 2024} ; \textbf{Lead AI Cell ENSEA}}
+\end{itemize}
+
+\end{document}

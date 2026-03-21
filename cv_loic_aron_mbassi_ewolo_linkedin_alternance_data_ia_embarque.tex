@@ -1,0 +1,138 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=1.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+\usepackage{marvosym} % pour \Letter, \Mundus
+\usepackage{pifont}   % pour symboles
+
+% --- Couleurs LinkedIn (bleu professionnel neutre) ---
+\definecolor{primary}{RGB}{0, 73, 144}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ingénieur Data / IA / Systèmes Embarqués / Dev Backend} \\
+    \textit{\small En recherche d'alternance ou contrat pro d'un an, dès septembre 2026} \\ \vspace{4pt}
+    \small
+    Cergy, France (Mobile \^Ile-de-France) \quad
+    \Telefon\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\href{https://www.linkedin.com/in/loic-mbassi/}{LinkedIn}} \quad
+    {\color{primary}\href{https://github.com/Nameless0l}{GitHub}} \quad
+    {\color{primary}\Mundus\ \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Double diplôme ENSEA / Polytechnique Yaoundé en IA, signal et systèmes embarqués. Assistant de recherche au MILA (Grokking, PyTorch) et stagiaire INRIA Saclay (NLP, analyse de données à grande échelle). Prototypage embarqué (STM32, YOLO, SLAM, Lidar 3D) sur le challenge de robotique CoHoMa. 3 premiers prix en hackathon (IndabaX Africa, CITS National, Mountain Hub). +3 ans d'expérience en développement full stack (Laravel, React, Spring Boot).}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Deep Learning, Traitement du Signal, Systèmes Embarqués, FPGA/VHDL.}
+    \vspace{0.3cm}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur en Afrique centrale)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Algorithmique, Génie Logiciel.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{IA / ML :} Python, PyTorch, TensorFlow/Keras, Scikit-learn, Transformers (BERT, GPT-2), RAG, LangChain, OpenCV.}
+    \item \small{\textbf{Data :} Pandas, NumPy, Matplotlib, Streamlit, NLP, séries temporelles, traitement du signal.}
+    \item \small{\textbf{Embarqué / Robotique :} C/C++, Rust, STM32, Arduino, Raspberry Pi, TF Lite (TinyML), YOLO, SLAM, Lidar, Docker.}
+    \item \small{\textbf{Développement :} Laravel/PHP, Spring Boot/Java, React.js, Next.js, REST APIs, PostgreSQL, MySQL, MongoDB, Git.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel/technique).}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE (PEPR MOBIDEC)} \hfill \textit{Avr 2026 -- Août 2026} \\
+\textit{Plateau de Saclay / Institut Polytechnique de Paris} \hfill \textit{Python, NLP, BERT, Pandas, Scikit-learn}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline d'analyse automatisée de la transparence d'applications mobiles : NLP sur politiques de confidentialité, analyse statique de SDKs, conformité RGPD.}
+        \item \small{Conception d'un score de confiance interprétable synthétisant analyses NLP et statiques. Contribution à des publications scientifiques.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche -- MILA, Institut Québécois d'IA} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{Recherche en interprétabilité des modèles} \hfill \textit{Python, PyTorch, TensorFlow}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène ``Grokking'' (généralisation tardive des réseaux de neurones après surapprentissage) sur des MLP.}
+        \item \small{Reproduction d'expériences SOTA et analyse mathématique de la convergence.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Robotique Autonome -- Challenge CoHoMa (Défense)} \hfill \textit{2025 -- En cours} \\
+\textit{ENSEA / Armée française} \hfill \textit{C/C++, YOLOv10, SLAM, Lidar 3D, Nvidia Jetson, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Développement embarqué C/C++ et optimisation IA (YOLOv10) sur GPU Nvidia Jetson pour cartographie autonome.}
+        \item \small{Intégration et fusion de capteurs Lidar 3D VLP16 et caméra de profondeur. SLAM temps réel, modélisation 3D (Onshape).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{UROP -- Analyse ECG par Deep Learning} \hfill \textit{2024} \\
+\textit{Collaboration avec mentors Google DeepMind} \hfill \textit{TensorFlow/Keras, Computer Vision, traitement du signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle de classification d'anomalies cardiaques à partir d'images d'électrocardiogrammes papier.}
+        \item \small{Extraction automatique de features sur signaux ECG, pipeline complet de traitement d'image à prédiction.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Backend -- CSC (Fintech)} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Cameroon Software Company} \hfill \textit{Laravel, MySQL, Docker, Redis, API REST}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture backend d'une plateforme de transactions sécurisée. Gestion de la concurrence et conformité normes financières.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Développeur Full Stack -- SOSDOCTA (Télémédecine)} \hfill \textit{Fév 2022 -- Mars 2024} \\
+\textit{Remote (Belgique/Canada)} \hfill \textit{Laravel, PHP, MySQL, JS, OAuth2/JWT}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Plateforme de télémédecine complète (réservation, paiement, dashboards médecins/patients). Maintenance +2 ans en production.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix} IndabaX Africa 2025 (IA Santé) -- Pipeline data, API Flask, dashboard Streamlit.}
+    \item \small{\textbf{1\textsuperscript{er} Prix} CITS National 2024 (75 équipes) -- Optimisation collecte déchets par ML/IoT ($-$20\% coûts).}
+    \item \small{\textbf{1\textsuperscript{er} Prix} Mountain Hub Regional 2024 (Innovation).}
+    \item \small{\textbf{Lead AI Cell} (ENSPY) : +50\% membres, collaboration Google DeepMind. Workshops ML, LLM fine-tuning, React.}
+    \item \small{\textbf{Certif.} Supervised ML (Stanford/DeepLearning.AI), Python for Data Science (IBM), POO Java (EPFL), Jira (Coursera).}
+\end{itemize}
+
+\end{document}

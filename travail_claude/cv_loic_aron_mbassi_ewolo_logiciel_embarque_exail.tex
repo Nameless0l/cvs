@@ -1,0 +1,95 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{20, 60, 110}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ing\'enieur D\'eveloppement Logiciel Embarqu\'e} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Saint-Germain-en-Laye) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{Les syst\`emes de navigation et de positionnement inertiel -- inertiels, GNSS, sous-marins -- requi\`erent des logiciels embarqu\'es \`a la fois performants et hautement fiables, d\'evelopp\'es avec des processus rigoureux de validation. Exail, leader europ\'een de la navigation de haute pr\'ecision, met en oeuvre ces exigences dans des domaines critiques o\`u chaque micro-seconde compte. C'est ce niveau de rigueur technique que je cherche \`a atteindre en alternance.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- \textbf{Syst\`emes Embarqu\'es}, Traitement du signal, Temps r\'eel, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : Math\'ematiques Appliqu\'ees, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Embarqu\'e :} C, C++, Python, STM32, Arduino, Raspberry Pi, Nvidia Jetson, FreeRTOS, DMA, interruptions}
+    \item \small{\textbf{Communication \& Protocoles :} SPI, I2C, UART, CAN, BLE, MQTT, communication temps r\'eel}
+    \item \small{\textbf{Qualit\'e Logicielle :} Docker, Git, CI/CD, tests unitaires, tests d'int\'egration, documentation technique}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, pipeline ML, Docker, tests automatis\'es}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline de traitement automatis\'e de 50k+ documents avec tests d'int\'egration, d\'eploiement reproductible et suivi des m\'etriques de performance.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{PROJET-TAXI -- Syst\`eme Embarqu\'e Temps R\'eel} \hfill \textit{2023 -- 2024} \\
+\textit{Communication IPC sur STM32} \hfill \textit{STM32, C, FreeRTOS, protocoles s\'erie}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception et impl\'ementation d'un syst\`eme de communication inter-processus temps r\'eel sur STM32 : gestion des interruptions, DMA, s\'erialisation des messages et tests de charge.}
+        \item \small{S\'ecurit\'e des communications : chiffrement AES-256-GCM, authentification des \'echanges et validation par tests d'int\'egrit\'e automatis\'es.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Upgrade Nvidia Jetson -- Optimisation Syst\`eme} \hfill \textit{2024} \\
+\textit{Laboratoire IoT ENSEA} \hfill \textit{Jetson, CUDA, optimisation m\'emoire, C++}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Migration et optimisation d'un pipeline de traitement temps r\'eel sur Nvidia Jetson : portage CUDA, gestion fine des ressources m\'emoire, r\'eduction de la latence de 60\%.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Harmony Gloves -- Syst\`eme Capteurs Temps R\'eel} \hfill \textit{2024} \\
+\textit{1\textsuperscript{er} prix Mountain Hub 2024} \hfill \textit{Raspberry Pi, IMU, BLE, TF Lite}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{J'ai particip\'e \`a la conception d'un syst\`eme temps r\'eel de traitement de capteurs IMU, avec fusion de donn\'ees, inf\'erence embarqu\'ee TF Lite et communication BLE \`a faible latence.}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix Mountain Hub 2024} ; \textbf{1\textsuperscript{er} prix CITS National} ; \textbf{Head of Projects Cell ENSEA}}
+\end{itemize}
+
+\end{document}

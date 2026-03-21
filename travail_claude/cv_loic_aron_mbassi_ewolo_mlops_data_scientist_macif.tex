@@ -1,0 +1,103 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{0, 82, 165}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ing\'enieur MLOps / Data Scientist} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{L'industrialisation de mod\`eles ML en production n\'ecessite une ma\^itrise transverse du cycle de vie des donn\'ees, de l'entra\^inement \`a la supervision en production. Au MACIF, rejoindre l'\'equipe Data \& IA pour fiabiliser des pipelines de classification documentaire et d'extraction d'information repr\'esente une opportunit\'e directement align\'ee avec mon parcours \`a l'interface entre recherche ML et d\'eploiement industriel.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{MLOps \& Data :} Python, PyTorch, TensorFlow, Scikit-learn, MLflow, pipeline CI/CD, Docker, APIs REST, SQL}
+    \item \small{\textbf{ML / Deep Learning :} BERT, Transformers, NLP, classification, extraction d'information, scoring de confiance}
+    \item \small{\textbf{Backend \& Infrastructure :} Laravel, Redis, MySQL, Git, Linux, d\'eploiement Cloud}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, BERT, Transformers, NLP, RGPD}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un pipeline NLP complet d'analyse de vie priv\'ee sur corpus de 50k+ documents, avec extraction d'entit\'es et scoring de confiance RGPD.}
+        \item \small{Fine-tuning de mod\`eles BERT/Transformers pour la classification de clauses contractuelles, atteignant +12\% de F1-score vs baseline.}
+        \item \small{Int\'egration du pipeline dans une infrastructure Python Docker pour industrialisation.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche -- MILA (Montr\'eal Institute of Learning Algorithms)} \hfill \textit{\'Et\'e 2025} \\
+\textit{Collaboration \`a distance} \hfill \textit{PyTorch, TensorFlow, Math\'ematiques}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{\'Etude du ph\'enom\`ene Grokking : analyse de la g\'en\'eralisation retard\'ee sur t\^aches arithm\'etiques modulaires avec PyTorch.}
+        \item \small{Production de notebooks reproductibles et formalisation des r\'esultats pour publication.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet Urban Waste Management -- IA \& IoT} \hfill \textit{2024} \\
+\textit{Comp\'etition nationale CITS (1\textsuperscript{er} prix / 75 \'equipes)} \hfill \textit{ML, IoT, Python, classification}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{D\'eveloppement d'un syst\`eme de classification automatique des d\'echets via capteurs IoT et mod\`eles ML embarqu\'es.}
+        \item \small{Mise en place d'un pipeline de donn\'ees temps r\'eel int\'egrant collecte, pr\'etraitement et inf\'erence.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet UROP 2024 -- Analyse ECG par Deep Learning} \hfill \textit{2024} \\
+\textit{Collaboration Google DeepMind} \hfill \textit{TensorFlow, Computer Vision, imagerie m\'edicale}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Entra\^inement de CNN pour la d\'etection d'arythmies cardiaques sur signaux ECG, avec augmentation de donn\'ees m\'edicales.}
+        \item \small{Optimisation du pipeline d'entra\^inement r\'eduisant le temps de 40\% par vectorisation des pr\'etraitements.}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} (IA Sant\'e) ; \textbf{1\textsuperscript{er} prix Mountain Hub 2024} ; \textbf{1\textsuperscript{er} prix CITS National} (75 \'equipes)}
+    \item \small{\textbf{Head of Projects Cell \& Lead AI Cell ENSEA} : structuration de 3 p\^oles techniques, +50\% de membres actifs, collaborations Google DeepMind}
+    \item \small{\textbf{Open Source :} Laravel API Generator (+30 \'etoiles GitHub, packagist) -- g\'en\'eration de code API via LLM+UML}
+\end{itemize}
+
+\end{document}

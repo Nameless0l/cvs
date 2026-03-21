@@ -1,0 +1,95 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{60, 60, 140}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ing\'enieur Cybers\'ecurit\'e -- Architecture S\'ecuris\'ee \& Audit} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile Paris) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{L'audit de s\'ecurit\'e et la conception d'architectures s\'ecuris\'ees pour les clients du secteur public et priv\'e requirent une ma\^itrise des menaces actuelles -- injection, escalade de privil\`eges, interception -- et des contre-mesures cryptographiques adapt\'ees. Construire ces comp\'etences dans le contexte conseil de mc2i, au contact de clients aux enjeux r\'eglementaires vari\'es, est une opportunit\'e de mont\'ee en expertise rapide et concr\`ete.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Cryptographie, S\'ecurit\'e des r\'eseaux, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : Math\'ematiques Appliqu\'ees, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Cybers\'ecurit\'e :} AES-256-GCM, Signal Protocol, JWT, RGPD, audit de code, s\'ecurit\'e API, chiffrement end-to-end}
+    \item \small{\textbf{D\'eveloppement S\'ecuris\'e :} Python, C, Laravel, Docker, tests de p\'en\'etration, audit trail, journalisation}
+    \item \small{\textbf{Conformit\'e \& Architecture :} RGPD, mod\`ele de donn\'ees r\'eglementaire, contr\^ole d'acc\`es, traitement de donn\'ees sensibles}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, pipeline ML, s\'ecurit\'e des donn\'ees}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline de traitement de corpus document\'e avec gestion de la confidentialit\'e des donn\'ees : acc\`es contr\^ol\'e, pseudonymisation et d\'eploiement reproductible en environnement isol\'e.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Snappy -- Messagerie Chiffr\'ee End-to-End} \hfill \textit{2023 -- 2024} \\
+\textit{Application de communication s\'ecuris\'ee} \hfill \textit{Signal Protocol, AES-256-GCM, JWT, Laravel}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture de s\'ecurit\'e compl\`ete : impl\'ementation du protocole Signal pour la messagerie E2E, chiffrement AES-256-GCM des donn\'ees au repos, authentification JWT avec rotation de cl\'es.}
+        \item \small{Audit de s\'ecurit\'e interne : analyse des vecteurs d'attaque, tests d'injection, validation de la r\'esistance aux attaques par rejeu.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{SOSDOCTA -- Architecture Donn\'ees RGPD} \hfill \textit{2022 -- 2024} \\
+\textit{Plateforme m\'edicale, 5k+ utilisateurs} \hfill \textit{Laravel, MySQL, JWT, RGPD}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception de l'architecture de donn\'ees d'une plateforme de sant\'e sous contraintes RGPD : chiffrement des donn\'ees personnelles, contr\^ole d'acc\`es par r\^ole, journalisation et droit \`a l'oubli.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{PROJET-TAXI -- Syst\`eme Embarqu\'e S\'ecuris\'e} \hfill \textit{2023 -- 2024} \\
+\textit{Communication IPC s\'ecuris\'ee} \hfill \textit{STM32, C, AES, protocoles}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Protocole de communication inter-processus avec chiffrement mat\'eriel : int\'egrit\'e des messages, authentification des \'echanges et tests de r\'esistance aux attaques de r\'einjection.}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix CITS National} ; \textbf{Head of Projects Cell ENSEA} ; \textbf{Open Source :} Laravel API Generator (+30 \'etoiles)}
+\end{itemize}
+
+\end{document}

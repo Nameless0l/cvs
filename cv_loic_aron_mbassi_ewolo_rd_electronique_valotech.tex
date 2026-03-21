@@ -1,0 +1,141 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Configuration des liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Formatage des titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% --- Commandes ---
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ingénieur R\&D -- Électronique \& Systèmes Embarqués} \\
+    \textit{\small Stage INRIA Saclay (Avril--Août 2026) -- Disponible en \textbf{Contrat de Professionnalisation} dès \textbf{Septembre 2026}} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF / Villejuif) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Conçu des prototypes instrumentés alliant \textbf{soudure CMS}, capteurs (IMU, flex), acquisition C/STM32 et validation à l'oscilloscope, en contexte laboratoire. Double diplôme \textbf{ENSEA} (Électronique, Signal, FPGA/VHDL) et \textbf{Polytechnique Yaoundé} (Mathématiques Appliquées, Génie Logiciel). Attiré par la pluridisciplinarité R\&D/Medtech de \textbf{ValoTec} pour y contribuer en Contrat de Professionnalisation.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{Cergy | 2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- \textbf{Systèmes Embarqués, Signal, FPGA, IA}. Cours : électronique analogique/numérique, VHDL, routage PCB, traitement du signal.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{Yaoundé | 2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur (Master 2) -- Mathématiques Appliquées, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES TECHNIQUES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Électronique \& Métrologie :} \textbf{Soudure CMS}, Oscilloscope, Multimètre, Conception circuits, Capteurs (IMU, Flex, Lidar), Gestion de puissance, Miniaturisation.}
+    \item \small{\textbf{Embarqué \& HDL :} \textbf{C / C++}, \textbf{VHDL} (FPGA Cyclone V), STM32, Protocoles I2C / SPI / UART, Linux embarqué, TinyML.}
+    \item \small{\textbf{CAO Électronique :} \textbf{Altium Designer}, KiCad, Onshape (modélisation 3D), routage PCB, schématique.}
+    \item \small{\textbf{Traitement du Signal \& IA :} Filtrage numérique, séries temporelles, Python, PyTorch, MATLAB/Simulink.}
+    \item \small{\textbf{Outils \& Rédaction :} Git, Docker, rédaction technique (Français/\textbf{Anglais technique}).}
+\end{itemize}
+
+% --- PROJETS ÉLECTRONIQUE \& EMBARQUÉ ---
+\section{Projets Électronique \& Systèmes Embarqués}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Harmony Gloves -- Gant Instrumenté, Reconnaissance Langue des Signes} \hfill \textit{2024} \\
+\textit{Laboratoire IOTA -- École Polytechnique de Yaoundé} \hfill \textit{STM32, C, IMU/Flex, I2C/SPI}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Soudure de capteurs flex et IMU sur PCB, intégration mécanique du prototype en conditions de laboratoire.}
+        \item \small{Acquisition de données via I2C/SPI sur STM32, validation des signaux à l'oscilloscope et calibration des capteurs.}
+        \item \small{Déploiement d'un modèle TinyML embarqué pour classification gestuelle en temps réel.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control -- Drone} \hfill \textit{2025} \\
+\textit{Projet d'option ENSEA -- Contrôle automatique \& systèmes embarqués} \hfill \textit{MATLAB/Simulink, capteurs, signal}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modélisation dynamique d'un drone sous pannes (biais/bruit capteurs, défaillance partielle d'actionneurs).}
+        \item \small{Conception d'un schéma de détection de défauts (observateurs, résidus) et stratégie FTC avec reconfiguration.}
+        \item \small{Simulation MATLAB/Simulink de scénarios de pannes réalistes et rédaction d'un rapport technique complet.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Conception FPGA -- Système SoPC sur Cyclone V} \hfill \textit{2025 -- en cours} \\
+\textit{ENSEA} \hfill \textit{VHDL, Quartus, Nios V, I2C, JTAG}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Description RTL en VHDL, simulation comportementale et contraintes de routage sur FPGA Cyclone V.}
+        \item \small{Intégration soft-processeur Nios V, contrôleur I2C pour capteur ADXL345, debug JTAG.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Upgrade Jetson -- Robotique Autonome (Challenge CoHoMa, Défense)} \hfill \textit{2025 -- en cours} \\
+\textit{ENSEA / Challenge armée française} \hfill \textit{C/C++, Nvidia Jetson, Lidar VLP16, SLAM, Onshape}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Intégration et traitement de données Lidar 3D VLP16 et caméra de profondeur, fusion de capteurs pour SLAM.}
+        \item \small{Développement C/C++ embarqué sur Nvidia Jetson, optimisation IA embarquée, modélisation 3D sur Onshape.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- EXPÉRIENCES PROFESSIONNELLES ---
+\section{Expériences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- Analyse de confiance des applications mobiles (RGPD)} \hfill \textit{Avril -- Août 2026} \\
+\textit{INRIA Saclay -- Équipe TRIBE, plateau de Saclay (IP Paris)} \hfill \textit{Python, NLP, analyse statique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Projet PRIMO : analyse automatisée de la transparence des apps mobiles de mobilité, en collaboration avec l'École des Ponts.}
+        \item \small{Pipeline Python, NLP (BERT), rédaction scientifique en anglais au sein du programme national PEPR MOBIDEC.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche -- Grokking \& Interprétabilité IA} \hfill \textit{Juin -- Sept. 2025} \\
+\textit{MILA -- Institut Québécois d'Intelligence Artificielle (Remote)} \hfill \textit{PyTorch, mathématiques}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Reproduction d'expériences SOTA sur la généralisation tardive des réseaux de neurones, rigueur scientifique et rédaction.}
+    \end{itemize}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Engagement}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Prix :} 1\textsuperscript{er} national CITS Hackathon (Smart City), 1\textsuperscript{er} IndabaX Africa 2025 (IA Santé), sélection salon GETEC (ClassSync).}
+    \item \small{\textbf{Leadership :} Chef Cellule Projets IA (Polytechnique Yaoundé) -- +50\% membres, collaboration Google DeepMind.}
+    \item \small{\textbf{Langues :} Français (natif), \textbf{Anglais technique} (B2 -- documentation, rapports, articles).}
+\end{itemize}
+
+\end{document}

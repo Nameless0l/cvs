@@ -1,0 +1,96 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{255, 180, 0}
+\definecolor{titletext}{RGB}{20, 20, 20}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\color{primary}\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Data Engineer -- Pipelines \& Architecture} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{Les donn\'ees des v\'ehicles connect\'es, des cha\^ines de production et des interactions clients constituent pour Renault un actif strat\'egique que Renault Digital valorise via une stack GCP compl\`ete. Construire les cha\^ines de traitement de ces donn\'ees pour r\'epondre aux besoins m\'etiers de la plus grande plateforme digitale automobile fran\c{c}aise constitue un d\'efi de Data Engineering \`a fort impact.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Data Engineering :} Python, SQL, MongoDB, pipelines ETL/ELT, Docker, Git, API REST}
+    \item \small{\textbf{Cloud \& Architecture :} GCP (notions), microservices, RabbitMQ, Redis, Laravel, NestJS}
+    \item \small{\textbf{ML / Analyse :} PyTorch, pandas, numpy, Scikit-learn, s\'eries temporelles, visualisation}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, pipeline NLP, traitement de corpus}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Construction d'un pipeline ETL de corpus documentaire (50k+ documents) : extraction multi-format, normalisation, enrichissement NLP, stockage structur\'e.}
+        \item \small{Optimisation de la cha\^ine de traitement pour r\'eduction de 60\% du temps de proc\'essing par vectorisation.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind -- Data Pipeline Distribu\'ee} \hfill \textit{2024 -- 2025} \\
+\textit{Architecture microservices} \hfill \textit{MongoDB, RabbitMQ, NestJS, Laravel, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un pipeline de donn\'ees distribu\'e avec messaging asynchrone RabbitMQ, stockage MongoDB et synchronisation entre microservices.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Freengo -- Architecture Haute Performance} \hfill \textit{2024} \\
+\textit{Application Uber-like} \hfill \textit{SpringBoot, ScyllaDB, Next.js}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline de g\'eolocalisation temps r\'eel avec ScyllaDB (wide-column DB) pour la gestion de 100k+ \'ev\'enements de localisation par seconde.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{SOSDOCTA -- ETL Donn\'ees M\'edicales} \hfill \textit{2022 -- 2024} \\
+\textit{Production, 5k+ utilisateurs} \hfill \textit{MySQL, Laravel, Redis}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception et optimisation des pipelines de donn\'ees m\'edicales : migrations, transformations et int\'egrations avec API externes, avec latence optimis\'ee.}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix CITS National} (75 \'equipes) ; \textbf{Head of Projects Cell ENSEA} ; \textbf{Open Source :} Laravel API Generator (+30 \'etoiles)}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,97 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{0, 45, 100}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Ing\'enieur Cybers\'ecurit\'e Logicielle \& IA} \\
+    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile, Rennes) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{L'int\'egration de l'IA dans les syst\`emes critiques introduit de nouvelles surfaces d'attaque que la cybers\'ecurit\'e logicielle doit anticiper : empoisonnement de mod\`eles, extraction par inf\'erence, backdoors dans les r\'eseaux de neurones. Chez Thales, pioneer en s\'ecurit\'e des syst\`emes critiques, travailler sur l'\'evaluation de la s\'ecurit\'e des logiciels IA et d\'evelopper des outils d'audit sp\'ecifiques repr\'esente un d\'efi technique rare et strat\'egique.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\end{itemize}
+
+\section{Comp\'etences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{S\'ecurit\'e logicielle :} chiffrement AES-256-GCM, protocole Signal, JWT, audit code, RGPD, analyse de vuln\'erabilit\'es}
+    \item \small{\textbf{IA / ML :} Python, PyTorch, BERT, Transformers, NLP, scoring de confiance, robustesse de mod\`eles}
+    \item \small{\textbf{Syst\`emes \& Backend :} C/C++, Linux, Docker, Laravel, Spring WebFlux, API REST, Git}
+\end{itemize}
+
+\section{Exp\'eriences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, BERT, analyse RGPD}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse de risques li\'es \`a la vie priv\'ee dans des corpus de documents avec NLP : identification de clauses sensibles, scoring de conformit\'e RGPD.}
+        \item \small{\'Etude de la robustesse des mod\`eles BERT face \`a des donn\'ees adversariales et d\'erives de distribution.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Snappy -- Messagerie Chiffr\'ee End-to-End} \hfill \textit{2025} \\
+\textit{Projet Open Source} \hfill \textit{Spring WebFlux, AES-256-GCM, protocole Signal, Socket.IO}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Impl\'ementation du protocole Signal (Double Ratchet Algorithm) pour le chiffrement de bout en bout avec gestion des cl\'es et rotation des sessions.}
+        \item \small{Chiffrement AES-256-GCM des messages stock\'es, architecture microservices s\'ecuris\'ee avec Spring WebFlux.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{PROJET-TAXI -- Syst\`eme IPC Linux s\'ecuris\'e} \hfill \textit{2024} \\
+\textit{Projet ENSEA} \hfill \textit{C, IPC, SHM, Signaux Linux, OpenGL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un simulateur bas\'e sur des m\'ecanismes IPC Linux (m\'emoire partag\'ee, pipes, signaux) avec gestion des acc\`es concurrents et isolation des processus.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{SOSDOCTA -- Plateforme M\'edicale RGPD} \hfill \textit{2022 -- 2024} \\
+\textit{T\'el\'em\'edecine, production} \hfill \textit{Laravel, JWT, MySQL, s\'ecurit\'e applicative}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Impl\'ementation de l'authentification JWT, chiffrement des donn\'ees patients et audit de s\'ecurit\'e RGPD sur une plateforme en production.}
+    \end{itemize}
+
+\end{itemize}
+
+\section{Prix \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix Mountain Hub 2024} ; \textbf{Lead AI Cell ENSEA} (collaborations Google DeepMind)}
+\end{itemize}
+
+\end{document}

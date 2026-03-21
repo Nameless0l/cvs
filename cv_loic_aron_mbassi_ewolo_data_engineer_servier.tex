@@ -1,0 +1,116 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs Servier ---
+\definecolor{primary}{RGB}{52, 72, 138}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Loïc Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Alternant Data Engineer | Contrat de Professionnalisation} \\
+    \textit{\small Disponible dès septembre 2026} \\ \vspace{4pt}
+    \small
+    \faMapMarker\ Cergy, France (Mobile IDF) \quad
+    \faPhone\ (+33) 7 59 52 33 98 \quad
+    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
+    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
+    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
+    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Pipelines Python à grande échelle, NLP sur données de mobilité (INRIA Saclay / Institut Polytechnique de Paris) et projets ML appliqués en collaboration avec Google DeepMind et le MILA : ces expériences orientées données me préparent à contribuer à la structuration de vos applications Data chez Servier, dans un contexte de transformation analytique sur GCP.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- École Nationale Supérieure de l'Électronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplôme d'Ingénieur -- Systèmes Embarqués, Signal, IA.}
+    \item \textbf{École Polytechnique de Yaoundé (1\textsuperscript{ère} école d'ingénieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplôme d'Ingénieur de Conception (Master 2) : \textbf{Mathématiques Appliquées}, Génie Logiciel, Algorithmique.}
+\end{itemize}
+
+% --- COMPÉTENCES ---
+\section{Compétences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Data \& Python :} Python (pandas, NumPy, scikit-learn), SQL, pipelines ETL, traitement de données à grande échelle, NLP (BERT/Transformers), Git.}
+    \item \small{\textbf{ML \& IA :} TensorFlow, PyTorch, Computer Vision (OpenCV, Mediapipe), traitement du signal, séries temporelles biomédicales.}
+    \item \small{\textbf{Cloud \& DevOps :} GCP (notions), Docker, FastAPI, APIs REST, Agile/Scrum.}
+    \item \small{\textbf{Visualisation :} Streamlit, dashboards analytiques (Flask), Next.js.}
+\end{itemize}
+
+% --- EXPÉRIENCES / PROJETS ---
+\section{Expériences \& Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Équipe TRIBE (PEPR MOBIDEC)} \hfill \textit{Avril -- Août 2026} \\
+\textit{Institut Polytechnique de Paris (École Polytechnique, ENSTA, Télécom Paris)} \hfill \textit{Python, NLP, pandas, scikit-learn}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un pipeline d'analyse automatisée de la cohérence entre fonctionnalités déclarées et permissions d'applications mobiles : traitement de données à grande échelle.}
+        \item \small{Analyse NLP (BERT/Transformers) des politiques de confidentialité : évaluation de la transparence, spécificité des déclarations, conformité RGPD.}
+        \item \small{Conception d'un score de confiance interprétable synthétisant les résultats d'analyse pour chercheurs et utilisateurs finaux.}
+        \item \small{Contribution à des publications scientifiques, présentation aux partenaires du programme national PEPR MOBIDEC.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Assistant de Recherche -- MILA (Institut Québécois d'IA)} \hfill \textit{Juin -- Sept 2025} \\
+\textit{Remote} \hfill \textit{Python, PyTorch, analyse statistique}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude du phénomène de Grokking (généralisation tardive des réseaux de neurones) sur MLP, reproduction d'expériences état de l'art.}
+        \item \small{Analyse de convergence mathématique et visualisation des dynamiques d'entraînement sur des ensembles de données structurés.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Système Multi-Agents Agricole} \hfill \textit{2024 -- 2025} \\
+\textit{Projet de recherche} \hfill \textit{Python, FastAPI, RAG, LangChain, APIs Google, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 5 agents IA collaboratifs (Google ADK, Gemini) pour des recommandations agricoles multi-critères : météo, cultures, marchés.}
+        \item \small{Pipeline RAG pour enrichissement contextuel des réponses, orchestration d'APIs externes (OpenWeather, marchés), déploiement FastAPI/Docker.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Projet UROP -- Analyse automatique d'ECG (Santé)} \hfill \textit{2024} \\
+\textit{Collaboration avec mentors Google DeepMind} \hfill \textit{Python, TensorFlow, traitement du signal, séries temporelles}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline de détection et classification d'anomalies cardiaques à partir d'images ECG : extraction de features, filtrage du signal, modélisation TensorFlow/Keras.}
+        \item \small{Traitement de séries temporelles biomédicales avec contraintes de qualité des données strictes.}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+% --- DISTINCTIONS ---
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
+    \item \small{\textbf{1\textsuperscript{er} Prix} -- IndabaX Africa 2025 (IA Santé) : nettoyage de données médicales, déploiement API, dashboard Streamlit.}
+    \item \small{\textbf{1\textsuperscript{er} Prix} -- CITS National 2024 (Urban Waste Management) : pipeline ML pour optimisation routes, réduction 20\% des coûts de collecte, 75 équipes.}
+    \item \small{\textbf{Lead AI Cell ENSPY} : animation de workshops ML, fine-tuning LLM, Laravel. Collaboration avec Google DeepMind lors de la ML Week.}
+\end{itemize}
+
+\end{document}
