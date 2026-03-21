@@ -1,62 +1,46 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{fontawesome5}
-\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{lmodern}
 
-\definecolor{primary}{RGB}{20, 100, 175}
+\definecolor{primary}{RGB}{0, 48, 135}
 \hypersetup{colorlinks=true, urlcolor=primary}
 
 \begin{document}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO} \\
+ENSEA -- Double Dipl\^ome Ing\'enieur \\
+\href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad (+33) 7 59 52 33 98 \\
+\href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad \href{https://mbassiloic.tech}{mbassiloic.tech}
 
-\noindent
-\begin{minipage}[t]{0.5\textwidth}
-    \textbf{Lo\"ic Aron MBASSI EWOLO}\\
-    \'El\`eve-Ing\'enieur Bac+5 -- Double dipl\^ome ENSEA\\[3pt]
-    \faMapMarker\ Cergy, France\\
-    \faPhone\ (+33) 7 59 52 33 98\\
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.4\textwidth}
-    \raggedleft
-    Cergy, le 21 mars 2026
-\end{minipage}
+\vspace{1em}
+\noindent Cergy, le \today
 
-\vspace{1.2cm}
+\vspace{1em}
+\noindent \textbf{Objet : Candidature -- Alternance Cybersécurité \& Protection des Donn\'ees (VW Financial Services)}
 
-\hfill
-\begin{minipage}[t]{0.5\textwidth}
-    \raggedleft
-    \textbf{Volkswagen Financial Services}\\
-    Service Recrutement\\
-    Roissy-en-France, France
-\end{minipage}
+\vspace{1.5em}
+\noindent Madame, Monsieur,
 
-\vspace{1cm}
+\vspace{0.8em}
+\noindent En tant que stagiaire au laboratoire INRIA Saclay (projet PRIMO), j'anime une analyse automatisée des risques de fuite de donn\'ees de localisation dans des applications mobiles de mobilité, via NLP (BERT/Transformers) et scoring de conformité RGPD. Cette expérience mobilise deux éléments critiques pour un groupe fintech : l'identification systématique de vecteurs de fuite de données (500+ SDKs analysés), et la conception d'un score de confiance interprétable pour gouvernance. VW Financial Services, pilote de mobilité financière dans un secteur hautement régulé, aligne avec mes appétences pour la protection des données clients en contexte automobile.
 
-\noindent\textbf{Objet :} Candidature en alternance -- Informatique / Cybers\'ecurit\'e / Data -- Septembre 2026
+\vspace{0.8em}
+\noindent J'ai déployé dans le projet PRIMO un pipeline complet d'audit : extraction de politiques de confidentialité, fine-tuning BERT pour classification automatique de clauses sensibles (collecte localisation, partage tiers, rétention), et ranking de risques basé sur heuristiques RGPD. L'aspect statique a mis en lumière des dépôts de données non déclarés et des permissions dangereuses exposant les localisations utilisateurs ; j'ai quantifié ces risques dans un scoring destiné aux équipes de conformité. Cette combinaison -- analyse statique binaire, NLP, métriques d'audit -- reproduit les défis de protection de données que VW FS opère à grande échelle (millions de clients).
 
-\vspace{0.8cm}
+\vspace{0.8em}
+\noindent Parallèlement, j'ai conçu dans Snappy une architecture RGPD by design : implémentation du protocole Signal (AES-256-GCM, Perfect Forward Secrecy, droit à l'oubli cryptographique), export automatisé de données, audit logs SIEM-compatible, segmentation données sensibles. Cette expérience en cryptographie appliquée et en droit à l'oubli démontre une compréhension profonde des enjeux de conformité que VW FS doit maîtriser. Mes travaux en détection de contenus sensibles (Women Safe) et en sécurité fintech (CSC, fintech bancaire Yaoundé) complètent ce profil. Je suis disponible dès septembre 2026.
 
-Madame, Monsieur,
+\vspace{0.8em}
+\noindent VW Financial Services offre une opportunité unique pour appliquer et consolider ces compétences en protection de données dans le contexte d'une entreprise majeure de mobilité financière. Je serais ravi d'échanger sur mes contributions possibles à vos initiatives de gouvernance data et de conformité réglementaire.
 
-Les soci\'et\'es de financement automobile traitent des volumes consid\'erables de donn\'ees personnelles sensibles -- identit\'es, dossiers de cr\'edit, historiques de paiement -- dont la protection constitue une obligation r\'eglementaire et un enjeu de confiance client. Volkswagen Financial Services, en int\'egrant la cybers\'ecurit\'e et la conformit\'e RGPD dans son d\'epartement Juridique Conformit\'e, adopte une approche proactive que je souhaitais rejoindre.
-
-Mon stage \`a l'INRIA Saclay (\'equipe TRIBE, avril-ao\^ut 2026) est directement centr\'e sur ces enjeux : cartographie des traitements de donn\'ees personnelles dans des corpus contractuels, identification des mesures techniques RGPD \`a impl\'ementer, et scoring automatis\'e de conformit\'e par NLP. Ce travail m'a form\'e \`a articuler exigences r\'eglementaires et impl\'ementation technique. Par ailleurs, la mise en conformit\'e RGPD de la plateforme SOSDOCTA (t\'el\'em\'edecine, 2022-2024) que j'ai men\'ee en production -- consentement, droit \`a l'oubli, IAM, chiffrement des donn\'ees de sant\'e -- t\'emoigne d'une exp\'erience concr\`ete sur des syst\`emes r\'eglement\'es.
-
-La dimension cybers\'ecurit\'e de ce poste est couverte par mon projet Snappy (impl\'ementation du protocole Signal, AES-256-GCM) et mon exp\'erience backend chez CSC Fintech (s\'ecurisation de transactions, audit trail, gestion des tokens). Ces projets d\'emontrent une compr\'ehension des risques de s\'ecurit\'e non seulement th\'eorique mais impl\'ement\'ee.
-
-Je suis disponible d\`es septembre 2026 pour cette alternance de 12 mois \`a Roissy-en-France. Contribuer \`a la protection des donn\'ees personnelles et \`a la s\'ecurit\'e des syst\`emes de Volkswagen Financial Services en combinant comp\'etences NLP et s\'ecurit\'e applicative constitue une perspective que je saisis avec motivation. Je reste \`a votre disposition.
-
-Je vous prie d'agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
-
-\vspace{1cm}
-
-\noindent\textbf{Lo\"ic Aron MBASSI EWOLO}
+\vspace{1.5em}
+\noindent Veuillez agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
+\vspace{2em}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO}
 
 \end{document}

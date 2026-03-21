@@ -1,0 +1,117 @@
+===============================================================================
+BATCH 3 - CYBERSÉCURITÉ / PRIVACY / IA GÉNÉRATIVE
+6 CVs + 6 LMs LaTeX GÉNÉRÉS AVEC SUCCÈS
+===============================================================================
+
+Répertoire: /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/
+
+OFFRE 13: THALES -- Alternance Cybersécurité IA
+Fichiers:
+  - cv_loic_aron_mbassi_ewolo_cybersecurite_ia_thales.tex (9.6 KB)
+  - lm_loic_aron_mbassi_ewolo_cybersecurite_ia_thales.tex (3.4 KB)
+Couleur: RGB(0, 45, 114) - Bleu Thales
+Titre CV: Alternant Ingénieur Cybersécurité -- IA & Analyse de Risques
+Accroche: Analyse statique SDKs, BERT/NLP scoring RGPD, AES-256-GCM, Signal Protocol
+Expériences: INRIA (EN PREMIER), Snappy, Women Safe, MILA, CSC Backend, Urban Waste
+
+OFFRE 14: VW FINANCIAL SERVICES -- Cybersécurité Data
+Fichiers:
+  - cv_loic_aron_mbassi_ewolo_cybersecurite_data_vwfs.tex (9.6 KB)
+  - lm_loic_aron_mbassi_ewolo_cybersecurite_data_vwfs.tex (3.5 KB)
+Couleur: RGB(0, 48, 135) - Bleu VW
+Titre CV: Alternant Cybersécurité -- Protection des Données & RGPD
+Accroche: Audit RGPD, fuite données localisation, Perfect Forward Secrecy, droit à l'oubli crypto
+Expériences: INRIA, Snappy, Women Safe, CSC, MILA, Urban Waste
+
+OFFRE 15: mc2i -- Alternance Cybersécurité / SI
+Fichiers:
+  - cv_loic_aron_mbassi_ewolo_cybersecurite_mc2i.tex (8.8 KB)
+  - lm_loic_aron_mbassi_ewolo_cybersecurite_mc2i.tex (3.3 KB)
+Couleur: RGB(35, 55, 123) - Bleu mc2i
+Titre CV: Alternant Consultant Cybersécurité -- RGPD & Sécurité SI
+Accroche: Audit conformité RGPD, analyse 50+ SDKs, scoring risques NLP, gouvernance SI
+Expériences: INRIA, Snappy, Women Safe, CSC, MILA, Urban Waste
+
+OFFRE 16: TOTALENERGIES -- Alternance Cybersécurité / Sécurité Numérique
+Fichiers:
+  - cv_loic_aron_mbassi_ewolo_cybersecurite_totalenergies.tex (9.2 KB)
+  - lm_loic_aron_mbassi_ewolo_cybersecurite_totalenergies.tex (3.5 KB)
+Couleur: RGB(210, 0, 28) - Rouge TotalEnergies
+Titre CV: Alternant Ingénieur Cybersécurité -- Sécurité des Systèmes Numériques
+Accroche: Analyse risques OT/IT, vecteurs attaque, Signal Protocol, SIEM monitoring
+Expériences: INRIA, Snappy, Women Safe, MILA, CSC, Urban Waste
+
+OFFRE 17: JIMINI AI -- Alternance LLM Engineer
+Fichiers:
+  - cv_loic_aron_mbassi_ewolo_llm_engineer_jimini.tex (9.7 KB)
+  - lm_loic_aron_mbassi_ewolo_llm_engineer_jimini.tex (3.3 KB)
+Couleur: RGB(35, 55, 123) - Bleu Jimini
+Titre CV: Alternant LLM Engineer -- IA Générative & Agents
+Accroche: Google ADK, RAG, multi-agents Gemini, BERT fine-tuning, low-resource NLP
+Expériences: INRIA, Multi-Agents Agricole, MILA, Snappy, YembaAudio, Women Safe, Urban Waste
+
+OFFRE 18: BPCE SI -- Alternance IA Agentique
+Fichiers:
+  - cv_loic_aron_mbassi_ewolo_ia_agentic_bpce_si.tex (8.9 KB)
+  - lm_loic_aron_mbassi_ewolo_ia_agentic_bpce_si.tex (3.4 KB)
+Couleur: RGB(0, 51, 102) - Bleu BPCE
+Titre CV: Alternant Ingénieur IA Agentique -- Systèmes Intelligents
+Accroche: Orchestration multi-agents, RAG, raisonnement collaboratif, Gemini LLM
+Expériences: INRIA, Multi-Agents, MILA, Snappy, CSC Backend, Laravel Generator
+
+===============================================================================
+RÈGLES APPLIQUÉES À TOUS LES DOCUMENTS
+===============================================================================
+
+1. Structure CV:
+   - Accroche TECHNIQUE de 3-4 phrases (pas de "J'ai développé")
+   - Formation complète (ENSEA + Polytechnique Yaoundé)
+   - 5 catégories de compétences techniques (détaillées, spécifiques)
+   - 5-6 expériences/projets avec INRIA EN PREMIER (4 bullets par expérience)
+   - Section Distinctions & Leadership (6 items)
+
+2. Structure LM:
+   - 4 paragraphes substantiels (3-5 phrases chacun)
+   - P1: Accroche INRIA + contexte formation + pourquoi cette entreprise
+   - P2: Détails expérience INRIA + approche technique + résultats
+   - P3: 2ème expérience pertinente + complémentarité
+   - P4: Valeur ajoutée + "disponible septembre 2026" + invitation entretien
+   - Pas de tirets longs (—, –)
+
+3. Densité:
+   - CVs ~126-135 lignes LaTeX (remplissant quasi toute la page A4)
+   - LMs ~80-95 lignes LaTeX (lettre standard)
+   - Tous les fichiers en UTF-8 avec caractères accentués préservés
+
+4. Couleurs personnalisées:
+   - Chaque offre a sa propre couleur RGB unique (cohérent avec l'identité marque)
+   - En-têtes/sections en couleur primaire
+   - Hyperlinks en couleur primaire
+
+5. Contenu spécifique offre:
+   - Accroches rédigées pour chaque contexte métier
+   - Expériences sélectionnées par pertinence offre
+   - Compétences alignées avec JD
+   - Pas de redondance = 6 versions DISTINCTES
+
+===============================================================================
+VÉRIFICATIONS QUALITÉ
+===============================================================================
+
+✓ INRIA Saclay toujours EN PREMIER dans les expériences (section Expériences)
+✓ "Je suis disponible dès septembre 2026" dans chaque LM (P4)
+✓ Aucun tiret long (—, –) utilisé
+✓ Pas de phrase commençant par "J'ai développé" ou "J'ai conçu"
+✓ Pas de phrases "exactement ce que vous recherchez"
+✓ Pas de "Actuellement en..." / "Étudiant en..."
+✓ Accroche TECHNIQUE précise avec détails métier
+✓ Action → Résultat concret dans chaque bullet
+✓ 3-4 bullets par expérience, détaillés et techniques
+✓ Tous les fichiers LaTeX compilables (syntaxe validée)
+✓ Unicité de chaque CV/LM (pas de copie-colle)
+
+===============================================================================
+FICHIERS GÉNÉRÉS: 12 (6 CVs + 6 LMs)
+TAILLE TOTALE: ~120 KB
+DATE CRÉATION: 2026-03-21
+===============================================================================

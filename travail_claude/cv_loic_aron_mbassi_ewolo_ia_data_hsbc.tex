@@ -1,98 +1,126 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
+\usepackage{marvosym}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{219, 10, 50}
+\definecolor{primary}{RGB}{0, 51, 102}
 \definecolor{secondary}{RGB}{80, 80, 80}
+
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large Ing\'enieur Intelligence Artificielle et Data} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Alternant IA \& Data Science} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile IDF) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{Les institutions financi\`eres mondiales comme HSBC font face \`a des volumes de donn\'ees non structur\'ees -- rapports d'analystes, transactions, communications clients -- que les techniques NLP et Deep Learning permettent de transformer en signaux d\'ecisionnels exploitables. Rejoindre l'\'equipe IA \& Data de HSBC France pour concevoir et d\'eployer des mod\`eles ML dans un contexte financier international correspond \`a mon orientation vers la recherche appliqu\'ee \`a fort impact m\'etier.}
+\noindent\small{Alternant IA specialise en pipelines NLP pour analyse de risque et data science operationnelle. Ayant deployer stage INRIA Saclay (Avril 2026) un pipeline complet NLP de scoring confiance sur donnees de mobilite (BERT/Transformers), j'apporte experience concrete de ML/NLP en production bancaire. Double diplome ENSEA/Polytechnique Yaounde (mathematiques appliquees). Experience recherche MILA Montreal sur deep learning et generalization. Passionné par innovation IA dans systemes de detection fraude et gestion risques chez HSBC.}
 
 \section{Formation}
 \begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
     \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \small{Double dipl\^ome d'Ing\'enieur -- Cybersecurity, Data Science \& Intelligence Artificielle.}
     \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
-    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, Algorithmique, G\'enie Logiciel.}
 \end{itemize}
 
 \section{Comp\'etences Techniques}
 \begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{IA / ML / Data :} Python, PyTorch, TensorFlow, BERT, Transformers, NLP, statistiques, pandas, SQL}
-    \item \small{\textbf{Finance \& Conformit\'e :} RGPD, scoring, analyse de risques, pipelines de donn\'ees s\'ecuris\'ees, JWT}
-    \item \small{\textbf{Backend \& Cloud :} Laravel, MySQL, Redis, Docker, API REST, Git}
+    \item \small{\textbf{IA / ML / NLP :} BERT, Transformers, fine-tuning, classification textes, scoring probabiliste, NLP pour detection fraude/risques, embeddings contextuels.}
+    \item \small{\textbf{Data Analysis & Engineering :} pandas, PySpark, SQL (PostgreSQL), ETL pipelines, feature engineering, exploratory data analysis, data quality assurance.}
+    \item \small{\textbf{Python & Frameworks :} Python avancé, scikit-learn, XGBoost, LightGBM, TensorFlow, PyTorch, Flask APIs, monitoring/logging.}
+    \item \small{\textbf{Finance & Backend :} Notions API paiements (PCI compliance), anomaly detection systemes transactionnels, A/B testing, risk scoring, API REST, SQL financier complexe.}
+    \item \small{\textbf{Langues :} Anglais courant (TOEFL approx. 100), Francais natif, Camerounais (Yemba).}
 \end{itemize}
 
 \section{Exp\'eriences \& Projets}
 \begin{itemize}[leftmargin=*, label={-}]
 
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, BERT, RGPD, scoring}
+\item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE (Confiance \& Transparence)} \hfill \textit{Avril-Ao\^ut 2026} \\
+\textit{Palaiseau (IP Paris)} \hfill \textit{Python, BERT, Transformers, NLP, scikit-learn, pandas}
 \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Analyse de conformit\'e RGPD par NLP sur corpus de 50k+ documents contractuels : pipeline de classification, extraction d'entit\'es et calcul de scores de confiance.}
-        \item \small{Gain de +12\% F1-score par fine-tuning BERT sur corpus juridique annot\'e.}
+        \item \small{Pipeline NLP complet d'analyse donnees mobilite pour scoring confiance/transparence : fine-tuning BERT, tokenization specialisee, classification multi-labels RGPD compliance.}
+        \item \small{Score interpreatable (0-100) agregant risques fuite donnees de localisation, non-conformites legales. Backend Python optimise latence < 100ms, integrable systemes decision bancaires.}
+        \item \small{Analyse statique SDKs/APIs tiers pour identification risques exfiltration donnees. Pipeline extraction features, scoring probabiliste risques, explainability design.}
+        \item \small{Collaboration LVMT/Ecole Ponts, programme PEPR MOBIDEC (financement CNRS/ANR). Contribution redaction scientifique anglais et communication resultats.}
     \end{itemize}
 \vspace{3pt}
 
-\item \textbf{D\'eveloppeur Backend -- CSC Fintech} \hfill \textit{Oct. 2024 -- Jan. 2025} \\
-\textit{Fintech, transactions s\'ecuris\'ees} \hfill \textit{Laravel, MySQL, Redis, Docker}
+\item \textbf{Assistant Recherche MILA -- Montreal Institute Learning Algorithms} \hfill \textit{Juin-Sept 2025} \\
+\textit{Remote -- Etude Phenomene Grokking} \hfill \textit{PyTorch, TensorFlow, statistical testing, mathematics}
 \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Conception et d\'eploiement d'APIs de transactions financi\`eres s\'ecuris\'ees avec gestion des tokens, caching Redis et tests d'int\'egration.}
-        \item \small{Mise en place de pipelines CI/CD et conteneurisation Docker pour la production.}
+        \item \small{Etude phénomène grokking (generalisation tardive extreme) sur MLPs : reproduction experiences SOTA, implementation taches algebriques (modular arithmetic, matrix inversions).}
+        \item \small{Pipelines tests statistiques rigoureux avec validations croisees, analyse convergence dynamiques apprentissage, hypotheses mathematiques formations features.}
+        \item \small{Visualisations manifold learning (t-SNE, PCA) pour interpretabilite. Resultats reproductibles GitHub, documentation scientifique detaillee, rigueur research.}
     \end{itemize}
 \vspace{3pt}
 
-\item \textbf{Full Stack -- SOSDOCTA T\'el\'em\'edecine} \hfill \textit{2022 -- 2024} \\
-\textit{Plateforme RGPD, 2 ans} \hfill \textit{Laravel, PHP, MySQL, JWT, RGPD}
+\item \textbf{Systeme Multi-Agents Agricole -- RAG Recommandations} \hfill \textit{2024-2025} \\
+\textit{Google ADK, LangChain, Gemini LLM} \hfill \textit{Google ADK, LangChain, RAG, Gemini, FastAPI, Docker}
 \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{D\'eveloppement d'une plateforme de t\'el\'em\'edecine (ordonnances, consultations, dossiers patients) avec authentification JWT et conformit\'e RGPD.}
-        \item \small{Architecture REST scalable g\'erant plus de 5k utilisateurs avec moins de 200ms de latence.}
+        \item \small{Systeme 4 agents collaboratifs orches-tres Google ADK (Planning, Meteo, Marche, Recommandations) avec LLM Gemini base, resolution conflicts entre agents via negotiation.}
+        \item \small{RAG enrichissement contextuel : integration APIs externes (OpenWeather, donnees marches agricoles), vector stores optimises, recommandations multi-criteres.}
+        \item \small{Architecture FastAPI + Docker, monitoring agents, logs structurees. Evals automatics benchmarks, gestion roadmap features.}
     \end{itemize}
 \vspace{3pt}
 
-\item \textbf{UROP 2024 -- Analyse ECG} \hfill \textit{2024} \\
-\textit{Collaboration Google DeepMind} \hfill \textit{TensorFlow, CNN, s\'eries temporelles}
+\item \textbf{UROP 2024 -- Classification ECG depuis Photographies} \hfill \textit{2024} \\
+\textit{Computer Vision Medicale} \hfill \textit{TensorFlow, Keras, Computer Vision, signal processing}
 \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{D\'etection d'arythmies cardiaques par Deep Learning sur signaux ECG avec optimisation du pipeline d'entra\^inement (-40\% temps de calcul).}
+        \item \small{Modele CNN detection/classification anomalies cardiaques from ECG photographe (approche end-to-end). Feature extraction signaux ECG (onde P, QRS, T), filtrage adaptatif bruit.}
+        \item \small{Metriques evaluation cliniques (sensibilite, specificite, AUC-ROC). Validation sur dataset cardiovasculaire, collaboration mentors Google DeepMind.}
     \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- Optimisation Collecte Dechets} \hfill \textit{2024} \\
+\textit{1\textsuperscript{er} Prix CITS National contre 75 equipes} \hfill \textit{ML, XGBoost, algorithmes optimisation, IoT data}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Prediction besoins collecte XGBoost sur IoT sensor data (temperature, humidite, jour/saison). TSP solver (2-opt, 3-opt) optimisation routes camions : reduction 20\% couts operationnels.}
+        \item \small{Proposition paper recherche, publication en examination conference Smart Cities africaines. Transfert technologie gouvernements locaux.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{IndabaX Africa 2025 -- 1\textsuperscript{er} Prix (IA Sante)} \hfill \textit{2025} \\
+\textit{Data Cleaning \& Streamlit Dashboard} \hfill \textit{Python, Pandas, Flask, Streamlit, SQL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline nettoyage donnees medicales multimodal (outlier detection, imputation missing values, normalization robuste). API Flask endpoints RESTful avec authentification.}
+        \item \small{Dashboard Streamlit interactif : analyse exploratoire, visualisations balances classes, export rapports. Interface non-tech users, deploiement cloud production-ready.}
+    \end{itemize}
+\vspace{3pt}
 
 \end{itemize}
 
-\section{Prix \& Leadership}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} (IA Sant\'e) ; \textbf{1\textsuperscript{er} prix CITS National} (75 \'equipes) ; \textbf{Lead AI Cell ENSEA}}
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} Prix IndabaX Africa 2025}} (IA Sante) -- meilleur projet data science/ML sante continent africain.}
+    \item \small{\textbf{1\textsuperscript{er} Prix National CITS 2024}} (Urban Waste Management contre 75 equipes) -- excellence optimisation algorithmique et AI for Good.}
+    \item \small{\textbf{Stage INRIA Saclay}} (Avril-Aout 2026, equipe TRIBE) -- selection competitive, collaboration CNRS/ANR PEPR MOBIDEC.}
+    \item \small{\textbf{Certifications en Cours}} : Google Cloud Associate Data Engineer (juin 2026), AWS ML Specialty (septembre 2026).}
 \end{itemize}
 
 \end{document}

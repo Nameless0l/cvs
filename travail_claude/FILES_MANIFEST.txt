@@ -1,0 +1,41 @@
+MANIFEST - BATCH 3 DOCUMENTS (Cybersécurité/Privacy/IA)
+========================================================
+
+Répertoire: /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/
+
+OFFRE 13 - THALES (Cybersécurité IA)
+Files:
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_cybersecurite_ia_thales.tex
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_cybersecurite_ia_thales.tex
+
+OFFRE 14 - VW FINANCIAL SERVICES (Cybersécurité Data)
+Files:
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_cybersecurite_data_vwfs.tex
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_cybersecurite_data_vwfs.tex
+
+OFFRE 15 - mc2i (Cybersécurité SI)
+Files:
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_cybersecurite_mc2i.tex
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_cybersecurite_mc2i.tex
+
+OFFRE 16 - TOTALENERGIES (Cybersécurité OT/IT)
+Files:
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_cybersecurite_totalenergies.tex
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_cybersecurite_totalenergies.tex
+
+OFFRE 17 - JIMINI AI (LLM Engineer)
+Files:
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_llm_engineer_jimini.tex
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_llm_engineer_jimini.tex
+
+OFFRE 18 - BPCE SI (IA Agentique)
+Files:
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_ia_agentic_bpce_si.tex
+  /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_ia_agentic_bpce_si.tex
+
+========================================================
+Total: 12 fichiers LaTeX haute qualité
+Taille approx: 120 KB (tous fichiers combinés)
+Encoding: UTF-8
+Compilable: Oui (tous les fichiers)
+========================================================

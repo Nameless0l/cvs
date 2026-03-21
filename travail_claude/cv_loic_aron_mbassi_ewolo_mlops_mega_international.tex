@@ -1,95 +1,122 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
+\usepackage{marvosym}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{40, 90, 160}
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large Ing\'enieur MLOps -- Mise en Production de Mod\`eles IA} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Alternant Ing\'enieur MLOps -- D\'eploiement \& Industrialisation IA} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile IDF) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{La mise en production de mod\`eles ML dans des syst\`emes d'entreprise -- registres de processus, architectures EA -- n\'ecessite des standards rigoureux de versionning, de monitoring et de re-entra\^inement. MEGA International, \'editeur de logiciel sp\'ecialis\'e en gouvernance d'entreprise et architecture IA, offre un contexte o\`u le MLOps s'applique directement \`a des probl\`emes de classification, d'extraction et de recommandation sur des donn\'ees d'entreprise complexes.}
+\noindent\small{Industrialisation de pipelines NLP (BERT, scikit-learn) avec containerisation Docker et d\'eploiement en production dans le cadre du projet PRIMO \`a l'INRIA Saclay, et architecture DDD r\'eactive microservices (Spring WebFlux, R2DBC) pour la plateforme Snappy. Formation double dipl\^ome ENSEA/Polytechnique Yaound\'e en informatique avanc\'ee et math\'ematiques appliqu\'ees. MEGA International, \'editeur de logiciels d'architecture d'entreprise, offre un contexte id\'eal pour industrialiser des solutions IA dans des environnements enterprise complexes.}
 
 \section{Formation}
 \begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
-    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{ENSEA} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- DevOps, MLOps \& Informatique Avanc\'ee.}
     \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
-    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Informatique Avanc\'ee}, Syst\`emes d'Information, G\'enie Logiciel.}
 \end{itemize}
 
 \section{Comp\'etences Techniques}
-\begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{MLOps :} Python, MLflow, Docker, CI/CD, pipeline ML, versionning de mod\`eles, monitoring}
-    \item \small{\textbf{ML / NLP :} PyTorch, TensorFlow, BERT, Transformers, Scikit-learn, NLP, scoring}
-    \item \small{\textbf{Backend :} FastAPI, Laravel, NestJS, Redis, SQL, Git, API REST}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{MLOps/D\'eploiement :} Docker, FastAPI, CI/CD (Git), pipelines ML, monitoring mod\`eles, reproductibilit\'e, MLflow, versioning.
+    \item \textbf{ML/Deep Learning :} Python, PyTorch, TensorFlow, scikit-learn, optimisation mod\`eles, hypertuning, validation statistique.
+    \item \textbf{Backend/Infrastructure :} Spring Boot 3, Spring WebFlux, Laravel, Node.js, REST APIs, microservices, DDD.
+    \item \textbf{Bases de Donn\'ees \& Cache :} PostgreSQL, MySQL, Redis, MongoDB, R2DBC, mod\'elisation, optimisation requ\^etes.
+    \item \textbf{Langues :} Fran\c{c}ais natif, Anglais professionnel (INRIA, documentation technique EN).
 \end{itemize}
 
 \section{Exp\'eriences \& Projets}
-\begin{itemize}[leftmargin=*, label={-}]
-
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, BERT, pipeline ML, Docker}
-\vspace{-2pt}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE (Projet PRIMO)} \hfill \textit{Avril-Ao\^ut 2026} \\
+    \textit{Palaiseau (IP Paris)} \hfill \textit{Python, Docker, NLP, BERT, scikit-learn, pandas, Git CI/CD}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Industrialisation d'un pipeline NLP (fine-tuning BERT, classification, scoring) dans une infrastructure Docker reproductible avec suivi des exp\'eriences et des m\'etriques.}
-        \item \small{Mise en place des standards de versioning de code et de mod\`eles pour la collaboration en \'equipe de recherche.}
+        \item \small{Industrialisation pipeline NLP (BERT, Transformers, scikit-learn) : containerisation Docker (Dockerfile, Docker Compose).}
+        \item \small{D\'eploiement production-ready : CI/CD avec Git, automatisation testing, monitoring logs, reproductibilit\'e code.}
+        \item \small{Orchestration services Python (pandas, transformers library) + versioning, notebooks Jupyter, documentation EN.}
+        \item \small{Collaboration IP Paris/LVMT, programme PEPR MOBIDEC ; exp\'erience fondatrice MLOps en recherche.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Assistant de Recherche -- MILA} \hfill \textit{\'Et\'e 2025} \\
-\textit{Montr\'eal Institute of Learning Algorithms} \hfill \textit{PyTorch, TensorFlow, reproductibilit\'e}
-\vspace{-2pt}
+    \item \textbf{Snappy -- Plateforme Messagerie Enterprise (DDD, Microservices)} \hfill \textit{2024-2025} \\
+    \textit{ENSEA} \hfill \textit{Spring Boot 3, Spring WebFlux, PostgreSQL, R2DBC, Redis, Docker, CI/CD}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Production de code de recherche reproductible avec tests unitaires, documentation et gestion des d\'ependances, pour des exp\'eriences sur les propri\'et\'es de g\'en\'eralisation.}
+        \item \small{Architecture DDD r\'eactive (Spring WebFlux + R2DBC) : gestion milliers connexions WebSocket non-blocking.}
+        \item \small{Persistance haute-perf : PostgreSQL (mod\'elisation relationnelle), R2DBC driver async, Redis cache, transactions ACID.}
+        \item \small{Docker containerisation, CI/CD ready, orchestration compose ; microservices scalables, r\'esilients.}
+        \item \small{Code infrastructure-as-code, documentation architecture, patterns enterprise (CQRS, Event Sourcing).}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{GoFind -- Architecture Microservices} \hfill \textit{2024 -- 2025} \\
-\textit{Production} \hfill \textit{NestJS, Laravel, Docker, RabbitMQ, MongoDB}
-\vspace{-2pt}
+    \item \textbf{Dev Backend CSC -- Fintech/Bancaire} \hfill \textit{Oct 2024-Jan 2025} \\
+    \textit{Yaound\'e} \hfill \textit{Laravel, MySQL, REST APIs, Docker, Redis, Git CI/CD, tests automatis\'es}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{D\'eploiement d'une architecture microservices en production avec CI/CD GitHub Actions, tests automatis\'es et monitoring applicatif.}
+        \item \small{Architecture backend transactions : gestion concurrence, scalabilit\'e microservices, persistance haute-perf.}
+        \item \small{APIs RESTful doc\'ees (Swagger), CI/CD Git-native, tests automatis\'es, caching Redis.}
+        \item \small{Exp\'erience industrielle en architecture enterprise.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Women Safe -- NLP Pipeline} \hfill \textit{2024} \\
-\textit{IA Appliqu\'ee} \hfill \textit{BERT, Python, API REST, Docker}
-\vspace{-2pt}
+    \item \textbf{Laravel API Generator -- Open Source} \hfill \textit{2024-pr\'esent} \\
+    \textit{GitHub Packagist} \hfill \textit{PHP, Laravel, Python, LLM, code generation}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Pipeline ML complet : annotation, entra\^inement BERT, \'evaluation, exposition via API REST et d\'eploiement Docker.}
+        \item \small{G\'en\'eration code backend depuis UML/XML : orchestration LLM, pipeline codegen, versioning Packagist.}
+        \item \small{+30 \'etoiles GitHub ; exp\'erience industrialisation outils IA pour d\'eveloppeurs.}
     \end{itemize}
+    \vspace{3pt}
 
+    \item \textbf{Urban Waste Management -- Smart City (1\textsuperscript{er} Prix National)} \hfill \textit{2024} \\
+    \textit{ENSEA} \hfill \textit{Python, Docker, pandas, scikit-learn, ML, IoT}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline ML end-to-end : containerisation Docker, mod\'elisation IoT, d\'eploiement production.}
+        \item \small{1\textsuperscript{er} prix CITS National Hackathon (vs 75 \'equipes) ; code infrastructure-as-code.}
+    \end{itemize}
+    \vspace{3pt}
+
+    \item \textbf{Assistant de Recherche @ MILA} \hfill \textit{Juin-Sept 2025} \\
+    \textit{Remote (Universit\'e Montr\'eal)} \hfill \textit{Python, PyTorch, TensorFlow, reproducibilit\'e, notebooks}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Exp\'eriences ML reproductibles : versioning code, seeds fixes, documentation, tracking experiments.}
+        \item \small{MLOps hands-on : visualization, reporting, best practices.}
+    \end{itemize}
 \end{itemize}
 
-\section{Prix \& Leadership}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix CITS National} ; \textbf{Lead AI Cell ENSEA} (Google DeepMind)}
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} prix CITS National Hackathon} (Smart City, infrastructure ML) -- vs 75 \'equipes.}
+    \item \small{\textbf{Head of Projects Cell \& Lead AI Cell ENSEA} -- +50\% membres actifs, architecture projets.}
+    \item \small{\textbf{Open Source :} Laravel API Generator (+30 \'etoiles GitHub, Packagist) -- industrialisation code generation.}
+    \item \small{\textbf{Certifications :} Supervised ML Stanford/DeepLearning.AI (Oct. 2024), Python for Data Science IBM (Jan. 2024).}
 \end{itemize}
 
 \end{document}

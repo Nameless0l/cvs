@@ -1,97 +1,126 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
-\usepackage{enumitem}
+\usepackitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
+\usepackage{marvosym}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{220, 30, 30}
+\definecolor{primary}{RGB}{255, 90, 0}
 \definecolor{secondary}{RGB}{80, 80, 80}
+
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large Chef de Projet IA} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Ing\'enieur IA -- Chef de Projet Technique} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile IDF) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{La t\'el\'ecommunication g\'en\`ere des volumes massifs de donn\'ees r\'eseau que les techniques NLP, Machine Learning et LLMs permettent d\'esormais de valoriser en temps r\'eel. Chez SFR, piloter des projets IA depuis l'id\'eation jusqu'\`a la mise en production -- en combinant ma\^itrise technique Python/ML et coordination d'\'equipes pluridisciplinaires -- repr\'esente une mont\'ee en comp\'etence directement align\'ee avec mon profil d'ing\'enieur-chercheur.}
+\noindent\small{Ingenieur IA avec competences chef de projet technique, specialise en orchestration multi-agents et pipelines NLP production. Ayant dirige systeme multi-agents avec Google ADK (4 agents collaboratifs, resolution conflits, scoring intelligent) et stage INRIA Saclay sur pipelines NLP, j'apporte vision strategique de l'IA en entreprise. Double diplome ENSEA/Polytechnique Yaounde (mathematiques appliquees). Head Projects Cell ENSEA 2026 : leadership, gestion budgets, coordination equipes cross-fonctionnelles. Passionné par transformation IA telecom et innovation chez SFR.}
 
 \section{Formation}
 \begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
     \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \small{Double dipl\^ome d'Ing\'enieur -- Cybersecurity, Data Science \& Intelligence Artificielle. Head Projects Cell 2026.}
     \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
-    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, Algorithmique, G\'enie Logiciel.}
 \end{itemize}
 
 \section{Comp\'etences Techniques}
 \begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{IA / NLP / LLM :} Python, PyTorch, BERT, Transformers, LangChain, RAG, analyse de donn\'ees, data viz}
-    \item \small{\textbf{Gestion de projet IA :} cadrage, KPIs, suivi POC, coordination technique-m\'etier, documentation}
-    \item \small{\textbf{Backend \& Infrastructure :} Docker, API REST, Laravel, NestJS, Git, CI/CD}
+    \item \small{\textbf{IA / ML / NLP :} Orchestration multi-agents (Google ADK), LangChain, BERT/Transformers, fine-tuning, classification, scoring algorithmique, RAG, LLM integration.}
+    \item \small{\textbf{Architecture Systemes :} Design scalable backends, pipelines asynchrones, message queues (Kafka, RabbitMQ), caching strategy (Redis), monitoring/observability, disaster recovery.}
+    \item \small{\textbf{Backend \& DevOps :} Python avancé, Java/Spring Boot, APIs REST, microservices, Docker, Kubernetes, CI/CD pipelines, infrastructure-as-code, security hardening.}
+    \item \small{\textbf{Leadership \& Gestion :} Gestion equipes techniques, coordination cross-fonctionnelle, agile/scrum, retrospectives, mentoring, gestion priorites/budgets, communication stakeholders.}
+    \item \small{\textbf{Langues :} Anglais courant (TOEFL approx. 100), Francais natif, Camerounais (Yemba).}
 \end{itemize}
 
 \section{Exp\'eriences \& Projets}
 \begin{itemize}[leftmargin=*, label={-}]
 
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, BERT, pipeline ML}
+\item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE (Confiance \& Transparence)} \hfill \textit{Avril-Ao\^ut 2026} \\
+\textit{Palaiseau (IP Paris)} \hfill \textit{Python, BERT, NLP, pipeline orchestration, scikit-learn}
 \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Pilotage d'un pipeline NLP de bout en bout : d\'efinition des sp\'ecifications, impl\'ementation BERT, \'evaluation et reporting des r\'esultats.}
-        \item \small{Coordination avec l'\'equipe de recherche pour l'adaptation du mod\`ele aux contraintes RGPD et la communication des r\'esultats.}
+        \item \small{Pipeline NLP production complet d'analyse politiques confidentialite apps mobilite : fine-tuning BERT, tokenization RGPD, classification multi-labels, scoring confiance interpreatable 0-100.}
+        \item \small{Architecture backend optimisee latence < 100ms par requete, integrable systemes decision production. Analyse statique SDKs android pour identification risques exfiltration donnees.}
+        \item \small{Coordination equipe recherche LVMT/Ecole Ponts, collaboration CNRS/ANR programme PEPR MOBIDEC national. Redaction articles, presentation resultats, documentation scientifique.}
     \end{itemize}
 \vspace{3pt}
 
-\item \textbf{Head of Projects Cell \& Lead AI Cell -- ENSEA} \hfill \textit{2024 -- 2026} \\
-\textit{Club de 50+ membres, Cergy} \hfill \textit{Leadership, gestion de projets IA, partenariats}
+\item \textbf{Systeme Multi-Agents Agricole -- Orchestration \& Architecture} \hfill \textit{2024-2025} \\
+\textit{Google ADK, Leadership Technique} \hfill \textit{Google ADK, LangChain, Gemini, FastAPI, Docker, Poetry, leadership}
 \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Direction de la cellule projets ENSEA : planification, suivi et livraison de 5+ projets techniques en parall\`ele avec des \'equipes de 3-8 personnes.}
-        \item \small{Mise en place de partenariats avec Google DeepMind et organisations internationales IA (IndabaX, MILA).}
+        \item \small{Direction technique systeme 4 agents collaboratifs orchestres Google ADK : Planning Agent, Meteo Agent, Marche Agent, Recommandations Agent. Responsable architecture globale, resoluation conflicts.}
+        \item \small{RAG enrichissement contextuel, integration APIs externes (OpenWeather, donnees marches), vector stores optimises. Recommandations multi-criteres culturales (rendement, rentabilite, impact climatique).}
+        \item \small{Architecture scalable FastAPI + Docker + Redis, monitoring agents, logs structurees traceabilite. Evals automatics benchmarks, gestion roadmap features, coordination devs/data scientists.}
     \end{itemize}
 \vspace{3pt}
 
-\item \textbf{Laravel API Generator -- Open Source} \hfill \textit{2024 -- 2025} \\
-\textit{+30 \'etoiles GitHub} \hfill \textit{Laravel, LLM, UML, automatisation}
+\item \textbf{MILA Montreal -- Research Leadership \& Methodologie} \hfill \textit{Juin-Sept 2025} \\
+\textit{Phenomene Grokking Study} \hfill \textit{PyTorch, TensorFlow, research design, statistical rigor}
 \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Conception et livraison d'un outil open source de g\'en\'eration automatique d'APIs via LLM, avec gestion de roadmap, documentation et support communautaire.}
+        \item \small{Etude phénomène grokking (generalisation tardive extreme) : methodologie research SOTA, hypotheses mathematiques testing, validation croisees, analyse convergence dynamiques.}
+        \item \small{Tests statistiques rigoureux sur MLPs, taches algebriques (modular arithmetic, matrix inversions). Visualisations manifold learning interpretabilité representations internes.}
+        \item \small{Repo GitHub resultats reproductibles, documentation, communication findings aupres communaute recherche. Rigueur scientifique et transparence metrique primordiale.}
     \end{itemize}
 \vspace{3pt}
 
-\item \textbf{Urban Waste Management -- 1\textsuperscript{er} Prix CITS} \hfill \textit{2024} \\
-\textit{Comp\'etition nationale (75 \'equipes)} \hfill \textit{ML, IoT, Python, gestion de projet}
+\item \textbf{Urban Waste Management -- AI for Good \& Optimisation} \hfill \textit{2024} \\
+\textit{1\textsuperscript{er} Prix CITS National contre 75 equipes} \hfill \textit{ML, algorithmes optimisation, IoT, project management}
 \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Coordination d'une \'equipe pluridisciplinaire pour d\'evelopper, tester et pr\'esenter une solution IA/IoT compl\`ete en moins de 48 heures.}
+        \item \small{Prediction besoins collecte XGBoost sur IoT sensor data (temperature, humidite). TSP solver (2-opt, 3-opt) optimisation routes camions : reduction 20\% couts operationnels collecte dechets.}
+        \item \small{Coordination team techniques/data scientists, gestion timeline projet, presentation resultats jury national. Proposition paper recherche pour transfert technologie gouvernements locaux.}
     \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Snappy -- Plateforme Messagerie Enterprise (Backend Lead)} \hfill \textit{2024-2025} \\
+\textit{Architecture DDD, Chiffrement Signal, RAG} \hfill \textit{Spring Boot 3, WebFlux, Socket.IO, PostgreSQL, RAG, encryption}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Lead technique architecture DDD complete : Spring Boot 3 + WebFlux, Socket.IO milliers connexions simultanees, chiffrement Signal (Perfect Forward Secrecy, AES-256-GCM, double ratchet).}
+        \item \small{RAG chatbots intelligents (Gemini Flash/Pro + vector stores), gestion conformite RGPD (export donnees, droit oubli cryptographique, audit logs SIEM-compatible).}
+        \item \small{Coordination equipe backend/frontend, revues code securite, monitoring production, planning sprints, incident response protocols, documentation architecture.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{CSC Backend -- Plateforme Fintech (Transactions Securisees)} \hfill \textit{Oct 2024-Jan 2025} \\
+\textit{Yaound\'e} \hfill \textit{Laravel, MySQL, RESTful APIs, architecture transactionnelle, securite}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception backend plateforme transactions securisee (Fintech/Bancaire) : gestion transactions concurrentes (optimistic locking), conformite normes financieres PCI-DSS.}
+        \item \small{Architecture scalable Laravel, APIs RESTful, monitoring performance, gestion erreurs, documentation. Transfert knowledge a equipe maintenance post-engagement.}
+    \end{itemize}
+\vspace{3pt}
 
 \end{itemize}
 
-\section{Prix \& Distinctions}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix Mountain Hub 2024} ; \textbf{1\textsuperscript{er} prix CITS National} (vs 75 \'equipes)}
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{Head Projects Cell ENSEA 2026}} -- Leadership equipe de 8 etudiants, gestion budgets, coordination cross-fonctionnelle, mentorat.}
+    \item \small{\textbf{1\textsuperscript{er} Prix National CITS 2024}} (Urban Waste Management contre 75 equipes) -- gestion projet, optimisation algorithmique, excellence technique.}
+    \item \small{\textbf{Stage INRIA Saclay}} (Avril-Aout 2026) -- collaboration CNRS/ANR PEPR MOBIDEC, selection competitive.}
+    \item \small{\textbf{Systeme Multi-Agents Agricole}} (2024-2025) -- architecture complete Google ADK, RAG/LangChain production, lead technique equipe.}
 \end{itemize}
 
 \end{document}

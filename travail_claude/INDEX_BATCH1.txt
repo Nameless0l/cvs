@@ -1,0 +1,222 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║               BATCH 1 : 6 CVs + 6 LMs DE HAUTE QUALITÉ                      ║
+║         Pour Loïc Aron MBASSI EWOLO - Candidatures Alternance 2026          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+DOSSIER DE SORTIE : /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/
+
+================================================================================
+                              FICHIERS GÉNÉRÉS (12)
+================================================================================
+
+OFFRE 1 : MACIF (Assurance Mutuelliste)
+─────────────────────────────────────────────────────────────────────────────
+  Poste       : Ingénieur MLOps / Data Scientist
+  Couleur     : Bleu MACIF - RGB(0, 82, 165)
+  
+  📄 CV  : cv_loic_aron_mbassi_ewolo_mlops_data_scientist_macif.tex
+  📩 LM  : lm_loic_aron_mbassi_ewolo_mlops_data_scientist_macif.tex
+  
+  Accroche    : Pipeline NLP production INRIA, data science assurance
+  Expériences : INRIA TRIBE, MILA, UROP ECG, Urban Waste, Women Safe, IndabaX
+  Points clés : MLOps, BERT/Transformers, scoring confiance, RGPD
+
+
+OFFRE 2 : BPCE (Banque Populaire - Caisse d'Épargne)
+─────────────────────────────────────────────────────────────────────────────
+  Poste       : Data Scientist - Intelligence Artificielle
+  Couleur     : Bleu BPCE - RGB(0, 51, 102)
+  
+  📄 CV  : cv_loic_aron_mbassi_ewolo_data_scientist_ia_bpce.tex
+  📩 LM  : lm_loic_aron_mbassi_ewolo_data_scientist_ia_bpce.tex
+  
+  Accroche    : NLP données financières, LLM/RAG, scoring risque
+  Expériences : INRIA TRIBE, MILA, Multi-Agents ADK, UROP ECG, Urban Waste, IndabaX
+  Points clés : NLP, IA générative, agents autonomes, innovation bancaire
+
+
+OFFRE 3 : NAGARRO (Transformation Numérique & IA)
+─────────────────────────────────────────────────────────────────────────────
+  Poste       : Ingénieur IA Générative - LLM & Agents
+  Couleur     : Bleu Nagarro - RGB(35, 55, 123)
+  
+  📄 CV  : cv_loic_aron_mbassi_ewolo_ia_generative_nagarro.tex
+  📩 LM  : lm_loic_aron_mbassi_ewolo_ia_generative_nagarro.tex
+  
+  Accroche    : Système multi-agents Google ADK/RAG/LangChain
+  Expériences : INRIA TRIBE, Multi-Agents ADK, MILA, YembaAudio, Women Safe, IndabaX
+  Points clés : Google ADK, agents autonomes, RAG, LLM orchestration
+
+
+OFFRE 4 : SFR (Télécommunications - Transformation IA)
+─────────────────────────────────────────────────────────────────────────────
+  Poste       : Ingénieur IA - Chef de Projet Technique
+  Couleur     : Orange SFR - RGB(255, 90, 0)
+  
+  📄 CV  : cv_loic_aron_mbassi_ewolo_chef_projet_ia_sfr.tex
+  📩 LM  : lm_loic_aron_mbassi_ewolo_chef_projet_ia_sfr.tex
+  
+  Accroche    : Leadership technique, orchestration multi-agents
+  Expériences : INRIA TRIBE, Multi-Agents, MILA, Urban Waste, CSC Backend, Snappy
+  Points clés : Chef de projet, leadership, architecture systèmes, IA télécom
+
+
+OFFRE 5 : HSBC (Banque - Data Science & IA)
+─────────────────────────────────────────────────────────────────────────────
+  Poste       : Alternant IA & Data Science
+  Couleur     : Bleu HSBC - RGB(0, 51, 102)
+  
+  📄 CV  : cv_loic_aron_mbassi_ewolo_ia_data_hsbc.tex
+  📩 LM  : lm_loic_aron_mbassi_ewolo_ia_data_hsbc.tex
+  
+  Accroche    : Pipeline NLP analyse risque, data science bancaire
+  Expériences : INRIA TRIBE, MILA, Multi-Agents, UROP ECG, Urban Waste, IndabaX
+  Points clés : NLP production, scoring probabiliste, recommandations
+
+
+OFFRE 6 : BOULANGER (Retail / E-commerce - Data Science)
+─────────────────────────────────────────────────────────────────────────────
+  Poste       : Data Scientist - IA & Recommandation
+  Couleur     : Bleu Boulanger - RGB(0, 85, 164)
+  
+  📄 CV  : cv_loic_aron_mbassi_ewolo_data_scientist_boulanger.tex
+  📩 LM  : lm_loic_aron_mbassi_ewolo_data_scientist_boulanger.tex
+  
+  Accroche    : Recommandations multi-critères, systèmes intelligents
+  Expériences : INRIA TRIBE, MILA, Multi-Agents (recommandations), Urban Waste, UROP ECG, IndabaX
+  Points clés : Systèmes recommandation, NLP reviews, transformation retail
+
+
+================================================================================
+                        STRUCTURE IDENTIQUE TOUS CVs
+================================================================================
+
+✓ Template LaTeX strict (article, 11pt, A4, utf-8)
+✓ Pas de tirets longs (— ou –) - reformulés en texte naturel
+✓ Header : Nom, Titre, Stage INRIA Avril-Août 2026, Alternance septembre 2026
+✓ Contact : Lieu (Cergy), téléphone, email, LinkedIn, GitHub, portfolio
+✓ Accroche : 3-4 phrases techniques, spécifique à l'entreprise
+✓ Formation : ENSEA 2025-2027 + Poly Yaoundé 2021-2025
+✓ Compétences : 4-5 catégories avec listes détaillées
+✓ Expériences : 5-6 items, INRIA TOUJOURS EN PREMIER
+  - Chaque expérience : Titre, dates, lieu, technologies
+  - 3-4 bullet points détaillés avec résultats concrets
+✓ Distinctions & Leadership : 4+ items (prix, certifications, leadership)
+✓ Marges : 1cm gauche/droite, 0.5cm haut, 0cm bas → quasi 1 page
+
+
+================================================================================
+                        STRUCTURE IDENTIQUE TOUTES LMs
+================================================================================
+
+✓ Format lettre professionnelle (geometry 2.5cm marges)
+✓ En-tête : Nom, école, email, téléphone, GitHub, portfolio
+✓ Date : "Cergy, le \today" (date compilation)
+✓ Objet : Candidature - Titre exact CV + Référence offre
+✓ Salutation : "Madame, Monsieur,"
+✓ Paragraphe 1 (3-5 phrases) : Présentation entreprise, enjeu IA, motivation
+✓ Paragraphe 2 (3-5 phrases) : Expérience INRIA + résultats concrets
+✓ Paragraphe 3 (3-5 phrases) : 2e expérience (MILA ou Multi-Agents) + compétences
+✓ Paragraphe 4 (3-5 phrases) : Disponibilité septembre 2026, intérêt concret
+✓ Formule : "Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées."
+✓ Signature : "Loïc Aron MBASSI EWOLO"
+✓ Coloration liens : Couleur RGB spécifique à l'entreprise
+
+
+================================================================================
+                           GARANTIES QUALITÉ
+================================================================================
+
+TECHNIQUE
+─────────
+✓ Tous fichiers LaTeX valides (compilables)
+✓ Encodage UTF-8 avec accents/caractères spéciaux corrects
+✓ Packages nécessaires : inputenc, fontenc, babel, geometry, enumitem, 
+  hyperref, xcolor, titlesec, fontawesome5, lmodern, ulem
+✓ Pas d'erreurs de fermeture de groupes ou commandes
+
+CONTENU
+───────
+✓ 12 fichiers DIFFÉRENTS (pas de duplication)
+✓ Chaque CV/LM spécifiquement tailoré à l'offre
+✓ Expériences sélectionnées par pertinence pour l'offre
+✓ Accroche unique mettant en avant point fort vs entreprise
+✓ Aucun adjectif creux ("passionné", "dynamique", "enthousiaste"...)
+✓ Ton d'ingénieur : action → résultat measurable
+✓ Format CVs quasi 1 page A4 entière (dense mais lisible)
+✓ Format LMs 1 page (lettre équilibrée)
+
+CONFORMITÉ TEMPLATE
+───────────────────
+✓ Titres CV différents mais cohérents avec poste
+✓ Couleurs RGB exactes par entreprise
+✓ Pas de "à" au lieu de "à" (évite tirets longs)
+✓ Accroche commence par descriptif technique (pas "Je suis")
+✓ LM débute par "Madame, Monsieur,"
+✓ Disponibilité septembre 2026 avec pronom dans LM
+✓ Formations formatées identiquement tous CVs
+✓ INRIA TOUJOURS PREMIÈRE expérience
+
+
+================================================================================
+                        CONSEILS D'UTILISATION
+================================================================================
+
+1. COMPILATION
+   $ cd /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/
+   $ pdflatex cv_loic_aron_mbassi_ewolo_mlops_data_scientist_macif.tex
+   $ pdflatex lm_loic_aron_mbassi_ewolo_mlops_data_scientist_macif.tex
+
+2. ENVOI CANDIDATURE
+   - 1 CV en PDF (généré)
+   - 1 LM en PDF (générée)
+   - Ajouter lettre de transmission simple
+   - Nommer les fichiers explicitement : 
+     "Loic_Mbassi_CV_MACIF.pdf" + "Loic_Mbassi_LM_MACIF.pdf"
+
+3. IMPRESSION
+   - Format : A4, 100% échelle
+   - Marges : respectées (1cm gauche/droite, CV ~0.5cm haut)
+   - Couleur : recommandée (logos entreprises visibles)
+   - Papier : 80g minimum (blanc cassé ou blanc)
+
+4. SUIVI CANDIDATURES
+   - Dossier bien structuré pour tracking
+   - Chaque offre → 1 dossier CVs + LM cohérente
+   - Dates de candidature à noter pour suivi
+
+
+================================================================================
+                              FICHIERS ADDITIONNELS
+================================================================================
+
+- MANIFEST_BATCH1.md    : Documentation détaillée par offre
+- INDEX_BATCH1.txt      : Ce fichier
+- contacts_et_emails.md : Contacts RH des 6 entreprises (si existant)
+
+
+================================================================================
+                           RÉSUMÉ RÉCAPITULATIF
+================================================================================
+
+Statut :            ✓ COMPLÉTÉ - Prêt pour envoi candidatures
+Date génération :   21 mars 2026
+Nombre fichiers :   12 (6 CVs + 6 LMs)
+Taille totale :     ~110 KB
+Encodage :          UTF-8
+Format :            LaTeX (pdflatex/xelatex compatible)
+Disponibilité :     Septembre 2026, alternance 12 mois
+Référence stage :   INRIA Saclay (avril-août 2026, équipe TRIBE)
+
+Entreprises ciblées :
+  1. MACIF (Assurance)
+  2. BPCE (Banque)
+  3. NAGARRO (Consulting IA)
+  4. SFR (Télécom)
+  5. HSBC (Banque)
+  6. BOULANGER (Retail)
+
+
+════════════════════════════════════════════════════════════════════════════════
+Tous les fichiers sont prêts pour envoi. Bonne chance!
+════════════════════════════════════════════════════════════════════════════════

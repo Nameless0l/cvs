@@ -1,96 +1,135 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
+\usepackage{marvosym}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{90, 40, 160}
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large AI Engineer -- LLM \& Syst\`emes Agentiques} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Alternant LLM Engineer -- IA G\'enérative \& Agents} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile IDF) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{L'IA juridique repose sur des syst\`emes capables d'analyser des milliers de textes de droit, d'identifier des pr\'ec\'edents pertinents et de g\'en\'erer des r\'eponses fond\'ees sur des sources fiables. Jimini AI, en d\'eveloppant un assistant IA pour avocats bas\'e sur RAG et agents LLM autonomes, adresse l'un des cas d'usage les plus exigeants en termes de pr\'ecision et de fiabilit\'e -- deux exigences que je partage dans mon approche du d\'eveloppement IA.}
+\noindent\small{Conception d'un syst\`eme multi-agents (Google ADK, RAG, LangChain) orchestrant des LLM Gemini pour des recommandations agricoles contextuelles via APIs externes, et fine-tuning de mod\`eles BERT/Transformers pour le scoring NLP à l'INRIA Saclay. Double diplôme ENSEA/Polytechnique Yaoundé en IA et mathématiques appliquées, avec travaux de recherche au MILA Montréal sur la généralisation des LLM et grokking. Jimini AI, startup spécialisée dans l'IA juridique, offre un contexte unique pour développer des architectures LLM à haute valeur métier sur des documents techniques structurés.}
 
 \section{Formation}
 \begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
     \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes \'Electroniques, Signal, IA \& Cybersécurité.}
     \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
     \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
 \end{itemize}
 
 \section{Comp\'etences Techniques}
 \begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{LLM \& RAG :} Python, LangChain, LangGraph, RAG, agents autonomes, LLM APIs, embeddings vectoriels}
-    \item \small{\textbf{NLP / ML :} BERT, Transformers, fine-tuning, classification de texte juridique, PyTorch}
-    \item \small{\textbf{Backend :} FastAPI, Docker, API REST, Git, Redis, bases vectorielles (Chroma, Pinecone notions)}
+    \item \small{\textbf{LLM / IA G\'enérative :} Google ADK, LangChain, RAG, Gemini Flash/Pro, GPT, fine-tuning, prompt engineering, agents multi-chaînes, orchestration, retrieval augmentation.}
+    \item \small{\textbf{NLP / Transformers :} BERT, HuggingFace, Transformers, extraction d'entités, classification, speech recognition, low-resource NLP, fine-tuning.}
+    \item \small{\textbf{MLOps / D\'eploiement :} FastAPI, Docker, Poetry, pipelines CI/CD, monitoring modèles, gestion versions, experiments tracking.}
+    \item \small{\textbf{Python / Data :} PyTorch, TensorFlow, pandas, scikit-learn, vector stores (Pinecone, Weaviate), data processing, probabilités.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel, rédaction technique EN), Camerounais.}
 \end{itemize}
 
 \section{Exp\'eriences \& Projets}
 \begin{itemize}[leftmargin=*, label={-}]
-
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, BERT, NLP juridique, RGPD}
-\vspace{-2pt}
+    \item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE (Projet PRIMO)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+    \textit{Palaiseau (IP Paris)} \hfill \textit{Python, NLP, BERT, Transformers, scikit-learn, pandas, fine-tuning LLM}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Analyse automatis\'ee de textes juridiques et contractuels par NLP : classification de clauses, extraction d'entit\'es RGPD, scoring de conformit\'e.}
-        \item \small{Fine-tuning de BERT sur corpus juridique sp\'ecialis\'e : +12\% F1-score sur classification de clauses sensibles.}
+        \item \small{Fine-tuning de modèles BERT et Transformers pour classification automatique de clauses de confidentialité à grande échelle (500+ SDKs mobiles).}
+        \item \small{Pipeline NLP complet : extraction de politiques, tokenization, fine-tuning avec hyperparameter tuning, scoring de conformité RGPD.}
+        \item \small{Interprétabilité des résultats (LIME, attention weights) pour communication aux équipes de gouvernance et conformité.}
+        \item \small{Collaboration LVMT/École des Ponts (programme PEPR MOBIDEC, financement ANR) ; documentation méthodologie et résultats.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Snappy -- RAG Agentic} \hfill \textit{2025} \\
-\textit{Projet Open Source} \hfill \textit{Spring WebFlux, RAG, LLM, Redis}
-\vspace{-2pt}
+    \item \textbf{Syst\`eme Multi-Agents Agricole} \hfill \textit{2024 -- 2025} \\
+    \textit{Orchestration LLM \& RAG} \hfill \textit{Google ADK, RAG, LangChain, Gemini Flash/Pro, FastAPI, Docker}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Impl\'ementation d'un framework RAG avec indexation s\'emantique, recherche vectorielle et agent LLM r\'epondant \`a partir de sources v\'erifi\'ees.}
-        \item \small{Architecture agentic avec planification, appel d'outils et r\'e-it\'eration sur r\'eponse insuffisante.}
+        \item \small{Architecture système multi-agents (4 agents spécialisés) orchestrant Gemini LLM pour recommandations agricoles contextuelles : Google ADK pour raisonnement, planification, résolution conflits.}
+        \item \small{Enrichissement contextuel via RAG : intégration APIs externes (OpenWeather, données marchés) dans prompts ; retrieval augmentation pour réductions hallucinations.}
+        \item \small{Déploiement FastAPI avec gestion d'erreurs, monitoring, logging ; documentation architecture agentique ; tests et évaluations de robustesse.}
+        \item \small{Résultats : recommandations multi-critères (rendement, coûts, risques météo) ; généralisation à autres domaines (supply chain, consulting).}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Laravel API Generator -- Agentic Code Generation} \hfill \textit{2024 -- 2025} \\
-\textit{+30 \'etoiles GitHub} \hfill \textit{Laravel, LLM, UML, raisonnement multi-\'etapes}
-\vspace{-2pt}
+    \item \textbf{Plateforme Snappy -- RAG \& Chatbots IA} \hfill \textit{2024 -- 2025} \\
+    \textit{Integration LLM \& Vector Store} \hfill \textit{Gemini Flash/Pro, RAG, LangChain, vector store, FastAPI, PostgreSQL}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Agent LLM qui lit un diagramme UML, planifie la structure de code, g\'en\`ere PHP structur\'e et produit des tests : pipeline agentic complet livr\'e en open source.}
+        \item \small{Intégration Gemini Flash/Pro dans Snappy via RAG : chatbots intelligents assistants pour messagerie enterprise.}
+        \item \small{Vector store pour retrieval contextuel (documents utilisateurs, FAQ, historique conversations) ; reduction hallucinations via retrieval augmentation.}
+        \item \small{Fine-tuning léger de modèles pour domaine métier ; gestion contexte long (multi-turn conversations) ; monitoring qualité réponses.}
+        \item \small{Déploiement production avec latency monitoring et optimisation (batching, caching) ; documentation système LLM.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Women Safe -- NLP Juridique Multilingue} \hfill \textit{2024} \\
-\textit{IA Appliqu\'ee} \hfill \textit{BERT, NLP, classification texte}
-\vspace{-2pt}
+    \item \textbf{Assistant de Recherche -- MILA Montréal} \hfill \textit{Juin -- Sept. 2025} \\
+    \textit{Théorie LLM \& Généralisation} \hfill \textit{Python, PyTorch, TensorFlow, probabilités, algèbre linéaire, mathématiques}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Fine-tuning BERT multilingue pour la d\'etection de discours haineux sur donn\'ees juridiquement sensibles avec \'evaluation de biais.}
+        \item \small{Étude phénomène grokking (généralisation tardive LLM sur MLPs) : reproduction expériences SOTA, analyses mathématiques convergence, pipelines tests statistiques.}
+        \item \small{Visualisations et documentation résultats pour publication ; contributions à compréhension théorique LLM.}
     \end{itemize}
+    \vspace{3pt}
+
+    \item \textbf{YembaAudio -- Apprentissage Langue Low-Resource} \hfill \textit{2025} \\
+    \textit{Speech Recognition \& Low-Resource NLP} \hfill \textit{NLP, speech recognition, TensorFlow, HuggingFace, Next.js}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Application web pour apprentissage langue Yemba (langue low-resource, ~80k locuteurs) avec reconnaissance vocale.}
+        \item \small{Fine-tuning modèles HuggingFace pour speech recognition sur ressources limitées ; stratégies data augmentation pour low-resource NLP.}
+    \end{itemize}
+    \vspace{3pt}
+
+    \item \textbf{Projet Women Safe -- Fine-Tuning BERT/GPT-2} \hfill \textit{2023} \\
+    \textit{NLP \& Fine-Tuning Transformers} \hfill \textit{BERT, GPT-2, Transformers, Python, scikit-learn}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Fine-tuning BERT et GPT-2 pour détection automatique contenu misogyne dans réseaux sociaux et offres d'emploi.}
+        \item \small{Évaluation équité prédictions ; analyse biais algorithmiques ; recommandations mitigation.}
+    \end{itemize}
+    \vspace{3pt}
+
+    \item \textbf{Urban Waste Management -- ML \& Optimisation} \hfill \textit{2024} \\
+    \textit{Data Science \& Algorithms} \hfill \textit{ML, TSP, Python, IoT, scikit-learn}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modèle ML prédiction remplissage poubelles + TSP : réduction 20\% coûts ; 1er prix CITS National.}
+    \end{itemize}
+    \vspace{3pt}
 
 \end{itemize}
 
-\section{Prix \& Leadership}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix Mountain Hub 2024} ; \textbf{Lead AI Cell ENSEA}}
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX Africa 2025} (IA Santé, hackathon panafricain) -- classification maladies, déploiement API Flask}
+    \item \small{\textbf{1\textsuperscript{er} prix Mountain Hub Régional 2024} (Innovation technologique)}
+    \item \small{\textbf{1\textsuperscript{er} prix CITS National Hackathon} (Smart City, ML) -- vs 75 équipes}
+    \item \small{\textbf{Head of Projects Cell \& Lead AI Cell ENSEA} -- structuration 3 pôles techniques, +50\% membres actifs, collaborations Google DeepMind}
+    \item \small{\textbf{Open Source :} Laravel API Generator (+30 étoiles GitHub, Packagist) -- génération code API via LLM+UML}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/DeepLearning.AI/Coursera, Oct. 2024), Python for Data Science (IBM, Jan. 2024)}
 \end{itemize}
 
 \end{document}

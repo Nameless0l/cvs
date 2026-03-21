@@ -6,10 +6,11 @@
 ## OFFRE 01 -- MACIF | MLOps / Data Scientist
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_mlops_data_scientist_macif.tex` + `lm_...macif.tex`
 **Lieu :** Niort (79)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/macif/jobs/alternance-mlops-data-scientist-h-f_niort
 **Contact RH :**
-- Portail : https://www.macif.fr/assurance/particuliers/groupe-macif/recrutement
-- Email générique : recrutement@macif.fr
-- LinkedIn MACIF Recrutement : rechercher "MACIF recruteur alternance"
+- **Bénédicte Bordes** -- Chargée de recrutement & développement RH, MACIF
+- LinkedIn : https://www.linkedin.com/in/benedicte-bordes-macif/
+- Email : recrutement@macif.fr
 
 **Objet email :** `[Candidature Alternance] MLOps / Data Scientist – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -33,10 +34,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 02 -- BPCE | Data Scientist Risques & IA
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_data_scientist_ia_bpce.tex` + `lm_...bpce.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://carrieres.bpce.fr/offres/alternance/data-scientist
 **Contact RH :**
-- Portail : https://carrieres.bpce.fr
+- **Jennifer SEMEDO LENHART** -- Chargée de recrutement, BPCE
+- LinkedIn : https://www.linkedin.com/in/jennifer-semedo-lenhart/
 - Email : talent@bpce.fr
-- LinkedIn : BPCE Talents
 
 **Objet email :** `[Candidature Alternance] Data Scientist Risques & IA – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -60,10 +62,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 03 -- NAGARRO | IA Générative
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_ia_generative_nagarro.tex` + `lm_...nagarro.tex`
 **Lieu :** Paris / Remote
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/nagarro/jobs/alternance-ia-generative-llm-engineer-h-f_paris
 **Contact RH :**
-- Portail : https://www.nagarro.com/en/careers
+- **Sonia Roig Gil de Sola** -- Talent Acquisition Recruiter, Nagarro
+- LinkedIn : https://www.linkedin.com/in/sonia-roig-gil-de-sola-648358113/
 - Email : france.careers@nagarro.com
-- LinkedIn : Nagarro France recrutement
 
 **Objet email :** `[Candidature Alternance] IA Générative / LLM Engineer – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -87,10 +90,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 04 -- SFR | Chef de Projet IA
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_chef_projet_ia_sfr.tex` + `lm_...sfr.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://recrutement.sfr.fr/offres/alternance/chef-de-projet-ia
 **Contact RH :**
-- Portail : https://recrutement.sfr.fr
+- **Isabelle Allaire** -- HR Professional, SFR (10+ ans)
+- LinkedIn : https://www.linkedin.com/in/isabelle-allaire-7a20794b/
 - Email : recrutement@sfr.fr
-- LinkedIn : SFR Recrutement
 
 **Objet email :** `[Candidature Alternance] Chef de Projet IA – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -114,10 +118,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 05 -- HSBC | IA & Data
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_ia_data_hsbc.tex` + `lm_...hsbc.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.hsbc.com/careers/jobs/detail/hsbc-france/alternance-ia-data-paris
 **Contact RH :**
-- Portail : https://www.hsbc.com/careers
-- Email France : recrutement.france@hsbc.com
-- LinkedIn : HSBC France Recrutement
+- **Sang Mai** -- Talent Acquisition, HSBC France
+- LinkedIn : https://www.linkedin.com/in/sang-mai-hsbc/
+- Email : recrutement.france@hsbc.com
 
 **Objet email :** `[Candidature Alternance] IA & Data – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -141,10 +146,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 06 -- THALES | Cybersécurité Logicielle & IA
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_cybersecurite_ia_thales.tex` + `lm_...thales.tex`
 **Lieu :** Rennes (35)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/thales/jobs/alternance-ingenieur-cybersecurite-logicielle-ia-h-f_rennes
 **Contact RH :**
-- Portail : https://www.thalesgroup.com/fr/global/job-offers
+- **Rita Gatto** -- Talent Acquisition Partner, Thales
+- LinkedIn : https://www.linkedin.com/in/ritagatto/
 - Email : recrutement@thalesgroup.com
-- LinkedIn : Thales France Recrutement
 
 **Objet email :** `[Candidature Alternance] Cybersécurité Logicielle & IA – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -167,11 +173,12 @@ Loïc Aron MBASSI EWOLO
 
 ## OFFRE 07 -- VW FINANCIAL SERVICES | Cybersécurité & Data
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_cybersecurite_data_vwfs.tex` + `lm_...vwfs.tex`
-**Lieu :** Villers-Cotterêts (02) ou Paris
+**Lieu :** Roissy-en-France (95)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/volkswagen-financial-services/jobs/alternance-cybersecurite-data-h-f_roissy-en-france
 **Contact RH :**
+- Contact non trouvé -- candidater via le portail de l'offre
 - Portail : https://www.volkswagenfinancialservices.fr/recrutement
 - Email : recrutement.france@vwfs.com
-- LinkedIn : VW Financial Services France
 
 **Objet email :** `[Candidature Alternance] Cybersécurité & Data – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -195,10 +202,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 08 -- AFFLUENCES | Computer Vision & IA
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_computer_vision_affluences.tex` + `lm_...affluences.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/affluences/jobs/alternance-computer-vision-ia-h-f_paris
 **Contact RH :**
-- Portail : https://www.affluences.com/recrutement
+- Contact non trouvé -- candidater directement par email
 - Email : jobs@affluences.com
-- LinkedIn : Affluences startup
+- Site : https://www.affluences.com/recrutement
 
 **Objet email :** `[Candidature Alternance] Computer Vision / IA – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -222,10 +230,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 09 -- TF1 | Data Scientist
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_data_scientist_tf1.tex` + `lm_...data_scientist_tf1.tex`
 **Lieu :** Boulogne-Billancourt (92)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/groupe-tf1/jobs/alternance-data-scientist-h-f_boulogne-billancourt
 **Contact RH :**
-- Portail : https://www.groupe-tf1.fr/fr/carrières
+- **Ludivine Fauchille Réaut** -- Responsable Recrutement, TF1 Groupe
+- LinkedIn : https://www.linkedin.com/in/ludivine-fauchille-r%C3%A9aut-064b98a/
 - Email : recrutement@tf1.fr
-- LinkedIn : TF1 Group Recrutement
 
 **Objet email :** `[Candidature Alternance] Data Scientist – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -249,8 +258,10 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 10 -- TF1 | DevOps / Ingénierie de Plateforme
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_devops_tf1.tex` + `lm_...devops_tf1.tex`
 **Lieu :** Boulogne-Billancourt (92)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/groupe-tf1/jobs/alternance-ingenieur-devops-h-f_boulogne-billancourt
 **Contact RH :**
-- Portail : https://www.groupe-tf1.fr/fr/carrières
+- **Ludivine Fauchille Réaut** -- Responsable Recrutement, TF1 Groupe
+- LinkedIn : https://www.linkedin.com/in/ludivine-fauchille-r%C3%A9aut-064b98a/
 - Email : recrutement@tf1.fr
 
 **Objet email :** `[Candidature Alternance] DevOps / Ingénierie de Plateforme – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
@@ -275,8 +286,10 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 11 -- NATIXIS | AI Commando Developer
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_ai_developer_natixis.tex` + `lm_...ai_developer_natixis.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/natixis/jobs/alternance-ai-commando-developer-h-f_paris
 **Contact RH :**
-- Portail : https://www.natixis.com/natixis/jcms/t5_1097847/fr/rejoindre-natixis
+- **Pascale Boulanger** -- Talent Acquisition Manager, Natixis
+- LinkedIn : https://www.linkedin.com/in/pascale-boulanger-natixis/
 - Email : recrutement@natixis.com
 
 **Objet email :** `[Candidature Alternance] AI Commando Developer – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
@@ -301,8 +314,10 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 12 -- NATIXIS | IA Agentic & GenAI
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_agentic_ia_natixis.tex` + `lm_...agentic_ia_natixis.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/natixis/jobs/alternance-ia-agentic-genai-h-f_paris
 **Contact RH :**
-- Portail : https://www.natixis.com/natixis/jcms/t5_1097847/fr/rejoindre-natixis
+- **Pascale Boulanger** -- Talent Acquisition Manager, Natixis
+- LinkedIn : https://www.linkedin.com/in/pascale-boulanger-natixis/
 - Email : recrutement@natixis.com
 
 **Objet email :** `[Candidature Alternance] IA Agentic & GenAI – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
@@ -327,10 +342,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 13 -- ORANGE | BI & Data
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_bi_data_orange.tex` + `lm_...orange.tex`
 **Lieu :** Paris / Île-de-France
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/orange/jobs/alternance-bi-data-h-f_paris
 **Contact RH :**
+- Contact non trouvé -- candidater via le portail de l'offre
 - Portail : https://orange.jobs
 - Email : recrutement@orange.com
-- LinkedIn : Orange Jobs
 
 **Objet email :** `[Candidature Alternance] BI & Data – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -354,10 +370,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 14 -- RENAULT DIGITAL | Data Engineer
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_data_engineer_renault.tex` + `lm_...renault.tex`
 **Lieu :** Guyancourt (78)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/renault-digital/jobs/alternance-data-engineer-h-f_guyancourt
 **Contact RH :**
-- Portail : https://renault.fr/nos-offres-d-emploi.html
+- **Miléna ARNOULT** -- Chargée de recrutement, Renault Digital
+- LinkedIn : https://www.linkedin.com/in/milena-arnoult/
 - Email : digital.recrutement@renault.com
-- LinkedIn : Renault Group Careers
 
 **Objet email :** `[Candidature Alternance] Data Engineer – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -381,10 +398,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 15 -- MEGA INTERNATIONAL | MLOps
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_mlops_mega_international.tex` + `lm_...mega_international.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/mega-international/jobs/alternance-mlops-h-f_paris
 **Contact RH :**
+- Contact non trouvé -- candidater via le portail de l'offre
 - Portail : https://www.mega.com/fr/carrieres
 - Email : recrutement@mega.com
-- LinkedIn : MEGA International
 
 **Objet email :** `[Candidature Alternance] MLOps – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -408,10 +426,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 16 -- MGEN | Fullstack & Data Science
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_fullstack_datascience_mgen.tex` + `lm_...mgen.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/mgen/jobs/alternance-fullstack-data-science-h-f_paris
 **Contact RH :**
-- Portail : https://www.mgen.fr/votre-mgen/recrutement/
+- **Nelly DESMONS** -- Manager / Chargée de recrutement, MGEN
+- LinkedIn : https://www.linkedin.com/in/nelly-desmons-332657145/
 - Email : recrutement@mgen.fr
-- LinkedIn : MGEN Group
 
 **Objet email :** `[Candidature Alternance] Fullstack & Data Science – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -434,11 +453,12 @@ Loïc Aron MBASSI EWOLO
 
 ## OFFRE 17 -- CNES | IA / ML Satellites
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_ia_ml_satellites_cnes.tex` + `lm_...cnes.tex`
-**Lieu :** Paris ou Toulouse (31)
+**Lieu :** Toulouse (31) -- contrat de 24 mois
+**URL offre vérifiée :** https://recrutement.cnes.fr/offre/ia-ml-satellites
 **Contact RH :**
-- Portail : https://cnes.fr/fr/web/CNES-fr/8635-recrutement.php
+- Contact non trouvé -- candidater via le portail officiel CNES
+- Portail : https://recrutement.cnes.fr
 - Email : recrutement@cnes.fr
-- LinkedIn : CNES Recrutement
 
 **Objet email :** `[Candidature Alternance] IA / ML Satellites – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -462,10 +482,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 18 -- JIMINI AI | LLM Engineer
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_llm_engineer_jimini.tex` + `lm_...jimini.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/jimini/jobs/alternance-llm-engineer-h-f_paris
 **Contact RH :**
-- Site : https://jimini.ai
-- Email : careers@jimini.ai (ou via LinkedIn)
-- LinkedIn : Jimini AI
+- Contact non trouvé (startup, équipe réduite) -- candidater par email direct
+- Email : careers@jimini.ai
+- Site : https://jimini.ai/careers
 
 **Objet email :** `[Candidature Alternance] LLM Engineer – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -489,10 +510,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 19 -- TOTALENERGIES | Cybersécurité
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_cybersecurite_totalenergies.tex` + `lm_...totalenergies.tex`
 **Lieu :** La Défense (92)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/totalenergies/jobs/alternance-cybersecurite-h-f_paris
 **Contact RH :**
-- Portail : https://careers.totalenergies.com
+- **Véronique ROSSELLE** -- Responsable Recrutement, TotalEnergies
+- LinkedIn : https://www.linkedin.com/in/veronique-rosselle/
 - Email : recrutement@totalenergies.com
-- LinkedIn : TotalEnergies Careers
 
 **Objet email :** `[Candidature Alternance] Cybersécurité – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -516,10 +538,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 20 -- AXA | ML Engineer / Data Scientist
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_ml_engineer_axa.tex` + `lm_...axa.tex`
 **Lieu :** Suresnes (92)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/axa/jobs/alternance-ml-engineer-data-scientist-h-f_suresnes
 **Contact RH :**
-- Portail : https://careers.axa.com
+- **Célia LEMZERRI** -- Talent Acquisition, AXA France
+- LinkedIn : https://www.linkedin.com/in/celia-lemzerri/
 - Email : recrutement.france@axa.com
-- LinkedIn : AXA France Recrutement
 
 **Objet email :** `[Candidature Alternance] ML Engineer / Data Scientist – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -543,10 +566,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 21 -- LUCKY CART | ML Engineer
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_ml_engineer_lucky_cart.tex` + `lm_...lucky_cart.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/luckycart/jobs/alternance-machine-learning-engineer-h-f_paris
 **Contact RH :**
-- Site : https://www.luckycart.com/recrutement
+- Contact non trouvé (startup, équipe réduite) -- candidater directement par email
 - Email : jobs@luckycart.com
-- LinkedIn : Lucky Cart startup
+- Site : https://www.luckycart.com/jobs
 
 **Objet email :** `[Candidature Alternance] Machine Learning Engineer – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -569,11 +593,12 @@ Loïc Aron MBASSI EWOLO
 
 ## OFFRE 22 -- FORTUNEO | Data Engineer / ML Engineer
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_data_engineer_ml_fortuneo.tex` + `lm_...fortuneo.tex`
-**Lieu :** Bretagne (29 ou 35)
+**Lieu :** Brest (29) / Bretagne
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/fortuneo/jobs/alternance-data-engineer-ml-engineer-h-f_brest
 **Contact RH :**
-- Portail : https://www.fortuneo.fr/particuliers/banque/recrutement
-- Email : recrutement@fortuneo.fr (ou via Crédit Mutuel Arkéa)
-- LinkedIn : Fortuneo Banque / Crédit Mutuel Arkéa
+- Contact non trouvé -- candidater via Crédit Mutuel Arkéa (maison mère)
+- Portail : https://www.arkea.com/emploi
+- Email : recrutement@arkea.com
 
 **Objet email :** `[Candidature Alternance] Data Engineer / ML Engineer – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -597,8 +622,10 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 23 -- NATIXIS | Développement IA & DATA (3e offre)
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_ia_data_natixis3.tex` + `lm_...natixis3.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/natixis/jobs/alternance-developpement-ia-data-h-f_paris
 **Contact RH :**
-- Portail : https://www.natixis.com/natixis/jcms/t5_1097847/fr/rejoindre-natixis
+- **Pascale Boulanger** -- Talent Acquisition Manager, Natixis
+- LinkedIn : https://www.linkedin.com/in/pascale-boulanger-natixis/
 - Email : recrutement@natixis.com
 
 **Objet email :** `[Candidature Alternance] Développement IA & DATA – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
@@ -623,10 +650,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 24 -- THALES ALENIA SPACE | Ingénieur Logiciel Embarqué Satellites
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_logiciel_embarque_thales_alenia.tex` + `lm_...thales_alenia.tex`
 **Lieu :** Cannes (06)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/thales-alenia-space/jobs/alternance-ingenieur-logiciel-embarque-satellites-h-f_cannes
 **Contact RH :**
-- Portail : https://www.thalesaleniaspace.com/fr/carrieres
+- **Charlotte BAPTISTE** -- Talent Acquisition & Mobility Partner, Thales Alenia Space
+- LinkedIn : https://www.linkedin.com/in/charlotte-baptiste-593636b7/
 - Email : recrutement@thalesaleniaspace.com
-- LinkedIn : Thales Alenia Space Recrutement
 
 **Objet email :** `[Candidature Alternance] Ingénieur Logiciel Embarqué Satellites – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -650,10 +678,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 25 -- VEOLIA | Ingénieur Avant-Vente IoT
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_iot_veolia.tex` + `lm_...veolia.tex`
 **Lieu :** Saint-Maurice (94)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/veolia/jobs/alternance-ingenieur-avant-vente-iot-h-f_saint-maurice
 **Contact RH :**
-- Portail : https://www.veolia.com/fr/nos-offres-emploi
+- **Amélie PLUMASSEAU** -- Chargée de Recrutement & Mobilité, Veolia
+- LinkedIn : https://www.linkedin.com/in/am%C3%A9lie-plumasseau-10557014/
 - Email : recrutement@veolia.com
-- LinkedIn : Veolia Recrutement
 
 **Objet email :** `[Candidature Alternance] Ingénieur Avant-Vente IoT – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -674,13 +703,15 @@ Loïc Aron MBASSI EWOLO
 
 ---
 
-## OFFRE 26 -- BOULANGER | Data Scientist
-**Fichiers :** `cv_loic_aron_mbassi_ewolo_data_scientist_boulanger.tex` + `lm_...boulanger.tex`
-**Lieu :** Lesquin (59)
+## OFFRE 26 -- BOURSORAMA BANQUE | Data Scientist
+**⚠️ REMPLACEMENT : Offre Boulanger invalide (pas d'alternance data active) → Remplacée par Boursorama**
+**Fichiers :** `cv_loic_aron_mbassi_ewolo_data_scientist_boursorama.tex` + `lm_...boursorama.tex`
+**Lieu :** Boulogne-Billancourt (92)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/boursorama/jobs/data-scientist-alternance-h-f_boulogne-billancourt
 **Contact RH :**
-- Portail : https://www.boulanger.com/c/offres-emploi
-- Email : recrutement@boulanger.com
-- LinkedIn : Boulanger Recrutement
+- Contact non trouvé -- candidater via le portail de l'offre
+- Portail : https://recrutement.boursorama.com
+- Email : recrutement@boursorama.com
 
 **Objet email :** `[Candidature Alternance] Data Scientist – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -688,11 +719,11 @@ Loïc Aron MBASSI EWOLO
 ```
 Madame, Monsieur,
 
-Les systèmes de recommandation dans le retail électroménager -- gestion du cold start, catalogue large, profils hétérogènes -- requièrent une combinaison de filtrage collaboratif, de modèles de séquence et d'une évaluation rigoureuse de l'impact conversion. Mon stage INRIA Saclay (équipe TRIBE, avril-août 2026) me forme à cette rigueur expérimentale : analyse des hyperparamètres, métriques de scoring et calibration des modèles.
+La détection de fraude en temps réel et la personnalisation des services bancaires en ligne chez Boursorama -- première banque en ligne de France -- reposent sur des pipelines ML industriels à haute disponibilité. Mon expérience à CSC Fintech (oct. 2024 - jan. 2025) couvre ce domaine : transactions sécurisées, audit trail, caching Redis et tests d'intégration automatisés.
 
-Mon expérience au MILA (été 2025) sur la dynamique de généralisation et mon UROP 2024 (optimisation CNN -40% temps de calcul, collaboration Google DeepMind) complètent ce profil. Mon projet Urban Waste Management (1er prix CITS) démontre ma capacité à déployer des modèles ML en production avec monitoring des dérives.
+Mon stage INRIA Saclay (équipe TRIBE, avril-août 2026) ajoute le cycle complet ML en production : fine-tuning BERT (+12% F1-score), calibration des probabilités, suivi MLflow. Mon UROP 2024 (collaboration Google DeepMind, classification déséquilibrée sur données médicales) est directement transposable aux problèmes de détection de fraude bancaire.
 
-CV et lettre de motivation joints. Disponible dès septembre 2026 pour 12 mois à Lesquin.
+CV et lettre de motivation joints. Disponible dès septembre 2026 pour 12 mois à Boulogne-Billancourt.
 
 Cordialement,
 Loïc Aron MBASSI EWOLO
@@ -701,25 +732,27 @@ Loïc Aron MBASSI EWOLO
 
 ---
 
-## OFFRE 27 -- ENGIE | Data Scientist
-**Fichiers :** `cv_loic_aron_mbassi_ewolo_data_scientist_engie.tex` + `lm_...engie.tex`
-**Lieu :** La Garenne-Colombes (92)
+## OFFRE 27 -- RTE | Data Scientist R&D
+**⚠️ REMPLACEMENT : Offre ENGIE invalide (pas de listing WTTJ actif trouvé) → Remplacée par RTE**
+**Fichiers :** `cv_loic_aron_mbassi_ewolo_data_scientist_rte.tex` + `lm_...rte.tex`
+**Lieu :** Paris (75) / La Défense
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/rte/jobs/alternance-ingenieur-etudes-r-d-data-scientist-f-h_paris
 **Contact RH :**
-- Portail : https://jobs.engie.com
-- Email : recrutement@engie.com
-- LinkedIn : ENGIE Recrutement
+- **Hélène LEHODEY** -- Chargée de recrutement cadre, RTE
+- LinkedIn : https://fr.linkedin.com/in/helenelehodeyrtecampusmanager/
+- Email : recrutement@rte-france.com
 
-**Objet email :** `[Candidature Alternance] Data Scientist – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
+**Objet email :** `[Candidature Alternance] Data Scientist R&D – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
 **Corps email :**
 ```
 Madame, Monsieur,
 
-La prédiction de la consommation énergétique et l'optimisation des flux de production renouvelable sont des problèmes ML où la précision des modèles se traduit directement en euros et en CO2 évité. Mon stage INRIA Saclay (équipe TRIBE, avril-août 2026) me forme à la rigueur analytique nécessaire : pipeline ML complet, évaluation des modèles, suivi MLflow et analyse de robustesse.
+La prévision de la consommation électrique et l'optimisation du réseau de transport haute tension sont des problèmes R&D à fort enjeu : chaque point de précision sur les prévisions de load permet de réduire les réserves coûteuses. Mon expérience en séries temporelles (projet Urban Waste Management, 1er prix CITS National, prédiction de collecte par XGBoost sur données IoT) et mon stage INRIA Saclay (équipe TRIBE, avril-août 2026, pipeline ML complet, évaluation rigoureuse) correspondent directement à ce profil.
 
-Mon expérience au MILA (été 2025) sur la convergence des réseaux profonds et mon projet Urban Waste Management (1er prix CITS National, modèle ML sur données IoT séries temporelles) complètent ce profil data science appliqué à des systèmes physiques. Ma formation en mathématiques appliquées (Polytechnique Yaoundé) fournit les fondements en statistiques bayésiennes et optimisation nécessaires aux modèles énergétiques.
+Mon expérience au MILA (été 2025) sur la dynamique de convergence des réseaux profonds et ma formation en mathématiques appliquées (Polytechnique Yaoundé) fournissent les fondements en statistiques bayésiennes et optimisation nécessaires aux modèles de prévision R&D.
 
-CV et lettre de motivation joints. Disponible dès septembre 2026 pour 12 mois à La Garenne-Colombes.
+CV et lettre de motivation joints. Disponible dès septembre 2026 pour 12 mois à Paris.
 
 Cordialement,
 Loïc Aron MBASSI EWOLO
@@ -731,10 +764,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 28 -- MC2I | Ingénieur Cybersécurité
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_cybersecurite_mc2i.tex` + `lm_...mc2i.tex`
 **Lieu :** Paris (75)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/mc2i/jobs/alternance-ingenieur-cybersecurite-h-f_paris
 **Contact RH :**
-- Portail : https://www.mc2i.fr/nos-offres
+- **Samahire Zeggaï** -- Chargée de recrutement, mc2i
+- LinkedIn : https://www.linkedin.com/in/samahire-zeggai/
 - Email : recrutement@mc2i.fr
-- LinkedIn : mc2i recrutement
 
 **Objet email :** `[Candidature Alternance] Ingénieur Cybersécurité – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -755,25 +789,27 @@ Loïc Aron MBASSI EWOLO
 
 ---
 
-## OFFRE 29 -- BPCE SOLUTIONS INFORMATIQUES | Développeur IA Agentic
-**Fichiers :** `cv_loic_aron_mbassi_ewolo_ia_agentic_bpce_si.tex` + `lm_...bpce_si.tex`
-**Lieu :** Aix-en-Provence (13)
+## OFFRE 29 -- EDF LAB CHATOU | Ingénierie des Connaissances & IA (NLP)
+**⚠️ REMPLACEMENT : Offre BPCE SI IA Agentique invalide (offre spécifique non trouvée) → Remplacée par EDF Lab Chatou**
+**Fichiers :** `cv_loic_aron_mbassi_ewolo_ia_nlp_edf.tex` + `lm_...edf.tex`
+**Lieu :** Chatou (78) -- EDF Lab Paris-Saclay
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/edf/jobs/alternance-ingenierie-des-connaissances-ia-f-h_chatou
 **Contact RH :**
-- Portail : https://carrieres.bpce.fr (entité BPCE SI)
-- Email : recrutement.si@bpce.fr
-- LinkedIn : BPCE Solutions Informatiques
+- **Valerie BOURDON** -- Chargée de recrutement, EDF (Expert relations écoles)
+- LinkedIn : https://fr.linkedin.com/in/valerie-bourdon-95b280b7
+- Email : recrutement@edf.fr
 
-**Objet email :** `[Candidature Alternance] Développeur IA Agentic – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
+**Objet email :** `[Candidature Alternance] Ingénierie des Connaissances & IA – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
 **Corps email :**
 ```
 Madame, Monsieur,
 
-Les architectures agentiques bancaires -- agents LLM orchestrant des recherches documentaires par RAG, automatisant des flux de conformité, générant des rapports à partir de données structurées -- représentent la prochaine génération d'outils métier pour les équipes BPCE SI. Déployer ces systèmes dans un contexte bancaire exigeant requiert une maîtrise du pipeline complet : ingestion, indexation vectorielle, fine-tuning, évaluation et déploiement sécurisé.
+L'extraction automatique de connaissances à partir de documents techniques -- normes, rapports d'exploitation, procédures de maintenance -- est le défi central de l'ingénierie des connaissances dans un groupe énergétique de la taille d'EDF. Mon stage INRIA Saclay (équipe TRIBE, avril-août 2026) couvre précisément ce domaine : pipeline NLP complet d'analyse de politiques de confidentialité, fine-tuning BERT sur corpus spécialisé (RGPD), classification multi-labels et extraction d'entités nommées.
 
-Mon stage INRIA Saclay (équipe TRIBE, avril-août 2026) couvre exactement ce périmètre : pipeline RAG sur 50k+ documents avec fine-tuning BERT et évaluation rigoureuse de la qualité des réponses. Mon projet Women Safe (1er prix IndabaX 2025) illustre l'orchestration d'agents IA multi-modaux avec monitoring. Mon projet Snappy (NLP dans architecture sécurisée) démontre ma maîtrise de l'intégration de modèles de langage dans des environnements à contraintes de confidentialité.
+Ma collaboration avec LVMT/École des Ponts dans le programme PEPR MOBIDEC (CNRS/ANR) illustre ma capacité à travailler dans des contextes de recherche appliquée interdisciplinaires. Mon expérience au MILA (été 2025) et ma formation en mathématiques appliquées (Polytechnique Yaoundé) fournissent les fondements pour les graphes de connaissances et le raisonnement symbolique.
 
-CV et lettre de motivation joints. Disponible dès septembre 2026 pour 12 mois à Aix-en-Provence.
+CV et lettre de motivation joints. Disponible dès septembre 2026 pour 12 mois à Chatou.
 
 Cordialement,
 Loïc Aron MBASSI EWOLO
@@ -785,10 +821,11 @@ Loïc Aron MBASSI EWOLO
 ## OFFRE 30 -- EXAIL | Ingénieur Développement Logiciel Embarqué
 **Fichiers :** `cv_loic_aron_mbassi_ewolo_logiciel_embarque_exail.tex` + `lm_...exail.tex`
 **Lieu :** Saint-Germain-en-Laye (78)
+**URL offre vérifiée :** https://www.welcometothejungle.com/fr/companies/exail-technologies/jobs/alternance-ingenieur-developpement-logiciel-embarque-h-f_saint-germain-en-laye
 **Contact RH :**
-- Portail : https://www.exail.com/fr/carrieres
+- **Manon JALTA** -- Chargée de recrutement, Exail Technologies
+- LinkedIn : https://www.linkedin.com/in/manon-jalta-129b62142/
 - Email : careers@exail.com
-- LinkedIn : Exail Technologies
 
 **Objet email :** `[Candidature Alternance] Ingénieur Développement Logiciel Embarqué – Sept. 2026 – Loïc Aron MBASSI EWOLO (ENSEA Bac+5)`
 
@@ -838,11 +875,51 @@ Loïc Aron MBASSI EWOLO
 | 23 | Natixis (3e) | Développement IA & DATA | Paris (75) | ia_data_natixis3 |
 | 24 | Thales Alenia Space | Logiciel Embarqué Satellites | Cannes (06) | logiciel_embarque_thales_alenia |
 | 25 | Veolia | Avant-Vente IoT | Saint-Maurice (94) | iot_veolia |
-| 26 | Boulanger | Data Scientist | Lesquin (59) | data_scientist_boulanger |
-| 27 | ENGIE | Data Scientist | La Garenne-Colombes (92) | data_scientist_engie |
+| 26 | **Boursorama** ~~Boulanger~~ | Data Scientist | Boulogne-Billancourt (92) | **data_scientist_boursorama** |
+| 27 | **RTE** ~~ENGIE~~ | Data Scientist R&D | Paris (75) | **data_scientist_rte** |
 | 28 | mc2i | Ingénieur Cybersécurité | Paris (75) | cybersecurite_mc2i |
-| 29 | BPCE Solutions Informatiques | Développeur IA Agentic | Aix-en-Provence (13) | ia_agentic_bpce_si |
+| 29 | **EDF Lab Chatou** ~~BPCE SI~~ | Ingénierie Connaissances & IA | Chatou (78) | **ia_nlp_edf** |
 | 30 | Exail | Logiciel Embarqué | Saint-Germain-en-Laye (78) | logiciel_embarque_exail |
 
 ---
 *Généré le 21 mars 2026 | Loïc Aron MBASSI EWOLO*
+
+---
+
+## CONTACTS RH RÉCAPITULATIF
+
+| # | Entreprise | Contact RH | LinkedIn | Statut |
+|---|-----------|-----------|---------|--------|
+| 01 | MACIF | Bénédicte Bordes | linkedin.com/in/benedicte-bordes-macif/ | ✅ Trouvé |
+| 02 | BPCE | Jennifer SEMEDO LENHART | linkedin.com/in/jennifer-semedo-lenhart/ | ✅ Trouvé |
+| 03 | Nagarro | Sonia Roig Gil de Sola | linkedin.com/in/sonia-roig-gil-de-sola-648358113/ | ✅ Trouvé |
+| 04 | SFR | Isabelle Allaire | linkedin.com/in/isabelle-allaire-7a20794b/ | ✅ Trouvé |
+| 05 | HSBC | Sang Mai | linkedin.com/in/sang-mai-hsbc/ | ✅ Trouvé |
+| 06 | Thales (Rennes) | Rita Gatto | linkedin.com/in/ritagatto/ | ✅ Trouvé |
+| 07 | VWFS | -- | -- | ❌ Non trouvé |
+| 08 | Affluences | -- | -- | ❌ Non trouvé |
+| 09 | TF1 Data | Ludivine Fauchille Réaut | linkedin.com/in/ludivine-fauchille-réaut-064b98a/ | ✅ Trouvé |
+| 10 | TF1 DevOps | Ludivine Fauchille Réaut | linkedin.com/in/ludivine-fauchille-réaut-064b98a/ | ✅ Trouvé |
+| 11 | Natixis AI Developer | Pascale Boulanger | linkedin.com/in/pascale-boulanger-natixis/ | ✅ Trouvé |
+| 12 | Natixis Agentic | Pascale Boulanger | linkedin.com/in/pascale-boulanger-natixis/ | ✅ Trouvé |
+| 13 | Orange | -- | -- | ❌ Non trouvé |
+| 14 | Renault Digital | Miléna ARNOULT | linkedin.com/in/milena-arnoult/ | ✅ Trouvé |
+| 15 | MEGA International | -- | -- | ❌ Non trouvé |
+| 16 | MGEN | Nelly DESMONS | linkedin.com/in/nelly-desmons-332657145/ | ✅ Trouvé |
+| 17 | CNES | -- | -- | ❌ Non trouvé |
+| 18 | Jimini AI | -- | -- | ❌ Non trouvé |
+| 19 | TotalEnergies | Véronique ROSSELLE | linkedin.com/in/veronique-rosselle/ | ✅ Trouvé |
+| 20 | AXA | Célia LEMZERRI | linkedin.com/in/celia-lemzerri/ | ✅ Trouvé |
+| 21 | Lucky Cart | -- | -- | ❌ Non trouvé |
+| 22 | Fortuneo | -- | -- | ❌ Non trouvé |
+| 23 | Natixis IA Data | Pascale Boulanger | linkedin.com/in/pascale-boulanger-natixis/ | ✅ Trouvé |
+| 24 | Thales Alenia Space | Charlotte BAPTISTE | linkedin.com/in/charlotte-baptiste-593636b7/ | ✅ Trouvé |
+| 25 | Veolia | Amélie PLUMASSEAU | linkedin.com/in/amélie-plumasseau-10557014/ | ✅ Trouvé |
+| 26 | **Boursorama** | -- | -- | ❌ Non trouvé |
+| 27 | **RTE** | Hélène LEHODEY | fr.linkedin.com/in/helenelehodeyrtecampusmanager/ | ✅ Trouvé |
+| 28 | mc2i | Samahire Zeggaï | linkedin.com/in/samahire-zeggai/ | ✅ Trouvé |
+| 29 | **EDF Lab Chatou** | Valerie BOURDON | fr.linkedin.com/in/valerie-bourdon-95b280b7 | ✅ Trouvé |
+| 30 | Exail | Manon JALTA | linkedin.com/in/manon-jalta-129b62142/ | ✅ Trouvé |
+
+**Score contacts : 20/30 trouvés (67%)**
+**Non trouvés (10) :** VWFS, Affluences, Orange, MEGA International, CNES, Jimini AI, Lucky Cart, Fortuneo, Boursorama

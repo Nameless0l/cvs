@@ -1,64 +1,50 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{fontawesome5}
-\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{lmodern}
 
 \definecolor{primary}{RGB}{0, 82, 165}
 \hypersetup{colorlinks=true, urlcolor=primary}
 
 \begin{document}
-
 \noindent
-\begin{minipage}[t]{0.5\textwidth}
-    \textbf{Lo\"ic Aron MBASSI EWOLO}\\
-    \'El\`eve-Ing\'enieur Bac+5 -- Double dipl\^ome ENSEA\\[3pt]
-    \faMapMarker\ Cergy, France\\
-    \faPhone\ (+33) 7 59 52 33 98\\
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.4\textwidth}
-    \raggedleft
-    Cergy, le 21 mars 2026
-\end{minipage}
+\textbf{Lo\"ic Aron MBASSI EWOLO} \\
+ENSEA -- Double Dipl\^ome Ing\'enieur \\
+\href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad (+33) 7 59 52 33 98 \\
+\href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad \href{https://mbassiloic.tech}{mbassiloic.tech}
 
-\vspace{1.2cm}
+\vspace{1em}
+\noindent
+Cergy, le \today
 
-\hfill
-\begin{minipage}[t]{0.5\textwidth}
-    \raggedleft
-    \textbf{MACIF}\\
-    Service Recrutement\\
-    France
-\end{minipage}
+\vspace{1em}
+\noindent
+\textbf{Objet : Candidature -- Ing\'enieur MLOps / Data Scientist} \\
+\textbf{R\'ef\'erence : Offre d'alternance 12 mois -- MACIF}
 
-\vspace{1cm}
+\vspace{1.5em}
+\noindent Madame, Monsieur,
 
-\noindent\textbf{Objet :} Candidature en alternance -- Ing\'enieur MLOps / Data Scientist -- Septembre 2026
+\vspace{0.8em}
+\noindent Mutuelle innovante confrontée à des défis de transformation digitale et de valorisation massive de la donnée, MACIF représente un terrain d'excellence pour déployer pipelines MLOps robustes et data science d'impact. Je suis particulièrement attiré par votre approche centrée sur la confiance client et la transparence des processus de décision automatisés, qui résonnent avec ma vision de l'IA responsable. C'est pourquoi je candidats vivement pour rejoindre votre équipe en tant qu'Ingénieur MLOps / Data Scientist en alternance dès septembre 2026.
 
-\vspace{0.8cm}
+\vspace{0.8em}
+\noindent Depuis avril 2026, je déploie un pipeline NLP complet au sein de l'équipe TRIBE (INRIA Saclay) pour l'analyse automatisée des politiques de confidentialité sur applications de mobilité. Ce projet m'a permis de maîtriser les enjeux de production : fine-tuning BERT à l'échelle, gestion des modèles avec versioning robuste, et scoring interprétable (0-100) de conformité RGPD. J'ai particulièrement approfondi l'analyse statique des SDKs tiers pour identifier les risques de fuite de données de localisation, mettant en place un pipeline complet d'extraction de features et d'aggregation de scoring. Cette expérience directe de ML en environnement production à fort enjeu de confiance me donne une compréhension concrète des défis qui attendent un MLOps chez MACIF.
 
-Madame, Monsieur,
+\vspace{0.8em}
+\noindent En parallèle, mon expérience de recherche chez MILA (Montreal Institute Learning Algorithms) m'a instillé la rigueur scientifique et l'approche méthodique indispensables pour valider la robustesse des modèles. Ayant travaillé sur le phénomène de grokking (généralisation tardive extrême) avec tests statistiques rigoureux et visualisations d'interprétabilité, j'ai développé une mentalité d'ingénieur data qui privilégie la compréhension profonde des dynamiques d'apprentissage avant le déploiement. De plus, mes projets en optimisation (Urban Waste Management : TSP solver, réduction de 20\% des coûts opérationnels) et en NLP (Women Safe : détection misogynie multi-langues) m'ont familiarisé avec les cycles itératifs de feature engineering, hyperparameter tuning et A/B testing. Je suis convaincuque cette combinaison de compétences MLOps + rigueur research me permettra de contribuer immédiatement à vos ambitions de data science assurance.
 
-Le passage d'un mod\`ele de Machine Learning du notebook \`a la production soul\`eve des d\'efis d'industrialisation que peu d'organisations ma\^itrisent pleinement. La MACIF, en d\'eployant des syst\`emes de classification documentaire et d'extraction automatique d'information au coeur de ses processus m\'etiers, s'est plac\'ee \`a l'avant-garde de l'IA appliqu\'ee dans le secteur de l'assurance mutualiste. Cette approche, centr\'ee sur la fiabilit\'e et la valeur op\'erationnelle des mod\`eles, correspond directement aux comp\'etences que je d\'eveloppe.
+\vspace{0.8em}
+\noindent Je suis disponible dès septembre 2026 pour une alternance 12 mois, ce qui m'permettra de contribuer significativement aux initiatives data MACIF tout en consolidant mes compétences dans l'écosystème ML réel. Je serais ravi de discuter comment mon expérience INRIA, mes compétences MLOps et ma vision de l'IA responsable peuvent servir vos ambitions de transformation digitale. Merci de considérer ma candidature.
 
-Mon stage de recherche \`a l'INRIA Saclay (\'equipe TRIBE, avril-ao\^ut 2026) me place au c\oe{}ur de probl\'ematiques directement transposables \`a votre besoin : conception d'un pipeline NLP complet sur corpus de 50k+ documents, fine-tuning BERT/Transformers pour la classification de clauses contractuelles avec un gain de +12\% de F1-score, et int\'egration du pipeline dans une infrastructure Docker en Python. La supervision de mod\`eles en production et la gestion de leur cycle de vie sont des axes centraux de cette exp\'erience.
+\vspace{1.5em}
+\noindent Veuillez agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
 
-En parall\`ele, mon travail d'assistant de recherche au MILA (\'et\'e 2025) sur le ph\'enom\`ene de Grokking m'a form\'e \`a une rigueur math\'ematique essentielle pour interpr\'eter le comportement de mod\`eles complexes, comp\'etence cl\'e pour un r\^ole MLOps o\`u l'analyse des d\'erives et l'explicabilit\'e des d\'ecisions sont critiques. Par ailleurs, mon projet Urban Waste Management (1\textsuperscript{er} prix CITS, 75 \'equipes) a d\'emontr\'e ma capacit\'e \`a construire des pipelines de donn\'ees temps r\'eel int\'egrant collecte, pr\'etraitement et inf\'erence.
-
-Je suis disponible d\`es septembre 2026 pour une alternance de 12 mois au sein de votre \'equipe Data \& IA. Fort d'un double dipl\^ome ENSEA/Polytechnique Yaound\'e et d'une exp\'erience construite entre INRIA et MILA, je suis convaincu de pouvoir contribuer concr\`etement \`a la fiabilisation et l'industrialisation de vos syst\`emes d'IA. Je serais heureux d'en discuter lors d'un entretien.
-
-Je reste \`a votre disposition pour un entretien afin de discuter de ma candidature.
-
-Je vous prie d'agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
-
-\vspace{1cm}
-
-\noindent\textbf{Lo\"ic Aron MBASSI EWOLO}
-
+\vspace{2em}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO}
 \end{document}

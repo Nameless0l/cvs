@@ -1,62 +1,50 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{fontawesome5}
-\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{lmodern}
 
-\definecolor{primary}{RGB}{219, 10, 50}
+\definecolor{primary}{RGB}{0, 51, 102}
 \hypersetup{colorlinks=true, urlcolor=primary}
 
 \begin{document}
-
 \noindent
-\begin{minipage}[t]{0.5\textwidth}
-    \textbf{Lo\"ic Aron MBASSI EWOLO}\\
-    \'El\`eve-Ing\'enieur Bac+5 -- Double dipl\^ome ENSEA\\[3pt]
-    \faMapMarker\ Cergy, France\\
-    \faPhone\ (+33) 7 59 52 33 98\\
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.4\textwidth}
-    \raggedleft
-    Cergy, le 21 mars 2026
-\end{minipage}
+\textbf{Lo\"ic Aron MBASSI EWOLO} \\
+ENSEA -- Double Dipl\^ome Ing\'enieur \\
+\href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad (+33) 7 59 52 33 98 \\
+\href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad \href{https://mbassiloic.tech}{mbassiloic.tech}
 
-\vspace{1.2cm}
+\vspace{1em}
+\noindent
+Cergy, le \today
 
-\hfill
-\begin{minipage}[t]{0.5\textwidth}
-    \raggedleft
-    \textbf{HSBC France}\\
-    Service Recrutement\\
-    Courbevoie, France
-\end{minipage}
+\vspace{1em}
+\noindent
+\textbf{Objet : Candidature -- Alternant IA \& Data Science} \\
+\textbf{R\'ef\'erence : Offre d'alternance 12 mois -- HSBC}
 
-\vspace{1cm}
+\vspace{1.5em}
+\noindent Madame, Monsieur,
 
-\noindent\textbf{Objet :} Candidature en alternance -- Ing\'enieur Intelligence Artificielle et Data -- Septembre 2026
+\vspace{0.8em}
+\noindent Banque globale de premier plan, HSBC poursuit une transformation numérique ambitieuse basée sur l'IA générative, la data science et la gestion prédictive de risques. Face aux enjeux de détection fraude, scoring crédit et recommandations produits, votre approche de l'IA comme multiplicateur de valeur pour clients résonne fortement avec ma vision d'une IA responsable et explica-ble. C'est pourquoi je candidats avec enthousiasme pour rejoindre votre équipe en tant qu'Alternant IA et Data Science dès septembre 2026.
 
-\vspace{0.8cm}
+\vspace{0.8em}
+\noindent Depuis avril 2026, je déploie un pipeline NLP complet à l'équipe TRIBE (INRIA Saclay) : fine-tuning BERT sur corpus de politiques de confidentialité, tokenization spécialisée, classification multi-labels pour scoring de conformité RGPD. Cette expérience directe de ML/NLP en environnement production critique m'a permis de maîtriser les enjeux concrets : latence < 100ms par requête, intégrabilité dans systèmes existants, explicabilité pour conformité réglementaire. J'ai notamment approfondi l'analyse de risques de fuite de données (SDKs malveillants), ce qui transpose directement aux problématiques HSBC de détection fraude et évaluation de risques crédit. Mon expertise en scoring probabiliste et en agrégation de risques multiples est immédiatement applicable à vos cas d'usage.
 
-Madame, Monsieur,
+\vspace{0.8em}
+\noindent En parallèle, j'ai conçu un système intelligent de recommandations multi-agents orches-trées par Google ADK : agents Planning, Météo, Marché, Recommandations avec LLM Gemini, RAG enrichie d'APIs externes, résolution de conflits. Cette architecture de recommandations intelligentes (rendement, rentabilité, durabilité) illustre ma capacité à délivrer des systèmes IA complexes et multidimensionnels adaptables à vos contextes bancaires. Ma recherche chez MILA (Montréal) sur la généralisation extrême de réseaux neuronaux m'a formé aux fondations mathématiques du deep learning, essentielles pour valider robustesse de modèles avant déploiement production. Ces trois piliers (NLP production + systèmes recommandation + rigueur research) me positionnent idéalement pour contribuer à vos initiatives de data science chez HSBC.
 
-Les donn\'ees non structur\'ees -- contrats, rapports d'analystes, flux de communication -- repr\'esentent un gisement d'information consid\'erable pour une banque internationale comme HSBC. Leur exploitation par des mod\`eles NLP et ML ouvre des perspectives directes sur la conformit\'e, la gestion des risques et la personalisation client. C'est pr\'ecis\'ement \`a l'interface entre IA et finance internationale que je veux contribuer.
+\vspace{0.8em}
+\noindent Je suis disponible dès septembre 2026 pour une alternance 12 mois, ce qui m'permettra de délivrer des initiatives IA concrètes au service des utilisateurs et des équipes métiers HSBC. Mes expériences en détection d'anomalies, scoring de risques et recommandations intelligentes seront directement transférables aux challengs de votre groupe. Je serais ravi de discuter comment mon expertise NLP production, mes compétences en systèmes recommandation et ma vision d'une IA responsable correspondent à l'ambition data science de HSBC. Merci pour cette opportunité.
 
-Mon stage \`a l'INRIA Saclay (\'equipe TRIBE, avril-ao\^ut 2026) m'a plac\'e directement sur des probl\'ematiques proches de celles d'une banque : analyse de conformit\'e RGPD sur documents contractuels par pipeline NLP (classification + extraction d'entit\'es + scoring de confiance), avec fine-tuning BERT donnant +12\% de F1-score. En parall\`ele, mon exp\'erience en d\'eveloppement backend chez CSC Fintech (Laravel, Redis, Docker, transactions s\'ecuris\'ees) et sur la plateforme SOSDOCTA (RGPD, JWT, 5k+ utilisateurs) t\'emoigne d'une ma\^itrise des contraintes techniques propres aux environnements r\'eglement\'es.
+\vspace{1.5em}
+\noindent Veuillez agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
 
-La dimension internationale de HSBC et son engagement vers la transformation num\'erique globale constituent pour moi un contexte id\'eal pour d\'evelopper des mod\`eles ML robustes sur des donn\'ees h\'et\'erog\`enes et multilingues. Ma formation en math\'ematiques appliqu\'ees \`a l'\'Ecole Polytechnique de Yaound\'e et mon exigence analytique construite au MILA me permettent d'aborder ces d\'efis avec rigueur.
-
-Je suis disponible d\`es septembre 2026 pour une alternance de 12 mois \`a La D\'efense. La combinaison expertise ML/NLP et sensibilit\'e aux contraintes financi\`eres et r\'eglementaires que j'apporte me semble align\'ee avec vos besoins. Je reste disponible pour un entretien.
-
-Je vous prie d'agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
-
-\vspace{1cm}
-
-\noindent\textbf{Lo\"ic Aron MBASSI EWOLO}
-
+\vspace{2em}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO}
 \end{document}

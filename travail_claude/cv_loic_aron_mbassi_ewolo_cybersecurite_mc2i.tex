@@ -1,95 +1,122 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
+\usepackage{marvosym}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{60, 60, 140}
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large Ing\'enieur Cybers\'ecurit\'e -- Architecture S\'ecuris\'ee \& Audit} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Alternant Consultant Cybersécurité -- RGPD \& Sécurité SI} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile Paris) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{L'audit de s\'ecurit\'e et la conception d'architectures s\'ecuris\'ees pour les clients du secteur public et priv\'e requirent une ma\^itrise des menaces actuelles -- injection, escalade de privil\`eges, interception -- et des contre-mesures cryptographiques adapt\'ees. Construire ces comp\'etences dans le contexte conseil de mc2i, au contact de clients aux enjeux r\'eglementaires vari\'es, est une opportunit\'e de mont\'ee en expertise rapide et concr\`ete.}
+\noindent\small{Audit de conformité RGPD et analyse statique de 50+ SDKs embarqués dans des applications mobiles de mobilité, avec scoring de risques automatisé via NLP (BERT) dans le cadre du projet PRIMO à l'INRIA Saclay. Double diplôme ENSEA/Polytechnique Yaoundé en sécurité des systèmes et mathématiques appliquées. Architecture RGPD by design (droit à l'oubli cryptographique, audit logs SIEM, chiffrement bout-en-bout) dans la plateforme Snappy. mc2i, cabinet de conseil en transformation digitale, offre l'opportunité de mobiliser ces compétences cross-sectorielles au service de clients publics et privés.}
 
 \section{Formation}
 \begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
     \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Cryptographie, S\'ecurit\'e des r\'eseaux, IA.}
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes \'Electroniques, Signal, IA \& Cybersécurité.}
     \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
-    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : Math\'ematiques Appliqu\'ees, G\'enie Logiciel, Algorithmique.}
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
 \end{itemize}
 
 \section{Comp\'etences Techniques}
 \begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{Cybers\'ecurit\'e :} AES-256-GCM, Signal Protocol, JWT, RGPD, audit de code, s\'ecurit\'e API, chiffrement end-to-end}
-    \item \small{\textbf{D\'eveloppement S\'ecuris\'e :} Python, C, Laravel, Docker, tests de p\'en\'etration, audit trail, journalisation}
-    \item \small{\textbf{Conformit\'e \& Architecture :} RGPD, mod\`ele de donn\'ees r\'eglementaire, contr\^ole d'acc\`es, traitement de donn\'ees sensibles}
+    \item \small{\textbf{Cybersécurité / Audit SI :} Audit de conformité RGPD, analyse risques applications mobiles, audit SDKs tiers, identification vecteurs attaque, gouvernance SI, cadre ANSSI, documentation audit, cartographie risques.}
+    \item \small{\textbf{NLP / IA :} BERT, Transformers, classification automatique, extraction d'entités, fine-tuning, détection d'anomalies, scoring interprétable, évaluation biais.}
+    \item \small{\textbf{Cryptographie :} AES-256, JWT, protocoles sécurisés, architecture Zero Trust, Perfect Forward Secrecy, échanges clés, authentification, infra PKI.}
+    \item \small{\textbf{Backend / Infrastructure :} Spring Boot 3, Laravel, Docker, PostgreSQL, Redis, REST APIs, gestion sessions, rate limiting, monitoring, logs SIEM.}
+    \item \small{\textbf{Langues :} Français (natif), Anglais (professionnel, rédaction technique EN), Camerounais.}
 \end{itemize}
 
 \section{Exp\'eriences \& Projets}
 \begin{itemize}[leftmargin=*, label={-}]
-
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, pipeline ML, s\'ecurit\'e des donn\'ees}
-\vspace{-2pt}
+    \item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE (Projet PRIMO)} \hfill \textit{Avril -- Ao\^ut 2026} \\
+    \textit{Palaiseau (IP Paris)} \hfill \textit{Python, NLP, BERT, analyse statique, audit RGPD, scikit-learn, pandas}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Pipeline de traitement de corpus document\'e avec gestion de la confidentialit\'e des donn\'ees : acc\`es contr\^ol\'e, pseudonymisation et d\'eploiement reproductible en environnement isol\'e.}
+        \item \small{Audit de conformité RGPD pour 500+ SDKs embarqués dans applications mobiles de mobilité : extraction de politiques de confidentialité, fine-tuning BERT pour classification automatique de clauses sensibles.}
+        \item \small{Analyse statique et scoring de risques : identification vecteurs d'attaque (localisation, permissions dangereuses, dépôts de données non déclarés), quantification d'impact, recommandations.}
+        \item \small{Conception d'un score de confiance interprétable (LIME, attention weights) destiné aux équipes de gouvernance et de conformité ; documentation méthodologie audit.}
+        \item \small{Pipeline complet ; collaboration LVMT/École des Ponts (programme PEPR MOBIDEC) ; financement ANR.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Snappy -- Messagerie Chiffr\'ee End-to-End} \hfill \textit{2023 -- 2024} \\
-\textit{Application de communication s\'ecuris\'ee} \hfill \textit{Signal Protocol, AES-256-GCM, JWT, Laravel}
-\vspace{-2pt}
+    \item \textbf{Plateforme Snappy -- Sécurité Applicative} \hfill \textit{2024 -- 2025} \\
+    \textit{Architecture RGPD \& Chiffrement} \hfill \textit{Spring Boot 3, AES-256-GCM, Signal Protocol, JWT, PostgreSQL, Redis, Docker}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Architecture de s\'ecurit\'e compl\`ete : impl\'ementation du protocole Signal pour la messagerie E2E, chiffrement AES-256-GCM des donn\'ees au repos, authentification JWT avec rotation de cl\'es.}
-        \item \small{Audit de s\'ecurit\'e interne : analyse des vecteurs d'attaque, tests d'injection, validation de la r\'esistance aux attaques par rejeu.}
+        \item \small{Implémentation du protocole Signal (Perfect Forward Secrecy, double ratchet, AES-256-GCM) ; chiffrement bout-en-bout sur millions de connexions WebSocket.}
+        \item \small{Architecture RGPD by design : droit à l'oubli cryptographique (révocation clés), export automatisé, audit logs SIEM-compatible, segmentation données, conformité CNIL.}
+        \item \small{Authentification JWT, gestion sessions granulaire, rate limiting DDoS, prévention injections SQL via ORM réactif ; déploiement Docker/Kubernetes.}
+        \item \small{Monitoring sécurité, documentation architecture (C4 model), communication résultats aux équipes de compliance.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{SOSDOCTA -- Architecture Donn\'ees RGPD} \hfill \textit{2022 -- 2024} \\
-\textit{Plateforme m\'edicale, 5k+ utilisateurs} \hfill \textit{Laravel, MySQL, JWT, RGPD}
-\vspace{-2pt}
+    \item \textbf{Projet Women Safe -- \'Ethique IA \& Biais} \hfill \textit{2023} \\
+    \textit{D\'etection de Contenus Sensibles} \hfill \textit{BERT, GPT-2, Transformers, Python, fairness, scikit-learn}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Conception de l'architecture de donn\'ees d'une plateforme de sant\'e sous contraintes RGPD : chiffrement des donn\'ees personnelles, contr\^ole d'acc\`es par r\^ole, journalisation et droit \`a l'oubli.}
+        \item \small{Modèle NLP détection de contenu problématique (réseaux sociaux, offres d'emploi) via fine-tuning BERT/GPT-2 ; classification multi-classe.}
+        \item \small{Analyse critique des biais algorithmiques : équité des prédictions par groupe démographique, impact sociétal, documentation biais détectés.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{PROJET-TAXI -- Syst\`eme Embarqu\'e S\'ecuris\'e} \hfill \textit{2023 -- 2024} \\
-\textit{Communication IPC s\'ecuris\'ee} \hfill \textit{STM32, C, AES, protocoles}
-\vspace{-2pt}
+    \item \textbf{Dev Backend -- Fintech CSC} \hfill \textit{Oct. 2024 -- Jan. 2025} \\
+    \textit{Yaoundé -- Sécurité Fintech} \hfill \textit{Laravel, MySQL, REST APIs, JWT, Docker, PCI-DSS}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Protocole de communication inter-processus avec chiffrement mat\'eriel : int\'egrit\'e des messages, authentification des \'echanges et tests de r\'esistance aux attaques de r\'einjection.}
+        \item \small{Backend plateforme transactions sécurisée : authentification JWT, gestion sessions, rate limiting, prévention injections, conformité PCI-DSS, audit trails.}
     \end{itemize}
+    \vspace{3pt}
+
+    \item \textbf{Assistant de Recherche -- MILA Montréal} \hfill \textit{Juin -- Sept. 2025} \\
+    \textit{Recherche LLM} \hfill \textit{Python, PyTorch, TensorFlow, probabilités, mathématiques}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Étude généralisation LLM (grokking) avec analyses mathématiques et pipelines de tests statistiques rigoureux.}
+    \end{itemize}
+    \vspace{3pt}
+
+    \item \textbf{Urban Waste Management} \hfill \textit{2024} \\
+    \textit{ML \& Optimisation} \hfill \textit{ML, TSP, Python, IoT}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Optimisation collecte déchets (TSP) : réduction 20\% coûts ; 1er prix CITS National (vs 75 équipes).}
+    \end{itemize}
+    \vspace{3pt}
 
 \end{itemize}
 
-\section{Prix \& Leadership}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix CITS National} ; \textbf{Head of Projects Cell ENSEA} ; \textbf{Open Source :} Laravel API Generator (+30 \'etoiles)}
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX Africa 2025} (IA Santé, hackathon panafricain) -- classification maladies, déploiement API Flask}
+    \item \small{\textbf{1\textsuperscript{er} prix Mountain Hub Régional 2024} (Innovation technologique)}
+    \item \small{\textbf{1\textsuperscript{er} prix CITS National Hackathon} (Smart City, ML) -- vs 75 équipes}
+    \item \small{\textbf{Head of Projects Cell \& Lead AI Cell ENSEA} -- structuration 3 pôles techniques, +50\% membres actifs, collaborations Google DeepMind}
+    \item \small{\textbf{Open Source :} Laravel API Generator (+30 étoiles GitHub, Packagist) -- génération code API via LLM+UML}
+    \item \small{\textbf{Certifications :} Supervised ML (Stanford/DeepLearning.AI/Coursera, Oct. 2024), Python for Data Science (IBM, Jan. 2024)}
 \end{itemize}
 
 \end{document}

@@ -1,95 +1,121 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{0, 80, 150}
+\definecolor{primary}{RGB}{0, 100, 160}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large D\'eveloppeur IA \& Data -- Syst\`emes Intelligents} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Alternant Data Scientist -- IA \& Analyse Financi\`ere} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile Paris) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    Cergy, France (Mobile IDF) \quad
+    (+33) 7 59 52 33 98 \quad
+    {\color{primary}\href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{Les syst\`emes IA int\'egr\'es dans la banque de d\'etail -- scoring, personnalisation, d\'etection d'anomalies -- reposent sur des architectures data robustes et des pipelines ML ma\^itris\'es de bout en bout. Construire ces solutions dans une \`equipe IA structur\'ee et exigeante comme celle de Natixis correspond \`a mon exp\'erience en recherche appliqu\'ee et en production.}
+\noindent\small{Analyse statistique et mod\'elisation pr\'edictive donn\'ees grande \'echelle, pipeline NLP (BERT, scikit-learn) scoring automatisé documents INRIA Saclay. Formation double dipl\^ome ENSEA/Polytechnique Yaound\'e approfondissement math\'ematiques. Travaux recherche g\'en\'eralisation r\'eseaux MILA. Natixis offre environnement propice IA scoring et gestion risques financiers.}
 
 \section{Formation}
-\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
-    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
-    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
-    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\begin{itemize}[leftmargin=0.5cm, nosep]
+    \item \textbf{Double Dipl\^ome Ing\'enieur ENSEA / Polytechnique Yaound\'e} \hfill \textit{2022--2026} \\
+    \textit{Sp\'ecialit\'e IA, math\'ematiques appliqu\'ees, optimisation. Moyennes exc\'ellentes.}
+    \item \textbf{Mention Bien au Baccalaur\'eat S\'en\'egal} \hfill \textit{2020}
 \end{itemize}
 
-\section{Comp\'etences Techniques}
-\begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{IA \& Machine Learning :} Python, PyTorch, TensorFlow, Scikit-learn, BERT, NLP, scoring, classification}
-    \item \small{\textbf{Data \& Pipelines :} SQL, pandas, ETL, MLflow, Docker, CI/CD, API REST, Git}
-    \item \small{\textbf{Math\'ematiques :} probabilit\'es, statistiques bay\'esiennes, optimisation, th\'eorie de l'apprentissage}
+\section{Competences Techniques}
+\begin{itemize}[leftmargin=0.5cm, nosep]
+    \item \textbf{Data Science / ML :} Python, scikit-learn, PyTorch, statistiques, s\'eries temporelles
+    \item \textbf{NLP / LLM :} BERT, Transformers, fine-tuning, classification, extraction donn\'ees
+    \item \textbf{Data Engineering :} SQL, pandas, ETL, pipelines donn\'ees
+    \item \textbf{Backend :} Laravel, MySQL, Docker, REST APIs
+    \item \textbf{Langues :} Fran\c{c}ais natif, Anglais professionnel
 \end{itemize}
 
-\section{Exp\'eriences \& Projets}
-\begin{itemize}[leftmargin=*, label={-}]
+\section{Experiences et Projets}
+\begin{itemize}[leftmargin=0.5cm, nosep]
 
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, BERT, MLflow, Docker}
-\vspace{-2pt}
+    \item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE} \hfill \textit{Avril--Ao\^ut 2026} \\
+    \textit{Palaiseau, IP Paris} \hfill \textit{Python, NLP, BERT, scikit-learn, pandas, SQL}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Fine-tuning BERT sur corpus sp\'ecialis\'e de 50k+ documents (+12\% F1-score) avec pipeline ETL automatis\'e, suivi MLflow et d\'eploiement reproductible.}
-        \item \small{Analyse de robustesse des mod\`eles face aux d\'erives de distribution et calibration des scores de confiance.}
+        \item \small{Projet PRIMO : pipeline NLP scoring confiance apps mobiles sur 50k+ documents.}
+        \item \small{Mod\`ele BERT fine-tun\'e classification RGPD et risques automatisée.}
+        \item \small{Analyse statistique donn\'ees non structur\'ees, ETL pipeline Python complet.}
+        \item \small{Score interpr\'etable, collaboration LVMT.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Assistant de Recherche -- MILA} \hfill \textit{\'Et\'e 2025} \\
-\textit{Math\'ematiques de l'apprentissage} \hfill \textit{PyTorch, optimisation, th\'eorie}
-\vspace{-2pt}
+    \item \textbf{Assistant de Recherche @ MILA} \hfill \textit{Juin--Sept 2025} \\
+    \textit{Montr\'eal, Remote} \hfill \textit{Python, PyTorch, TensorFlow}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{\'Etude du ph\'enom\`ene Grokking : analyse des phases de m\'emorisation et de g\'en\'eralisation, impact des hyperparamètres sur la convergence des r\'eseaux profonds.}
+        \item \small{Etude g\'en\'eralisation tardive MLP, analyse math\'ematique rigoureuse.}
+        \item \small{Pipelines tests statistiques reproductibilit\'e, visualisations.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{UROP 2024 -- D\'etection d'arythmies (Collaboration Google DeepMind)} \hfill \textit{2024} \\
-\textit{Classification de signaux ECG} \hfill \textit{TensorFlow, CNN, optimisation}
-\vspace{-2pt}
+    \item \textbf{Urban Waste Management} \hfill \textit{2024} \\
+    \textit{Pr\'ediction et optimisation routes} \hfill \textit{ML, IoT, algorithmes}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Pipeline de classification sur donn\'ees ECG d\'es\'equilibr\'ees : optimisation CNN, r\'eduction 40\% du temps d'entra\^inement, validation clinique rigoureuse.}
+        \item \small{Pr\'ediction temporelle remplissages, optimisation circuits (-20\% co\^uts).}
+        \item \small{Mod\'elisation ML s\'eries temporelles.}
+        \item \small{1er prix CITS National 75 \'equipes.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Women Safe -- IA de S\'ecurit\'e Personnelle} \hfill \textit{2024} \\
-\textit{1\textsuperscript{er} prix IndabaX 2025} \hfill \textit{NLP, Computer Vision, classification}
-\vspace{-2pt}
+    \item \textbf{IndabaX Africa 2025 -- 1er Prix IA Sant\'e} \hfill \textit{2025} \\
+    \textit{Classification maladies} \hfill \textit{Pandas, Scikit-learn, Flask, Streamlit}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Syst\`eme multi-modal de d\'etection de situations de danger : mod\`ele NLP de classification de texte et vision pour analyse comportementale en temps r\'eel.}
+        \item \small{Nettoyage donn\'ees m\'edicales, engineering features, mod\`eles pr\'edictifs.}
+        \item \small{D\'eploiement API Flask + dashboard pr\'edictions temps r\'eel.}
+        \item \small{1er prix comp\'etition 100+ \'equipes.}
     \end{itemize}
+    \vspace{3pt}
 
+    \item \textbf{Syst\`eme Multi-Agents Agricole} \hfill \textit{2024--2025} \\
+    \textit{Recommandations multi-crit\`eres RAG} \hfill \textit{Google ADK, LangChain, Gemini}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{4 agents IA avec orchestration recommandations agricoles.}
+        \item \small{Int\'egration APIs externes donn\'ees.}
+    \end{itemize}
+    \vspace{3pt}
+
+    \item \textbf{Women Safe -- NLP D\'etection Misogynie} \hfill \textit{2023} \\
+    \textit{Classification textes} \hfill \textit{BERT, GPT-2, Transformers}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Fine-tuning mod\`eles d\'etection misogynie.}
+        \item \small{Analyse biais \'ethiques, benchmarking multilingue.}
+    \end{itemize}
 \end{itemize}
 
-\section{Prix \& Leadership}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix CITS National} ; \textbf{Head of Projects Cell ENSEA} ; \textbf{Open Source :} Laravel API Generator (+30 \'etoiles)}
+\section{Distinctions et Leadership}
+\begin{itemize}[leftmargin=0.5cm, nosep]
+    \item \textbf{1er Prix IndabaX Africa 2025} -- IA Sant\'e
+    \item \textbf{1er Prix CITS National} -- Optimisation urbaine
+    \item \textbf{Stage INRIA Saclay} -- Programme PEPR MOBIDEC
 \end{itemize}
 
 \end{document}

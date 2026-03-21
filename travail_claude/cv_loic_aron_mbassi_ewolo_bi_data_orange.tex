@@ -1,97 +1,124 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
+\usepackage{marvosym}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{255, 100, 0}
+\definecolor{primary}{RGB}{255, 90, 0}
 \definecolor{secondary}{RGB}{80, 80, 80}
+
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large Ing\'enieur BI \& Data Management} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Alternant Business Intelligence -- Data \& Analytique} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile IDF) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{Un op\'erateur t\'el\'ecom de l'envergure d'Orange g\`ere des p\'etaoctets de donn\'ees clients, r\'eseau et usage dont la valorisation analytique n\'ecessite des architectures BI et Data Management robustes. Contribuer \`a la structuration et l'exploitation de ces donn\'ees pour produire des insights d\'ecisionnels -- tout en maintenant la qualit\'e et la gouvernance des donn\'ees -- correspond \`a mon exp\'erience en construction de pipelines de donn\'ees \`a grande \'echelle.}
+\noindent\small{Conception de pipelines de traitement et d'analyse de donn\'ees \`a grande \'echelle (politiques de confidentialit\'e, 50k+ documents) avec scoring automatis\'e dans le cadre du projet PRIMO \`a l'INRIA Saclay. Formation double dipl\^ome ENSEA/Polytechnique Yaound\'e en math\'ematiques appliqu\'ees et algorithmique. Exp\'erience en mod\'elisation pr\'edictive (Urban Waste, MILA) et architecture backend data-intensive (Snappy, CSC Fintech). Orange, premier op\'erateur t\'el\'ecom fran\c{c}ais, expose \`a des volumes massifs de donn\'ees r\'eseau et client pour l'optimisation des services et la pr\'ediction du comportement utilisateur.}
 
 \section{Formation}
 \begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
-    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{ENSEA} \hfill \textit{2025 -- 2027} \\
+    \small{Double dipl\^ome d'Ing\'enieur -- Donn\'ees, Statistiques et Syst\`emes d'Information.}
     \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
-    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, Algorithmique, G\'enie Logiciel.}
 \end{itemize}
 
 \section{Comp\'etences Techniques}
-\begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{Data \& BI :} SQL, Python, pandas, pipelines ETL, data modeling, visualisation, Jupyter, MongoDB}
-    \item \small{\textbf{ML \& Analyse :} Scikit-learn, PyTorch, NLP, statistiques, s\'eries temporelles}
-    \item \small{\textbf{Infrastructure :} Docker, API REST, Laravel, Redis, Git, Linux}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{BI/Data Analysis :} Python, SQL, pandas, Power BI (concepts), Tableau (concepts), ETL pipelines, mod\'elisation de donn\'ees, exploration statistique, scoring.
+    \item \textbf{ML/Pr\'edictif :} scikit-learn, PyTorch, s\'eries temporelles, classification, clustering, optimisation de mod\`eles, validation crois\'ee.
+    \item \textbf{Backend/APIs :} Laravel, Spring Boot 3, MySQL, PostgreSQL, Redis, REST APIs, microservices, architecture DDD.
+    \item \textbf{Architecture Donn\'ees :} Pipelines ETL, RabbitMQ, orchestration services, containerisation Docker, CI/CD.
+    \item \textbf{Langues :} Fran\c{c}ais natif, Anglais professionnel (INRIA, publications scientifiques).
 \end{itemize}
 
 \section{Exp\'eriences \& Projets}
-\begin{itemize}[leftmargin=*, label={-}]
-
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, NLP, pipeline de donn\'ees}
-\vspace{-2pt}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE (Projet PRIMO)} \hfill \textit{Avril-Ao\^ut 2026} \\
+    \textit{Palaiseau (IP Paris)} \hfill \textit{Python, NLP, BERT, Transformers, pandas, scikit-learn}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Construction d'un pipeline de traitement de corpus documentaire (50k+ documents) : extraction, transformation, chargement et analyse qualitative des donn\'ees.}
-        \item \small{Mise en place de m\'etriques de suivi de qualit\'e et de d\'erive de distribution dans le pipeline.}
+        \item \small{Pipeline NLP end-to-end d'analyse de 50k+ politiques de confidentialit\'e mobiles : extraction donn\'ees, tokenization BERT, classification RGPD.}
+        \item \small{Scoring de confiance/transparence interpr\'etable sur applications de mobilit\'e (impact ult\'erieur pour Orange Data Insight).}
+        \item \small{Orchestration Python (scikit-learn, pandas) + Docker; collaboration LVMT/\'Ecole Ponts; programme PEPR MOBIDEC.}
+        \item \small{R\'edaction scientifique EN, code reproductible, notebooks Jupyter, versioning Git.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{SOSDOCTA -- Data Management Plateforme M\'edicale} \hfill \textit{2022 -- 2024} \\
-\textit{Production, 5k+ utilisateurs} \hfill \textit{MySQL, Laravel, Redis, JWT}
-\vspace{-2pt}
+    \item \textbf{Assistant de Recherche @ MILA} \hfill \textit{Juin-Sept 2025} \\
+    \textit{Remote (Universit\'e Montr\'eal)} \hfill \textit{Python, PyTorch, TensorFlow, analyses statistiques}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Conception du mod\`ele de donn\'ees pour une plateforme m\'edicale : gestion des dossiers patients, historiques de consultations, ordonnances et consentements.}
-        \item \small{Optimisation des requ\^etes SQL cr\'etiques r\'eduisant la latence de 200ms \`a 50ms sur les requ\^etes fr\'equentes.}
+        \item \small{Reproduction exp\'eriences SOTA sur ph\'enom\`ene Grokking (g\'en\'eralisation tardive sur MLPs) : pipelines tests, plots, analyses.}
+        \item \small{Travaux de recherche en robustesse/g\'en\'eralisation mod\`eles ML : implication directe pour pr\'ediction.}
+        \item \small{Exploration PyTorch/TensorFlow, math\'ematiques avanc\'ees (alg\`ebre lin\'eaire, probabilit\'es), visualisation r\'esultats.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{GoFind -- Architecture Data Distribu\'ee} \hfill \textit{2024 -- 2025} \\
-\textit{Microservices} \hfill \textit{MongoDB, RabbitMQ, NestJS, Laravel}
-\vspace{-2pt}
+    \item \textbf{Syst\`eme Multi-Agents Agricole -- Recommandations} \hfill \textit{2024-2025} \\
+    \textit{ENSEA} \hfill \textit{Google ADK, RAG, LangChain, Gemini, FastAPI, Docker}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Conception du sch\'ema de donn\'ees distribu\'e (MongoDB) et des flux de messages (RabbitMQ) pour une plateforme microservices avec garanties de coh\'erence.}
+        \item \small{4 agents IA collaboratifs avec enrichissement RAG : r\'etrieval documents, fusion donn\'ees APIs (OpenWeather, marchés).}
+        \item \small{Recommandations multi-crit\`eres (rendement, budget, climat) : fusion donn\'ees h\'et\'erog\`enes pour d\'ecision.}
+        \item \small{D\'eploiement Python (Poetry, FastAPI) + Docker ; orchestration Google ADK + r\'esolution conflits.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Urban Waste Management -- Pipeline IoT} \hfill \textit{2024} \\
-\textit{1\textsuperscript{er} prix CITS} \hfill \textit{IoT, ML, pipeline de donn\'ees temps r\'eel}
-\vspace{-2pt}
+    \item \textbf{Urban Waste Management -- Smart City (1\textsuperscript{er} Prix National)} \hfill \textit{2024} \\
+    \textit{ENSEA} \hfill \textit{ML, IoT, Python, pandas, scikit-learn, optimisation}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Pipeline temps r\'eel de collecte, normalisation et analyse de donn\'ees capteurs IoT avec tableau de bord analytique.}
+        \item \small{Pr\'ediction remplissage capteurs IoT (s\'eries temporelles) : -20\% co\^uts collecte via optimisation TSP.}
+        \item \small{Pipeline ML complet : exploration donn\'ees, feature engineering, validation crois\'ee, d\'eploiement.}
+        \item \small{1\textsuperscript{er} prix CITS National Hackathon (vs 75 \'equipes) ; proposition paper recherche.}
     \end{itemize}
+    \vspace{3pt}
 
+    \item \textbf{Dev Backend CSC -- Fintech/Bancaire} \hfill \textit{Oct 2024-Jan 2025} \\
+    \textit{Yaound\'e} \hfill \textit{Laravel, MySQL, REST APIs, Docker, Redis, CI/CD}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture backend transactions s\'ecuris\'ees : gestion concurrence, scalabilit\'e microservices.}
+        \item \small{APIs RESTful document\'ees (Swagger), CI/CD Git-native, tests automatis\'es; caching Redis.}
+        \item \small{Exp\'erience fondatrice en architectures data-intensive (requ\^etes optimis\'ees, indexation).}
+    \end{itemize}
+    \vspace{3pt}
+
+    \item \textbf{Snappy -- Plateforme Messagerie Enterprise} \hfill \textit{2024-2025} \\
+    \textit{ENSEA} \hfill \textit{Spring WebFlux, PostgreSQL, R2DBC, Redis, Socket.IO, TypeScript}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture r\'eactive (Spring WebFlux + R2DBC) : milliers connexions WebSocket, non-blocking.}
+        \item \small{RAG Gemini Flash/Pro + PostgreSQL vector store : chatbots intelligents, contexte persistant.}
+        \item \small{RGPD by design (encryption, audit logs SIEM) ; data analytics integr\'ee pour utilisateurs.}
+    \end{itemize}
 \end{itemize}
 
-\section{Prix \& Leadership}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix CITS National} (75 \'equipes) ; \textbf{Head of Projects Cell ENSEA}}
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX Africa 2025} (IA Sant\'e) -- API Flask + Streamlit d\'eploy\'es.}
+    \item \small{\textbf{1\textsuperscript{er} prix CITS National Hackathon} (Smart City, ML) -- vs 75 \'equipes.}
+    \item \small{\textbf{Head of Projects Cell \& Lead AI Cell ENSEA} -- +50\% membres actifs, Google DeepMind.}
+    \item \small{\textbf{Certifications :} Supervised ML Stanford/DeepLearning.AI (Oct. 2024), Python for Data Science IBM (Jan. 2024).}
 \end{itemize}
 
 \end{document}

@@ -1,96 +1,124 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{0, 80, 150}
+\definecolor{primary}{RGB}{0, 100, 160}
 \definecolor{secondary}{RGB}{80, 80, 80}
+
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large Ing\'enieur Agentic \& IA G\'en\'erative -- Fullstack} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Alternant Ing\'enieur IA Ag\'entique -- LLM \& RAG} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile IDF) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    [Cergy, France] \quad
+    (+33) 7 59 52 33 98 \quad
+    {\color{primary}\href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}\href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}\href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}\href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{Les architectures agentic bas\'ees sur LLMs permettent de construire des syst\`emes capables de raisonner, planifier et ex\'ecuter des t\^aches complexes avec un minimum d'intervention humaine. Chez Natixis, d\'evelopper une application No Code bas\'ee sur des agents LLM pour automatiser des flux m\'etiers financiers repr\'esente l'une des applications les plus concr\`etes et les plus porteuses de la g\'en\'eration IA actuelle.}
+\noindent\small{Conception et d\'eploiement d'un syst\`eme multi-agents (RAG, LangChain, Google ADK) orchestrant des LLM pour recommandations contextuelles. Formation double dipl\^ome ENSEA/Polytechnique Yaound\'e en IA et math\'ematiques appliqu\'ees. Exp\'erience en recherche IA (INRIA Saclay, MILA Montr\'eal) et NLP (Transformers, BERT, GPT-2). Natixis offre le cadre id\'eal pour d\'eployer des architectures ag\'entiques dans des contextes financiers complexes.}
 
 \section{Formation}
-\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
-    \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, IA.}
-    \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
-    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, G\'enie Logiciel, Algorithmique.}
+\begin{itemize}[leftmargin=0.5cm, nosep]
+    \item \textbf{Double Dipl\^ome Ing\'enieur ENSEA / Polytechnique Yaound\'e} \hfill \textit{2022--2026} \\
+    \textit{Sp\'ecialit\'e IA, math\'ematiques appliqu\'ees, optimisation. Moyennes exc\'ellentes.}
+    \item \textbf{Mention Bien au Baccalaur\'eat S\'en\'egal} \hfill \textit{2020}
 \end{itemize}
 
 \section{Comp\'etences Techniques}
-\begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{IA Agentic \& GenAI :} Python, LangChain, LangGraph, RAG, LLM APIs, agents autonomes, orchestration}
-    \item \small{\textbf{Fullstack :} React/Next.js, FastAPI, Laravel, NestJS, PostgreSQL, Docker, API REST}
-    \item \small{\textbf{ML / NLP :} PyTorch, BERT, Transformers, fine-tuning, embeddings vectoriels}
+\begin{itemize}[leftmargin=0.5cm, nosep]
+    \item \textbf{IA Ag\'entique / LLM :} Google ADK, LangChain, RAG, Gemini, GPT, orchestration d'agents
+    \item \textbf{NLP / Transformers :} BERT, HuggingFace, fine-tuning, classification textes, extraction
+    \item \textbf{MLOps / Backend :} Docker, FastAPI, Poetry, CI/CD, pipelines ML
+    \item \textbf{Data Science / ML :} PyTorch, TensorFlow, scikit-learn, pandas, numpy
+    \item \textbf{Langues :} Fran\c{c}ais natif, Anglais professionnel
 \end{itemize}
 
 \section{Exp\'eriences \& Projets}
-\begin{itemize}[leftmargin=*, label={-}]
+\begin{itemize}[leftmargin=0.5cm, nosep]
 
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, BERT, Transformers, pipeline IA}
-\vspace{-2pt}
+    \item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE} \hfill \textit{Avril--Ao\^ut 2026} \\
+    \textit{Palaiseau, IP Paris} \hfill \textit{Python, NLP, BERT, Transformers, scikit-learn}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{D\'eveloppement d'un pipeline agentic d'analyse de documents RGPD : extraction, classification, scoring automatis\'e et g\'en\'eration de rapports de conformit\'e.}
+        \item \small{Projet PRIMO : pipeline NLP analysant confiance/transparence apps mobiles sur 50k+ documents politiques de confidentialit\'e.}
+        \item \small{Mod\`ele BERT fine-tun\'e pour scoring automatisé conformit\'e RGPD et classification risques fuite donn\'ees.}
+        \item \small{Int\'egration analyse statique SDKs embarqu\'es, identification SDK tiers et risques localisation.}
+        \item \small{Pipeline Python complet (scikit-learn, pandas), score confiance interpr\'etable.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Snappy -- RAG \& Messagerie Agentic} \hfill \textit{2025} \\
-\textit{Projet Open Source} \hfill \textit{Spring WebFlux, RAG, Socket.IO, Redis}
-\vspace{-2pt}
+    \item \textbf{Syst\`eme Multi-Agents Agricole -- Architecture RAG} \hfill \textit{2024--2025} \\
+    \textit{Orchestration agents collaboratifs} \hfill \textit{Google ADK, LangChain, Gemini, FastAPI, Docker}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Architecture agentic pour la recherche s\'emantique et la g\'en\'eration de r\'eponses contextualis\'ees dans une messagerie temps r\'eel via RAG et LLM.}
-        \item \small{Impl\'ementation d'un agent de r\'esumé automatique d'historiques de conversations longs.}
+        \item \small{Conception 4 agents IA collaboratifs via Google ADK, Gemini comme moteur LLM principal.}
+        \item \small{Int\'egration RAG pour enrichissement contextuel recommandations multi-crit\`eres.}
+        \item \small{Connexion APIs externes (OpenWeather, march\'es agricoles), recommandations personnalis\'ees.}
+        \item \small{D\'eploiement production : FastAPI backend, conteneurisation Docker.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{Laravel API Generator -- LLM as Code Synthesizer} \hfill \textit{2024 -- 2025} \\
-\textit{+30 \'etoiles GitHub, packagist} \hfill \textit{Laravel, LLM, UML, automatisation}
-\vspace{-2pt}
+    \item \textbf{Assistant de Recherche @ MILA} \hfill \textit{Juin--Sept 2025} \\
+    \textit{Montr\'eal, Remote} \hfill \textit{Python, PyTorch, TensorFlow, math\'ematiques}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Syst\`eme agentic de g\'en\'eration de code : lecture d'UML, planification de la structure API, g\'en\'eration de code PHP structur\'e via LLM, tests automatis\'es.}
+        \item \small{Etude ph\'enom\`ene "Grokking" : g\'en\'eralisation tardive MLP apr\`es surapprentissage.}
+        \item \small{Reproduction exp\'eriences state-of-the-art PyTorch, analyse math\'ematique convergence.}
+        \item \small{Pipelines tests statistiques, visualisations dynamiques, documentation rigoureuse.}
     \end{itemize}
-\vspace{3pt}
+    \vspace{3pt}
 
-\item \textbf{GoFind -- Architecture Fullstack Microservices} \hfill \textit{2024 -- 2025} \\
-\textit{Production} \hfill \textit{Laravel, NestJS, MongoDB, Next.js, Docker}
-\vspace{-2pt}
+    \item \textbf{Women Safe -- NLP D\'etection Misogynie} \hfill \textit{2023} \\
+    \textit{Classification textuelle, fine-tuning} \hfill \textit{BERT, GPT-2, Transformers}
+    \vspace{-2pt}
     \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Plateforme fullstack compl\`ete (frontend Next.js, backend microservices, messaging RabbitMQ) livr\'ee en production.}
+        \item \small{Fine-tuning Transformers pour d\'etection misogynie textes r\'eseaux sociaux et offres.}
+        \item \small{Analyse biais \'ethiques mod\`eles, interpr\'etabilit\'e, benchmarking corpus multilingues.}
     \end{itemize}
+    \vspace{3pt}
 
+    \item \textbf{YembaAudio -- Apprentissage Langue Africaine} \hfill \textit{2025} \\
+    \textit{Application web NLP faible ressource} \hfill \textit{NLP, Speech Recognition, TensorFlow}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Fine-tuning mod\`ele HuggingFace reconnaissance vocale Yemba (langue peu dot\'ee).}
+        \item \small{Pipeline end-to-end : collecte audio, nettoyage annotations, entra\'inement TensorFlow.}
+        \item \small{D\'eploiement app web interactive apprentissage vocabulaire et prononciation.}
+    \end{itemize}
+    \vspace{3pt}
+
+    \item \textbf{IndabaX Africa 2025 -- 1er Prix IA Sant\'e} \hfill \textit{2025} \\
+    \textit{Classification maladies donn\'ees d\'esequilibr\'ees} \hfill \textit{Python, Pandas, Scikit-learn}
+    \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Nettoyage donn\'ees m\'edicales d\'esequilibr\'ees, engineering features pour pr\'ediction.}
+        \item \small{D\'eploiement Flask + dashboard Streamlit pour pr\'edictions temps r\'eel.}
+        \item \small{1er prix comp\'etition sur 100+ \'equipes, reconnaissance expertise ML appliqu\'e sant\'e.}
+    \end{itemize}
 \end{itemize}
 
-\section{Prix \& Leadership}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix IndabaX 2025} ; \textbf{1\textsuperscript{er} prix Mountain Hub 2024} ; \textbf{Lead AI Cell ENSEA}}
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=0.5cm, nosep]
+    \item \textbf{1er Prix IndabaX Africa 2025} -- IA pour la Sant\'e
+    \item \textbf{Stage INRIA Saclay} -- Programme PEPR MOBIDEC
+    \item \textbf{Collaborations} -- LVMT, \'Ecole des Ponts, MILA Montr\'eal
 \end{itemize}
 
 \end{document}

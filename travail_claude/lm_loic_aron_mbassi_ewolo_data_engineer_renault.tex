@@ -1,62 +1,44 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{fontawesome5}
-\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{lmodern}
 
-\definecolor{primary}{RGB}{200, 150, 0}
+\definecolor{primary}{RGB}{200, 0, 30}
 \hypersetup{colorlinks=true, urlcolor=primary}
 
 \begin{document}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO} \\
+ENSEA -- Double Dipl\^ome Ing\'enieur \\
+\href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad (+33) 7 59 52 33 98
 
-\noindent
-\begin{minipage}[t]{0.5\textwidth}
-    \textbf{Lo\"ic Aron MBASSI EWOLO}\\
-    \'El\`eve-Ing\'enieur Bac+5 -- Double dipl\^ome ENSEA\\[3pt]
-    \faMapMarker\ Cergy, France\\
-    \faPhone\ (+33) 7 59 52 33 98\\
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.4\textwidth}
-    \raggedleft
-    Cergy, le 21 mars 2026
-\end{minipage}
+\vspace{1em}
+\noindent Cergy, le \today
 
-\vspace{1.2cm}
+\vspace{1em}
+\noindent \textbf{Objet : Candidature -- Alternant Data Engineer -- Pipelines \& Architecture Donn\'ees}
 
-\hfill
-\begin{minipage}[t]{0.5\textwidth}
-    \raggedleft
-    \textbf{Renault Digital}\\
-    Service Recrutement\\
-    Boulogne-Billancourt, France
-\end{minipage}
+\vspace{1.5em}
+\noindent Madame, Monsieur,
 
-\vspace{1cm}
+\vspace{0.8em}
+\noindent En alternance d\`es septembre 2026, j'apporte expertise data engineering/architecture \`a Renault Digital. Formation double dipl\^ome ENSEA/Polytechnique Yaound\'e (math\'ematiques appliqu\'ees, g\'enie logiciel). Volum\'etries v\'ehicule/IoT Renault (capteurs, connectivit\'e) alignées directement avec mon exp\'erience pipelines massives et architectures distribuées.
 
-\noindent\textbf{Objet :} Candidature en alternance -- Data Engineer -- Septembre 2026
+\vspace{0.8em}
+\noindent \`a l'INRIA Saclay (TRIBE, projet PRIMO), construction pipeline Python end-to-end de traitement 50k+ documents textuels massifs : extraction, nettoyage, normalization, enrichissement NLP (BERT, Transformers), scoring confiance. Orchestration pandas + scikit-learn + transformers library, containerisation Docker, versioning Git reproducible. Cette exp\'erience directe (IP Paris, programme PEPR MOBIDEC) d\'emontre ma ma\^itrise pipelines data-intensive \`a grande \'echelle, fondamental pour volum\'etries v\'ehicule Renault.
 
-\vspace{0.8cm}
+\vspace{0.8em}
+\noindent Snappy (2024-2025) : architecture event-driven microservices avec RabbitMQ (messaging async), CQRS patterns, Event Sourcing. Persistance haute-perf : PostgreSQL (mod\'elisation relationnelle, indexation), R2DBC driver async, Redis cache distribu\'e, transactions ACID. GoFind (2024) : architecture microservices complète (MongoDB, RabbitMQ async), API Gateway, orchestration Docker Compose, scalabilit\'e. Urban Waste (1\textsuperscript{er} prix CITS vs 75 \'equipes) : pipeline IoT data ingestion/nettoyage/feature engineering (pandas, scikit-learn), pr\'ediction s\'eries temporelles, optimisation TSP.
 
-Madame, Monsieur,
+\vspace{0.8em}
+\noindent Dev Backend CSC Fintech (Oct 2024-Jan 2025) : architecture backend transactions concurrentes, mod\'elisation MySQL, indexation perf, Redis caching, APIs RESTful doc\'ees, CI/CD. Ces projets prouvent expertise complète data engineering : pipelines massives, mod\'elisation bases données, architecture event-driven, microservices distribu\'es. Je suis disponible d\`es septembre 2026, mobile IDF, motiv\'e par data v\'ehicule/IoT Renault Digital. Accepteriez-vous entretien pour explorer contribution pipelines donn\'ees d\`es novembre?
 
-Renault Digital, en centralisant la transformation num\'erique du Groupe Renault sur une stack GCP int\'egr\'ee, cr\'ee l'une des plateformes data automobiles les plus avanc\'ees d'Europe. Impl\'ementer les cha\^ines de traitement de donn\'ees r\'epondant aux besoins m\'etiers d'une telle organisation -- v\'ehicules connect\'es, production, clients -- repr\'esente un d\'efi de Data Engineering \`a forte complexit\'e technique.
-
-Mon exp\'erience sur GoFind (2024-2025) est l'illustration la plus directe de mes comp\'etences Data Engineer : conception d'un pipeline distribu\'e avec RabbitMQ pour le messaging asynchrone, MongoDB pour le stockage polyvalent, Docker Compose pour l'orchestration. Le projet Freengo (SpringBoot, ScyllaDB) m'a confront\'e aux d\'efis de traitement de donn\'ees g\'eospatiales en temps r\'eel, probl\'ematique directement analogue aux donn\'ees de fl\'otte v\'ehicule connect\'ee. Mon stage \`a l'INRIA Saclay (avril-ao\^ut 2026) ajoute la dimension ETL de corpus volumin\'eux (50k+ documents) avec optimisation du pipeline de +60\% de performance.
-
-Les partenariats GCP de Renault Digital (Dataflow, BigQuery, Pub/Sub) correspondent \`a des technologies que je monte en comp\'etence, avec une base solide en architectures distribu\'ees et pipelines de donn\'ees. Ma formation en math\'ematiques appliqu\'ees \`a Polytechnique Yaound\'e me donne les fondements analytiques pour comprendre les besoins m\'etiers et proposer des solutions de mod\'elisation adapt\'ees.
-
-Je suis disponible d\`es septembre 2026 pour cette alternance de 12 mois \`a Boulogne-Billancourt. Construire les pipelines data strat\'egiques de Renault Digital sur GCP est un objectif technique ambitieux que j'aborde avec les comp\'etences et la motivation n\'ecessaires. Je reste disponible pour un entretien.
-
-Je vous prie d'agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
-
-\vspace{1cm}
-
-\noindent\textbf{Lo\"ic Aron MBASSI EWOLO}
-
+\vspace{1.5em}
+\noindent Veuillez agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
+\vspace{2em}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO}
 \end{document}

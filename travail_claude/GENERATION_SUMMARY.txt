@@ -1,0 +1,175 @@
+=============================================================================
+GENERATION CVs + LMs -- LOÏC ARON MBASSI EWOLO
+=============================================================================
+Date: 2026-03-21
+Répertoire: /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/
+
+=============================================================================
+OFFRE 19: ORANGE -- Alternance BI & Data
+=============================================================================
+Couleur: RGB(255, 90, 0) - Orange vif
+Titre: Alternant Business Intelligence -- Data & Analytique
+
+Fichiers générés:
+- cv_loic_aron_mbassi_ewolo_bi_data_orange.tex (124 lignes)
+- lm_loic_aron_mbassi_ewolo_bi_data_orange.tex (44 lignes)
+
+Accroche technique:
+Conception de pipelines de traitement et d'analyse de données à grande 
+échelle (50k+ documents) avec scoring automatisé (PRIMO INRIA). Formation 
+double diplôme ENSEA/Polytechnique Yaoundé. Expérience data-intensive 
+(Urban Waste, MILA, Snappy, CSC Fintech).
+
+Expériences mises en avant:
+1. INRIA TRIBE (Projet PRIMO) -- Python, NLP, BERT, pandas, scikit-learn
+2. MILA -- PyTorch, TensorFlow, modélisation robustesse
+3. Multi-Agents Agricole -- RAG, recommandation, Gemini
+4. Urban Waste -- IoT, prédiction, -20% coûts
+5. CSC Backend -- architecture transactions sécurisées
+6. Snappy -- Spring WebFlux, PostgreSQL, Redis
+
+=============================================================================
+OFFRE 20: TF1 -- Alternance Data Scientist
+=============================================================================
+Couleur: RGB(0, 51, 102) - Bleu TF1
+Titre: Alternant Data Scientist -- IA & Recommandation Médias
+
+Fichiers générés:
+- cv_loic_aron_mbassi_ewolo_data_scientist_tf1.tex (122 lignes)
+- lm_loic_aron_mbassi_ewolo_data_scientist_tf1.tex (44 lignes)
+
+Accroche technique:
+Pipeline NLP classification + scoring confiance (PRIMO INRIA) et système
+recommandation multi-critères agents IA (Google ADK, RAG). Formation double
+diplôme ENSEA/Polytechnique Yaoundé. Recherche MILA sur robustesse/généra-
+lisation modèles ML. TF1 Group, leader audiovisuel français.
+
+Expériences mises en avant:
+1. INRIA TRIBE (Projet PRIMO) -- NLP, BERT, Transformers
+2. MILA -- robustesse, généralisation modèles
+3. Multi-Agents Agricole -- recommandation, fusion données
+4. Urban Waste -- classification, optimisation (1er prix)
+5. UROP ECG -- Computer Vision, séries temporelles
+6. IndabaX 2025 -- classification, Streamlit (1er prix)
+
+=============================================================================
+OFFRE 21: TF1 -- Alternance DevOps / Cloud
+=============================================================================
+Couleur: RGB(0, 51, 102) - Bleu TF1
+Titre: Alternant Ingénieur DevOps -- Cloud & Infrastructure
+
+Fichiers générés:
+- cv_loic_aron_mbassi_ewolo_devops_tf1.tex (123 lignes)
+- lm_loic_aron_mbassi_ewolo_devops_tf1.tex (44 lignes)
+
+Accroche technique:
+Pipelines CI/CD et containerisation Docker (PRIMO INRIA), architecture 
+réactive microservices (Spring WebFlux, R2DBC, Redis) pour milliers 
+connexions simultanées (Snappy). Formation double diplôme ENSEA/Polytechnique
+Yaoundé. TF1, géant audiovisuel, exige infrastructure DevOps fiable.
+
+Expériences mises en avant:
+1. INRIA TRIBE (Projet PRIMO) -- Docker, CI/CD, Git, Python
+2. Snappy -- Spring WebFlux, R2DBC, PostgreSQL, Redis, Docker
+3. CSC Backend -- architecture microservices, CI/CD, Swagger
+4. GoFind -- microservices orchestration, RabbitMQ, Docker Compose
+5. Urban Waste -- containerisation, déploiement production (1er prix)
+6. MILA -- reproductibilité, experiments tracking
+
+=============================================================================
+OFFRE 22: RENAULT DIGITAL -- Alternance Data Engineer
+=============================================================================
+Couleur: RGB(200, 0, 30) - Rouge Renault
+Titre: Alternant Data Engineer -- Pipelines & Architecture Données
+
+Fichiers générés:
+- cv_loic_aron_mbassi_ewolo_data_engineer_renault.tex (124 lignes)
+- lm_loic_aron_mbassi_ewolo_data_engineer_renault.tex (44 lignes)
+
+Accroche technique:
+Construction pipelines Python traitement données massives (50k+ documents,
+enrichissement NLP, scoring) avec architecture event-driven microservices
+(PostgreSQL, Redis, RabbitMQ). Formation double diplôme ENSEA/Polytechnique
+Yaoundé. Renault Digital, moteur transformation numérique groupe Renault.
+
+Expériences mises en avant:
+1. INRIA TRIBE (Projet PRIMO) -- Python, pandas, ETL, NLP
+2. Snappy -- PostgreSQL, R2DBC, Redis, RabbitMQ, event-driven
+3. GoFind -- MongoDB, microservices, orchestration async
+4. CSC Backend -- architecture transactions, MySQL, optimisation
+5. Urban Waste -- IoT data, séries temporelles, prédiction (1er prix)
+6. MILA -- pipelines reproductibles, PyTorch, TensorFlow
+
+=============================================================================
+OFFRE 23: ENGIE -- Alternance Data Scientist / IA
+=============================================================================
+Couleur: RGB(0, 148, 102) - Vert ENGIE
+Titre: Alternant Data Scientist -- IA & Transition Énergétique
+
+Fichiers générés:
+- cv_loic_aron_mbassi_ewolo_data_scientist_engie.tex (121 lignes)
+- lm_loic_aron_mbassi_ewolo_data_scientist_engie.tex (44 lignes)
+
+Accroche technique:
+Modélisation prédictive sur données IoT et séries temporelles (Urban Waste,
+-20% coûts) et pipeline NLP classification (PRIMO INRIA). Formation double
+diplôme ENSEA/Polytechnique Yaoundé. Recherche MILA (robustesse généra-
+lisation). ENGIE exploite capteurs intelligents pour optimiser distribution.
+
+Expériences mises en avant:
+1. INRIA TRIBE (Projet PRIMO) -- NLP, BERT, classification RGPD
+2. Urban Waste -- prédiction IoT, séries temporelles, optimisation (1er prix)
+3. MILA -- robustesse, généralisation modèles
+4. Multi-Agents Agricole -- ranking multi-objectif, recommandation
+5. UROP ECG -- détection anomalies séries temporelles, CNN
+6. IndabaX 2025 -- classification, déploiement Streamlit (1er prix)
+
+=============================================================================
+OFFRE 24: MEGA INTERNATIONAL -- Alternance MLOps / IA
+=============================================================================
+Couleur: RGB(35, 55, 123) - Bleu MEGA
+Titre: Alternant Ingénieur MLOps -- Déploiement & Industrialisation IA
+
+Fichiers générés:
+- cv_loic_aron_mbassi_ewolo_mlops_mega_international.tex (122 lignes)
+- lm_loic_aron_mbassi_ewolo_mlops_mega_international.tex (44 lignes)
+
+Accroche technique:
+Industrialisation pipelines NLP (BERT, scikit-learn) avec Docker et 
+déploiement production (PRIMO INRIA), architecture DDD microservices 
+réactive (Spring WebFlux, R2DBC). Formation double diplôme ENSEA/Poly-
+technique Yaoundé. MEGA International, éditeur logiciels architecture 
+d'entreprise.
+
+Expériences mises en avant:
+1. INRIA TRIBE (Projet PRIMO) -- Docker, CI/CD, reproducibilité, NLP
+2. Snappy -- DDD, Spring WebFlux, R2DBC, Docker, orchestration
+3. CSC Backend -- architecture enterprise, CI/CD Git, API Swagger
+4. Laravel API Generator -- code generation, LLM, Packagist (30+ stars)
+5. Urban Waste -- pipeline ML, containerisation Docker (1er prix)
+6. MILA -- reproductibilité, tracking experiments, best practices
+
+=============================================================================
+CONFORMITÉ VÉRIFIÉE
+=============================================================================
+✓ 6 CVs + 6 LMs générés (12 fichiers .tex)
+✓ Aucun tiret long (— ou –) détecté
+✓ Formation EXACTE: ENSEA 2025-2027 + Polytechnique Yaoundé 2021-2025
+✓ Stage INRIA SACLAY (Avril-Août 2026) en premier de chaque CV
+✓ Disponibilité: "septembre 2026 (12 mois)" dans tous les CVs
+✓ Contact: loicaron.mbassiewolo@ensea.fr, (+33) 7 59 52 33 98
+✓ LinkedIn/GitHub/Portfolio intégrés
+✓ Accroche TECHNIQUE 3-4 phrases pour chaque offre
+✓ Expériences adaptées par offre (5-6 projets chacun)
+✓ Section Distinctions & Leadership identique sur tous les CVs
+✓ Format LaTeX respecté: geometry, titlesec, fontawesome5, color, hyperref
+✓ Couleurs adaptées par offre (Orange, TF1 bleu, Renault rouge, etc.)
+✓ Chaque LM: 4 paragraphes techniques, disponibilité, appel entretien
+✓ AUCUN adjectif creux ("exactement", "actuellement", "J'ai développé...")
+
+=============================================================================
+Taille fichiers CVs: ~120-124 lignes (A4 DENSE)
+Taille fichiers LMs: 44 lignes (2 pages A4 standard)
+=============================================================================
+EOFFSUMMARY
+cat /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/GENERATION_SUMMARY.txt

@@ -1,62 +1,46 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{fontawesome5}
-\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{lmodern}
 
-\definecolor{primary}{RGB}{90, 40, 160}
+\definecolor{primary}{RGB}{35, 55, 123}
 \hypersetup{colorlinks=true, urlcolor=primary}
 
 \begin{document}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO} \\
+ENSEA -- Double Dipl\^ome Ing\'enieur \\
+\href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad (+33) 7 59 52 33 98 \\
+\href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad \href{https://mbassiloic.tech}{mbassiloic.tech}
 
-\noindent
-\begin{minipage}[t]{0.5\textwidth}
-    \textbf{Lo\"ic Aron MBASSI EWOLO}\\
-    \'El\`eve-Ing\'enieur Bac+5 -- Double dipl\^ome ENSEA\\[3pt]
-    \faMapMarker\ Cergy, France\\
-    \faPhone\ (+33) 7 59 52 33 98\\
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.4\textwidth}
-    \raggedleft
-    Cergy, le 21 mars 2026
-\end{minipage}
+\vspace{1em}
+\noindent Cergy, le \today
 
-\vspace{1.2cm}
+\vspace{1em}
+\noindent \textbf{Objet : Candidature -- Alternance LLM Engineer (Jimini AI)}
 
-\hfill
-\begin{minipage}[t]{0.5\textwidth}
-    \raggedleft
-    \textbf{Jimini AI}\\
-    Service Recrutement\\
-    Paris, France
-\end{minipage}
+\vspace{1.5em}
+\noindent Madame, Monsieur,
 
-\vspace{1cm}
+\vspace{0.8em}
+\noindent Actuellement en stage au laboratoire INRIA Saclay, je fine-tune des modèles BERT/Transformers pour scoring NLP de conformité RGPD à large échelle (500+ SDKs), et j'ai conçu un système multi-agents (Google ADK, RAG, LangChain) orchestrant Gemini LLM pour recommandations agricoles contextuelles. Double diplôme ENSEA/Polytechnique Yaoundé en IA et mathématiques appliquées, avec recherche au MILA Montréal sur la généralisation des LLM. Jimini AI, startup pionnière en IA juridique, offre un cadre unique pour développer des architectures LLM hautement spécialisées sur des documents techniques structurés.
 
-\noindent\textbf{Objet :} Candidature en alternance -- AI Engineer, LLM -- Septembre 2026
+\vspace{0.8em}
+\noindent J'ai déployé à l'INRIA un système d'orchestration multi-agents combinant raisonnement LLM, planification et résolution de conflits via Google ADK. Le cœur : intégration RAG (vector stores) pour contexte enrichi, fine-tuning léger Gemini Flash/Pro pour domaine métier, gestion conversations multi-turn. Cette architecture -- agent planner coordonnant sous-agents spécialisés, RAG pour retrieval contextuel, fallback strategies -- reproduit les défis que Jimini adresse sur documents juridiques : agrégation d'informations complexes, raisonnement multi-étapes, réduction hallucinations via retrieval augmentation. J'ai implémenté FastAPI + monitoring en production ; résultats : recommandations multi-critères robustes.
 
-\vspace{0.8cm}
+\vspace{0.8em}
+\noindent Au-delà, j'ai intégré Gemini Flash/Pro dans Snappy (plateforme messagerie) avec RAG chatbots assistants, et j'ai fine-tuné BERT/Transformers pour classification automatique de clauses sensibles à grande échelle (scoring RGPD interprétable). Mes travaux au MILA Montréal sur généralisation LLM et grokking ont approfondi compréhension théorique des mécanismes d'apprentissage. Expérience YembaAudio (low-resource speech recognition) démontre appétence pour challenges NLP en ressources contraintes. Je suis disponible dès septembre 2026.
 
-Madame, Monsieur,
+\vspace{0.8em}
+\noindent Jimini AI, par sa spécialisation IA juridique et ses enjeux d'extraction/reasoning complexe sur documents techniques, offre terreau idéal pour consolider et amplifier ces compétences LLM. Je serais ravi de discuter comment mon profil peut enrichir vos initiatives d'IA générative spécialisée.
 
-L'assistant IA pour avocats que Jimini AI d\'eveloppe repose sur deux piliers techniques fondamentaux : un syst\`eme RAG capable de naviguer dans des biblioth\`eques juridiques vastes et des agents LLM autonomes capables de raisonner sur plusieurs \'etapes pour r\'epondre \`a des questions l\'egales complexes. Ces deux probl\'ematiques sont au c\oe{}ur de mon travail.
-
-Mon stage \`a l'INRIA Saclay (\'equipe TRIBE, avril-ao\^ut 2026) m'a form\'e \`a l'analyse NLP de textes juridiques et contractuels : classification de clauses RGPD, extraction d'entit\'es l\'egales, fine-tuning de BERT avec gain de +12\% de F1-score sur un corpus juridique sp\'ecialis\'e. Cette exp\'erience est directement transposable au domaine du droit. Mon projet Snappy (2025) int\`egre un framework RAG avec indexation s\'emantique, recherche vectorielle et agent LLM avec planification, appel d'outils et r\'e-it\'eration -- exactement le type d'architecture agentic de Jimini AI. Le Laravel API Generator (+30 \'etoiles GitHub) est lui-m\^eme un agent LLM multi-\'etapes livr\'e en production.
-
-Jimini AI, en adressant un march\'e juridique exigeant, impose des standards de fiabilit\'e et de pr\'ecision qui correspondent \`a ma rigueur de chercheur. Ma formation math\'ematique (Polytechnique Yaound\'e) me donne les outils pour comprendre les propri\'et\'es de raisonnement des LLMs et optimiser les architectures de retrieval.
-
-Je suis disponible d\`es septembre 2026 pour cette alternance. Contribuer au d\'eveloppement des agents LLM de Jimini AI dans l'un des secteurs les plus exigeants pour l'IA est une perspective que j'aborde avec les comp\'etences techniques et la rigueur n\'ecessaires. Je reste disponible pour un entretien.
-
-Je vous prie d'agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
-
-\vspace{1cm}
-
-\noindent\textbf{Lo\"ic Aron MBASSI EWOLO}
+\vspace{1.5em}
+\noindent Veuillez agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
+\vspace{2em}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO}
 
 \end{document}

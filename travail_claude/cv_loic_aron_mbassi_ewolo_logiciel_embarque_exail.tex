@@ -1,95 +1,124 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
+\usepackage{marvosym}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{20, 60, 110}
+\definecolor{primary}{RGB}{0, 51, 102}
+\definecolor{secondary}{RGB}{80, 80, 80}
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large Ing\'enieur D\'eveloppement Logiciel Embarqu\'e} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Alternant Ing\'enieur Logiciel Embarqu\'e -- C/C++ \& Syst\`emes Temps R\'eel} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile Saint-Germain-en-Laye) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{Les syst\`emes de navigation et de positionnement inertiel -- inertiels, GNSS, sous-marins -- requi\`erent des logiciels embarqu\'es \`a la fois performants et hautement fiables, d\'evelopp\'es avec des processus rigoureux de validation. Exail, leader europ\'een de la navigation de haute pr\'ecision, met en oeuvre ces exigences dans des domaines critiques o\`u chaque micro-seconde compte. C'est ce niveau de rigueur technique que je cherche \`a atteindre en alternance.}
+\noindent\small{D\'eveloppement logiciel embarqu\'e C/C++ temps r\'eel pour syst\`emes critiques (STM32, ARM, FPGA), avec maîtrise des protocoles bas niveau (I2C, SPI, UART), architecture microcontr\^oleur et validation oscilloscope. Formation double dipl\^ome ENSEA/Polytechnique Yaound\'e, sp\'ecialit\'e syst\`emes embarqu\'es \'electronique. Stage INRIA en cours sur pipeline logiciel avanc\'e.}
 
 \section{Formation}
 \begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
     \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- \textbf{Syst\`emes Embarqu\'es}, Traitement du signal, Temps r\'eel, IA.}
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es \& \'Electronique Temps R\'eel.}
     \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
-    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : Math\'ematiques Appliqu\'ees, G\'enie Logiciel, Algorithmique.}
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, Algorithmique, G\'enie Logiciel, mention Tr\`es Bien.}
 \end{itemize}
 
 \section{Comp\'etences Techniques}
 \begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{Embarqu\'e :} C, C++, Python, STM32, Arduino, Raspberry Pi, Nvidia Jetson, FreeRTOS, DMA, interruptions}
-    \item \small{\textbf{Communication \& Protocoles :} SPI, I2C, UART, CAN, BLE, MQTT, communication temps r\'eel}
-    \item \small{\textbf{Qualit\'e Logicielle :} Docker, Git, CI/CD, tests unitaires, tests d'int\'egration, documentation technique}
+    \item \small{\textbf{Logiciel Embarqu\'e :} C/C++, STM32, ARM, Microcontr\^oleurs, OS Temps R\'eel (QNX, FreeRTOS), POSIX, Linux Embarqu\'e, Syst\`emes Critiques.}
+    \item \small{\textbf{Protocoles/Hardware :} I2C, SPI, UART, CAN, Capteurs (Acc\'el\'erom\`etres, Gyroscopes, Flex), JTAG Debug, Oscilloscope, Soudure, Prototypage.}
+    \item \small{\textbf{Architecture Logicielle :} Tests Unitaires (GoogleTest, CppUnit), TDD, Intégration Continue (Git, CI/CD), Documentation Code, Qualité.}
+    \item \small{\textbf{FPGA/RTL :} VHDL, Quartus, Nios V, Simulation Comportementale, Synth\`ese, Debug JTAG, Architecture Microcontr\^oleur.}
+    \item \small{\textbf{Langues :} Fran\c{c}ais natif, Anglais technique professionnel, Notions allemand.}
 \end{itemize}
 
 \section{Exp\'eriences \& Projets}
 \begin{itemize}[leftmargin=*, label={-}]
-
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, pipeline ML, Docker, tests automatis\'es}
-\vspace{-2pt}
-    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Pipeline de traitement automatis\'e de 50k+ documents avec tests d'int\'egration, d\'eploiement reproductible et suivi des m\'etriques de performance.}
-    \end{itemize}
-\vspace{3pt}
-
-\item \textbf{PROJET-TAXI -- Syst\`eme Embarqu\'e Temps R\'eel} \hfill \textit{2023 -- 2024} \\
-\textit{Communication IPC sur STM32} \hfill \textit{STM32, C, FreeRTOS, protocoles s\'erie}
-\vspace{-2pt}
-    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Conception et impl\'ementation d'un syst\`eme de communication inter-processus temps r\'eel sur STM32 : gestion des interruptions, DMA, s\'erialisation des messages et tests de charge.}
-        \item \small{S\'ecurit\'e des communications : chiffrement AES-256-GCM, authentification des \'echanges et validation par tests d'int\'egrit\'e automatis\'es.}
-    \end{itemize}
-\vspace{3pt}
-
-\item \textbf{Upgrade Nvidia Jetson -- Optimisation Syst\`eme} \hfill \textit{2024} \\
-\textit{Laboratoire IoT ENSEA} \hfill \textit{Jetson, CUDA, optimisation m\'emoire, C++}
-\vspace{-2pt}
-    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Migration et optimisation d'un pipeline de traitement temps r\'eel sur Nvidia Jetson : portage CUDA, gestion fine des ressources m\'emoire, r\'eduction de la latence de 60\%.}
-    \end{itemize}
-\vspace{3pt}
-
-\item \textbf{Harmony Gloves -- Syst\`eme Capteurs Temps R\'eel} \hfill \textit{2024} \\
-\textit{1\textsuperscript{er} prix Mountain Hub 2024} \hfill \textit{Raspberry Pi, IMU, BLE, TF Lite}
-\vspace{-2pt}
-    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{J'ai particip\'e \`a la conception d'un syst\`eme temps r\'eel de traitement de capteurs IMU, avec fusion de donn\'ees, inf\'erence embarqu\'ee TF Lite et communication BLE \`a faible latence.}
-    \end{itemize}
-
+    \item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE} \hfill \textit{Avril--Ao\^ut 2026} \\
+    \textit{Palaiseau (IP Paris)} \hfill \textit{Python, Analyse Statique, Architecture Logicielle, Git}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Projet PRIMO : pipeline logiciel complet analyse statique d'applications mobiles.}
+            \item \small{Analyse risques s\'ecurit\'e syst\`emes embarqu\'es, identification vulnérabilit\'es bas niveau.}
+            \item \small{Architecture logicielle avanc\'ee, tests robustesse, documentation technique r\'igoreuse.}
+            \item \small{Collaboration \'Ecole des Ponts, programme PEPR MOBIDEC, environnement recherche critique.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{Harmony Gloves -- Logiciel Embarqu\'e STM32 \& Protocoles I2C/SPI} \hfill \textit{2024} \\
+    \textit{Labo IOTA ENSEA, Projet \'Equipe} \hfill \textit{C, STM32, I2C, SPI, Capteurs, Oscilloscope, Debug}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Participation conception PCB custom avec soudure composants (capteurs flex, IMU MPU6050).}
+            \item \small{Logiciel embarqu\'e C sur STM32 : pilotes I2C/SPI, acquisition donn\'ees capteurs, gestion mémoire limit\'ee.}
+            \item \small{Validation oscilloscope, debug JTAG, test robustesse syst\`eme temps r\'eel.}
+            \item \small{D\'eploiement TinyML pour classification gestuelle, optimisation puissance et latence embarqu\'ee.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{Conception FPGA -- Syst\`eme SoPC Cyclone V \& Nios V} \hfill \textit{2025--en cours} \\
+    \textit{ENSEA} \hfill \textit{VHDL, Quartus, Nios V, I2C, JTAG, Debug Avanc\'e, RTL}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Description RTL compl\`ete en VHDL, simulation comportementale, synth\`ese avec Quartus.}
+            \item \small{Intégration soft-processeur Nios V, contrôleur I2C pour capteur ADXL345, validation I2C temps r\'eel.}
+            \item \small{Debug JTAG avanc\'e, optimisation timing, contraintes routage, architecture scalable.}
+            \item \small{Interfaces protocoles standards, documentation mat\'erielle-logicielle compl\`ete.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{Jetson CoHoMa -- C/C++ Linux Temps R\'eel \& Syst\`emes Embarqu\'es Avanc\'es} \hfill \textit{2025--en cours} \\
+    \textit{Challenge D\'efense (ENSEA/Arm\'ee fran\c{c}aise)} \hfill \textit{C/C++, Nvidia Jetson, YOLOv10, SLAM, Linux, Docker}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Intégration Lidar 3D VLP16 + caméra profondeur, fusion capteurs temps r\'eel (SLAM robotique).}
+            \item \small{Développement C/C++ sur Nvidia Jetson ARM, optimisation IA embarqu\'ee (YOLOv10).}
+            \item \small{Gestion mémoire limit\'ee, parallélisation GPU, pipeline de traitement temps r\'eel.}
+            \item \small{Reproducibilité Docker, modélisation 3D (Onshape), validation exp\'erimentale compl\`ete.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{PROJET-TAXI -- Simulation Multiprocessus \& Gestion M\'emoire Partag\'ee} \hfill \textit{2024} \\
+    \textit{ENSEA} \hfill \textit{C, IPC, SHM, Signaux, OpenGL, Linux, Architecture}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Simulation flotte taxis multiprocessus, communication inter-processus (pipes, sockets).}
+            \item \small{Gestion m\'emoire partag\'ee (SHM), synchronisation processus (semaphores, signaux).}
+            \item \small{Ordonnanceur FIFO, visualisation OpenGL, architecture robuste processus.}
+            \item \small{Test stabilité syst\`eme, optimisation performance, documentation architecture compl\`ete.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{Drone FDI/FTC -- Mod\'elisation Dynamique \& D\'etection Défauts} \hfill \textit{2025} \\
+    \textit{ENSEA} \hfill \textit{MATLAB/Simulink, Contr\^ole Robuste, FDI/FTC, Mod\'elisation}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Modélisation dynamique drone (biais capteurs, bruits, d\'efaillance actionneurs).}
+            \item \small{D\'etection défauts : observateurs, r\'esidus, seuils robustes, robustesse perturbations.}
+            \item \small{Strat\'egie FTC avec reconfiguration contr\^oleurs, validation simulink rigoureuse.}
+            \item \small{Analyse stabilit\'e syst\`eme, documentation techniques maths/implém.}
+        \end{itemize}
 \end{itemize}
 
-\section{Prix \& Leadership}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix Mountain Hub 2024} ; \textbf{1\textsuperscript{er} prix CITS National} ; \textbf{Head of Projects Cell ENSEA}}
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX Africa 2025} (IA Sant\'e, hackathon panafricain)}
+    \item \small{\textbf{1\textsuperscript{er} prix Mountain Hub R\'egional 2024} (Innovation technologique, Embarqu\'e)}
+    \item \small{\textbf{1\textsuperscript{er} prix CITS National 2024} (Smart City, ML pr\'edictif) -- vs 75 \'equipes}
+    \item \small{\textbf{Head of Projects Cell \& Lead AI Cell ENSEA} -- +50\% membres actifs, collaborations Google DeepMind}
+    \item \small{\textbf{Open Source :} Laravel API Generator (+30 \'etoiles GitHub, Packagist verified)}
+    \item \small{\textbf{Certifications :} Supervised ML Stanford/DeepLearning.AI (Oct 2024), Python for Data Science IBM (Jan 2024)}
 \end{itemize}
-
 \end{document}

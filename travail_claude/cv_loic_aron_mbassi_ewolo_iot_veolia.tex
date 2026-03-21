@@ -1,94 +1,124 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage[english]{babel}
 \usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{titlesec}
-\usepackage{fontawesome5}
+\usepackage{marvosym}
 \usepackage{lmodern}
 \usepackage[normalem]{ulem}
 
-\definecolor{primary}{RGB}{0, 130, 80}
+\definecolor{primary}{RGB}{0, 129, 145}
+\definecolor{secondary}{RGB}{80, 80, 80}
 \hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
 \titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{8pt}{5pt}
 
 \begin{document}
-
 \begin{center}
     {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
-    \textbf{\large Ing\'enieur IoT \& Data -- Solutions Intelligentes} \\
-    \textit{\small Disponible d\`es septembre 2026 pour alternance 12 mois} \\ \vspace{4pt}
+    \textbf{\large Alternant Ing\'enieur IoT -- Syst\`emes Connect\'es \& Smart Metering} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
     \small
-    \faMapMarker\ Cergy, France (Mobile IDF) \quad
-    \faPhone\ (+33) 7 59 52 33 98 \quad
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \\ \vspace{2pt}
-    \faLinkedin\ \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi} \quad
-    \faGithub\ \href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad
-    \faGlobe\ \href{https://mbassiloic.tech}{mbassiloic.tech}
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
 \end{center}
-
 \vspace{-6pt}
-
-\noindent\small{Les solutions IoT industrielles pour la gestion intelligente des ressources -- eau, \'energie, d\'echets -- reposent sur des architectures de collecte et d'analyse de donn\'ees en temps r\'eel. La valeur de ces syst\`emes d\'epend de la fiabilit\'e des capteurs, de la robustesse des pipelines de donn\'ees et de la pertinence des mod\`eles d'analyse. Contribuer \`a ces d\'efis techniques chez Veolia correspond \`a mon exp\'erience en IoT, embarqu\'e et data engineering.}
+\noindent\small{Conception et d\'eploiement de syst\`emes IoT complets (capteurs, r\'eseaux LPWAN, backend), avec maîtrise des protocoles smart metering et optimisation d'inf\'erence ML embarqu\'ee. Formation double dipl\^ome ENSEA/Polytechnique Yaound\'e, sp\'ecialit\'e syst\`emes embarqu\'es et IA. Stage INRIA Saclay (PRIMO) en cours sur pipeline Python avanc\'e et analyse statique.}
 
 \section{Formation}
 \begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
     \item \textbf{ENSEA -- \'Ecole Nationale Sup\'erieure de l'\'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
-    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es, Signal, \textbf{IoT}, IA.}
+    \small{Double dipl\^ome d'Ing\'enieur -- Syst\`emes Embarqu\'es \& Intelligence Artificielle.}
     \item \textbf{\'Ecole Polytechnique de Yaound\'e (1\textsuperscript{\`ere} \'ecole d'ing\'enieur CEMAC)} \hfill \textit{2021 -- 2025} \\
-    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : Math\'ematiques Appliqu\'ees, G\'enie Logiciel, Algorithmique.}
+    \small{Dipl\^ome d'Ing\'enieur de Conception (Master 2) : \textbf{Math\'ematiques Appliqu\'ees}, Algorithmique, G\'enie Logiciel, mention Tr\`es Bien.}
 \end{itemize}
 
 \section{Comp\'etences Techniques}
 \begin{itemize}[leftmargin=*, nosep]
-    \item \small{\textbf{IoT \& Embarqu\'e :} STM32, Arduino, Raspberry Pi, Nvidia Jetson, protocoles MQTT/BLE/LoRa, capteurs}
-    \item \small{\textbf{Data Engineering :} Python, SQL, pandas, pipelines ETL, Docker, API REST, MongoDB, Git}
-    \item \small{\textbf{ML / IA :} Scikit-learn, TF Lite, classification, s\'eries temporelles, monitoring de production}
+    \item \small{\textbf{IoT/R\'eseaux :} LPWAN (LoRa, Sigfox), Protocoles IoT, Smart Metering, Architecture Syst\`emes Connect\'es, Acquisition/Traitement Capteurs, \'Energie Bas-d\'ebit.}
+    \item \small{\textbf{Embarqu\'e/Hardware :} STM32, C, I2C, SPI, UART, Capteurs (Temp, Humidit\'e, Pr\'esence), TensorFlow Lite, Oscilloscope, Soudure, Prototypage.}
+    \item \small{\textbf{ML/Data Science :} Python, TensorFlow, scikit-learn, pandas, numpy, D\'etection Anomalies, S\'eries Temporelles, Pipelines ETL, \'Evaluation Mod\`eles.}
+    \item \small{\textbf{Syst\`emes :} VHDL, FPGA, Linux Embarqu\'e, Docker, Git, Tests Unitaires, Architecture Microservices, MQTT.}
+    \item \small{\textbf{Langues :} Fran\c{c}ais natif, Anglais courant professionnel, Notions allemand.}
 \end{itemize}
 
 \section{Exp\'eriences \& Projets}
 \begin{itemize}[leftmargin=*, label={-}]
-
-\item \textbf{Stage de Recherche -- INRIA Saclay (\'Equipe TRIBE, IP Paris)} \hfill \textit{Avril -- Ao\^ut 2026} \\
-\textit{Plateau de Saclay, France} \hfill \textit{Python, pipeline ETL, Docker, ML}
-\vspace{-2pt}
-    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Pipeline ETL de corpus documentaire (50k+ documents) avec automatisation compl\`ete : extraction, transformation, entra\^inement de mod\`eles et \'evaluation rigoureuse.}
-    \end{itemize}
-\vspace{3pt}
-
-\item \textbf{Urban Waste Management -- ML sur Donn\'ees IoT} \hfill \textit{2024} \\
-\textit{1\textsuperscript{er} prix CITS National} \hfill \textit{ML, IoT, capteurs, d\'eploiement}
-\vspace{-2pt}
-    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Syst\`eme de gestion intelligente des d\'echets urbains : collecte de donn\'ees capteurs IoT, mod\`ele ML de classification du taux de remplissage, d\'eploiement en production et monitoring temps r\'eel.}
-    \end{itemize}
-\vspace{3pt}
-
-\item \textbf{Harmony Gloves -- Syst\`eme IoT Gestuel} \hfill \textit{2024} \\
-\textit{1\textsuperscript{er} prix Mountain Hub 2024} \hfill \textit{Raspberry Pi, BLE, capteurs IMU, TF Lite}
-\vspace{-2pt}
-    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{J'ai particip\'e \`a la conception d'un syst\`eme de gants intelligents : fusion de capteurs IMU, inf\'erence TF Lite embarqu\'ee, communication BLE optimis\'ee pour la bande passante et la latence.}
-    \end{itemize}
-\vspace{3pt}
-
-\item \textbf{GoFind -- Pipeline Data Distribu\'e} \hfill \textit{2024 -- 2025} \\
-\textit{Architecture microservices} \hfill \textit{MongoDB, RabbitMQ, NestJS, Docker}
-\vspace{-2pt}
-    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
-        \item \small{Pipeline de donn\'ees distribu\'e avec messaging asynchrone RabbitMQ et garanties de coh\'erence \'eventuelle pour une architecture \`a forte volumétrie de flux de donn\'ees.}
-    \end{itemize}
-
+    \item \textbf{Stage INRIA Saclay -- \'Equipe TRIBE} \hfill \textit{Avril--Ao\^ut 2026} \\
+    \textit{Palaiseau (IP Paris)} \hfill \textit{Python, NLP, BERT, Transformers, scikit-learn, Analyse Statique}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Projet PRIMO : pipeline NLP pour analyse confiance/transparence apps mobiles (Louvre, SNCF), RGPD compliance.}
+            \item \small{Analyse statique SDKs embarqu\'es, identification risques fuite donn\'ees localisation et personnelles.}
+            \item \small{Scoring interpr\'etable (scikit-learn), \'evaluation mod\`eles BERT/Transformers \'a grande \'echelle.}
+            \item \small{Collaboration \'Ecole des Ponts, programme PEPR MOBIDEC, architecture logicielle avanc\'ee.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{Stage IoT Lab ENSPY -- Optimisation ML pour Hardware Embarqu\'e} \hfill \textit{Oct 2023--Jan 2024} \\
+    \textit{Yaound\'e, Cameroun} \hfill \textit{Python, TensorFlow Lite, Arduino, Raspberry Pi, Capteurs, C}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Optimisation mod\`eles ML pour contraintes hardware limit\'e, quantisation, pruning, compression aggressive.}
+            \item \small{D\'eploiement TensorFlow Lite sur microcontr\^oleurs (Arduino, Raspberry Pi Zero), inférence temps r\'eel.}
+            \item \small{Acquisition donn\'ees capteurs, pipelines temps r\'eel, optimisation latence et consommation \'energie.}
+            \item \small{Validation oscilloscope, calibration capteurs, documentation syst\`eme complet.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{Harmony Gloves -- Capteurs IMU/Flex \& Acquisition I2C/SPI sur STM32} \hfill \textit{2024} \\
+    \textit{Labo IOTA ENSEA, Projet \'Equipe} \hfill \textit{STM32, I2C, SPI, Capteurs, Oscilloscope, Soudure PCB}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Participation conception PCB custom, soudure capteurs flex et IMU (MPU6050), test d\'everminage oscilloscope.}
+            \item \small{Acquisition donn\'ees via I2C/SPI sur STM32, calibration capteurs, traitement signal temps r\'eel.}
+            \item \small{D\'eploiement TinyML pour classification gestuelle, optimisation puissance embarqu\'ee (basse consommation).}
+            \item \small{Test robustesse syst\`eme multiples sc\'enarios, documentation mat\'erielle et logicielle.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{Urban Waste Management -- Architecture IoT Compl\`ete \& ML Pr\'edictif} \hfill \textit{2024} \\
+    \textit{1\textsuperscript{er} Prix CITS National (vs 75 \'equipes)} \hfill \textit{Python, ML, IoT, Capteurs, LPWAN, Backend}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Architecture IoT : capteurs capacitifs pour mesure remplissage, r\'eseau LPWAN, backend centralis\'e.}
+            \item \small{Mod\`ele ML (scikit-learn, XGBoost) pr\'ediction remplissage conteneurs, d\'etection anomalies temps r\'eel.}
+            \item \small{Optimisation collecte d\'echets (algo TSP), r\'eduction -20\% co\^uts transport et \'emissions CO2.}
+            \item \small{Prototype fonctionnel d\'eploy\'e, dashboards temps r\'eel, 1\textsuperscript{er} prix national vs 75 \'equipes.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{Conception FPGA -- Syst\`eme SoPC Cyclone V \& Nios V} \hfill \textit{2025--en cours} \\
+    \textit{ENSEA} \hfill \textit{VHDL, Quartus, Nios V, I2C, JTAG, Debug, Architecture RTL}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{Description RTL en VHDL, simulation comportementale, intégration contraintes routage (Quartus).}
+            \item \small{Soft-processeur Nios V, contr\^oleur I2C pour capteur ADXL345, debug JTAG complet.}
+            \item \small{Validation oscilloscope, optimisation timing, synth\`ese syst\`eme complet sur Cyclone V.}
+            \item \small{Interfaces protocoles standards (I2C, SPI), architecture scalable pour extensions futures.}
+        \end{itemize}
+    \vspace{3pt}
+    \item \textbf{Assistant de Recherche -- MILA, \'Etude Grokking} \hfill \textit{Juin--Septembre 2025} \\
+    \textit{Remote} \hfill \textit{Python, PyTorch, TensorFlow, Math\'ematiques, R\'eseaux Neurones}
+    \vspace{-2pt}
+        \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+            \item \small{\'Etude g\'en\'eralisation tardive (Grokking) dans r\'eseaux neurones profonds, reproduction expériences SOTA.}
+            \item \small{Analyse math\'ematique convergence, optimiseurs, dynamique apprentissage, interpr\'etabilit\'e mod\`eles.}
+            \item \small{Imp\'lmentation PyTorch/TensorFlow, validation rigoureuse, contribution recherche publii\'ee.}
+            \item \small{R\'edaction rapports techniques anglais, pr\'esentations \'equipe multidisciplinaire.}
+        \end{itemize}
 \end{itemize}
 
-\section{Prix \& Leadership}
-\begin{itemize}[leftmargin=*, nosep, label=\tiny$\bullet$]
-    \item \small{\textbf{1\textsuperscript{er} prix CITS National} ; \textbf{1\textsuperscript{er} prix Mountain Hub 2024} ; \textbf{Head of Projects Cell ENSEA}}
+\section{Distinctions \& Leadership}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \small{\textbf{1\textsuperscript{er} prix IndabaX Africa 2025} (IA Sant\'e, hackathon panafricain)}
+    \item \small{\textbf{1\textsuperscript{er} prix Mountain Hub R\'egional 2024} (Innovation technologique, IoT)}
+    \item \small{\textbf{1\textsuperscript{er} prix CITS National 2024} (Smart City, ML pr\'edictif) -- vs 75 \'equipes}
+    \item \small{\textbf{Head of Projects Cell \& Lead AI Cell ENSEA} -- +50\% membres actifs, collaborations Google DeepMind}
+    \item \small{\textbf{Open Source :} Laravel API Generator (+30 \'etoiles GitHub, Packagist verified)}
+    \item \small{\textbf{Certifications :} Supervised ML Stanford/DeepLearning.AI (Oct 2024), Python for Data Science IBM (Jan 2024)}
 \end{itemize}
-
 \end{document}

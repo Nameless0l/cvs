@@ -1,62 +1,46 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{fontawesome5}
-\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{lmodern}
 
-\definecolor{primary}{RGB}{60, 60, 140}
+\definecolor{primary}{RGB}{35, 55, 123}
 \hypersetup{colorlinks=true, urlcolor=primary}
 
 \begin{document}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO} \\
+ENSEA -- Double Dipl\^ome Ing\'enieur \\
+\href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad (+33) 7 59 52 33 98 \\
+\href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad \href{https://mbassiloic.tech}{mbassiloic.tech}
 
-\noindent
-\begin{minipage}[t]{0.5\textwidth}
-    \textbf{Lo\"ic Aron MBASSI EWOLO}\\
-    \'El\`eve-Ing\'enieur Bac+5 -- Double dipl\^ome ENSEA\\[3pt]
-    \faMapMarker\ Cergy, France\\
-    \faPhone\ (+33) 7 59 52 33 98\\
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.4\textwidth}
-    \raggedleft
-    Cergy, le 21 mars 2026
-\end{minipage}
+\vspace{1em}
+\noindent Cergy, le \today
 
-\vspace{1.2cm}
+\vspace{1em}
+\noindent \textbf{Objet : Candidature -- Alternance Consultant Cybersécurité \& RGPD (mc2i)}
 
-\hfill
-\begin{minipage}[t]{0.5\textwidth}
-    \raggedleft
-    \textbf{mc2i}\\
-    Service Recrutement\\
-    Paris, France
-\end{minipage}
+\vspace{1.5em}
+\noindent Madame, Monsieur,
 
-\vspace{1cm}
+\vspace{0.8em}
+\noindent En tant que stagiaire au laboratoire INRIA Saclay (projet PRIMO), je conduis un audit de conformité RGPD automatisé couvrant 500+ SDKs mobiles, avec scoring de risques via NLP (BERT) et identification de vecteurs d'attaque. Double diplôme ENSEA/Polytechnique Yaoundé en sécurité des systèmes et mathématiques appliquées. mc2i, acteur majeur du conseil en transformation digitale, offre un terreau ideal pour déployer ces compétences en audit, gouvernance et conformité auprès de clients cross-sectoriels (secteurs public et privé, banque, industrie).
 
-\noindent\textbf{Objet :} Candidature en alternance -- Ing\'enieur Cybers\'ecurit\'e -- Septembre 2026
+\vspace{0.8em}
+\noindent J'ai structuré dans le projet PRIMO un processus d'audit complet : extraction de politiques de confidentialité de grande échelle, fine-tuning BERT pour classification automatique de clauses sensibles (collecte localisation, partage tiers, rétention, droit d'accès), et ranking de risques fondé sur heuristiques RGPD (Article 5, 6, 32, etc.). L'analyse statique parallèle a exposé des dépôts de données non déclarés, des permissions excessives, et des vecteurs d'attaque sur localisation utilisateurs. J'ai quantifié ces risques dans un score de confiance interprétable (via LIME et attention weights) destiné aux décideurs et équipes de conformité. Cette approche -- combinant instrumentation binaire, NLP, et gouvernance -- reproduit les défis d'audit que mc2i adresse pour ses clients.
 
-\vspace{0.8cm}
+\vspace{0.8em}
+\noindent Parallèlement, j'ai conçu une architecture RGPD by design dans la plateforme Snappy : implémentation du protocole Signal (Perfect Forward Secrecy, double ratchet, AES-256-GCM), droit à l'oubli cryptographique, export automatisé de données, audit logs SIEM-compatible, segmentation données sensibles. Mes travaux complémentaires en IA éthique (Women Safe : détection biais, analyse équité) et en sécurité fintech (CSC, secteur bancaire) démontrent une maturité cross-domaines. Je suis disponible dès septembre 2026.
 
-Madame, Monsieur,
+\vspace{0.8em}
+\noindent mc2i, par sa diversité de clients et ses défis de transformation digitale sécurisée, offre un contexte exceptionnel pour consolider et étendre ces compétences en consulting cybersécurité et conformité. Je serais ravi de discuter comment mon profil peut enrichir vos équipes de conseil.
 
-La cybers\'ecurit\'e appliqu\'ee au conseil -- audit de s\'ecurit\'e, conception d'architectures conformes, accompagnement des clients dans leur mise en conformit\'e RGPD et NIS2 -- requiert une ma\^itrise technique des m\'ecanismes de s\'ecurit\'e autant qu'une capacit\'e \`a les transposer en recommandations actionables. mc2i, cabinet de conseil technologique aux clients sectoriels vari\'es, offre un terrain id\'eal pour d\'evelopper ces deux dimensions simultan\'ement.
-
-Mon projet Snappy est la r\'ef\'erence la plus directe : architecture de messagerie chiffr\'ee E2E impl\'ementant le protocole Signal, chiffrement AES-256-GCM des donn\'ees au repos, authentification JWT avec rotation de cl\'es, et audit de s\'ecurit\'e interne incluant tests d'injection et validation contre les attaques par rejeu. Mon projet SOSDOCTA (2022-2024, plateforme m\'edicale en production, 5k+ utilisateurs) m'a form\'e \`a la conformit\'e RGPD appliqu\'ee : chiffrement des donn\'ees personnelles, contr\^ole d'acc\`es par r\^ole et impl\'ementation du droit \`a l'oubli dans un contexte de sant\'e num\'erique.
-
-Mon projet PROJET-TAXI sur STM32 a consolid\'e ma ma\^itrise de la s\'ecurit\'e des protocoles de communication embarqu\'es : int\'egrit\'e des messages, authentification des \'echanges et r\'esistance aux attaques de r\'einjection. Mon stage INRIA Saclay (avril-ao\^ut 2026) y ajoute la dimension traitement de corpus sensibles : gestion de la confidentialit\'e, acc\`es contr\^ol\'e et d\'eploiement en environnement isol\'e.
-
-Je suis disponible d\`es septembre 2026 pour cette alternance \`a Paris. Apporter une expertise technique concr\`ete en cybers\'ecurit\'e aux missions de conseil de mc2i est une perspective qui s'appuie sur des r\'ef\'erences v\'erifiables. Je reste disponible pour un entretien.
-
-Je vous prie d'agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
-
-\vspace{1cm}
-
-\noindent\textbf{Lo\"ic Aron MBASSI EWOLO}
+\vspace{1.5em}
+\noindent Veuillez agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
+\vspace{2em}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO}
 
 \end{document}

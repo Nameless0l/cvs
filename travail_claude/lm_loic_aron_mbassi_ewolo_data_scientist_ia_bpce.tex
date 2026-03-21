@@ -1,62 +1,50 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[french]{babel}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
-\usepackage{xcolor}
+\usepackage[english]{babel}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{hyperref}
-\usepackage{fontawesome5}
-\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{lmodern}
 
-\definecolor{primary}{RGB}{0, 60, 130}
+\definecolor{primary}{RGB}{0, 51, 102}
 \hypersetup{colorlinks=true, urlcolor=primary}
 
 \begin{document}
-
 \noindent
-\begin{minipage}[t]{0.5\textwidth}
-    \textbf{Lo\"ic Aron MBASSI EWOLO}\\
-    \'El\`eve-Ing\'enieur Bac+5 -- Double dipl\^ome ENSEA\\[3pt]
-    \faMapMarker\ Cergy, France\\
-    \faPhone\ (+33) 7 59 52 33 98\\
-    \faEnvelope\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.4\textwidth}
-    \raggedleft
-    Cergy, le 21 mars 2026
-\end{minipage}
+\textbf{Lo\"ic Aron MBASSI EWOLO} \\
+ENSEA -- Double Dipl\^ome Ing\'enieur \\
+\href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad (+33) 7 59 52 33 98 \\
+\href{https://github.com/Nameless0l}{github.com/Nameless0l} \quad \href{https://mbassiloic.tech}{mbassiloic.tech}
 
-\vspace{1.2cm}
+\vspace{1em}
+\noindent
+Cergy, le \today
 
-\hfill
-\begin{minipage}[t]{0.5\textwidth}
-    \raggedleft
-    \textbf{Groupe BPCE}\\
-    Service Recrutement\\
-    Paris, France
-\end{minipage}
+\vspace{1em}
+\noindent
+\textbf{Objet : Candidature -- Data Scientist IA} \\
+\textbf{R\'ef\'erence : Offre d'alternance 12 mois -- BPCE}
 
-\vspace{1cm}
+\vspace{1.5em}
+\noindent Madame, Monsieur,
 
-\noindent\textbf{Objet :} Candidature en alternance -- Data Scientist Risques \& IA (1 an) -- Septembre 2026
+\vspace{0.8em}
+\noindent En tant que groupe mutualiste de premier plan porteur d'innovation financière, BPCE/Banque Populaire poursuivez une transformation numérique ambitieuse appuyée sur l'intelligence artificielle et la data science. Face aux enjeux de scoring de risque, détection fraude et recommandations produits, l'IA générative et les pipelines NLP innovants représentent des leviers stratégiques. C'est pourquoi je candidats avec enthousiasme au poste de Data Scientist IA en alternance dès septembre 2026, convaincu que mon expérience INRIA en NLP production et mon engagement pour l'IA responsable correspondent exactement à votre vision.
 
-\vspace{0.8cm}
+\vspace{0.8em}
+\noindent Depuis avril 2026, je déploie un pipeline NLP complet au sein de l'équipe TRIBE (INRIA Saclay) : fine-tuning BERT sur corpus de politiques de confidentialité, classification multi-labels pour scoring de conformité RGPD, et agrégation d'un score interprétable (0-100) de confiance. Cette expérience directe m'a particulièrement formé aux enjeux d'une IA en production bancaire : latence < 100ms par requête, intégrabilité dans des systèmes de décision existants, et explicabilité des résultats pour la conformité réglementaire. J'ai approfondi l'analyse de risques (détection SDKs malveillants exfiltrant données), ce qui transpose directement aux problématiques BPCE de détection fraude et évaluation de risques crédit.
 
-Madame, Monsieur,
+\vspace{0.8em}
+\noindent En complément, j'ai diriger et architecter un système d'agents IA multi-agents orches-trés par Google ADK (Planning, Météo, Marché, Recommandations), combinant LLM Gemini avec une RAG enrichie d'APIs externes. Cette expérience de coordination d'agents autonomes, de résolution de conflits multi-agents et de recommandations multi-critères ilustre ma capacité à penser systémiquement des architectures IA complexes. Ma recherche chez MILA (Montréal) sur le phénomène de grokking m'a instillé la rigueur scientifique indispensable pour valider la robustesse des modèles, avec tests statistiques rigoureux et analyse de dynami-ques d'apprentissage. J'affirme que cette combinaison (NLP production + agents IA générative + rigueur research) positionne parfaitement pour contribuer à l'innovation IA de BPCE.
 
-L'exploitation des mod\`eles de Machine Learning pour la gestion des risques bancaires constitue l'un des chantiers les plus exigeants de la data science appliqu\'ee. Le Groupe BPCE, deuxi\`eme acteur bancaire fran\c{c}ais, engage une transformation IA de fond avec des initiatives comme "AI for All" et des projets ESG data au sein de l'\'equipe Data \& Innovation. Contribuer \`a cette transformation en prot otypant et \'evaluant des mod\`eles ML/NLP sur des probl\'ematiques de risque op\'erationnel correspond pr\'ecis\'ement au type de travail que je conduis en recherche.
+\vspace{0.8em}
+\noindent Je suis disponible dès septembre 2026 pour une alternance 12 mois, ce qui m'permettra de déployer des initiatives data science concrets au service de vos utilisateurs et de vos équipes métiers. Mes expériences en scoring de risques, détection d'anomalies et recommandations intelligentes seront immédiatement transférables aux challenges banc-aires. Je serais ravi de discuter comment mon expertise INRIA en NLP, mes compétences en IA générative et agents, et ma vision d'une IA responsable et explica-ble peuvent servir l'ambition numérique de BPCE. Merci pour cette opportunité.
 
-Mon stage \`a l'INRIA Saclay (\'equipe TRIBE, avril-ao\^ut 2026) constitue mon exp\'erience centrale sur ces sujets : construction d'un pipeline NLP complet sur 50k+ documents pour l'analyse de clauses juridiques (classification, extraction d'entit\'es, scoring), fine-tuning de mod\`eles BERT/Transformers avec gain de +12\% de F1-score, et d\'eploiement dans une infrastructure Docker. Cette m\'ethodologie -- du prototypage jusqu'\`a l'\'evaluation rigoureuse -- est exactement ce que votre \'equipe recherche pour acc\'el\'erer les cas d'usage IA Risques.
+\vspace{1.5em}
+\noindent Veuillez agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
 
-Mon travail au MILA (\'et\'e 2025) sur les propri\'et\'es de g\'en\'eralisation de r\'eseaux profonds, et mon projet Women Safe (d\'etection de discours haineux par NLP multilingue), t\'emoignent d'une capacit\'e \`a naviguer entre th\'eorie statistique et impl\'ementation robuste. Par ailleurs, ma formation en math\'ematiques appliqu\'ees \`a l'\'Ecole Polytechnique de Yaound\'e m'a donn\'e les fondements analytiques n\'ecessaires pour interpr\'eter et challenger des mod\`eles complexes dans un contexte r\'eglement\'e.
-
-Je suis disponible d\`es septembre 2026 pour cette alternance de 12 mois. La dimension transversale du r\^ole au sein de BPCE SA, avec une vision strat\'egique des enjeux \'economiques du groupe, repr\'esente pour moi un cadre id\'eal pour approfondir l'IA appliqu\'ee \`a la finance. Je serais tr\`es heureux d'\'echanger sur ma candidature lors d'un entretien.
-
-Je vous prie d'agr\'eer, Madame, Monsieur, l'expression de mes salutations distingu\'ees.
-
-\vspace{1cm}
-
-\noindent\textbf{Lo\"ic Aron MBASSI EWOLO}
-
+\vspace{2em}
+\noindent \textbf{Lo\"ic Aron MBASSI EWOLO}
 \end{document}

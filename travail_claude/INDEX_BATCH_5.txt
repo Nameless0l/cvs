@@ -1,0 +1,215 @@
+BATCH 5: CVs et LMs de HAUTE QUALITÉ - Loïc Aron MBASSI EWOLO
+Répertoire de sortie: /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/
+Dates: 21 Mars 2026
+
+================================================================================
+OFFRE 25: AFFLUENCES -- Alternance Computer Vision / IA
+================================================================================
+Entreprise: Affluences (spécialiste mesure d'affluence temps réel)
+Lieu: Paris (13 Rue de Charenton, 75012)
+URL: https://www.welcometothejungle.com/fr/companies/affluences/jobs/developpeur-se-data-ia-vision-par-ordinateur-alternance_paris
+Couleur: RGB(35, 55, 123) - Bleu foncé
+
+Fichiers:
+  CV:  cv_loic_aron_mbassi_ewolo_computer_vision_affluences.tex (9.5 KB)
+  LM:  lm_loic_aron_mbassi_ewolo_computer_vision_affluences.tex (3.0 KB)
+
+Spécialités:
+  - Computer Vision (TensorFlow, PyTorch, OpenCV, CNN)
+  - Optimisation inférence sur hardware hétérogènes (TensorFlow Lite, Arduino, Raspberry Pi)
+  - Détection objets, classification temps réel
+  - Data Science (scikit-learn, pandas, numpy)
+  - IoT et capteurs d'affluence
+
+Expériences clés incluses:
+  1. INRIA TRIBE (Pipeline Python, analyse statique, scoring)
+  2. UROP ECG (Computer Vision médicale, collaboration Google DeepMind)
+  3. IoT Lab ENSPY (TinyML, optimisation hardware embarqué)
+  4. ClassSync (Reconnaissance faciale OpenCV temps réel)
+  5. Harmony Gloves (Capteurs, I2C/SPI, STM32)
+  6. Urban Waste (IoT+ML, détection anomalies, -20% coûts)
+
+================================================================================
+OFFRE 26: VEOLIA -- Alternance IoT / Smart Metering
+================================================================================
+Entreprise: Veolia (gestion ressources naturelles, smart metering)
+Lieu: Saint-Maurice (94)
+URL: https://www.welcometothejungle.com/fr/companies/veolia/jobs/ingenieur-avant-vente-iot-en-alternance-h-f-saint-maurice_VEOLI_dbN171V
+Couleur: RGB(0, 129, 145) - Turquoise
+
+Fichiers:
+  CV:  cv_loic_aron_mbassi_ewolo_iot_veolia.tex (9.2 KB)
+  LM:  lm_loic_aron_mbassi_ewolo_iot_veolia.tex (3.1 KB)
+
+Spécialités:
+  - Architecture IoT complète (capteurs, LPWAN, backend centralisé)
+  - Protocoles LPWAN (LoRa, Sigfox)
+  - Smart metering eau/énergie
+  - Optimisation ML pour hardware limité (TensorFlow Lite)
+  - STM32, Arduino, Raspberry Pi, protocoles I2C/SPI
+
+Expériences clés incluses:
+  1. INRIA TRIBE (Pipeline Python, analyse statique)
+  2. IoT Lab ENSPY (TensorFlow Lite, capteurs, déploiement microcontrôleurs)
+  3. Harmony Gloves (I2C/SPI, capteurs IMU/Flex, STM32)
+  4. Urban Waste (Architecture IoT, ML prédictif, réduction coûts)
+  5. FPGA Cyclone V (Systèmes SoPC, Nios V, I2C)
+  6. MILA (Mathématiques réseaux neurones, convergence)
+
+================================================================================
+OFFRE 27: EXAIL -- Alternance Logiciel Embarqué C/C++
+================================================================================
+Entreprise: Exail (navigation inertielle, robotique autonome)
+Lieu: Saint-Germain-en-Laye (78100)
+URL: https://jobs.exail.com/nl/annonce/3603629-ingenieur-developpement-logiciel-embarque-alternance-hf-78100-saint-germain-en-laye
+Couleur: RGB(0, 51, 102) - Bleu marine
+
+Fichiers:
+  CV:  cv_loic_aron_mbassi_ewolo_logiciel_embarque_exail.tex (8.9 KB)
+  LM:  lm_loic_aron_mbassi_ewolo_logiciel_embarque_exail.tex (2.9 KB)
+
+Spécialités:
+  - C/C++ pour systèmes embarqués temps réel (STM32, ARM)
+  - Protocoles bas niveau (I2C, SPI, UART, CAN)
+  - Capteurs inertiels (accéléromètres, gyroscopes)
+  - FPGA/RTL (VHDL, Quartus, Nios V, JTAG)
+  - Debug avancé (oscilloscope, JTAG)
+  - Architecture microcontrôleur
+
+Expériences clés incluses:
+  1. INRIA TRIBE (Analyse statique logicielle)
+  2. Harmony Gloves (C/STM32, I2C/SPI, capteurs IMU/Flex, soudure)
+  3. FPGA Cyclone V (VHDL, Nios V, I2C, JTAG, simulation RTL)
+  4. Jetson CoHoMa (C/C++ temps réel, Lidar 3D, YOLOv10, SLAM)
+  5. PROJET-TAXI (C, IPC, SHM, signaux Linux)
+  6. Drone FDI/FTC (Modélisation dynamique, contrôle robuste)
+
+================================================================================
+OFFRE 28: THALES ALENIA SPACE -- Alternance Logiciel Embarqué Satellites
+================================================================================
+Entreprise: Thales Alenia Space (co-constructeur satellites Sentinel, leader spatial)
+Lieu: Cannes (06)
+URL: https://www.welcometothejungle.com/fr/companies/thales/jobs/alternance-ingenieur-developpement-logiciel-embarque-a-bord-des-satellites-h-f_cannes
+Couleur: RGB(0, 45, 114) - Bleu spatial
+
+Fichiers:
+  CV:  cv_loic_aron_mbassi_ewolo_logiciel_embarque_thales_alenia.tex (9.0 KB)
+  LM:  lm_loic_aron_mbassi_ewolo_logiciel_embarque_thales_alenia.tex (3.0 KB)
+
+Spécialités:
+  - Logiciel embarqué spatial (C/C++, Linux embarqué, ARM)
+  - Benchmarking et portabilité logicielle
+  - Systèmes critiques et tolérance aux pannes
+  - FPGA/RTL pour architectures spatiales
+  - Soudure et prototypage hardware
+  - Modélisation dynamique systèmes
+
+Expériences clés incluses:
+  1. INRIA TRIBE (Pipeline logiciel avanc, analyse statique)
+  2. FPGA Cyclone V (VHDL RTL complet, Nios V, I2C/SPI, JTAG)
+  3. Harmony Gloves (C/STM32, capteurs inertiels MPU6050)
+  4. Drone FDI/FTC (Modélisation dynamique complète, FTC)
+  5. Jetson CoHoMa (C/C++ Linux ARM temps réel, YOLOv10, SLAM)
+  6. MILA (Mathématiques, analyse convergence réseaux)
+
+================================================================================
+OFFRE 29: CNES -- Alternance IA/ML Surveillance Satellites (24 mois)
+================================================================================
+Entreprise: CNES (agence spatiale française, missions Galileo, OneWeb)
+Lieu: Toulouse (31)
+Durée: 24 mois minimum
+URL: https://www.welcometothejungle.com/fr/companies/cnes/jobs/alt-ingenieur-en-ia-ml-pour-la-surveillance-des-satellites-h-f_toulouse
+Couleur: RGB(0, 80, 148) - Bleu CNES
+
+Fichiers:
+  CV:  cv_loic_aron_mbassi_ewolo_ia_ml_satellites_cnes.tex (9.0 KB)
+  LM:  lm_loic_aron_mbassi_ewolo_ia_ml_satellites_cnes.tex (3.1 KB)
+
+Spécialités:
+  - IA/ML appliquée (détection anomalies télémétrie)
+  - Python avancé (scikit-learn, PyTorch, TensorFlow, BERT)
+  - Modélisation dynamique systèmes
+  - Séries temporelles et signal
+  - Detection défauts (FDI/FTC)
+  - Pipelines ETL massifs
+
+Expériences clés incluses:
+  1. INRIA TRIBE (Pipeline detection anomalies/scoring Python BERT)
+  2. MILA (Grokking, généralisation réseaux neurones, théorie)
+  3. Drone FDI/FTC (Modélisation dynamique, détection défauts)
+  4. UROP ECG (Detection anomalies Computer Vision, metrics)
+  5. Urban Waste (ML prédictif IoT, -20% coûts, hackathon 1er prix)
+  6. Système Multi-Agents Agricole (IA, LLM, orchestration complexe)
+
+================================================================================
+OFFRE 30: MGEN -- Alternance Développeur Fullstack / Data Science
+================================================================================
+Entreprise: MGEN (acteur majeur protection sociale, assurance santé)
+Lieu: Paris
+URL: https://www.welcometothejungle.com/fr/companies/mgen-1/jobs/developpeur-fullstack-datascience-alt-f-h_paris
+Couleur: RGB(0, 100, 160) - Bleu MGEN
+
+Fichiers:
+  CV:  cv_loic_aron_mbassi_ewolo_fullstack_datascience_mgen.tex (9.4 KB)
+  LM:  lm_loic_aron_mbassi_ewolo_fullstack_datascience_mgen.tex (2.9 KB)
+
+Spécialités:
+  - Architecture Fullstack (Backend + Frontend + Data)
+  - Spring Boot, Spring WebFlux, Laravel, Node.js
+  - React/TypeScript, Socket.IO, PWA
+  - Data Science (pandas, scikit-learn, pipelines ETL)
+  - Microservices, DDD, RGPD by design
+  - CI/CD, Docker, tests unitaires/integration
+
+Expériences clés incluses:
+  1. INRIA TRIBE (Pipeline Python, architecture logicielle)
+  2. Snappy (DDD complet Spring WebFlux, React TypeScript, 1000s WebSocket)
+  3. SOSDOCTA (Fullstack 2 ans maintenance, RGPD, OAuth2, production)
+  4. CSC Backend (Laravel, MySQL, Docker, fintech/bancaire)
+  5. Système Multi-Agents Agricole (Python, Google ADK, FastAPI, LLM)
+  6. Urban Waste (ML prédictif, pipelines ETL, -20% coûts, 1er prix)
+
+================================================================================
+RÉSUMÉ STATISTIQUES BATCH 5
+================================================================================
+Nombre total de fichiers: 12 (6 CVs + 6 LMs)
+Taille totale: ~61 KB
+Répertoire: /sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/
+
+Couverture secteurs:
+  - Computer Vision / IA (Affluences)
+  - IoT / Smart Metering (Veolia)
+  - Logiciel Embarqué Temps Réel (Exail)
+  - Spatial / Systèmes Critiques (Thales Alenia Space)
+  - IA/ML Spatiale (CNES)
+  - Fullstack / Data Science (MGEN)
+
+Profils d'expériences:
+  - INRIA TRIBE (inclus dans 6/6 offres)
+  - Projet leadership ENSEA (6/6 offres)
+  - Systèmes embarqués/IoT (6/6 offres)
+  - IA/ML appliquée (6/6 offres)
+  - Hackathons/Prix (6/6 offres)
+
+Couleurs personnalisées: Adaptées à chaque entreprise
+Accroches: Techniques et contextualisées par offre
+Format: EXACT selon template fourni
+Densité CV: ~95% page A4 remplie
+
+================================================================================
+QUALITÉ ASSURANCE
+================================================================================
+✓ Pas de tirets longs (—, –)
+✓ Pas de phrases "J'ai développé..." / "Actuellement en..."
+✓ Accroches techniques liées directement à l'offre
+✓ INRIA TOUJOURS en premier dans expériences
+✓ 3-4 bullets par expérience avec résultats concrets
+✓ Distinctions/Leadership complètes
+✓ LMs 4 paragraphes rédigés, ton professionnel
+✓ Disponibilité septiembre 2026 + durée alternance
+✓ Couleurs RGB exactes
+✓ Titres et lieux contextualisés
+
+================================================================================
+FIN INDEX BATCH 5
+================================================================================
