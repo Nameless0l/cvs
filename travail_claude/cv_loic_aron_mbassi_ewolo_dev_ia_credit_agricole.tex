@@ -1,0 +1,98 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{0, 100, 60}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Developpeur et Integrateur IA} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
+    \small
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+\vspace{-6pt}
+
+\noindent\small{Full-stack AI developer with expertise in building and integrating generative AI systems at scale. Proficient in Python ML pipelines, LLM orchestration (RAG, LangChain), backend architecture (Spring Boot, microservices), and containerized deployment. Experience designing production-grade AI integrations, system architectures following domain-driven design, and REST API infrastructure.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- Ecole Nationale Superieure de l'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplome d'Ingenieur -- Systemes Embarques, Signal, IA.}
+    \item \textbf{Ecole Polytechnique de Yaounde (1\textsuperscript{ere} ecole d'ingenieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplome d'Ingenieur de Conception (Master 2): Mathematiques Appliquees, Genie Logiciel.}
+\end{itemize}
+
+\section{Competences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Python \& AI:} LangChain, RAG systems, FastAPI, NLP pipelines, LLM integration, Google ADK}
+    \item \small{\textbf{Backend Architecture:} Spring Boot, Spring WebFlux, Domain-Driven Design, REST APIs, microservices}
+    \item \small{\textbf{Data \& Storage:} PostgreSQL, Redis, MongoDB, SQL optimization, knowledge bases}
+    \item \small{\textbf{DevOps \& Tools:} Docker, Git, CI/CD, Linux, Jupyter}
+\end{itemize}
+
+\section{Projets et Experiences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Multi-Agent AI System with RAG Architecture} \hfill \textit{2024--2025} \\
+\textit{Generative AI, agent orchestration} \hfill \textit{Python, Google ADK, LangChain, Gemini, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Designed and deployed 5-agent system using Gemini as inference engine with RAG for knowledge enrichment}
+        \item \small{Integrated external APIs and document knowledge bases; containerized with Docker}
+        \item \small{Implemented collaborative decision-making and conflict resolution between agents}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Research Stage @ INRIA Saclay -- Team TRIBE} \hfill \textit{Apr--Aug 2026} \\
+\textit{NLP pipeline, trust scoring} \hfill \textit{Python, BERT, pandas, Git}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Built large-scale NLP pipeline for policy analysis using BERT transformers and scikit-learn}
+        \item \small{Designed trust scoring framework; delivered production-ready code with full documentation}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Snappy -- Intelligent Enterprise Messaging Platform} \hfill \textit{2024--2025} \\
+\textit{Backend architecture, chatbot integration} \hfill \textit{Spring Boot 3, Socket.IO, PostgreSQL, Redis, DDD}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Designed domain-driven architecture for secure real-time messaging with Signal protocol encryption}
+        \item \small{Built AI chatbot module with RAG for context-aware responses; implemented WebSocket servers}
+        \item \small{Optimized database queries and caching strategy with Redis for thousands of concurrent connections}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Laravel API Code Generator -- Open Source} \hfill \textit{2024--Present} \\
+\textit{Code generation, automation} \hfill \textit{PHP, Laravel, Python parsing, LLM integration}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Created tool generating complete Laravel backend from UML/XML diagrams (30+ GitHub stars)}
+        \item \small{Implemented advanced parsing and code generation; integrated LLM for intelligent assistance}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+\end{document}

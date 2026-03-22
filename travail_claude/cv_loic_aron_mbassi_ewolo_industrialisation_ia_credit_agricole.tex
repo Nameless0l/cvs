@@ -1,0 +1,98 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{0, 100, 60}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Charge d'Industrialisation des Proces IA} \\
+    \textit{\small Stage INRIA Saclay (Avril--Aout 2026) -- Disponible en alternance des septembre 2026 (12 mois)} \\ \vspace{4pt}
+    \small
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{ML engineer transitioning to production operations. Experienced in designing end-to-end NLP pipelines (BERT, Transformers), orchestrating multi-agent AI systems (Google ADK), containerizing deployments (Docker, MLOps), and implementing MLOps best practices for enterprise-scale AI projects.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- Ecole Nationale Superieure de l'Electronique} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplome d'Ingenieur -- Systemes Embarques, Signal, IA.}
+    \item \textbf{Ecole Polytechnique de Yaounde} \hfill \textit{2021 -- 2025} \\
+    \small{Diplome d'Ingenieur de Conception (Master 2) : Mathematiques Appliquees, Genie Logiciel.}
+\end{itemize}
+
+\section{Competences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{ML \& Data Pipeline:} Python, TensorFlow, scikit-learn, pandas, numpy, feature engineering}
+    \item \small{\textbf{NLP \& LLM:} BERT, Transformers, LangChain, Google ADK, semantic search, vector embeddings}
+    \item \small{\textbf{DevOps \& MLOps:} Docker, CI/CD pipelines, FastAPI, Git, Redis, model versioning}
+    \item \small{\textbf{Bases de Donnees:} PostgreSQL, MongoDB, SQL, big data concepts}
+    \item \small{\textbf{Monitoring \& Production:} logging, metrics collection, error handling, scalability}
+\end{itemize}
+
+\section{Experiences / Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Equipe TRIBE} \hfill \textit{Avril -- Aout 2026} \\
+\textit{Pipeline NLP production pour analyse confiance applications} \hfill \textit{Python, BERT, pandas, Git}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception pipeline NLP analyse a grande echelle politiques confidentialite et permissions mobiles}
+        \item \small{Developpement modele scoring confiance interpetable synthethisant analyses multi-criteres}
+        \item \small{Contribution publications scientifiques et presentation resultats partenaires PEPR MOBIDEC}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Systeme Multi-Agents Agricole} \hfill \textit{2024 -- 2025} \\
+\textit{Orchestration et deploiement agents IA} \hfill \textit{Google ADK, RAG, Gemini, LangChain, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration 5 agents IA collaboratifs avec Gemini + RAG enrichissement contextuel}
+        \item \small{Architecture microservices Python (FastAPI, Poetry) avec deploiement Docker}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Snappy -- Plateforme Messagerie Temps Reel Intelligente} \hfill \textit{2024 -- 2025} \\
+\textit{Architecture production et integration IA} \hfill \textit{Spring Boot, Redis, PostgreSQL, RAG}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture reactive scalable (Spring WebFlux) gerant milliers connexions simultanees en production}
+        \item \small{Integration chatbots RAG avec model versioning et evaluation contexte utilisateur}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Urban Waste Management -- Optimisation Collecte Dechets} \hfill \textit{2024} \\
+\textit{ML pour smart city et optimisation logistique} \hfill \textit{ML, IoT, optimisation, prediction}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modele prediction besoins collecte et algorithme optimisation routes (reduction 20\% couts)}
+        \item \small{1er prix competition CITS avec 75 equipes}
+    \end{itemize}
+
+\end{itemize}
+
+\end{document}

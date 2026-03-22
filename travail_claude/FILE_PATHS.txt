@@ -1,0 +1,77 @@
+================================================================================
+COMPLETE FILE PATHS - GENERATION R2-R5 (March 21, 2026)
+================================================================================
+
+BASE DIRECTORY:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/
+
+================================================================================
+CV FILES (4)
+================================================================================
+
+THALES Elancourt (R2) - Signal Processing + IA:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_signal_ia_thales_elancourt.tex
+
+THALES Toulouse (R3) - AI Engineer:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_ia_thales_toulouse.tex
+
+CAPGEMINI Toulouse (R4) - Cybersecurity:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_cybersecurite_capgemini.tex
+
+MOBSUCCESS Paris (R5) - Data Engineer:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/cv_loic_aron_mbassi_ewolo_data_engineer_mobsuccess.tex
+
+================================================================================
+LM FILES (4)
+================================================================================
+
+THALES Elancourt (R2) - Signal Processing + IA:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_signal_ia_thales_elancourt.tex
+
+THALES Toulouse (R3) - AI Engineer:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_ia_thales_toulouse.tex
+
+CAPGEMINI Toulouse (R4) - Cybersecurity:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_cybersecurite_capgemini.tex
+
+MOBSUCCESS Paris (R5) - Data Engineer:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/lm_loic_aron_mbassi_ewolo_data_engineer_mobsuccess.tex
+
+================================================================================
+DOCUMENTATION FILES (2)
+================================================================================
+
+Summary with technical specifications:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/GENERATION_R2_R5_SUMMARY.md
+
+Detailed compliance checklist:
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/GENERATION_CHECKLIST.txt
+
+This file (quick reference):
+/sessions/amazing-friendly-darwin/mnt/cvs/travail_claude/FILE_PATHS.txt
+
+================================================================================
+QUICK SUMMARY
+================================================================================
+
+Total Files Created: 8 LaTeX files + 2 documentation files = 10 files
+
+CV Files: 4 (one per offer)
+- 137-144 lines each
+- All with proper document structure
+- Company-specific color schemes
+- Dense layout filling A4 page
+
+LM Files: 4 (one per offer)
+- 66-68 lines each
+- 4-paragraph professional structure
+- Technical hooks, not self-introductions
+- Company-relevant conclusions
+
+All files ready for:
+1. LaTeX compilation (pdflatex/xelatex)
+2. PDF export for email/portal submission
+3. LinkedIn/direct outreach message adaptation
+4. Google Sheet tracking update
+
+================================================================================

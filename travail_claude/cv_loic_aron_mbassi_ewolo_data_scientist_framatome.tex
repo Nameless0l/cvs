@@ -1,0 +1,105 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{0, 51, 102}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Data Scientist} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Available for 12-month apprenticeship from September 2026} \\ \vspace{4pt}
+    \small
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Building data pipelines and ML models for nuclear energy: NLP analysis at scale, signal processing for sensor data, predictive models optimized for production.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- Ecole Nationale Sup\'erieure de l'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplome d'Ingenieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{Ecole Polytechnique de Yaounde\'} \hfill \textit{2021 -- 2025} \\
+    \small{Diplome d'Ingenieur de Conception: Mathematiques Appliquees, Genie Logiciel.}
+\end{itemize}
+
+% --- COMPETENCES ---
+\section{Competences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Data \& ML:} Python, TensorFlow, PyTorch, scikit-learn, pandas, signal processing}
+    \item \small{\textbf{Databases \& Tools:} SQL, Docker, Git, pandas, matplotlib, numpy}
+\end{itemize}
+
+% --- EXPERIENCES ---
+\section{Projets / Experiences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Recherche NLP et Scoring de Confiance} \hfill \textit{Avr 2026 -- Ao\^ut 2026} \\
+\textit{INRIA Saclay -- Equipe TRIBE} \hfill \textit{Python, BERT, NLP, pandas}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline NLP a grande echelle d'analyse de politiques de confidentialite avec BERT et Transformers.}
+        \item \small{Conception d'un modele de scoring de confiance interpretable agr\'egeant analyses multiples.}
+        \item \small{Traitement de donnees complexes et infrastructure pandas pour preparation datasets volumineux.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Signal Processing et Classification Medicale} \hfill \textit{2024} \\
+\textit{UROP -- Collaboration Google DeepMind} \hfill \textit{TensorFlow, Keras, Time Series}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modele de detection et classification d'anomalies cardiaques a partir d'electrocardiogrammes (ECG).}
+        \item \small{Extraction de features de signaux temporels et conception de reseau neuronal pour serie temporelle.}
+        \item \small{Collaboration directe avec mentors Google DeepMind sur methodologie ML en sante.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Deep Learning -- Grokking et Generalisation} \hfill \textit{Juin 2025 -- Sept 2025} \\
+\textit{MILA -- Montreal Institute for AI} \hfill \textit{PyTorch, TensorFlow, Math\'ematiques}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Etude du ph\'enomene de grokking (generalisation tardive apres suraprentissage) sur MLP.}
+        \item \small{Reproduction d'experiences SOTA et analyse mathematique de la convergence.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Optimisation ML pour Collecte Intelligente de D\'echets} \hfill \textit{2024} \\
+\textit{1er Prix Nationale CITS Hackathon} \hfill \textit{Python, ML, IoT data, optimisation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modele predictif pour prevision des besoins de collecte; reduction coûts de 20\%.}
+        \item \small{Algorithme optimisation de routes (Travelling Salesman Problem) pour smart cities.}
+    \end{itemize}
+
+\end{itemize}
+
+\end{document}

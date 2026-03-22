@@ -1,0 +1,97 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{229, 0, 30}
+\definecolor{secondary}{RGB}{80, 80, 80}
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Developpeur Full Stack et IA Agentique} \\
+    \textit{\small Stage INRIA Saclay (Avril--Aout 2026) -- Disponible en alternance des septembre 2026 (12 mois)} \\ \vspace{4pt}
+    \small
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+\noindent\small{Full Stack engineer combining microservices architecture and agentic AI orchestration. Experienced in designing scalable backends (Spring Boot, Laravel), implementing RAG systems (LangChain, Gemini), and deploying containerized solutions (Docker, Kubernetes-ready) for real-time and batch processing.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- Ecole Nationale Superieure de l'Electronique} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplome d'Ingenieur -- Systemes Embarques, Signal, IA.}
+    \item \textbf{Ecole Polytechnique de Yaounde} \hfill \textit{2021 -- 2025} \\
+    \small{Diplome d'Ingenieur de Conception (Master 2) : Mathematiques Appliquees, Genie Logiciel.}
+\end{itemize}
+
+\section{Competences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Backend \& Microservices:} Spring Boot, Spring WebFlux, Laravel, Node.js, REST APIs, Spring Data, Hibernate}
+    \item \small{\textbf{IA Agentique \& RAG:} LangChain, Google ADK, Gemini, BERT, vector embeddings, semantic search}
+    \item \small{\textbf{Bases de Donnees:} PostgreSQL, MongoDB, Redis (caching, Pub/Sub), MySQL}
+    \item \small{\textbf{DevOps \& Deployment:} Docker, Docker Compose, Git, CI/CD pipelines, FastAPI}
+    \item \small{\textbf{Frontend:} React, TypeScript, Redux, responsive design}
+\end{itemize}
+
+\section{Experiences / Projets}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Stage Recherche -- INRIA Saclay, Equipe TRIBE} \hfill \textit{Avril -- Aout 2026} \\
+\textit{Sante numerique / Protection vie privee} \hfill \textit{Python, NLP, BERT, Transformers}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception pipeline NLP analyse transparence et conformite RGPD applications mobiles}
+        \item \small{Implementation modele scoring confiance interpetable synthethisant analyses multi-criteres}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Snappy -- Plateforme Messagerie Temps Reel Intelligente} \hfill \textit{2024 -- 2025} \\
+\textit{Projet academique 4eme annee ENSPY} \hfill \textit{Spring Boot, WebFlux, Signal Protocol, Redis}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Architecture DDD reactive (Spring WebFlux) gerant milliers connexions WebSocket simultanees}
+        \item \small{Integration chatbots intelligents avec RAG pour reponses contextuelles depuis documents d'organisation}
+        \item \small{Cryptographie bout-en-bout (Signal protocol, AES-256-GCM) + conformite RGPD native}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Systeme Multi-Agents Agricole} \hfill \textit{2024 -- 2025} \\
+\textit{Orchestration agents IA} \hfill \textit{Google ADK, LangChain, Gemini, RAG, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration 5 agents IA collaboratifs utilisant Gemini comme moteur inference + RAG enrichissement contextuel}
+        \item \small{Architecture microservices Python (Poetry, FastAPI) avec APIs orchestrees (OpenWeather, marches)}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Developpeur Backend -- CSC (Cameroon Software Company)} \hfill \textit{Oct 2024 -- Jan 2025} \\
+\textit{Fintech / Plateforme transactions} \hfill \textit{Laravel, MySQL, APIs RESTful, Docker, Redis}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception backend plateforme transactions sécurisée avec gestion concurrence et conformite normes financieres}
+    \end{itemize}
+
+\end{itemize}
+
+\end{document}

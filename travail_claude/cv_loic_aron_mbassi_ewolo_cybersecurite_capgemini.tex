@@ -1,0 +1,143 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Colors ---
+\definecolor{primary}{RGB}{0, 122, 195}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Links ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titles ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\Large \textbf{Loic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Cybersecurity Engineer} \\
+    \textit{\small Stage INRIA Saclay (April--August 2026) - Available for 12-month alternance from September 2026} \\ \vspace{4pt}
+    \small
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    \Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/loic-mbassi/}{loic-mbassi} \\ \vspace{2pt}
+    \textbf{GitHub:} \href{https://github.com/Nameless0l}{Nameless0l} \quad
+    \textbf{Portfolio:} \href{https://mbassiloic.tech}{mbassiloic.tech} \quad
+    Cergy, France (Ile-de-France)
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFILE ---
+\noindent\small{Privacy and security engineer with deep expertise in cryptography (AES-256-GCM, Signal Protocol), RGPD compliance, and threat analysis. INRIA-trained researcher in privacy-preserving systems and security assessment. Designed end-to-end encrypted messaging platforms and analyzed privacy policies across 10k+ applications. Seeking to apply security architecture knowledge to Capgemini Toulouse's cybersecurity consulting and defense initiatives.}
+
+\vspace{6pt}
+
+% --- EDUCATION ---
+\section{Education}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA (Ecole Nationale Superieure de l'Electronique et de ses Applications)} \hfill \textit{2025--2027} \\
+    \small{Double degree, Engineering -- Systems Security, Embedded Security, AI Systems, Cryptography}
+    \item \textbf{Polytechnique Yaounde (ENSPY, Leading African Engineering School)} \hfill \textit{2021--2025} \\
+    \small{Engineering Degree in Computer Science (Master 2 level) -- Software Architecture, Algorithms, Applied Mathematics}
+\end{itemize}
+
+\vspace{4pt}
+
+% --- SKILLS ---
+\section{Technical Competencies}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Cryptography \& Security:} AES-256-GCM, Signal Protocol (Perfect Forward Secrecy, double ratchet), HMAC-SHA256, cryptographic key management, secure hashing (BCrypt), TLS/SSL}
+    \item \small{\textbf{Privacy Compliance:} RGPD analysis and audit, privacy policy assessment, data protection architectures, consent management, audit logging}
+    \item \small{\textbf{Secure Architecture:} End-to-end encryption design, threat modeling, vulnerability assessment, secure development lifecycle (SDLC), DevSecOps}
+    \item \small{\textbf{Tools \& Platforms:} Python (security analysis, policy parsing), Java/Spring Boot (secure backend), Docker, Git, CI/CD, SQL injection prevention, secure coding practices}
+\end{itemize}
+
+\vspace{4pt}
+
+% --- EXPERIENCE ---
+\section{Experience and Research Projects}
+
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Privacy \& Security Researcher -- INRIA Saclay, TRIBE Team} \hfill \textit{April--August 2026} \\
+\textit{Privacy Policy Analysis, RGPD Compliance Assessment, Threat Modeling} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Analyzed 10k+ mobile app privacy policies using NLP for RGPD compliance: assessed transparency, data retention practices, and consent mechanisms
+        \item Designed methodology for privacy risk scoring; evaluated policy specificity and alignment with data protection best practices
+        \item Conducted static code analysis on embedded SDKs: identified covert data collection mechanisms and API permission abuse
+        \item Documented privacy assessment framework and published findings to consortium partners (IP Paris, Eiffel University)
+    \end{itemize}
+
+\item \textbf{Secure Messaging Platform -- Snappy (End-to-End Encryption Architecture)} \hfill \textit{2024--2025} \\
+\textit{Signal Protocol, AES-256-GCM, Spring Boot, PostgreSQL, JWT, Cryptographic Key Management} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Implemented Signal Protocol with Perfect Forward Secrecy: designed double ratchet key derivation, PreKey/SignedPreKey generation and rotation
+        \item Applied hybrid encryption: symmetric AES-256-GCM with random IV per message; asymmetric key exchange using Signal's triple Diffie-Hellman
+        \item Built RGPD-compliant backend: automated data export, cascading deletion with cryptographic key destruction, audit logging (SIEM-compatible)
+        \item Designed reactive WebSocket messaging server (Spring WebFlux) handling 1000+ simultaneous connections with encrypted payloads
+        \item Secured password storage with BCrypt adaptive cost factor; enforced TLS 1.3 for all communications
+    \end{itemize}
+
+\item \textbf{Secure Fintech Backend -- CSC (Cameroon Software Company)} \hfill \textit{Oct 2024--Jan 2025} \\
+\textit{Laravel, MySQL, RESTful APIs, Transaction Security, Compliance Audit} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Designed secure backend for financial transaction platform: implemented input validation, SQL injection prevention, and rate limiting
+        \item Enforced financial compliance standards: transaction logging with immutable audit trails, double-entry accounting, reconciliation mechanisms
+        \item Managed concurrent transactions using database locks; ensured ACID properties for payment processing
+        \item Implemented Redis-based session management with automatic expiration; secured API endpoints via JWT token validation
+    \end{itemize}
+
+\item \textbf{Healthcare Platform with Medical Data Protection -- SOSDOCTA (2 years production)} \hfill \textit{Feb 2022--March 2024} \\
+\textit{PHP/Laravel, RGPD Compliance, Medical Data Protection, OAuth2/JWT, Patient Privacy} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Maintained telemedicine platform protecting sensitive patient data: implemented role-based access control (RBAC) and encryption for medical records
+        \item Ensured RGPD compliance: designed patient consent workflows, automated data export functionality, and secure deletion procedures
+        \item Integrated OAuth2 and JWT authentication; enforced HTTPS and secure cookie policies (HttpOnly, Secure flags)
+        \item Audited platform security during 2-year operational period; addressed emerging vulnerabilities through patching and code reviews
+    \end{itemize}
+
+\item \textbf{Embedded Security \& IPC -- Multi-Process Taxi Simulation (PROJET-TAXI)} \hfill \textit{2024} \\
+\textit{C, POSIX IPC (Shared Memory, Signals), Linux Security, Process Isolation} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Designed multi-process system using POSIX shared memory and signals: implemented secure IPC with careful memory access control
+        \item Applied process isolation principles: separate namespaces for taxi processes, validated inter-process communication messages
+        \item Implemented FIFO job queue with synchronization primitives (mutexes, semaphores); enforced atomic state transitions to prevent race conditions
+        \item Tested under concurrent load; validated memory bounds and signal handling robustness
+    \end{itemize}
+
+\item \textbf{Secure API Design \& DevOps -- GoFind (Microservices Messaging Security)} \hfill \textit{2024} \\
+\textit{RabbitMQ Message Signing, Docker Security, API Gateway Authentication, MongoDB} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Designed microservices architecture with signed message queues (RabbitMQ): authenticated service-to-service communication via HMAC signatures
+        \item Implemented API Gateway with JWT validation and rate limiting; secured database access with role-based credentials
+        \item Containerized services with Docker security best practices: minimal images, non-root user, secrets management via environment variables
+        \item Set up CI/CD pipeline with automated vulnerability scanning and deployment validation
+    \end{itemize}
+
+\end{itemize}
+
+\vspace{4pt}
+
+% --- DISTINCTIONS & LEADERSHIP ---
+\section{Distinctions and Leadership}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{INRIA Saclay Research Intern} (April--August 2026): Privacy-preserving systems research, national PEPR consortium collaboration
+    \item \textbf{1st Place -- IndabaX Africa 2025}: Data security and pipeline integrity (healthcare context)
+    \item \textbf{Security-Focused Projects}: Snappy E2E encryption (Signal Protocol), CSC financial compliance, SOSDOCTA medical data protection
+    \item \textbf{Lead of AI Cell, ENSPY} (2024--2025): 50+ team members; organized security and privacy workshops
+\end{itemize}
+
+\end{document}

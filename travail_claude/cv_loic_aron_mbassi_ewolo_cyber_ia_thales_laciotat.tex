@@ -1,0 +1,105 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{0, 45, 114}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Cybersecurite de l'IA -- Red Teaming} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Available for 12-month apprenticeship from September 2026} \\ \vspace{4pt}
+    \small
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Securing AI systems through privacy-by-design, cryptographic protocols, and adversarial analysis: NLP security assessments, RGPD compliance evaluation, red teaming for LLM robustness.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- Ecole Nationale Sup\'erieure de l'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplome d'Ingenieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{Ecole Polytechnique de Yaounde\'} \hfill \textit{2021 -- 2025} \\
+    \small{Diplome d'Ingenieur de Conception: Mathematiques Appliquees, Genie Logiciel.}
+\end{itemize}
+
+% --- COMPETENCES ---
+\section{Competences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Cybersecurity \& Crypto:} Python, Signal Protocol, AES-256-GCM, RGPD, privacy by design}
+    \item \small{\textbf{NLP \& Security:} BERT, Transformers, NLP adversarial, text analysis, Docker, Git}
+\end{itemize}
+
+% --- EXPERIENCES ---
+\section{Projets / Experiences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Privacy \& NLP Analysis at Scale} \hfill \textit{Avr 2026 -- Ao\^ut 2026} \\
+\textit{INRIA Saclay -- Equipe TRIBE} \hfill \textit{Python, NLP, RGPD, privacy assessment}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Analyse NLP de politiques de confidentialite avec evaluation de transparence et conformite RGPD.}
+        \item \small{Analyse statique d'SDKs pour detection de fuites de donnees de localisation sans permission.}
+        \item \small{Conception d'un modele de scoring interpretable pour risques de confidentialite.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Plateforme Messaging Securisee avec Chiffrement End-to-End} \hfill \textit{2024 -- 2025} \\
+\textit{Snappy -- Enterprise Architecture} \hfill \textit{Signal Protocol, AES-256-GCM, Spring Boot, PostgreSQL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Implementation du protocole Signal: chiffrement bout en bout, Perfect Forward Secrecy, rotation cles.}
+        \item \small{Chiffrement hybride AES-256-GCM avec IV aleatoire cryptographiquement sur pour messages.}
+        \item \small{Conformite RGPD native: export donnees, suppression en cascade, destruction cles.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Detection de Contenu Sexiste avec NLP Adversarial} \hfill \textit{2023} \\
+\textit{MLPC Competition} \hfill \textit{BERT, GPT-2, Transformers, NLP}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Modele NLP de detection de misogynie et contenus discriminatoires en ligne.}
+        \item \small{Etude de biais ethiques et robustesse adversariale du modele.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Architecture Secure de Systemes Embarques} \hfill \textit{2024 -- 2025} \\
+\textit{Robotique Autonome Militaire -- CoHoMa Challenge} \hfill \textit{C/C++, Docker, Linux, integration securisee}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Developpement embarque securise sur Nvidia Jetson avec Docker pour reproductibilite.}
+        \item \small{Gestion sécurisée des donnees capteurs (Lidar, caméra de profondeur, IMU).}
+    \end{itemize}
+
+\end{itemize}
+
+\end{document}

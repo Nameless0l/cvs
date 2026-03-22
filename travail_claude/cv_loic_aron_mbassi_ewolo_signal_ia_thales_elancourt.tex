@@ -1,0 +1,137 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Colors ---
+\definecolor{primary}{RGB}{0, 45, 114}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Links ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titles ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\Large \textbf{Loic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Signal Processing Engineer / AI} \\
+    \textit{\small Stage INRIA Saclay (April--August 2026) - Available for 12-month alternance from September 2026} \\ \vspace{4pt}
+    \small
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    \Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/loic-mbassi/}{loic-mbassi} \\ \vspace{2pt}
+    \textbf{GitHub:} \href{https://github.com/Nameless0l}{Nameless0l} \quad
+    \textbf{Portfolio:} \href{https://mbassiloic.tech}{mbassiloic.tech} \quad
+    Cergy, France (Ile-de-France)
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFILE ---
+\noindent\small{Signal processing and embedded AI engineer trained in deep learning and real-time systems. Experienced with sensor fusion (IMU, Lidar), CNN-based classification, and MATLAB/Simulink modeling. INRIA-trained researcher in NLP and data-driven analysis. Seeking to accelerate technical growth at Thales Elancourt through signal analysis, anomaly detection, and defense AI applications.}
+
+\vspace{6pt}
+
+% --- EDUCATION ---
+\section{Education}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA (Ecole Nationale Superieure de l'Electronique et de ses Applications)} \hfill \textit{2025--2027} \\
+    \small{Double degree, Engineering -- Embedded Systems, Signal Processing, AI (FPGA, DSP, Deep Learning)}
+    \item \textbf{Polytechnique Yaounde (ENSPY, Leading African Engineering School)} \hfill \textit{2021--2025} \\
+    \small{Engineering Degree in Computer Science (Master 2 level) -- Applied Mathematics, Software Architecture, Algorithms}
+\end{itemize}
+
+\vspace{4pt}
+
+% --- SKILLS ---
+\section{Technical Competencies}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Signal Processing \& ML:} Python (NumPy, SciPy, scikit-learn), PyTorch, TensorFlow, MATLAB/Simulink, signal filtering, FFT, spectral analysis, CNN classification}
+    \item \small{\textbf{Embedded Systems:} C/C++, STM32, Arduino, Raspberry Pi, VHDL, real-time constraints, sensor fusion (IMU, Lidar, RGB-D)}
+    \item \small{\textbf{Computer Vision:} OpenCV, YOLO, Mediapipe, object tracking, CNN, optical flow}
+    \item \small{\textbf{Tools \& DevOps:} Git, Docker, Linux (Ubuntu, Raspberry Pi), CI/CD, MQTT, ROS basics}
+\end{itemize}
+
+\vspace{4pt}
+
+% --- EXPERIENCE ---
+\section{Experience and Research Projects}
+
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Research Intern -- INRIA Saclay, TRIBE Team (Privacy-Preserving Data Science)} \hfill \textit{April--August 2026} \\
+\textit{Plateau de Saclay, IP Paris, France -- Signal Processing, NLP, Data Science Pipeline} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Built automated analysis framework evaluating transparency and privacy-compliance of mobile apps (NLP-based policy analysis, BERT embeddings, compliance scoring)
+        \item Designed large-scale signal processing pipeline: extracted permission request patterns, modeled as time-series data, applied anomaly detection to identify privacy risks
+        \item Implemented SDK static analysis identifying covert location inference capabilities (Lidar-like mobility feature extraction from API access patterns)
+        \item Contributed scientific publications on privacy quantification methodology and user-facing trust score computation
+    \end{itemize}
+
+\item \textbf{Signal Processing -- ECG Anomaly Detection (UROP 2024)} \hfill \textit{2024} \\
+\textit{TensorFlow/Keras, CNN Classification, Medical Imaging Signal Processing} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Developed CNN-based ECG anomaly classifier: extracted signal features (QRS complex detection, RR intervals, spectral signatures)
+        \item Applied digital signal filtering (Butterworth, moving average) to denoise noisy ECG data; achieved 92\% classification accuracy on arrhythmia detection
+        \item Trained on 10k+ ECG images; optimized model inference for healthcare deployment
+    \end{itemize}
+
+\item \textbf{Sensor Fusion \& Gesture Recognition -- Harmony Gloves (Hardware Integration)} \hfill \textit{2024} \\
+\textit{STM32, IMU Fusion, Flex Sensors, Real-Time Embedded Processing} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Designed embedded firmware for smart gloves: fused IMU (accelerometer, gyroscope) and flex sensor data using complementary filtering (Kalman-like state estimation)
+        \item Implemented real-time signal conditioning and low-pass filtering on STM32 microcontroller (250Hz sampling)
+        \item Integrated with PyTorch gesture classification model; achieved <100ms end-to-end latency
+    \end{itemize}
+
+\item \textbf{Autonomous Vehicle -- CoHoMa Upgrade (Jetson, SLAM, Lidar Processing)} \hfill \textit{Ongoing} \\
+\textit{Nvidia Jetson, YOLO, Lidar 3D (VLP16), C/C++, SLAM, Real-Time Vision} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Optimized YOLO v10 inference on Jetson GPU; integrated 16-channel Lidar (VLP16) point cloud processing for 3D object detection
+        \item Implemented SLAM pipeline fusing RGB camera and Lidar depth data; real-time 3D environment mapping and localization
+        \item Deployed Docker containers for reproducibility; achieved <200ms inference per frame at 15 FPS
+    \end{itemize}
+
+\item \textbf{Fault Detection \& Fault-Tolerant Control (Drone) -- MATLAB Modeling} \hfill \textit{2024} \\
+\textit{MATLAB/Simulink, Control Theory, Signal Processing, FDI/FTC Architecture} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Designed fault detection and isolation (FDI) observer using residual generation and parity equations; modeled sensor noise and actuator faults
+        \item Implemented fault-tolerant control (FTC) with controller reconfiguration and mode switching based on fault signature detection
+        \item Simulated realistic failure scenarios (sensor drift, actuator saturation); validated robustness under uncertainty
+    \end{itemize}
+
+\item \textbf{Embedded ML -- TinyML on Edge Devices (IoT Lab ENSPY)} \hfill \textit{Oct 2023--Jan 2024} \\
+\textit{TensorFlow Lite, Arduino, Raspberry Pi, Model Quantization, Inference Optimization} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Optimized neural networks for resource-constrained devices: quantization (int8), pruning, and kernel fusion reduced model size by 85\%
+        \item Benchmarked inference latency on Arduino and Raspberry Pi; achieved real-time performance (<50ms) within 128MB RAM
+        \item Deployed CNN-based anomaly detector on Raspberry Pi for predictive maintenance use case
+    \end{itemize}
+
+\end{itemize}
+
+\vspace{4pt}
+
+% --- DISTINCTIONS & LEADERSHIP ---
+\section{Distinctions and Leadership}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{1st Place -- IndabaX Africa 2025} (Healthcare AI track): Data cleaning pipeline + FastAPI deployment + Streamlit dashboard
+    \item \textbf{1st Place -- CITS National Hackathon 2024} (75 teams): Urban waste management optimization (traveling salesman algorithm variants)
+    \item \textbf{Lead of AI Cell, ENSPY} (2024): Grew team to 50+ members, coordinated workshops (ML fine-tuning, LLM applications), Google DeepMind collaboration
+    \item \textbf{Exhibitions:} GETEC National Tech Salon (ClassSync real-time facial recognition project presentation)
+\end{itemize}
+
+\end{document}

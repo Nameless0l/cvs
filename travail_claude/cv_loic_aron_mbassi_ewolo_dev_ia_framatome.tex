@@ -1,0 +1,104 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{0, 51, 102}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Developpeur de Cas d'Usages IA} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Available for 12-month apprenticeship from September 2026} \\ \vspace{4pt}
+    \small
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Designing and deploying multi-agent AI systems with RAG and LLMs: orchestration d'agents collaboratifs, retrieval-augmented generation, knowledge base integration pour resoudre des cas d'usages metier concrets.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- Ecole Nationale Sup\'erieure de l'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplome d'Ingenieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{Ecole Polytechnique de Yaounde\'} \hfill \textit{2021 -- 2025} \\
+    \small{Diplome d'Ingenieur de Conception: Mathematiques Appliquees, Genie Logiciel.}
+\end{itemize}
+
+% --- COMPETENCES ---
+\section{Competences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{AI \& Frameworks:} Python, LangChain, RAG, Gemini, Google ADK, LLM integration}
+    \item \small{\textbf{Backend \& DevOps:} FastAPI, Docker, REST APIs, Git, SQL, Spring Boot}
+\end{itemize}
+
+% --- EXPERIENCES ---
+\section{Projets / Experiences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Recherche NLP et Pipeline Analyse Documentaire} \hfill \textit{Avr 2026 -- Ao\^ut 2026} \\
+\textit{INRIA Saclay -- Equipe TRIBE} \hfill \textit{Python, NLP, BERT, pandas, Git}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Conception d'un cadre methodologique d'analyse automatisee de policies de confidentialite avec NLP.}
+        \item \small{Pipeline complet d'enrichissement de donnees documentaires pour scoring intelligents.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Systeme Multi-Agents pour Recommendations Agricoles} \hfill \textit{2024 -- 2025} \\
+\textit{Recherche Google ADK} \hfill \textit{Google ADK, RAG, Gemini, LangChain, Python}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 5 agents IA collaboratifs avec Gemini pour recommendations agricoles multi-criteres.}
+        \item \small{RAG avec base de connaissances enrichie et resolution de conflits entre agents.}
+        \item \small{Deployment Docker avec FastAPI pour APIs externes (meteo, marches).}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Plateforme Messaging avec Chatbots Intelligents} \hfill \textit{2024 -- 2025} \\
+\textit{Snappy -- Systeme d'Enterprise} \hfill \textit{Spring Boot, Python, RAG, LangChain, PostgreSQL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Systeme de chatbots intelligents avec RAG (Gemini Flash/Pro) pour reponses contextuelles documentaires.}
+        \item \small{Architecture DDD avec 4 modules: API, Socket, IA Python, SDK TypeScript.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Generateur de Code Backend avec LLM} \hfill \textit{2024 -- Present} \\
+\textit{Outil Open Source Laravel (30+ stars GitHub)} \hfill \textit{Python, LLM, PHP, code generation}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Parsing avance de diagrammes UML/XML vers generation automatique d'architecture Laravel complete.}
+        \item \small{Integration LLM pour assistance intelligente et suggestion de patterns.}
+    \end{itemize}
+
+\end{itemize}
+
+\end{document}

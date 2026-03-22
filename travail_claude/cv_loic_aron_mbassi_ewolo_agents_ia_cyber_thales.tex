@@ -1,0 +1,104 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Couleurs ---
+\definecolor{primary}{RGB}{0, 45, 114}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Liens ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titres ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- EN-TÊTE ---
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Developpement d'Agents IA en Cybersecurite} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Available for 12-month apprenticeship from September 2026} \\ \vspace{4pt}
+    \small
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFIL ---
+\noindent\small{Building collaborative AI agents for cybersecurity: orchestration d'agents specialises avec Google ADK, RAG for threat intelligence, cryptographic protocols, embedded systems security analysis.}
+
+% --- FORMATION ---
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- Ecole Nationale Sup\'erieure de l'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplome d'Ingenieur -- Syst\`emes Embarqu\'es, Signal, IA.}
+    \item \textbf{Ecole Polytechnique de Yaounde\'} \hfill \textit{2021 -- 2025} \\
+    \small{Diplome d'Ingenieur de Conception: Mathematiques Appliquees, Genie Logiciel.}
+\end{itemize}
+
+% --- COMPETENCES ---
+\section{Competences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Multi-Agent Systems:} Python, Google ADK, LangChain, RAG, orchestration, Gemini}
+    \item \small{\textbf{Security \& Systems:} C/C++, Docker, cryptography, embedded systems, Linux, Git}
+\end{itemize}
+
+% --- EXPERIENCES ---
+\section{Projets / Experiences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Systeme Multi-Agents Agricole avec RAG} \hfill \textit{2024 -- 2025} \\
+\textit{Recherche Google ADK} \hfill \textit{Google ADK, LangChain, RAG, Gemini, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Orchestration de 5 agents IA collaboratifs avec resolution de conflits entre decisions.}
+        \item \small{RAG avec knowledge base enrichie; integration APIs externes (weather, markets).}
+        \item \small{Architecture SMA: dispatch logique, gestion contexte multi-agent, voting strategy.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Privacy et NLP Analysis au INRIA} \hfill \textit{Avr 2026 -- Ao\^ut 2026} \\
+\textit{INRIA Saclay -- Equipe TRIBE} \hfill \textit{Python, NLP, BERT, privacy assessment, Git}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Pipeline NLP d'analyse de politiques de confidentialite avec detection de risques.}
+        \item \small{Analyse statique pour identification de menaces de fuite de donnees sensibles.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Plateforme Messaging avec Chiffrement et Chatbots Securises} \hfill \textit{2024 -- 2025} \\
+\textit{Snappy -- Enterprise Architecture} \hfill \textit{Spring Boot, Signal Protocol, AES-256, PostgreSQL}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Implementation du protocole Signal pour E2E encryption avec Perfect Forward Secrecy.}
+        \item \small{Chatbots RAG integres avec evaluation de securite et conformite de reponses.}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Robotique Autonome Militaire avec Perception Embarquee} \hfill \textit{2024 -- 2025} \\
+\textit{CoHoMa Challenge Thales} \hfill \textit{C/C++, SLAM, YOLOv10, Jetson, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Developpement C/C++ pour systemes embarques securises sur Nvidia Jetson.}
+        \item \small{Integration de capteurs (Lidar 3D VLP16, caméra profondeur) avec gestion sécurisée des donnees.}
+    \end{itemize}
+
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,144 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Colors ---
+\definecolor{primary}{RGB}{35, 55, 123}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Links ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titles ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\Large \textbf{Loic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large Data Engineer / Backend Engineer} \\
+    \textit{\small Stage INRIA Saclay (April--August 2026) - Available for 12-month alternance from September 2026} \\ \vspace{4pt}
+    \small
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    \Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/loic-mbassi/}{loic-mbassi} \\ \vspace{2pt}
+    \textbf{GitHub:} \href{https://github.com/Nameless0l}{Nameless0l} \quad
+    \textbf{Portfolio:} \href{https://mbassiloic.tech}{mbassiloic.tech} \quad
+    Cergy, France (Ile-de-France)
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFILE ---
+\noindent\small{Data engineer with expertise in ETL pipelines, SQL optimization, and distributed systems. INRIA-trained in large-scale data processing and analysis automation (10k+ dataset handling). Proven success building and maintaining scalable backend systems across fintech, healthcare, and real-time messaging platforms. Seeking to accelerate data infrastructure growth at MobSuccess through SQL expertise, data architecture, and production engineering.}
+
+\vspace{6pt}
+
+% --- EDUCATION ---
+\section{Education}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA (Ecole Nationale Superieure de l'Electronique et de ses Applications)} \hfill \textit{2025--2027} \\
+    \small{Double degree, Engineering -- Systems Architecture, Signal Processing, Data Systems, DevOps}
+    \item \textbf{Polytechnique Yaounde (ENSPY, Leading African Engineering School)} \hfill \textit{2021--2025} \\
+    \small{Engineering Degree in Computer Science (Master 2 level) -- Algorithms, Databases, Distributed Systems}
+\end{itemize}
+
+\vspace{4pt}
+
+% --- SKILLS ---
+\section{Technical Competencies}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Data \& SQL:} Python (pandas, NumPy, scikit-learn), PostgreSQL (indexing, optimization, migrations), MongoDB, SQL query optimization, data warehousing concepts}
+    \item \small{\textbf{ETL \& Pipelines:} Data extraction, transformation, aggregation; scheduled jobs; data validation; error handling and retry logic}
+    \item \small{\textbf{Backend \& Caching:} Redis (Pub/Sub, caching, sessions), Docker containerization, RabbitMQ asynchronous messaging, Spring Boot/Laravel REST APIs}
+    \item \small{\textbf{Tools \& Practices:} Git, CI/CD pipelines, Linux/Ubuntu, data versioning, logging and monitoring, ACID transactions}
+\end{itemize}
+
+\vspace{4pt}
+
+% --- EXPERIENCE ---
+\section{Experience and Research Projects}
+
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Data Processing \& Privacy Analysis -- INRIA Saclay, TRIBE Team} \hfill \textit{April--August 2026} \\
+\textit{Python ETL Pipeline, pandas/NumPy, Large-Scale Data Processing, Data Quality} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Designed ETL pipeline processing 10k+ mobile app privacy policies and SDK datasets: extraction from heterogeneous sources, standardization, and enrichment
+        \item Implemented data validation framework detecting inconsistencies, missing values, and duplicates; automated error reporting and correction workflows
+        \item Applied pandas/NumPy transformations for feature engineering: policy text preprocessing (tokenization, normalization), semantic embedding computation
+        \item Integrated outputs with ML models (BERT classifiers); validated pipeline correctness through integration tests and statistical benchmarks
+    \end{itemize}
+
+\item \textbf{Scalable Backend -- Snappy (Real-Time Messaging, PostgreSQL, Redis, Reactive Architecture)} \hfill \textit{2024--2025} \\
+\textit{PostgreSQL, Redis Pub/Sub, Spring WebFlux, Reactive Streams, Data Optimization} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Designed PostgreSQL schema with composite indexing (projectId/externalId, senderId/receiverId/createdAt) for 1000+ QPS messaging workload
+        \item Implemented multi-level caching architecture: application-level LRU cache + distributed Redis layers (messages, user sessions, presence data)
+        \item Built reactive messaging server (Spring WebFlux) managing 1000+ concurrent WebSocket connections with non-blocking I/O and backpressure handling
+        \item Optimized N+1 query problem through intelligent joins and projections; achieved <100ms message latency under load
+        \item Designed table partitioning strategy for historical data archival; automated migration pipelines for schema evolution
+    \end{itemize}
+
+\item \textbf{Fintech Backend with Financial Audit Trails -- CSC (Cameroon Software Company)} \hfill \textit{Oct 2024--Jan 2025} \\
+\textit{MySQL, Laravel, Redis, Transaction Management, Audit Logging} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Implemented MySQL database optimizations for concurrent financial transactions: database locks, isolation levels (SERIALIZABLE), ACID guarantee validation
+        \item Built immutable audit trail system logging all transactions with timestamps, user context, and state changes; enabled forensic analysis and compliance reporting
+        \item Integrated Redis for session management and rate limiting; prevented double-charging and concurrent update conflicts via optimistic locking
+        \item Designed migration scripts for schema upgrades; validated backward compatibility and rollback procedures
+    \end{itemize}
+
+\item \textbf{Production Healthcare Platform -- SOSDOCTA (2+ years operation)} \hfill \textit{Feb 2022--March 2024} \\
+\textit{MySQL, PHP/Laravel, GDPR Data Management, Database Optimization, Long-term Maintenance} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Maintained and optimized MySQL queries for telemedicine platform serving 10k+ healthcare professionals and patients over 2 years
+        \item Implemented automated backup procedures, data retention policies, and secure deletion mechanisms compliant with HIPAA-equivalent standards
+        \item Executed production migrations with zero downtime: table restructuring, index optimization, and query plan analysis
+        \item Monitored database performance (slow query logs, EXPLAIN analysis); identified bottlenecks and implemented targeted optimizations
+        \item Designed patient data export workflows in multiple formats (CSV, FHIR); validated data integrity post-export
+    \end{itemize}
+
+\item \textbf{Microservices Data Flow -- GoFind (Event-Driven Architecture, RabbitMQ, MongoDB)} \hfill \textit{2024} \\
+\textit{RabbitMQ Message Queue, MongoDB, Service Integration, Asynchronous Processing} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Architected event-driven messaging between microservices using RabbitMQ: ride requests, driver updates, payment events
+        \item Designed MongoDB schemas for flexible document storage (rides, driver profiles, ratings); implemented sharding strategy for scalability
+        \item Built consumer workers processing ride completion events, computing analytics, and updating aggregate tables
+        \item Implemented dead-letter queues and retry mechanisms for failed message processing; monitored queue depths and consumer lag
+    \end{itemize}
+
+\item \textbf{Backend Framework -- NettoieQuebec (Service Booking Platform)} \hfill \textit{2025} \\
+\textit{Laravel, MySQL, Scheduled Jobs, Data Management} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Built booking service backend handling cleaner availability and client reservations: optimized MySQL for booking searches and availability queries
+        \item Implemented scheduled jobs (Laravel Scheduler) for daily availability resets, automated email notifications, and payment reconciliation
+        \item Designed database triggers for maintaining booking consistency; validated booking integrity constraints
+    \end{itemize}
+
+\end{itemize}
+
+\vspace{4pt}
+
+% --- DISTINCTIONS & LEADERSHIP ---
+\section{Distinctions and Leadership}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{INRIA Saclay Data Processing} (April--August 2026): Large-scale ETL pipeline, data quality validation, 10k+ dataset handling
+    \item \textbf{2+ Years Production Operations} (SOSDOCTA): Database reliability, query optimization, zero-downtime migrations
+    \item \textbf{1st Place -- IndabaX Africa 2025}: Data pipeline architecture and deployment
+    \item \textbf{1st Place -- CITS Hackathon 2024}: Data-driven optimization algorithms (urban waste management)
+    \item \textbf{Microservices Architecture}: Multi-service data integration (GoFind), event-driven messaging patterns
+\end{itemize}
+
+\end{document}

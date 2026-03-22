@@ -1,0 +1,138 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+% --- Colors ---
+\definecolor{primary}{RGB}{0, 45, 114}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+% --- Config Links ---
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+
+% --- Titles ---
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+\begin{document}
+
+% --- HEADER ---
+\begin{center}
+    {\Large \textbf{Loic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large AI and Machine Learning Engineer} \\
+    \textit{\small Stage INRIA Saclay (April--August 2026) - Available for 12-month alternance from September 2026} \\ \vspace{4pt}
+    \small
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    \Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr} \quad
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/loic-mbassi/}{loic-mbassi} \\ \vspace{2pt}
+    \textbf{GitHub:} \href{https://github.com/Nameless0l}{Nameless0l} \quad
+    \textbf{Portfolio:} \href{https://mbassiloic.tech}{mbassiloic.tech} \quad
+    Cergy, France (Ile-de-France)
+\end{center}
+
+\vspace{-6pt}
+
+% --- PROFILE ---
+\noindent\small{NLP and computer vision engineer with expertise in Transformers (BERT, GPT), neural network interpretability, and embedded AI systems. INRIA-trained researcher in large-scale data analysis and privacy-preserving AI. Demonstrated success deploying production ML pipelines. Seeking to bring deep learning expertise to Thales Toulouse for advanced defense and security AI applications.}
+
+\vspace{6pt}
+
+% --- EDUCATION ---
+\section{Education}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA (Ecole Nationale Superieure de l'Electronique et de ses Applications)} \hfill \textit{2025--2027} \\
+    \small{Double degree, Engineering -- Deep Learning, Signal Processing, AI Systems (Transformers, CNNs, Optimization)}
+    \item \textbf{Polytechnique Yaounde (ENSPY, Leading African Engineering School)} \hfill \textit{2021--2025} \\
+    \small{Engineering Degree in Computer Science (Master 2 level) -- Applied Mathematics, Algorithmics, Machine Learning}
+\end{itemize}
+
+\vspace{4pt}
+
+% --- SKILLS ---
+\section{Technical Competencies}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{Deep Learning Frameworks:} Python (PyTorch, TensorFlow/Keras), Hugging Face Transformers, scikit-learn, model training and optimization}
+    \item \small{\textbf{NLP Specialization:} BERT, GPT-based models, text classification, sentiment analysis, named entity recognition, embeddings, RAG architectures}
+    \item \small{\textbf{Computer Vision:} CNN architectures, object detection (YOLO), image classification, transfer learning, model compression}
+    \item \small{\textbf{Production ML:} Docker containerization, CI/CD, model serving, inference optimization, Git workflows}
+\end{itemize}
+
+\vspace{4pt}
+
+% --- EXPERIENCE ---
+\section{Experience and Research Projects}
+
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Research Intern -- INRIA Saclay, TRIBE Team (Data-Driven Science for Mobility)} \hfill \textit{April--August 2026} \\
+\textit{NLP Pipeline, BERT Classification, Large-Scale Python Analysis} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Built large-scale NLP pipeline (10k+ mobile app privacy policies): BERT embeddings for semantic similarity, transformer-based classifiers for transparency assessment
+        \item Designed trust scoring methodology synthesizing multiple ML model outputs (ensemble classification, score calibration); published results at PEPR MOBIDEC consortium
+        \item Applied anomaly detection on API permission patterns; identified privacy risks via outlier analysis (isolation forests, statistical tests)
+        \item Managed end-to-end data processing: cleaning, vectorization (scikit-learn, HuggingFace), model evaluation, and documentation in Jupyter notebooks
+    \end{itemize}
+
+\item \textbf{Research Assistant -- MILA (Quebec AI Institute)} \hfill \textit{June--September 2025} \\
+\textit{PyTorch, Neural Network Interpretability, Grokking Phenomena} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Studied grokking: reproduced OpenAI findings on delayed generalization in neural networks; trained MLPs on synthetic datasets observing sudden accuracy jumps after overfitting phase
+        \item Analyzed convergence dynamics: gradient norms, loss landscape, and generalization gap across training epochs using PyTorch hooks and visualization
+        \item Contributed to interpretability research: designed experiments isolating mechanisms driving delayed generalization
+    \end{itemize}
+
+\item \textbf{ECG Anomaly Detection -- Computer Vision Classification (UROP 2024)} \hfill \textit{2024} \\
+\textit{TensorFlow/Keras, CNN Architectures, Medical Image Classification} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Developed CNN classifier for automatic ECG anomaly detection: trained on 10k+ ECG images using transfer learning (ResNet-based architecture)
+        \item Achieved 92\% classification accuracy on arrhythmia detection; evaluated precision, recall, F1-score across multiple cardiac anomalies
+        \item Optimized inference pipeline for healthcare deployment; cross-validated on held-out test set
+    \end{itemize}
+
+\item \textbf{Women Safe -- Misogyny Detection (NLP Competition)} \hfill \textit{2023} \\
+\textit{BERT, GPT-2, Transformers, Text Classification, Bias Analysis} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Fine-tuned BERT on misogyny detection in online job postings and social media; trained classifier identifying sexist language patterns
+        \item Conducted bias analysis: evaluated model performance across demographic groups; documented fairness issues and mitigation strategies
+        \item Achieved 89\% F1 on test set; documented findings in technical report
+    \end{itemize}
+
+\item \textbf{Multi-Agent Agricultural Advisory System -- RAG and LLM Orchestration} \hfill \textit{2024--2025} \\
+\textit{Google ADK, Gemini API, RAG, LangChain, Python/FastAPI, Docker} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Designed 4-agent system using Gemini as inference engine with Retrieval-Augmented Generation (RAG) for agricultural recommendations
+        \item Implemented RAG pipeline: embedded farmer knowledge into vector store; agents retrieved relevant context before generating responses
+        \item Orchestrated agents via Google ADK handling fallbacks and response synthesis; deployed on FastAPI with Docker containerization
+        \item Integrated real-time weather APIs and market data; tested multi-turn conversational flows
+    \end{itemize}
+
+\item \textbf{Autonomous Vehicle Perception -- YOLOv10 and Lidar Integration (CoHoMa Jetson)} \hfill \textit{Ongoing} \\
+\textit{YOLO v10, 3D Object Detection, Docker, Real-Time Inference Optimization} \vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item Deployed YOLOv10 on Nvidia Jetson GPU; optimized inference achieving <200ms per frame at 15 FPS on video streams
+        \item Integrated 16-channel Lidar (VLP16) point cloud processing for 3D object detection; fused RGB and depth data
+        \item Containerized inference pipeline with Docker; validated on autonomous vehicle test scenarios
+    \end{itemize}
+
+\end{itemize}
+
+\vspace{4pt}
+
+% --- DISTINCTIONS & LEADERSHIP ---
+\section{Distinctions and Leadership}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{1st Place -- IndabaX Africa 2025} (AI for Healthcare): Healthcare data pipeline, model deployment, and Streamlit dashboard
+    \item \textbf{1st Place -- CITS National Hackathon 2024} (75 teams): Optimization algorithms for urban waste management
+    \item \textbf{Lead of AI Cell, ENSPY} (2024--2025): Grew team to 50+ members; organized workshops on fine-tuning LLMs, deep learning applications
+    \item \textbf{Google DeepMind Collaboration}: Co-mentored AI projects within ENSPY AI cell; guest talks on interpretability
+\end{itemize}
+
+\end{document}

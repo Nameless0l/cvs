@@ -1,0 +1,98 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[left=1cm,right=1cm,top=.5cm,bottom=0cm]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage{lmodern}
+\usepackage[normalem]{ulem}
+
+\definecolor{primary}{RGB}{0, 51, 102}
+\definecolor{secondary}{RGB}{80, 80, 80}
+
+\hypersetup{colorlinks=true, linkcolor=primary, filecolor=primary, urlcolor=primary}
+\titleformat{\section}{\large\bfseries\color{primary}\uppercase}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\begin{document}
+\begin{center}
+    {\Large \textbf{Lo\"ic Aron MBASSI EWOLO}} \\ \vspace{4pt}
+    \textbf{\large DevOps AWS et IA Generative} \\
+    \textit{\small Stage INRIA Saclay (Avril--Ao\^ut 2026) -- Disponible en alternance d\`es septembre 2026 (12 mois)} \\ \vspace{4pt}
+    \small
+    \Pointinghand\ Cergy, France (Mobile IDF) \quad
+    \Mobilefone\ (+33) 7 59 52 33 98 \quad
+    {\color{primary}\Letter\ \href{mailto:loicaron.mbassiewolo@ensea.fr}{loicaron.mbassiewolo@ensea.fr}} \\ \vspace{2pt}
+    {\color{primary}LinkedIn: \href{https://www.linkedin.com/in/loic-mbassi/}{linkedin.com/in/loic-mbassi}} \quad
+    {\color{primary}GitHub: \href{https://github.com/Nameless0l}{github.com/Nameless0l}} \quad
+    {\color{primary}Portfolio: \href{https://mbassiloic.tech}{mbassiloic.tech}}
+\end{center}
+\vspace{-6pt}
+
+\noindent\small{DevOps engineer with expertise deploying AI/ML systems at enterprise scale. Proficient in containerization, orchestration, and cloud infrastructure. Strong experience building and scaling LLM integration pipelines, managing microservices architecture, and implementing CI/CD workflows. Combines software engineering rigor with understanding of generative AI systems and distributed data processing.}
+
+\section{Formation}
+\begin{itemize}[leftmargin=*, label=\tiny$\bullet$, nosep]
+    \item \textbf{ENSEA -- Ecole Nationale Superieure de l'Electronique et de ses Applications} \hfill \textit{2025 -- 2027} \\
+    \small{Double diplome d'Ingenieur -- Systemes Embarques, Signal, IA.}
+    \item \textbf{Ecole Polytechnique de Yaounde (1\textsuperscript{ere} ecole d'ingenieur CEMAC)} \hfill \textit{2021 -- 2025} \\
+    \small{Diplome d'Ingenieur de Conception (Master 2): Mathematiques Appliquees, Genie Logiciel.}
+\end{itemize}
+
+\section{Competences Techniques}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \small{\textbf{DevOps \& Cloud:} Docker, Kubernetes, AWS (EC2, S3, Lambda, CloudFormation), Git, CI/CD pipelines}
+    \item \small{\textbf{AI/ML Infrastructure:} Python (FastAPI, async frameworks), LangChain, RAG deployment, model serving}
+    \item \small{\textbf{Databases \& Messaging:} PostgreSQL, Redis (Pub/Sub, caching), RabbitMQ, message queues, data pipelines}
+    \item \small{\textbf{Monitoring \& Tools:} Linux, Prometheus, ELK, logging, performance optimization}
+\end{itemize}
+
+\section{Projets et Experiences}
+\begin{itemize}[leftmargin=*, label={-}]
+
+\item \textbf{Multi-Agent AI System Architecture \& Deployment} \hfill \textit{2024--2025} \\
+\textit{Containerization, orchestration, generative AI} \hfill \textit{Python, FastAPI, Google ADK, LangChain, Gemini, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Designed and containerized 5-agent system using Gemini LLM with RAG knowledge enrichment}
+        \item \small{Built FastAPI servers for agent communication and API composition; managed async workflows}
+        \item \small{Integrated document databases and external APIs; optimized resource allocation}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Research Stage @ INRIA Saclay -- Team TRIBE} \hfill \textit{Apr--Aug 2026} \\
+\textit{NLP pipeline, data processing at scale} \hfill \textit{Python, pandas, scikit-learn, Git}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Built production Python pipeline processing thousands of documents with NLP analysis}
+        \item \small{Managed data workflows, validation, and reproducibility using version control}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{Snappy -- Real-Time Messaging Platform Architecture} \hfill \textit{2024--2025} \\
+\textit{Microservices, real-time systems, infrastructure} \hfill \textit{Spring Boot, Docker, Redis, PostgreSQL, Socket.IO}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Implemented microservices architecture with Spring WebFlux for reactive non-blocking I/O}
+        \item \small{Deployed WebSocket servers handling thousands of concurrent connections with Redis Pub/Sub}
+        \item \small{Optimized database query patterns and multi-level caching; containerized with Docker}
+    \end{itemize}
+\vspace{3pt}
+
+\item \textbf{GoFind -- Microservices Ride-Sharing Platform} \hfill \textit{2024} \\
+\textit{Distributed systems, async messaging} \hfill \textit{NestJS, MongoDB, RabbitMQ, Docker}
+\vspace{-2pt}
+    \begin{itemize}[leftmargin=0.4cm, nosep, label=\tiny$\bullet$]
+        \item \small{Built microservices architecture with RabbitMQ for async communication between services}
+        \item \small{Implemented API Gateway and service discovery patterns; containerized deployment}
+    \end{itemize}
+\vspace{3pt}
+
+\end{itemize}
+
+\end{document}
