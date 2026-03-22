@@ -48,85 +48,107 @@
 
 ---
 
-## PARTIE 3 : CONTACTS RH VERIFIES SUR LINKEDIN (22/03/2026)
+## PARTIE 3 : CONTACTS RH + EMAILS (22/03/2026)
 
 Tous les contacts ci-dessous sont des personnes reelles, basees en France, trouvees via recherche LinkedIn le 22/03/2026.
+Les emails sont construits a partir des formats officiels verifies sur RocketReach/LeadIQ/SignalHire (taux de fiabilite indique).
 
-### Credit Agricole (offres #11, #12, #25, #30)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Chakib Yahla | Talent Acquisition Manager, Credit Agricole PFM | Paris, IDF | https://www.linkedin.com/in/chakib-yahla-b9737814b/ |
-| Linda EMLEK YALAP | Talent Acquisition Specialist, Credit Agricole Technologies et Services | Paris, IDF | https://www.linkedin.com/in/linda-emlek-yalap-cats/ |
+### Credit Agricole (offres #11, #12, #25, #30) - Format : prenom.nom@credit-agricole.fr (89%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Chakib Yahla | Talent Acquisition Manager, CA PFM, Paris | chakib.yahla@credit-agricole.fr | https://www.linkedin.com/in/chakib-yahla-b9737814b/ |
+| Linda EMLEK YALAP | Talent Acquisition Specialist, CA Technologies et Services, Paris | linda.emlekyalap@credit-agricole.fr | https://www.linkedin.com/in/linda-emlek-yalap-cats/ |
 
-### Thales (offres #19, #20, #21)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Morgane Fouti | Talent Acquisition Partner, Thales | Paris, IDF | https://www.linkedin.com/in/morgane-fouti-07b282145/ |
-| Leo Ferracci | Talent Acquisition Specialist, Thales | France | https://www.linkedin.com/in/l%C3%A9o-ferracci-707270174/ |
-| Iwona Piskulska | Talent Acquisition Team Leader, Thales | Velizy-Villacoublay, IDF | https://www.linkedin.com/in/iwona-piskulska-a797b615/ |
+### Thales (offres #19, #20, #21) - Format : prenom.nom@thalesgroup.com (94%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Morgane Fouti | Talent Acquisition Partner, Thales, Paris | morgane.fouti@thalesgroup.com | https://www.linkedin.com/in/morgane-fouti-07b282145/ |
+| Leo Ferracci | Talent Acquisition Specialist, Thales, France | leo.ferracci@thalesgroup.com | https://www.linkedin.com/in/l%C3%A9o-ferracci-707270174/ |
+| Iwona Piskulska | Talent Acquisition Team Leader, Thales, Velizy | iwona.piskulska@thalesgroup.com | https://www.linkedin.com/in/iwona-piskulska-a797b615/ |
 
-### Safran (offres #13, #14, #29)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Valentin MIGNARD | Talent Acquisition Specialist, Safran | Courbevoie, IDF | https://www.linkedin.com/in/valentin-mignard-55a49b100/ |
-| Yousra Asri El Khomssi | Senior Talent Acquisition, Safran | Paris, IDF | https://www.linkedin.com/in/yousra-asri-el-khomssi-0416b5162/ |
-| Zacharie R. | Talent Acquisition Specialist RPO, Safran | Clamart, IDF | https://www.linkedin.com/in/zacharie-raveloson/ |
+### Safran (offres #13, #14, #29) - Format : prenom.nom@safrangroup.com (93%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Valentin MIGNARD | Talent Acquisition Specialist, Safran, Courbevoie | valentin.mignard@safrangroup.com | https://www.linkedin.com/in/valentin-mignard-55a49b100/ |
+| Yousra Asri El Khomssi | Senior Talent Acquisition, Safran, Paris | yousra.asrielkhomssi@safrangroup.com | https://www.linkedin.com/in/yousra-asri-el-khomssi-0416b5162/ |
+| Zacharie Raveloson | Talent Acquisition Specialist RPO, Safran, Clamart | zacharie.raveloson@safrangroup.com | https://www.linkedin.com/in/zacharie-raveloson/ |
 
-### BPCE / Natixis (offres #1, #6, #7, #28)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Myriam Seddiki | Responsable Recrutement & RH, Pole Infrastructure IT/Cloud/Securite | Paris, IDF | https://www.linkedin.com/in/myriam-seddiki-620288145/ |
-| Nassima Mazouz | Responsable Recrutement IT et Mobilite Interne, Natixis CIB | Paris, IDF | https://www.linkedin.com/in/nassima-mazouz/ |
+### BPCE / Natixis (offres #1, #6, #7, #28) - Format BPCE : prenom.nom@bpce.fr (98%) / Natixis : prenom.nom@natixis.com (95%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Myriam Seddiki | Resp. Recrutement & RH, Pole Infra IT/Cloud/Securite, Paris | myriam.seddiki@natixis.com | https://www.linkedin.com/in/myriam-seddiki-620288145/ |
+| Nassima Mazouz | Resp. Recrutement IT et Mobilite Interne, Natixis CIB, Paris | nassima.mazouz@natixis.com | https://www.linkedin.com/in/nassima-mazouz/ |
 
-### AXA (offre #26)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Jeremy Aubert | Recrutement & Experience Alternants/Stagiaires, Developpement Talents Early Careers | Paris, IDF | https://www.linkedin.com/in/j%C3%A9r%C3%A9my-aubert576/ |
+### AXA (offre #26) - Format : prenom.nom@axa.fr (98%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Jeremy Aubert | Recrutement Alternants/Stagiaires, Early Careers, Paris | jeremy.aubert@axa.fr | https://www.linkedin.com/in/j%C3%A9r%C3%A9my-aubert576/ |
 
-### Sopra Steria (offre #24)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Haby DIALLO | Talent Acquisition Specialist HR Project, Sopra Steria | Athis-Mons, IDF | https://www.linkedin.com/in/haby-diallo6/ |
-| Coralie Pied | Talent Acquisition Specialist, Sopra Steria Next | Roissy-en-Brie, IDF | https://www.linkedin.com/in/coraliepied/ |
-| Claire M. | IT Talent Acquisition Specialist, Sopra Steria | Paris, IDF | https://www.linkedin.com/in/claire-m-2a3b45121/ |
-| Ambre MOINEAU | Talent Acquisition Specialist, Business Partner Energie & Telecom, Sopra Steria | Paris, IDF | https://www.linkedin.com/in/ambre-moineau-228bbb159/ |
+### Sopra Steria (offre #24) - Format : prenom.nom@soprasteria.com (80%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Haby DIALLO | Talent Acquisition Specialist HR, Athis-Mons | haby.diallo@soprasteria.com | https://www.linkedin.com/in/haby-diallo6/ |
+| Coralie Pied | Talent Acquisition Specialist, Sopra Steria Next, Roissy-en-Brie | coralie.pied@soprasteria.com | https://www.linkedin.com/in/coraliepied/ |
+| Ambre MOINEAU | TA Specialist, BP Energie & Telecom, Paris | ambre.moineau@soprasteria.com | https://www.linkedin.com/in/ambre-moineau-228bbb159/ |
 
-### Capgemini (offre #8)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Dilan Kaya | Talent Acquisition, Capgemini | Villeneuve-la-Garenne, IDF | https://www.linkedin.com/in/dilan-kaya-2555541a4/ |
-| Afef H'diri | Senior Talent Acquisition Specialist IT, Capgemini | Nanterre, IDF | https://www.linkedin.com/in/afef-h-diri-39752314b/ |
-| Naima DJAOUANI | Senior Talent Acquisition Manager, Capgemini | Paris, IDF | https://www.linkedin.com/in/naima-djaouani/ |
+### Capgemini (offre #8) - Format : prenom.nom@capgemini.com (78%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Dilan Kaya | Talent Acquisition, Capgemini, Villeneuve-la-Garenne | dilan.kaya@capgemini.com | https://www.linkedin.com/in/dilan-kaya-2555541a4/ |
+| Afef H'diri | Senior TA Specialist IT, Capgemini, Nanterre | afef.hdiri@capgemini.com | https://www.linkedin.com/in/afef-h-diri-39752314b/ |
+| Naima DJAOUANI | Senior TA Manager, Capgemini, Paris | naima.djaouani@capgemini.com | https://www.linkedin.com/in/naima-djaouani/ |
 
-### TF1 (offres #4, #5)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Anthony Oubaki | Talent Acquisition Specialist RPO Solantis, Groupe TF1 | Paris, IDF | https://www.linkedin.com/in/anthony-oubaki-a13a34129/ |
+### TF1 (offres #4, #5) - Format : initialenom@tf1.fr (68%) ou prenom.nom@tf1.fr
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Anthony Oubaki | TA Specialist RPO Solantis, Groupe TF1, Paris | aoubaki@tf1.fr ou anthony.oubaki@tf1.fr | https://www.linkedin.com/in/anthony-oubaki-a13a34129/ |
 
-### La Banque Postale (offre #10)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Jacques M. | Charge de Recrutement, Banque de detail, Divisions IT/Marketing, La Banque Postale | Viroflay, IDF | https://www.linkedin.com/in/jacquesmouellendume/ |
-| Celia CAPELLE | Talent Acquisition Manager (ex Chargee Recrutement/Relations ecoles La Banque Postale) | Issy-les-Moulineaux, IDF | https://www.linkedin.com/in/celiacapelle/ |
+### La Banque Postale (offre #10) - Format : prenom.nom@labanquepostale.fr (97%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Jacques Mouellendume | Charge de Recrutement IT/Marketing, La Banque Postale, Viroflay | jacques.mouellendume@labanquepostale.fr | https://www.linkedin.com/in/jacquesmouellendume/ |
 
-### Framatome (offres #17, #18)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Marilyn CRITOT | Chargee de Recrutement, Framatome | Chalon-sur-Saone, Bourgogne | https://www.linkedin.com/in/marilyn-critot/ |
+### Framatome (offres #17, #18) - Format : prenom.nom@framatome.com (99%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Marilyn CRITOT | Chargee de Recrutement, Framatome, Chalon-sur-Saone | marilyn.critot@framatome.com | https://www.linkedin.com/in/marilyn-critot/ |
 
-### Schneider Electric (offre #22)
-| Nom | Poste | Lieu | LinkedIn |
-|-----|-------|------|----------|
-| Laura Henriquet | Change Management Lead (ex Chargee Recrutement alternance Schneider Electric) | Grenoble | https://www.linkedin.com/in/laura-henriquet-7a367447/ |
+### Schneider Electric (offre #22) - Format : prenom.nom@se.com (67%)
+| Nom | Poste | Email probable | LinkedIn |
+|-----|-------|---------------|----------|
+| Laura Henriquet | Ex-Chargee Recrutement alternance Schneider, Grenoble | laura.henriquet@se.com | https://www.linkedin.com/in/laura-henriquet-7a367447/ |
 
-### Entreprises sans contact RH individuel trouve
-- **SFR** (offre #2) : Postuler via le portail WTTJ
-- **Volkswagen FS** (offre #3) : Postuler via le portail WTTJ
-- **Abeille Assurances** (offre #15) : Postuler via le portail WTTJ
-- **LFB** (offre #16) : Postuler via le portail WTTJ
-- **EDF** (offre #23) : Postuler via le portail WTTJ
-- **Covea** (offre #27) : Postuler via le portail WTTJ
-- **Jimini AI** (offre #9) : Startup, contacter directement via WTTJ
+### Volkswagen FS (offre #3) - Format : prenom.nom@vwfs.com (97%)
+Pas de contact RH individuel trouve. Postuler via WTTJ.
+
+### Entreprises sans contact RH individuel trouve (postuler via portail WTTJ)
+- **SFR** (offre #2)
+- **Abeille Assurances** (offre #15)
+- **LFB** (offre #16)
+- **EDF** (offre #23) - Format email : prenom.nom@edf.fr
+- **Covea** (offre #27)
+- **Jimini AI** (offre #9) - Startup, contacter via WTTJ
+
+---
+
+## PARTIE 4 : FORMATS EMAILS PAR ENTREPRISE (Reference)
+
+| Entreprise | Domaine email | Format | Fiabilite |
+|-----------|--------------|--------|-----------|
+| Credit Agricole | @credit-agricole.fr | prenom.nom | 89% |
+| Thales | @thalesgroup.com | prenom.nom | 94% |
+| Safran | @safrangroup.com | prenom.nom | 93% |
+| BPCE | @bpce.fr | prenom.nom | 98% |
+| Natixis | @natixis.com | prenom.nom | 95% |
+| AXA France | @axa.fr | prenom.nom | 98% |
+| Sopra Steria | @soprasteria.com | prenom.nom | 80% |
+| Capgemini | @capgemini.com | prenom.nom | 78% |
+| TF1 | @tf1.fr | initialenom (68%) ou prenom.nom | 68% |
+| La Banque Postale | @labanquepostale.fr | prenom.nom | 97% |
+| Framatome | @framatome.com | prenom.nom | 99% |
+| Schneider Electric | @se.com | prenom.nom | 67% |
+| EDF | @edf.fr | prenom.nom | ~50% |
+| Volkswagen FS | @vwfs.com | prenom.nom | 97% |
 
 ---
 
@@ -137,4 +159,4 @@ Tous les contacts ci-dessous sont des personnes reelles, basees en France, trouv
 - **LMs PDF generees** : 30
 - **Contacts RH individuels trouves** : 22 personnes pour 12 entreprises
 - **Date de verification** : 22/03/2026
-- **Tous les fichiers** dans : travail_claude/
+- **Tous les fichiers** dans : travail_claude/  
